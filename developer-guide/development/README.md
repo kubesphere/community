@@ -1,91 +1,116 @@
-# Guides
-There are many ways that you can help the KubeSphere community.
+# How to build KubeSphere
 
-- Go through our documents, point out or fix unclear things. Translate the documents to other languages.
-- Install our [releases](https://kubesphere.io/en/install), try to manage your `kubernetes` cluster with `kubesphere`, and feedback to us about
-what you think.
-- Read our source codes, Ask questions for details.
-- Find kubesphere bugs, [submit issue](https://github.com/kubesphere/kubesphere/issues), and try to fix it.
-- Find kubesphere installer bugs, [submit issue](https://github.com/kubesphere/ks-installer/issues), and try to fix it.
-- Find [help wanted issues](https://github.com/kubesphere/kubesphere/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22),
-which are good for you to start.
-- Submit issue or start discussion through [GitHub issue](https://github.com/kubesphere/kubesphere/issues/new).
-- See all forum discussion through [website](https://kubesphere.io/forum/).
+This document walks you through how to get started with building KubeSphere in your local environment.
 
-## Contact Us
-All the following channels are open to the community, you could choose the way you like.
-* Submit an [issue](https://github.com/kubesphere/kubesphere/issues)
-* See all forum discussion through [website](https://kubesphere.io/forum/).
-* Join us at [Slack Channel](https://join.slack.com/t/kubesphere/shared_invite/enQtNTE3MDIxNzUxNzQ0LTZkNTdkYWNiYTVkMTM5ZThhODY1MjAyZmVlYWEwZmQ3ODQ1NmM1MGVkNWEzZTRhNzk0MzM5MmY4NDc3ZWVhMjE).
+## Preparing the environment
 
-## For code developer
+### Go
 
-1. Learn about kubesphere's Concepts And Designs and how to build kubesphere locally  
-For developers, first step, read [Concepts And Designs](../concepts-and-designs/README.md) and [Compiling Guide](How-to-build.md).
-Concepts And Designs describes the role of each component in kubesphere and the relationship between them.
-Compiling Guide teaches developer how to build the project in local and set up the environment.
+KubeSphere development is based on [Kubernetes](https://github.com/kubernetes/kubernetes), both of them are written in [Go](http://golang.org/). If you don't have a Go development environment, please [set it up](http://golang.org/doc/code.html).
 
-2. Understand the workflow of kubesphere development.  
-Read [Development Workflow](Development-workflow.md).
+| Kubernetes     | requires Go |
+|----------------|-------------|
+| 1.13+          | >= 1.12     |
 
-3. Learn KubeSphere code layout
+> Tips:
+> - Ensure your GOPATH and PATH have been configured in accordance with the Go
+environment instructions.
+> - It's recommended to install [macOS GNU tools](https://www.topbug.net/blog/2013/04/14/install-and-use-gnu-command-line-tools-in-mac-os-x) when using MacOS for development.
 
-Read [KubeSphere Code Layout](Kubesphere-code-layout.md).
+### Docker
 
-4. Understand the best practices for submitting PR and our code of conduct  
-Read [best practices for submitting PR](pull-requests.md).  
-Read [code of conduct](code-of-conduct.md).
+KubeSphere components are often deployed as containers in Kubernetes. If you need to rebuild the KubeSphere components in the Kubernetes cluster, you'll need to [install Docker](https://docs.docker.com/install/) in advance.
 
 
-### KubeSphere Installer developer
+### Dependency management
 
-### UI developer
+KubeSphere uses [Go Modules](https://github.com/golang/go/wiki/Modules) to manage dependencies in the `vendor/` tree.
 
-TODO: UI opensource is on the way
+> Note: KubeSphere uses `go module` to manage dependencies, but the development process still relies on `GOPATH`
+> In the CRD development process, you need to use tools to automatically generate code. The tools used by KubeSphere still need to rely on `GOPATH`.
+> For Chinese contributors who are going to pull the go module, we recommend you to use [goproxy.cn](https://goproxy.cn) as the proxy.
 
-### KubeSphere Application Management developer
+## Building KubeSphere Core on a local OS/shell environment
 
-TODO(@pengcong)
+### For Quick Taste Binary
 
-### KubeSphere Service Mesh developer
+When you go get KubeSphere, you can choose the version you want to get: `go get kubesphere.io/kubesphere@version-you-want`
 
-TODO(@zryfish)
+>For modules stored in source control repositories, the version suffix can
+ also be a commit hash, branch identifier, or other syntax known to the
+ source control system, as in 'go get golang.org/x/text@master'.
+ The version suffix @latest explicitly requests the default behavior
+ described above.
 
-### Porter developer
+> Note: Before getting KubeSphere, you need to synchronize the contents of the `replace` section of the go.mod file of the KubeSphere you want to version.
 
-TODO(@magicsong)
+```bash
+mkdir ks-tmp
+cd ks-tmp
+echo 'module kubesphere' > go.mod
+echo 'replace (
+        github.com/Sirupsen/logrus v1.4.1 => github.com/sirupsen/logrus v1.4.1
+      	github.com/kiali/kiali => github.com/kubesphere/kiali v0.15.1-0.20190407071308-6b5b818211c3
+      	github.com/kubernetes-sigs/application => github.com/kubesphere/application v0.0.0-20190518133311-b9d9eb0b5cf7
+      )' >> go.mod
 
-### KubeSphere Networking developer
+GO111MODULE=on go get kubesphere.io/kubesphere@d649e3d0bbc64bfba18816c904819e4850d021e0
+GO111MODULE=on go build -o ks-apiserver kubesphere.io/kubesphere/cmd/ks-apiserver # build ks-apiserver
+GO111MODULE=on go build -o ks-apigateway kubesphere.io/kubesphere/cmd/ks-apigateway # build ks-apigateway
+GO111MODULE=on go build -o ks-controller-manager kubesphere.io/kubesphere/cmd/controller-manager # build ks-controller-manager
+GO111MODULE=on go build -o ks-iam kubesphere.io/kubesphere/cmd/ks-iam # build ks-iam
+```
 
-### KubeSphere DevOps developer
+### For Building KubeSphere Core Images
 
-Users who are interested in DevOps Pipeline, you can read the documentation according to the [guidelines above](README.md#for-code-developer).
+KubeSphere components are often deployed as a container in a Kubernetes cluster, you may need to build a Docker image locally.
 
-The function of KubeSphere DevOps is mainly provided by KubeSphere apiserver.
+1. Clone repo to local.
 
-### KubeSphere S2I/B2I developer
+```bash
+git clone https://github.com/kubesphere/kubesphere.git
+cd kubesphere
+```
 
-1. If users who are interested in S2I/B2I, please read [S2I/B2I](https://github.com/kubesphere/s2ioperator#source-to-image-operator) to get start it.
+2. Run Docker command to build image.
 
-2. For developers who want to contribute, see [Development Guide for S2I/B2I](https://github.com/kubesphere/s2ioperator/blob/master/docs/DEVELOPMENT.md)
+```bash
+# $REPO is the docker registry to push to
+# $Tag is the tag name of the docker image
+# The full go build process will be executed in the Dockerfile, so you may need to set GOPROXY in it.
+docker build -f build/ks-apigateway/Dockerfile -t $REPO/ks-apigateway:$TAG .
+docker build -f build/ks-apiserver/Dockerfile -t $REPO/ks-apiserver:$TAG .
+docker build -f build/ks-iam/Dockerfile -t $REPO/ks-account:$TAG .
+docker build -f build/ks-controller-manager/Dockerfile -t $REPO/ks-controller-manager:$TAG .
+docker build -f ./pkg/db/Dockerfile -t $REPO/ks-devops:flyway-$TAG ./pkg/db/
+```
 
-### KubeSphere Monitoring developer
+### For KubeSphere Core local development building.
 
-1. Read kubesphere's [Concepts And Designs for Monitoring](../concepts-and-designs/kubesphere-monitoring.md). Understand KubeSphere's monitoring stack.
-2. For Prometheus and its wider eco-system setup, go to [kube-prometheus](https://github.com/kubesphere/prometheus-operator/tree/ks-v0.27.0/contrib/kube-prometheus).
-3. For KubeSphere builtin metric rules, see [metrics_rules.go](https://github.com/kubesphere/kubesphere/blob/master/pkg/models/metrics/metrics_rules.go) and [kubernetes-mixin](https://github.com/kubesphere/kubernetes-mixin/blob/ks-v0.27.0/rules/rules.libsonnet).
-4. For developers who are interested in KubeSphere monitoring backend, read [Development Guide for Monitoring](kubesphere-monitoring-development-guide.md) and [API doc](https://kubesphere.com.cn/docs/v2.1/api/kubesphere#tag/Cluster-Metrics).
 
-### KubeSphere Logging developer
+1. Create a `kubesphere` work directory under `GOPATH` and clone the source code.
 
-1. Read kubesphere's [Concepts And Designs for Logging](../concepts-and-designs/kubesphere-logging.md). Understand KubeSphere's logging stack.
-2. Find the component you are interested in and start from its own repo: [Fluent Bit](https://github.com/kubesphere/fluent-bit), [Fluent-bit Operator](https://github.com/kubesphere/fluentbit-operator) and [Logsidecar Injector](https://github.com/kubesphere/logsidecar-injector).
-3. For developers who are interested in KubeSphere logging backend, read [Development Guide for Logging](kubesphere-logging-devlopment-guide.md) and [API doc](https://kubesphere.com.cn/docs/v2.1/api/kubesphere#tag/Log-Query).
+```bash
+mkdir -p $GOPATH/src/kubesphere.io/
+cd $GOPATH/src/kubesphere.io/
+git clone https://github.com/kubesphere/kubesphere
+```
 
-### KubeSphere Altering developer
+2. Use command `make` to build binary
 
-TODO
+```bash
+make ks-apiserver # Build ks-apiserver binary
+make ks-iam # Build ks-iam binary
+make controller-manager # Build ks-controller-manager binary
+make ks-apigateway # Build ks-apigateway binary
+```
 
-### KubeSphere Notification developer
+If you need to build a docker image, you can refer to the previous section.
 
-TODO
+### Test
+
+It‘s recommended to use local Kubernetes clusters, such as [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/), or to install an single-node [all-in-one](https://github.com/kubesphere/kubesphere#all-in-one) environment (Kubernetes-based) for quick testing.
+
+> Tip: It also supports to use Docker for Desktop ships with Kubernetes as the test environment.
+
+See [How to run KubeSphere apiserver](how-to-run-kubesphere-core.md)

@@ -1,19 +1,19 @@
-# How to run KubeSphere core in local
+# How to Run KubeSphere in Local
 
 This document will explain how to run KubeSphere apiserver locally.
 
-> Modules similar to KubeSphere apiserver are KubeSphere controller-manageer, Kubesphere iam (also known as KubeSphere account), KubeSphere api-gateway. 
+> Modules similar to KubeSphere apiserver are KubeSphere controller-manageer, Kubesphere iam (also known as KubeSphere account), KubeSphere api-gateway.
 > If you need to run these modules locally, you can refer to this document for configuration.
 
-## Prepare: Build KubeSphere Core component
+## Prerequisite
 
-In the document [How-to-build](How-to-build.md) We learned how to build KubeSphere locally. Make sure you could build KubeSphere Core modules accordingly.
+The document [How to build KubeSphere](README.md) elaborates on how to build KubeSphere locally. Make sure you could build KubeSphere successfully.
 
 ## 1. Set up a Kubernetes cluster with KubeSphere installed
 
 KubeSphere relies on some external modules during development, and these modules are already included in the installed KubeSphere.
 
-You can quickly install a KubeSphere cluster by referring to this [documentation] (https://kubesphere.io/en/install).
+You can quickly install a KubeSphere cluster by referring to this [documentation](https://kubesphere.io/en/install).
 
 ## 2. Use kubectl to access the development cluster locally
 
@@ -25,13 +25,13 @@ KubeSphere uses [viper](https://github.com/spf13/viper) to manage the configurat
 
 > We recommend that you use a configuration file for configuration during local development.
 
-KubeSphere apiserver needs to communicate with many modules. When you run Kubesphere, you can choose to configure the seperate modules only you care about.
+KubeSphere apiserver needs to communicate with many modules. When you run KubeSphere, you can choose to configure the seperate modules only you care about.
 
 During the development of KubeSphere apiserver, you must configure at least the relevant part of Kubernetes to ensure that KubeSphere apiserver can be started.
 
 Below is a sample configuration of KubeSphere apiserver:
 
-> Note: In the default configuration, we use Kubernetes service name to access the service. 
+> Note: In the default configuration, we use Kubernetes service name to access the service.
 > In a remote cluster, you may need to use external network exposure to connect to the cluster's internal services.
 > Or you can refer to the [documentation](How-to-connect-remote-service.md) to use `telepresence` to connect to remote services
 
@@ -107,7 +107,7 @@ notification:
 The KubeSphere Core module will read the `kubesphere.yaml` file in the current directory and the `kubesphere.yaml` file in the `/etc/kubesphere` directory, then load the configuration at startup.
 You can choose a path to set your configuration locally.
 
-## 5. Run KubeSphere apiserver 
+## 5. Run KubeSphere apiserver
 
 You can execute `go run cmd/ks-apiserver/apiserver.go` in the `$GOPATH/src/kubesphere.io/kubesphere` directory to start KubeSphere apiserver
 
