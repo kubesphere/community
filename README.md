@@ -6,7 +6,7 @@ If you are looking for information on how to join us, you are in the right place
 
 ## Contribution rules
 
-Before you start contributing, read our [Code of Conduct](code-of-conduct.md) and learn about our community working model to understand the way KubeSphere community works. Get familiar with the contributing rules, recommended [Git workflow](./developer-guide/guides/Development-workflow), and issues workflow we use in KubeSphere so you can apply them later in practice as an active contributor.
+Before you start contributing, read our [Code of Conduct](code-of-conduct.md) and learn about our community working model to understand the way KubeSphere community works. Get familiar with the contributing rules, recommended [development workflow](../developer-guide/development/development-workflow), and issues workflow we use in KubeSphere so you can apply them later in practice as an active contributor.
 
 ## Special Interest Group
 
