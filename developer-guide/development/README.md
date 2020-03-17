@@ -6,13 +6,14 @@ This document walks you through how to get started with building KubeSphere in y
 
 ### Go
 
-KubeSphere development is based on [Kubernetes](https://github.com/kubernetes/kubernetes), both of them are written in [Go](http://golang.org/). If you don't have a Go development environment, please [set it up](http://golang.org/doc/code.html).
+KubeSphere development is based on [Kubernetes](https://github.com/kubernetes/kubernetes). Both of them are written in [Go](http://golang.org/). If you don't have a Go development environment, please [set it up](http://golang.org/doc/code.html) first.
 
 | Kubernetes     | requires Go |
 |----------------|-------------|
 | 1.13+          | >= 1.12     |
 
 > Tips:
+>
 > - Ensure your GOPATH and PATH have been configured in accordance with the Go
 environment instructions.
 > - It's recommended to install [macOS GNU tools](https://www.topbug.net/blog/2013/04/14/install-and-use-gnu-command-line-tools-in-mac-os-x) when using MacOS for development.
@@ -21,8 +22,7 @@ environment instructions.
 
 KubeSphere components are often deployed as containers in Kubernetes. If you need to rebuild the KubeSphere components in the Kubernetes cluster, you'll need to [install Docker](https://docs.docker.com/install/) in advance.
 
-
-### Dependency management
+### Dependency Management
 
 KubeSphere uses [Go Modules](https://github.com/golang/go/wiki/Modules) to manage dependencies in the `vendor/` tree.
 
@@ -30,17 +30,13 @@ KubeSphere uses [Go Modules](https://github.com/golang/go/wiki/Modules) to manag
 > In the CRD development process, you need to use tools to automatically generate code. The tools used by KubeSphere still need to rely on `GOPATH`.
 > For Chinese contributors who are going to pull the go module, we recommend you to use [goproxy.cn](https://goproxy.cn) as the proxy.
 
-## Building KubeSphere Core on a local OS/shell environment
+## Building KubeSphere Core on a Local OS/shell Environment
 
 ### For Quick Taste Binary
 
 When you go get KubeSphere, you can choose the version you want to get: `go get kubesphere.io/kubesphere@version-you-want`
 
->For modules stored in source control repositories, the version suffix can
- also be a commit hash, branch identifier, or other syntax known to the
- source control system, as in 'go get golang.org/x/text@master'.
- The version suffix @latest explicitly requests the default behavior
- described above.
+For modules stored in source control repositories, the version suffix can also be a commit hash, branch identifier, or other syntax known to the source control system, as in 'go get golang.org/x/text@master'. The version suffix @latest explicitly requests the default behavior described above.
 
 > Note: Before getting KubeSphere, you need to synchronize the contents of the `replace` section of the go.mod file of the KubeSphere you want to version.
 
@@ -85,8 +81,7 @@ docker build -f build/ks-controller-manager/Dockerfile -t $REPO/ks-controller-ma
 docker build -f ./pkg/db/Dockerfile -t $REPO/ks-devops:flyway-$TAG ./pkg/db/
 ```
 
-### For KubeSphere Core local development building.
-
+### For KubeSphere Core Local Development Building
 
 1. Create a `kubesphere` work directory under `GOPATH` and clone the source code.
 
