@@ -1,32 +1,32 @@
 # Monitoring
 
-This documentation contains backend development guides for interaction with Prometheus. The monitoring backend provides the capabilities of:
+This documentation contains backend development guide for interaction with Prometheus. The monitoring backend provides the capabilities of:
 
- - Metrics query
- - Metrics sorting
- - Multi-tenant isolation
+- Metrics query
+- Metrics sorting
+- Multi-tenant isolation
 
 ## File Tree
 
 The listing below covers all folders related to the monitoring backend.
 
-```
+```yaml
 /pkg
   ├─api
-  │  └─monitoring         # declares structs for api responses
+  │  └─monitoring         # declare structs for api responses
   │     └─v1alpha2
-  ├─apiserver             # implements handler for http requests
+  ├─apiserver             # implement handler for http requests
   │  └─monitoring
-  ├─kapis                 # registers APIs and routing
+  ├─kapis                 # register APIs and routing
   │  └─monitoring
   │     ├─install
   │     └─v1alpha2
   ├─models
   │  └─metrics
   │     ├─constants.go
-  │     ├─metrics.go       # proxies prometheus metrics query
+  │     ├─metrics.go       # proxy prometheus metrics query
   │     ├─metrics_rules.go # promql expressions for builtin metrics
-  │     ├─namespaces.go    # appends metric info to namespace resource request
+  │     ├─namespaces.go    # append metric info to namespace resource request
   │     ├─types.go
   │     └─util.go          # metrics sorting
   └─simple
@@ -41,9 +41,9 @@ The listing below covers all folders related to the monitoring backend.
 
 To support multi-tenant isolation, the monitoring backend proxies Prometheus query requests. KubeSphere's APIs have the format like below:
 
-```
+```bash
 GET /namespaces/{namespace}/pods
 GET /namespaces/{namespace}/pods/{pod}
 ```
 
-KubeSphere API gateway will decode the URL and conduct authorization. A person who doesn't belong to a namespace will be rejected to make a request. Besides, note that the two examples above have slightly different meanings. The first is to retrieve all pod-level metrics in the namespace, while the latter is for a specific pod.
+KubeSphere API gateway will decode the URL and conduct authorization. A person who doesn't belong to a namespace will be refused to make a request. Besides, note that the two examples above have slightly different meanings. The first is to retrieve all pod-level metrics in the namespace, while the latter is for a specific pod.

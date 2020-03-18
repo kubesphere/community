@@ -27,10 +27,10 @@ The listing below covers all folders related to the logging backend.
   │  │  ├─install
   │  │  └─v1alpha2
   ├─models
-  │  ├─log                # constants, utils and fluent-bit crd operation
+  │  ├─log                # constants, utils and fluent-bit CRD operation
   │  │  ├─constants.go
   │  │  ├─logcollector.go # some utils
-  │  │  ├─logcrd.go       # interact with fluent-bit crd
+  │  │  ├─logcrd.go       # interact with fluent-bit CRD
   │  │  └─types.go
   │  └─tenant
   └─simple
