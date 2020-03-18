@@ -1,4 +1,4 @@
-# Connect to remote service with telepresence
+# Connect to remote service with Telepresence
 
 [Telepresence](https://www.telepresence.io/) is an open source tool that lets you run a single service locally, while connecting the service to a remote Kubernetes cluster.
 
