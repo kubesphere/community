@@ -9,7 +9,7 @@ Concepts and Designs help you to learn and understand the KubeSphere and the lan
 ## DevOps
 
 - [KubeSphere DevOps Pipeline Overview](sig-devops/devops-pipeline-overview.md): explains the architecture and key components of KubeSphere pipeline.
-- [KubeSphere S2I and B2I overview](sig-devops/s2i_b2i_overview.md): explains the workflow and principle of Kubesphere S2I (Source-to-Image) and B2I (Binary-to-Image).
+- [KubeSphere S2I and B2I overview](sig-devops/s2i_b2i_overview.md): explains the workflow and principle of KubeSphere S2I (Source-to-Image) and B2I (Binary-to-Image).
 
 ## Observability
 
