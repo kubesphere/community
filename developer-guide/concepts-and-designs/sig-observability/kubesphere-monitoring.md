@@ -2,7 +2,7 @@
 
 ## Overview
 
-The KubeSphere monitoring system comprises of many components that work together to achieve overall monitoring functionality. KubeSphere defaults to installing the monitoring module. It will deploy or create a few components within the namespace `kubesphere-monitoring-system`:
+The KubeSphere monitoring system is comprised of many components that work together to achieve overall monitoring functionality. KubeSphere defaults to installing the monitoring module. It will deploy or create a few components within the namespace `kubesphere-monitoring-system`:
 
 - Prometheus Operator: automates tasks for operating Prometheus instances.
 - Prometheus: scrapes metrics and provides monitoring service.

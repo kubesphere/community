@@ -2,7 +2,7 @@
 
 ## Overview
 
-The KubeSphere logging system comprises of many components that work together to achieve unified log management. Once you enable the logging module during installation, a few components will be deployed or created within the namespace `kubesphere-logging-system`:
+The KubeSphere logging system is comprised of many components that work together to achieve unified log management. Once you enable the logging module during installation, a few components will be deployed or created within the namespace `kubesphere-logging-system`:
 
 - Fluent Bit: log collector deployed on each node.
 - Fluent-bit Operator: automates tasks for operating Fluent Bit instances.
