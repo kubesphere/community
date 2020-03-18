@@ -1,24 +1,26 @@
 # Development Workflow
 
-![ks-workflow](/docs/images/ks-workflow.png)
+The following graph shows the workflow how to develop KubeSphere backend. For the frontend part please refer to [KubeSphere console](https://github.com/kubesphere/console)
 
-## 1 Fork in the cloud
+![ks-workflow](/images/ks-workflow.png)
+
+## Step 1. Fork
 
 1. Visit https://github.com/kubesphere/kubesphere
-2. Click `Fork` button to establish a cloud-based fork.
+2. Click `Fork` button to create a fork of the project to your GitHub account.
 
-## 2 Clone fork to local storage
+## Step 2. Clone fork to local storage
 
-Per Go's [workspace instructions](https://golang.org/doc/code.html#Workspaces), place KubeSphere' code on your `GOPATH` using the following cloning procedure.
+Per Go's [workspace instructions](https://golang.org/doc/code.html#Workspaces), place KubeSphere code on your `GOPATH` using the following cloning procedure.
 
-1. Define a local working directory:
+Define a local working directory:
 
 ```bash
-$ export working_dir=$GOPATH/src/kubesphere.io
-$ export user={your github profile name}
+export working_dir=$GOPATH/src/kubesphere.io
+export user={your github profile name}
 ```
 
-2. Create your clone locally:
+Create your clone locally:
 
 ```bash
 $ mkdir -p $working_dir
@@ -30,11 +32,11 @@ $ git remote add upstream https://github.com/kubesphere/kubesphere.git
 # Never push to upstream master
 $ git remote set-url --push upstream no_push
 
-# Confirm that your remotes make sense:
+# Confirm your remotes make sense:
 $ git remote -v
 ```
 
-## 3 Keep your branch in sync
+## Step 3. Keep your branch in sync
 
 ```bash
 git fetch upstream
@@ -42,27 +44,27 @@ git checkout master
 git rebase upstream/master
 ```
 
-## 4 Add new features or fix issues
+## Step 4. Add new features or fix issues
 
-Branch from it:
+Create a branch from master:
 
 ```bash
-$ git checkout -b myfeature
+git checkout -b myfeature
 ```
 
-Then edit code on the myfeature branch.
+Then edit code on the `myfeature` branch.
 
-**Test and build**
+### Test and build
 
-Currently, make rules only contain simple checks such as vet, unit test, will add e2e tests soon.
+Currently, the make rules only contain simple checks such as vet, unit test, will add e2e tests soon.
 
-**Using KubeBuilder**
+### Using KubeBuilder
 
 - For Linux OS, you can download and execute this [KubeBuilder script](https://raw.githubusercontent.com/kubesphere/kubesphere/master/hack/install_kubebuilder.sh).
 
 - For MacOS, you can install KubeBuilder by following this [guide](https://book.kubebuilder.io/quick-start.html).
 
-**Run and test**
+### Run and test
 
 ```bash
 $ make all
@@ -72,14 +74,14 @@ $ make test
 
 Run `make help` for additional information on these make targets.
 
-### 5 Development in new branch
+## Step 5. Development in new branch
 
-**Sync with upstream**
+### Sync with upstream
 
-After the test is completed, suggest you to keep your local in sync with upstream which can avoid conflicts.
+After the test is completed, it is a good practice to keep your local in sync with upstream to avoid conflicts.
 
-```
-# Rebase your the master branch of your local repo.
+```bash
+# Rebase your master branch of your local repo.
 $ git checkout master
 $ git rebase upstream/master
 
@@ -87,22 +89,23 @@ $ git rebase upstream/master
 git checkout new_feature
 git rebase -i master
 ```
-**Commit local changes**
+
+### Commit local changes
 
 ```bash
-$ git add <file>
-$ git commit -s -m "add your description"
+git add <file>
+git commit -s -m "add your description"
 ```
 
-### 6 Push to your folk
+## Step 6. Push to your folk
 
-When ready to review (or just to establish an offsite backup or your work), push your branch to your fork on github.com:
+When ready to review (or just to establish an offsite backup of your work), push your branch to your fork on GitHub:
 
+```bash
+git push -f ${your_remote_name} myfeature
 ```
-$ git push -f ${your_remote_name} myfeature
-```
 
-### 7 Create a PR
+## Step 7. Create a PR
 
 - Visit your fork at https://github.com/$user/kubesphere
 - Click the` Compare & Pull Request` button next to your myfeature branch.
