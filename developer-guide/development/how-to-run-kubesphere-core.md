@@ -1,6 +1,6 @@
 # How to Run KubeSphere in Local
 
-This document will explain how to run KubeSphere apiserver locally. Modules similar to KubeSphere apiserver are KubeSphere controller-manageer, Kubesphere IAM (also known as KubeSphere account), KubeSphere api-gateway. If you need to run these modules locally, you can also refer to this document for configuration.
+This document will explain how to run KubeSphere apiserver locally. Modules similar to KubeSphere apiserver are KubeSphere controller-manageer, KubeSphere IAM (also known as KubeSphere account), KubeSphere api-gateway. If you need to run these modules locally, you can also refer to this document for configuration.
 
 ## Prerequisite
 

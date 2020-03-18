@@ -1,53 +1,52 @@
 # KubeSphere File Tree
 
-This document describes the directory structure of the KubeSphere repository.
+This document describes the directory structure of the KubeSphere backend repository.
 
-
-```
-├── api // Automatically generated API documentation
+```yaml
+├── api // automatically generated API documentation
 │   ├── api-rules
-│   ├── ks-openapi-spec // REST API documentation provided by kubesphere apiserver
-│   └── openapi-spec // REST API documentation provided by kubesphere apiserver
-├── build // Dockerfile 
-│   ├── hypersphere 
+│   ├── ks-openapi-spec // REST API documentation provided by KubeSphere apiserver
+│   └── openapi-spec // REST API documentation provided by KubeSphere apiserver
+├── build // Dockerfile
+│   ├── hypersphere
 │   ├── ks-apigateway
 │   ├── ks-apiserver
 │   ├── ks-controller-manager
 │   ├── ks-iam
 │   └── ks-network
-├── cmd // Main applications for KubeSphere.
-│   ├── controller-manager  // Kubesphere Controller Manger, used to reconcile KubeSphere CCRD
+├── cmd // main applications for KubeSphere
+│   ├── controller-manager  // KubeSphere Controller Manger, used to reconcile KubeSphere CRD
 │   │   └── app
-│   ├── hypersphere 
+│   ├── hypersphere
 │   ├── ks-apigateway // KubeSphere API gateway
 │   │   └── app
 │   ├── ks-apiserver // KubeSphere REST API server
 │   │   └── app
-│   ├── ks-iam // KubeSphere iam service
+│   ├── ks-iam // KubeSphere IAM service
 │   │   └── app
 │   └── ks-network
 ├── config // CRD config files
 │   ├── crds // CRD yaml files
 │   ├── default // kustomization yaml files
 │   ├── manager // controller manager yaml files
-│   ├── rbac // rbac yaml files
+│   ├── rbac // RBAC yaml files
 │   ├── samples // CRD sample
-│   └── webhook // webhppk yaml files
-├── docs 
+│   └── webhook // webhook yaml files
+├── docs
 │   ├── en
 │   │   ├── concepts-and-designs
 │   │   └── guides
 │   └── images
-├── hack // Script files to help people develop
+├── hack // script files to help people develop
 │   └── lib
-├── pkg // Library code. 
-│   ├── api // Structure definitions for REST APIs
+├── pkg // library code.
+│   ├── api // structure definitions for REST APIs
 │   │   ├── devops
 │   │   ├── logging
 │   │   └── monitoring
-│   ├── apigateway 
+│   ├── apigateway
 │   │   └── caddy-plugin
-│   ├── apis // Structure definitions for CRDs
+│   ├── apis // structure definitions for CRDs
 │   │   ├── devops
 │   │   ├── network
 │   │   ├── servicemesh
@@ -72,12 +71,12 @@ This document describes the directory structure of the KubeSphere repository.
 │   │   ├── terminal
 │   │   ├── workloadstatuses
 │   │   └── workspaces
-│   ├── client //Automatically generated CRD client
+│   ├── client // automatically generated CRD client
 │   │   ├── clientset
 │   │   ├── informers
 │   │   └── listers
 │   ├── constants // common constants
-│   ├── controller // controller manger's reconciliation logic
+│   ├── controller // controller manager reconciliation logic
 │   │   ├── application
 │   │   ├── clusterrolebinding
 │   │   ├── destinationrule
@@ -89,11 +88,11 @@ This document describes the directory structure of the KubeSphere repository.
 │   │   ├── storage
 │   │   ├── virtualservice
 │   │   └── workspace
-│   ├── db // Database ORM Framework
+│   ├── db // database ORM framework
 │   │   ├── ddl
 │   │   ├── schema
 │   │   └── scripts
-│   ├── gojenkins // Jenkins Go Client
+│   ├── gojenkins // Jenkins Go client
 │   │   ├── _tests
 │   │   └── utils
 │   ├── informers
@@ -108,7 +107,7 @@ This document describes the directory structure of the KubeSphere repository.
 │   │   ├── servicemesh
 │   │   ├── tenant
 │   │   └── terminal
-│   ├── models // Data processing part of REST API
+│   ├── models // data processing part of REST API
 │   │   ├── components
 │   │   ├── devops
 │   │   ├── git
@@ -131,7 +130,7 @@ This document describes the directory structure of the KubeSphere repository.
 │   │   ├── terminal
 │   │   ├── workloads
 │   │   └── workspaces
-│   ├── server // Data processing part of REST API
+│   ├── server // data processing part of REST API
 │   │   ├── config
 │   │   ├── errors
 │   │   ├── filter
@@ -157,11 +156,10 @@ This document describes the directory structure of the KubeSphere repository.
 │   ├── version
 │   └── webhook
 ├── test // e2e test code
-│   ├── e2e
-├── tools // tools to genereate API docs
-│   ├── cmd
-│   │   ├── crd-doc-gen // gen CRD API docs
-│   │   └── doc-gen // gen REST API docs
-│   └── lib
-
+│   └── e2e
+└── tools // tools to generate API docs
+    ├── cmd
+    │   ├── crd-doc-gen // gen CRD API docs
+    │   └── doc-gen // gen REST API docs
+    └── lib
 ```
