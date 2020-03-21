@@ -14,7 +14,7 @@ The steering committee focuses on the operation of the project, while technical 
 ## Members
 
 Avatar | Name | GitHub Account
----|---|---|---
+---|---|---
 <img width="30px" src="https://avatars2.githubusercontent.com/u/18525465?s=400&u=33eb0fff1364f71318c9572aa498f457d552701e&v=4"> | Benjamin Huo | @benjaminhuo
 <img width="30px" src="https://avatars1.githubusercontent.com/u/4156721?s=400&v=4"> | Zhengyi Lai | @zheng1
 <img width="30px" src="https://avatars1.githubusercontent.com/u/28883416?s=400&u=0bfbc440806391f57eae39a167aafe3bc1b6b87b&v=4"> | Calvin Yu | @calvinyv
