@@ -1,6 +1,6 @@
 # KubeSphere Technical Oversight Committee
 
-The KubeSphere technical oversight committee (TOC) is formed for overseeing the technical aspectes of the project as a whole such as technical direction, roadmap, design, architecture, administration and marketing. This committee is created by KubeSphere Steering Committee.
+The KubeSphere technical oversight committee (TOC) is formed for overseeing the technical aspects of the project as a whole such as technical direction, roadmap, design, architecture, administration and marketing. This committee is created by KubeSphere Steering Committee.
 
 ## Charter
 
@@ -8,7 +8,7 @@ The TOC specifically focuses on the technical part of the project. It also provi
 
 - Set the overall technical direction and design of the project.
 - Create the roadmap of the project.
-- Approve the creation and dissolution of specical interest groups (SIGs) and approve the nominated leads of SIGs.
+- Approve the creation and dissolution of special interest groups (SIGs) and approve the nominated leads of SIGs.
 - Approve the management such as creation/deletion of GitHub repositories related to the project.
 - Resolve issues raised from SIGs and working groups.
 
