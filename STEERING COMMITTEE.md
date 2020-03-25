@@ -1,6 +1,6 @@
 # KubeSphere Steering Committee
 
-The KubeSphere steering committee is created for overseeing the operation of the project such as governance, administration and marketing. Please note the committee will evolve with the community grows.
+The KubeSphere steering committee is created for overseeing the operation of the project such as governance, administration and marketing. Please note the committee will evolve as the community grows.
 
 ## Charter
 
@@ -25,4 +25,4 @@ Avatar | Name | GitHub Account
 
 ## Meetings
 
-The KubeSphere steering committee meets bi-weekly on every other Wednesday mornings. The meeting notes will be open to the committee members only because of the nature of the discussions.
+The KubeSphere steering committee meets bi-weekly on every other Wednesday mornings. The meeting notes are open to the committee members only because of the nature of the discussions.
