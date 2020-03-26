@@ -27,7 +27,7 @@ Besides, the S2I stack includes the following CRD resources:
 
 Here is a graph that describes the relationship about all CRDs within S2I architecture:
 
-​![S2I Arch](../../images/s2i_arch.png)
+​![S2I Arch](images/s2i_arch.png)
 
 Also you can install S2I component in any Kubernetes cluster without installing KubeSphere.
 
