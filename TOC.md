@@ -26,4 +26,4 @@ Avatar | Name | GitHub Account
 
 ## Meetings
 
-The KubeSphere technical committee meets bi-weekly on every other Tuesday mornings. The meeting notes are open to public.
+The KubeSphere technical committee meets bi-weekly on every other Tuesday mornings. The [meeting notes](https://docs.google.com/document/d/1O8YQYKynTVOs9AMoaBRBT1mdUsxtLKAer9pTwjlrod0/edit#) are open to public.
