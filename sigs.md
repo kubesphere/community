@@ -33,7 +33,7 @@ In general, SIGs operate in a highly cooperative environment. The members of a S
 The SIGs at present are:
 
 | Group | Lead | Design Docs |  Slack Channel | Meeting Notes | Description |
-|-------|-------------|-------|---------------|--------------|--------------------|-----|
+|-------|-------------|-------|---------------|--------------|--------------------|
 | Apps | [Hongliang Wang](https://github.com/hlwanghl) | [Design documentation](./contribution/design/sig-observability) | [#apps](https://kubesphere.slack.com/archives/CLHL8R1C7) | [Notes](https://github.com/kubesphere/kubesphere/issues?q=is%3Aopen+is%3Aissue+label%3Aarea%2Fmonitoring+) | App charts for the built-in App Store |
 | App Store | [Zhengyi Lai](https://github.com/zheng1) | [Design documentation](./contribution/design/sig-observability) | [#appstore](https://kubesphere.slack.com/archives/CLHL8R1C7) | [Notes](https://github.com/kubesphere/kubesphere/issues?q=is%3Aopen+is%3Aissue+label%3Aarea%2Fmonitoring+) | App Store, App template management |
 | Architecture| [Lu Liu](https://github.com/leoendless), [Benjamin Huo](https://github.com/benjaminhuo) | [Design documentation](./contribution/design/sig-observability) | [#architecture](https://kubesphere.slack.com/archives/CLHL8R1C7) | [Notes](https://github.com/kubesphere/kubesphere/issues?q=is%3Aopen+is%3Aissue+label%3Aarea%2Fmonitoring+) | system architecture |
