@@ -8,7 +8,7 @@ The console SIG is the community place to develop the frontend of KubeSphere wit
 
 ## Meetings
 
-[Meeting notes](https://docs.google.com/document/d/1a2RHltQm3armW4Jf7m1aYFTjdvlqiuW5hW2-KBeLqi0)
+[Meeting notes](https://docs.google.com/document/d/1a2RHltQm3armW4Jf7m1aYFTjdvlqiuW5hW2-KBeLqi0/)
 
 ## Contact
 

@@ -8,7 +8,7 @@ The Docs SIG is to develop and maintain the documents related to KubeSphere incl
 
 ## Meetings
 
-[Meeting notes](https://docs.google.com/document/d/1tyB2RDJFmfwFfO2ok9dH7ttZRICDiaogSI12Ajz9CD0)
+[Meeting notes](https://docs.google.com/document/d/1tyB2RDJFmfwFfO2ok9dH7ttZRICDiaogSI12Ajz9CD0/)
 
 ## Contact
 

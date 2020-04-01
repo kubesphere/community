@@ -11,7 +11,7 @@ The architecture SIG is to evolve the architecture of KubeSphere. For example, t
 
 ## Meetings
 
-[Meeting notes](https://docs.google.com/document/d/1lqL0c6SpxLxRbwVk870-9HDeGIwVodSRJV-Uh4hPemQ)
+[Meeting notes](https://docs.google.com/document/d/1lqL0c6SpxLxRbwVk870-9HDeGIwVodSRJV-Uh4hPemQ/)
 
 ## Contact
 
