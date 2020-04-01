@@ -5,6 +5,8 @@ The console SIG is the community place to develop the frontend of KubeSphere wit
 ## Members
 
 - Lu Liu ([@leoendless](https://github.com/leoendless)), Lead
+- Edisonchen ([@justahole](https://github.com/justahole)), Logging, Monitoring & Storage
+- wickyang ([liyefox](https://github.com/liyefox)), Network
 
 ## Meetings
 
