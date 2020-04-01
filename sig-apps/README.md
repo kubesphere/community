@@ -8,7 +8,7 @@ The Apps SIG is to develop most common applications to use in [App Store](../sig
 
 ## Meetings
 
-[Meeting notes](https://drive.google.com/open?id=1nRAK2U9flkz-8z7bT2-T_0VneW3w1fx1fJtB5Bu3JyU)
+[Meeting notes](https://docs.google.com/document/d/1nRAK2U9flkz-8z7bT2-T_0VneW3w1fx1fJtB5Bu3JyU)
 
 ## Contact
 

@@ -8,7 +8,7 @@ The App Store SIG is to develop an application store platform running on KubeSph
 
 ## Meetings
 
-[Meeting notes](https://docs.google.com/document/d/1FYxeQOiwN3jL6EPeIA71iB3gXZfNf-PhSufVaywFbxI/edit)
+[Meeting notes](https://docs.google.com/document/d/1FYxeQOiwN3jL6EPeIA71iB3gXZfNf-PhSufVaywFbxI)
 
 ## Contact
 
