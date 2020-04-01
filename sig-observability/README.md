@@ -1,16 +1,16 @@
-# Observability Special Interest Group
+# Release Special Interest Group
 
-The Observability SIG is to design and implement the observability features for KubeSphere including monitoring, alerting, notification and logging.
+The Release SIG is to make plan and approve the release of each KubeSphere version.
 
 ## Members
 
-- Benjamin Huo ([@benjaminhuo](https://github.com/benjaminhuo)), Lead
-- Dan Ma ([@Ma-Dan](https://github.com/Ma-Dan)), Member
+- Calvin Yu ([@calvinyv](https://github.com/calvinyv)), Lead
+- Ray Zhou ([@rayzhou2017](https://github.com/rayzhou2017)), Lead
 
 ## Meetings
 
-[Meeting notes](https://docs.google.com/document/d/18SOB2NRQWS-Qad4oebzIjtQzUG831PFvQtvN5tBwNrM/)
+[Meeting notes](https://docs.google.com/document/d/1IzkvpZlkc_4hKTyvWWyTfLgPFTWGaowOEAfh0li9qZQ/)
 
 ## Contact
 
-- Slack [#sig-observability](https://kubesphere.slack.com/messages/sig-observability)
+- Slack [#sig-release](https://kubesphere.slack.com/messages/sig-release)
