@@ -21,7 +21,7 @@ The KubeSphere DevOps Pipeline API encapsulates the following APIs to provide a 
 
 KubeSphere apiserver provides multi-tenant API, pipeline API, credential API, code quality analysis API, etc.
 
-![ks-devops-api](../../images/devops-api.png)
+![ks-devops-api](../../../images/devops-api.png)
 
 ### Multi-tenant isolation
 
