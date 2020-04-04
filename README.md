@@ -10,8 +10,8 @@ Before you start contributing, read our [Code of Conduct](code-of-conduct.md) an
 
 ## Special Interest Group
 
-Through SIGs, the KubeSphere community members collaborate and contribute to topics of long-term interest for KubeSphere and its community. Generally, SIGs can be either vertically focused on particular components and features, or span multiple functional and technical domains. There are some SIGs in KubeSphere community. Please read [KubeSphere Special Interest Group](sigs.md) for details.
+Through SIGs, the KubeSphere community members collaborate and contribute to topics of long-term interest for KubeSphere and its community. Generally, SIGs can be either vertically focused on particular components and features, or span multiple functional and technical domains. There are some SIGs in KubeSphere community. Please read [KubeSphere Special Interest Group](sigs.md) for details. Each SIG may have several subprojects to work on. For instance, SIG observability has four subprojects, i.e., Logging, Monitoring, Alerting and Notification.
 
 ## Working Group
 
-Working Group (WG) facilitates discussions and work on short-lived, concrete topics that either result from the work of SIG groups or the community members initiate directly. Each SIG can propose a new WG based on the detailed requirements and issues.
+Working Group (WG) facilitates discussions and work on cross-SIGs. For example, we may create a WG for the design of multi-tenancy monitoring across the SIG observability and the SIG multi-tenancy. Each SIG can propose a new WG based on the detailed requirements and issues.
