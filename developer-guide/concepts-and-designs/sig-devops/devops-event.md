@@ -30,6 +30,8 @@ In KubeSphere, we define the `EventHandler` interface.
 If you want to implement specific Event logic, you should implement this interface,
 and register custom `EventHandler` to `EventNotifier`。
 
+![Event Handler](images/devops-event.svg)
+
 EventNotifier is an intermediate component between Event producer and Event consumer. 
 EventNotifier eliminates the need for CustomEventHandler to understand the source and type of Event (event will be converted to general event).
 
