@@ -44,11 +44,24 @@ GET /kapis/servicemesh.kubesphere.io/v1alpha1/namespaces/default/strategies/cana
 
 are handled by host cluster(control plane) directly. There is no routing needed. Requests like following
 ```bash
-GET /api/v1/clusters/gondor/namespaces/default
-GET /kapis/servicemesh.kubesphere.io/v1alpha1/clusters/gondor/namespaces/default/strategies/canary
+GET /api/clusters/gondor/v1/namespaces/default
+GET /kapis/clusters/gondor/servicemesh.kubesphere.io/v1alpha1/namespaces/default/strategies/canary
 ```
 are forwarded to cluster named **gondor** with `/clusters/gondor` stripped, which are
 ```bash
 GET /api/v1/namespaces/default
 GET /kapis/servicemesh.kubesphere.io/v1alpha1/namespaces/default/strategies/canary
 ```
+
+> The reason why we put `/clusters/{cluster}` just behind `/apis` is because there are resources named clusters. If we put `/clusters/{cluster}` right after api-version, it will look like 
+
+> ```bash
+> GET /api/v1/clusters/gondor/namespaces/default
+> GET /kapis/servicemesh.kubesphere.io/v1alpha1/clusters/gondor/namespaces/default/strategies/canary
+> ```
+
+> which is fine. But what if we want to get cluster resource, 
+> ```bash
+> GET /api/v1/clusters/gondor
+> ```
+> Now, it's hard tell the intention of this request. Does it want to forward to cluster gondor or just gets clusters object named gondor?
