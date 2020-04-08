@@ -2,22 +2,22 @@
 
 ## Introduction
 
-Today, it's very common for organizations to run a handful of Kubernetes Clusters. Each kubernetes cluster is a relatively self-contained unit. And there are several teams working on tying all clusters, such as kubefed. More and more KubeSphere users and customers have expressed their kneed interests in managing all clusters through KubeSphere.
+Today, it's very common for organizations to run a handful of Kubernetes Clusters. Each kubernetes cluster is a relatively self-contained unit. And there are several teams working on tying all clusters, such as kubefed. More and more KubeSphere users and customers have expressed their kneen interests in managing all clusters through KubeSphere.
 
 ## Summary
-For KubeSphere users and customers, the two highest priority ones are relate to Operating clusters in one place and High Availability.
+For KubeSphere users and customers, the two highest priority ones are relate to Operating clusters in one place and providing High Availability at the same time.
 
 ## What is KubeSphere multiple cluster?
 KubeSphere multiple cluster is the ability to operate clusters in one place, which is KubeSphere, and extend kubefed to achieve High Availability.
 
 ## Architecture
-The overall architecture of a control plane is shown as following.
+The overall architecture of a control plane is shown as the following.
 
 ![](architecture.png)
 
 Some design principles we are following in this architecture.
 
-1. Keep the underlying KubeSphere clusters independent. The should have no knowledge of control plane or of each other.
+1. Keep the underlying KubeSphere clusters independent. They should have no knowledge of control plane or of each other.
 2. Keep the API interface compatible with KubeSphere API as much as possible.
 
 ## API Objects
