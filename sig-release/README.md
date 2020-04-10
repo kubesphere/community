@@ -2,6 +2,10 @@
 
 The release SIG is to ensure quality KubeSphere releases, and coordinate different feature SIG to choose proper features/fixes in each release plan and make it deliver as planned.
 
+## Roadmap and Releases
+
+KubeSphere versioning is in such a way that x.y.z where x represents the major edition providing big feature components such as multi-cluster management in 3.0.0, y represents the minor version of the x edition with new features for existing components, and z is the fixpack with bugfix only added in. You can reference the [notes](./release) of each release so far.
+
 ## Scope
 
 - Production of KubeSphere releases on a reliable schedule
@@ -31,7 +35,6 @@ The release SIG is to ensure quality KubeSphere releases, and coordinate differe
 #### Support
 
 SIG Release itself is not responsible for end user support or creation of patches for support streams. There are support forums for end users to ask questions and report bugs, subject matter experts in other SIGs triage and address issues and when necessary mark bug fixes for inclusion in a patch release.
-
 
 ## Members
 
