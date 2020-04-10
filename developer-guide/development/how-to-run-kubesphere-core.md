@@ -1,13 +1,10 @@
 # How to Run KubeSphere in Local
 
-This document will explain how to run KubeSphere apiserver locally.
-
-> Modules similar to KubeSphere apiserver are KubeSphere controller-manageer, Kubesphere iam (also known as KubeSphere account), KubeSphere api-gateway.
-> If you need to run these modules locally, you can refer to this document for configuration.
+This document will explain how to run KubeSphere apiserver locally. Modules similar to KubeSphere apiserver are KubeSphere controller-manageer, KubeSphere IAM (also known as KubeSphere account), KubeSphere api-gateway. If you need to run these modules locally, you can also refer to this document for configuration.
 
 ## Prerequisite
 
-The document [How to build KubeSphere](README.md) elaborates on how to build KubeSphere locally. Make sure you could build KubeSphere successfully.
+The document [How to build KubeSphere](/developer-guide/development/README.md) elaborates on how to build KubeSphere locally. Make sure you could build KubeSphere successfully.
 
 ## 1. Set up a Kubernetes cluster with KubeSphere installed
 
@@ -19,21 +16,23 @@ You can quickly install a KubeSphere cluster by referring to this [documentation
 
 You can refer to this [document](https://kubernetes.io/docs/tasks/tools/install-kubectl/) to install and configure kubectl locally.
 
-## 3. Understand KubeSphere Core's configuration
+## 3. Understand KubeSphere core's configuration
 
 KubeSphere uses [viper](https://github.com/spf13/viper) to manage the configuration. KubeSphere supports setting up using command line arguments and configuration files.
 
-> We recommend that you use a configuration file for configuration during local development.
+> We recommend you use a configuration file during local development.
 
-KubeSphere apiserver needs to communicate with many modules. When you run KubeSphere, you can choose to configure the seperate modules only you care about.
+KubeSphere apiserver needs to communicate with many modules. When you run KubeSphere, you can choose to configure the modules you care about only.
 
 During the development of KubeSphere apiserver, you must configure at least the relevant part of Kubernetes to ensure that KubeSphere apiserver can be started.
 
 Below is a sample configuration of KubeSphere apiserver:
 
-> Note: In the default configuration, we use Kubernetes service name to access the service.
-> In a remote cluster, you may need to use external network exposure to connect to the cluster's internal services.
-> Or you can refer to the [documentation](How-to-connect-remote-service.md) to use `telepresence` to connect to remote services
+> Note: 
+>
+> - In the default configuration, we use Kubernetes service name to access the service.
+> - In a remote cluster, you may need to use external network exposure to connect to the cluster's internal services.
+> - Or you can refer to the [documentation](How-to-connect-remote-service.md) to use `telepresence` to connect to remote services.
 
 ```yaml
 kubernetes:
@@ -102,13 +101,12 @@ notification:
   endpoint: http://notification.kubesphere-alerting-system.svc
 ```
 
-## 4. Set Up KubeSphere Core's configuration
+## 4. Set up KubeSphere core's configuration
 
-The KubeSphere Core module will read the `kubesphere.yaml` file in the current directory and the `kubesphere.yaml` file in the `/etc/kubesphere` directory, then load the configuration at startup.
-You can choose a path to set your configuration locally.
+The KubeSphere core module will read the `kubesphere.yaml` file from the current directory, if not found, then search the `/etc/kubesphere` directory for the file, then load the configuration at startup. You can also choose a specific path to set your configuration locally.
 
 ## 5. Run KubeSphere apiserver
 
-You can execute `go run cmd/ks-apiserver/apiserver.go` in the `$GOPATH/src/kubesphere.io/kubesphere` directory to start KubeSphere apiserver
+Execute `go run cmd/ks-apiserver/apiserver.go` in the `$GOPATH/src/kubesphere.io/kubesphere` directory to start KubeSphere apiserver.
 
-> If you want to understand the specific meaning of each configuration, you can view it by `go run cmd/ks-apiserver/apiserver.go --help` or read the module's design and developer documentation.
+If you want to understand the specific meaning of each configuration, you can view it by `go run cmd/ks-apiserver/apiserver.go --help` or read the module's design and development documents.
