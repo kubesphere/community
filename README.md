@@ -15,3 +15,10 @@ Through SIGs, the KubeSphere community members collaborate and contribute to top
 ## Working Group
 
 Working Group (WG) facilitates discussions and work on cross-SIGs. For example, we may create a WG for the design of multi-tenancy monitoring across the SIG observability and the SIG multi-tenancy. Each SIG can propose a new WG based on the detailed requirements and issues.
+
+## Join & Contact Community
+
+- [Slack](https://join.slack.com/t/kubesphere/shared_invite/enQtNTE3MDIxNzUxNzQ0LTZkNTdkYWNiYTVkMTM5ZThhODY1MjAyZmVlYWEwZmQ3ODQ1NmM1MGVkNWEzZTRhNzk0MzM5MmY4NDc3ZWVhMjE).
+- [Twitter](https://twitter.com/KubeSphere)
+- [Mailing List](https://groups.google.com/forum/#!forum/kubesphere)
+- [Medium (Blog)](https://itnext.io/@kubesphere)
