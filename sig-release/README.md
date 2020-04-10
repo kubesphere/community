@@ -35,9 +35,9 @@ SIG Release itself is not responsible for end user support or creation of patche
 
 ## Members
 
-- Calvin Yu ([@calvinyv](https://github.com/calvinyv)), Lead
-- Ray Zhou ([@rayzhou2017](https://github.com/rayzhou2017)), Lead
-- Yaping Liu ([@liuyp2018](https://github.com/liuyp2018)), Member
+- [@calvinyv](https://github.com/calvinyv), Lead
+- [@rayzhou2017](https://github.com/rayzhou2017), Lead
+- [@liuyp2018](https://github.com/liuyp2018), Member
 
 ## Meetings
 
