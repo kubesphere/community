@@ -1,6 +1,6 @@
 # Cloud Providers Special Interest Group
 
-The cloud providers SIG is to evolve the integration with different cloud providers on KubeSphere. For example, there is going to be a best practice about how to enable [KubeSphere on AWS EKS](../aws/README.md).
+The cloud providers SIG is to evolve the integration with different cloud providers on KubeSphere. For example, there is going to be a best practice about how to enable [KubeSphere on AWS EKS](./aws/README.md).
 
 ## Members
 
