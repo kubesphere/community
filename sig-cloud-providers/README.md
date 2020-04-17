@@ -4,7 +4,7 @@ The cloud providers SIG is to evolve the integration with different cloud provid
 
 ## Members
 
-- Feng Guo ([@leoendless](https://github.com/leoendless)), Lead
+- Feng Guo ([@pixiake](https://github.com/pixiake)), Lead
 - Lin Li ([@Forest-L](https://github.com/Forest-L)), Member
 - Ray Zhou ([@rayzhou2017](https://github.com/rayzhou2017)), Member
 
