@@ -122,6 +122,7 @@ var InstallOrder KindSortOrder = []string{
 }
 ```
 * There are two ways to do this: one is to set pre-install, and the other is to set weights:
+
 pre-install hooks，such as：
 ```
 apiVersion: v1
