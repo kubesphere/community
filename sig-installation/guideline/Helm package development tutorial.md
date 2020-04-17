@@ -175,13 +175,13 @@ Read from the chart.yaml file
 
 ## Template functions and pipes
 ```
-* A | pipe, similar to a Linux pipe, works the same in the following example.
+ A | pipe, similar to a Linux pipe, works the same in the following example.
 {{ quote .Values.favorite.drink }} and  {{ .Values.favorite.drink | quote }}
-* Default sets the default value
+ Default sets the default value
 drink: {{ .Values.favorite.drink | default “tea” | quote }}
-* Indent template function, blank space to the left, blank two Spaces to the left
+ Indent template function, blank space to the left, blank two Spaces to the left
 {{ include "mychart_app" . | indent 2 }}
-* Include function, similar to template
+ Include function, similar to template
 For example, in _helpers.tpl, define templates are referred to in resource objects.
 
 
