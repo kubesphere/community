@@ -18,7 +18,7 @@ Working Group (WG) facilitates discussions and work on cross-SIGs. For example, 
 
 ## Join & Contact Community
 
-- [Slack](https://join.slack.com/t/kubesphere/shared_invite/enQtNTE3MDIxNzUxNzQ0LTZkNTdkYWNiYTVkMTM5ZThhODY1MjAyZmVlYWEwZmQ3ODQ1NmM1MGVkNWEzZTRhNzk0MzM5MmY4NDc3ZWVhMjE).
+- [Slack](https://join.slack.com/t/kubesphere/shared_invite/enQtNTE3MDIxNzUxNzQ0LTZkNTdkYWNiYTVkMTM5ZThhODY1MjAyZmVlYWEwZmQ3ODQ1NmM1MGVkNWEzZTRhNzk0MzM5MmY4NDc3ZWVhMjE)
 - [Twitter](https://twitter.com/KubeSphere)
 - [Mailing List](https://groups.google.com/forum/#!forum/kubesphere)
 - [Medium (Blog)](https://itnext.io/@kubesphere)
