@@ -76,7 +76,7 @@ dependencies:
 apache:
   enabled: true
 ```
-#### A dependency can be either a chart archive (foo-1.2.3.tgz) or an unpacked chart directory. 
+#### A dependency can be an unpacked chart directory. 
 #### Dependent execution order: refer to the k8s load self-starting principle, so we can not care about the execution.Actually cross-execute.
 #### Note: helm2 is described by requirements.yaml, helm3 is directly described in chart.yaml.
 
