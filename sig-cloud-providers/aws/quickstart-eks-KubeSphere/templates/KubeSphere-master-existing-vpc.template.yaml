@@ -1,0 +1,278 @@
+AWSTemplateFormatVersion: "2020-04-22"
+Description: Deploys KubeSphere into a new EKS cluster in an existing VPC (qs-1pipr93g8)
+Metadata:
+  AWS::CloudFormation::Interface:
+    ParameterGroups:
+    - Label:
+        default: Network configuration
+      Parameters:
+        - VPCID
+        - PrivateSubnet1ID
+        - PrivateSubnet2ID
+        - PrivateSubnet3ID
+        - PublicSubnet1ID
+        - PublicSubnet2ID
+        - PublicSubnet3ID
+        - RemoteAccessCIDR
+    - Label:
+        default: Amazon EC2 configuration
+      Parameters:
+      - KeyPairName
+    - Label:
+        default: EKS configuration
+      Parameters:
+      - NodeInstanceType
+      - NumberOfNodes
+      - NodeGroupName
+      - NodeVolumeSize
+      - KubernetesVersion
+      - AdditionalEKSAdminArns
+    - Label:
+        default: AWS Quick Start configuration
+      Parameters:
+      - QSS3BucketName
+      - QSS3KeyPrefix
+      - LambdaZipsBucketName
+    ParameterLabels:
+      KeyPairName:
+        default: SSH key name
+      QSS3BucketName:
+        default: Quick Start S3 bucket name
+      QSS3KeyPrefix:
+        default: Quick Start S3 key prefix
+      RemoteAccessCIDR:
+        default: Allowed external access CIDR
+      NodeInstanceType:
+        default: Nodes instance type
+      NumberOfNodes:
+        default: Number of nodes
+      NodeGroupName:
+        default: Node group name
+      NodeVolumeSize:
+        default: Node volume size
+      AdditionalEKSAdminArns:
+        default: Additional EKS admin ARN's
+      LambdaZipsBucketName:
+        default: Lambda zips bucket name
+      PublicSubnet1ID:
+        default: Public subnet 1 ID
+      PublicSubnet2ID:
+        default: Public subnet 2 ID
+      PublicSubnet3ID:
+        default: Public subnet 3 ID
+      PrivateSubnet1ID:
+        default: Private subnet 1 ID
+      PrivateSubnet2ID:
+        default: Private subnet 2 ID
+      PrivateSubnet3ID:
+        default: Private subnet 3 ID
+      VPCID:
+        default: VPC ID
+      KubernetesVersion:
+        default: Kubernetes version
+      KubeSphereKey:
+        default: KubeSphere license key
+Parameters:
+  KeyPairName:
+    Description: The name of an existing public/private key pair, which allows you
+      to securely connect to your instance after it launches
+    Type: AWS::EC2::KeyPair::KeyName
+  QSS3BucketName:
+    AllowedPattern: ^[0-9a-zA-Z]+([0-9a-zA-Z-]*[0-9a-zA-Z])*$
+    ConstraintDescription: Quick Start bucket name can include numbers, lowercase
+      letters, uppercase letters, and hyphens (-). It cannot start or end with a hyphen
+      (-).
+    Default: aws-quickstart
+    Description: S3 bucket name for the Quick Start assets. This string can include
+      numbers, lowercase letters, uppercase letters, and hyphens (-). It cannot start
+      or end with a hyphen (-).
+    Type: String
+  QSS3KeyPrefix:
+    AllowedPattern: ^[0-9a-zA-Z-/]*$
+    ConstraintDescription: Quick Start key prefix can include numbers, lowercase letters,
+      uppercase letters, hyphens (-), and forward slash (/).
+    Default: quickstart-eks-KubeSphere/
+    Description: S3 key prefix for the Quick Start assets. Quick Start key prefix
+      can include numbers, lowercase letters, uppercase letters, hyphens (-), and
+      forward slash (/).
+    Type: String
+  RemoteAccessCIDR:
+    AllowedPattern: ^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\/([0-9]|[1-2][0-9]|3[0-2]))$
+    ConstraintDescription: CIDR block parameter must be in the form x.x.x.x/x
+    Description: The CIDR IP range that is permitted to access the instances. We recommend that you set this value to a trusted IP range.
+    Type: String
+  AdditionalEKSAdminArns:
+    Default: ""
+    Description: "[OPTIONAL] Comma separated list of IAM users/roles to be granted admin access to the EKS cluster"
+    Type: CommaDelimitedList
+  NodeInstanceType:
+    Default: t2.medium
+    AllowedValues:
+    - t2.small
+    - t2.medium
+    - t2.large
+    - t2.xlarge
+    - t2.2xlarge
+    - t3.nano
+    - t3.micro
+    - t3.small
+    - t3.medium
+    - t3.large
+    - t3.xlarge
+    - t3.2xlarge
+    - m3.medium
+    - m3.large
+    - m3.xlarge
+    - m3.2xlarge
+    - m4.large
+    - m4.xlarge
+    - m4.2xlarge
+    - m4.4xlarge
+    - m4.10xlarge
+    - m5.large
+    - m5.xlarge
+    - m5.2xlarge
+    - m5.4xlarge
+    - m5.12xlarge
+    - m5.24xlarge
+    - c4.large
+    - c4.xlarge
+    - c4.2xlarge
+    - c4.4xlarge
+    - c4.8xlarge
+    - c5.large
+    - c5.xlarge
+    - c5.2xlarge
+    - c5.4xlarge
+    - c5.9xlarge
+    - c5.18xlarge
+    - i3.large
+    - i3.xlarge
+    - i3.2xlarge
+    - i3.4xlarge
+    - i3.8xlarge
+    - i3.16xlarge
+    - r3.xlarge
+    - r3.2xlarge
+    - r3.4xlarge
+    - r3.8xlarge
+    - r4.large
+    - r4.xlarge
+    - r4.2xlarge
+    - r4.4xlarge
+    - r4.8xlarge
+    - r4.16xlarge
+    - x1.16xlarge
+    - x1.32xlarge
+    - p2.xlarge
+    - p2.8xlarge
+    - p2.16xlarge
+    - p3.2xlarge
+    - p3.8xlarge
+    - p3.16xlarge
+    - r5.large
+    - r5.xlarge
+    - r5.2xlarge
+    - r5.4xlarge
+    - r5.12xlarge
+    - r5.24xlarge
+    - r5d.large
+    - r5d.xlarge
+    - r5d.2xlarge
+    - r5d.4xlarge
+    - r5d.12xlarge
+    - r5d.24xlarge
+    - z1d.large
+    - z1d.xlarge
+    - z1d.2xlarge
+    - z1d.3xlarge
+    - z1d.6xlarge
+    - z1d.12xlarge
+    ConstraintDescription: Must be a valid EC2 instance type.
+    Description: The type of EC2 instance for the node instances.
+    Type: String
+  NumberOfNodes:
+    Default: 1
+    Description: The number of Amazon EKS node instances. The default is one for each of the three Availability Zones.
+    Type: Number
+  NodeGroupName:
+    Default: Default
+    Description: The name for EKS node group.
+    Type: String
+  NodeVolumeSize:
+    Default: 100
+    Description: The size for the node's root EBS volumes.
+    Type: String
+  LambdaZipsBucketName:
+    Description: '[OPTIONAL] The name of the S3 bucket where the Lambda zip files should be placed. If you leave this parameter blank, an S3 bucket will be created.'
+    Type: String
+    Default: ''
+  VPCID:
+    Type: "AWS::EC2::VPC::Id"
+    Description: The ID of your existing VPC (e.g., vpc-0343606e)
+  PublicSubnet1ID:
+    Type: "AWS::EC2::Subnet::Id"
+    Description: The ID of the public subnet in Availability Zone 1 in your existing VPC (e.g., subnet-a0246dcd)
+  PublicSubnet2ID:
+    Type: "AWS::EC2::Subnet::Id"
+    Description: The ID of the public subnet in Availability Zone 2 in your existing VPC (e.g., subnet-b1236eea)
+  PublicSubnet3ID:
+    Type: "AWS::EC2::Subnet::Id"
+    Description: The ID of the public subnet in Availability Zone 3 in your existing VPC (e.g., subnet-c3456aba)
+  PrivateSubnet1ID:
+    Type: "AWS::EC2::Subnet::Id"
+    Description: The ID of the private subnet in Availability Zone 1 in your existing VPC (e.g., subnet-fe9a8b32)
+  PrivateSubnet2ID:
+    Type: "AWS::EC2::Subnet::Id"
+    Description: The ID of the private subnet in Availability Zone 2 in your existing VPC (e.g., subnet-be8b01ea)
+  PrivateSubnet3ID:
+    Type: "AWS::EC2::Subnet::Id"
+    Description: The ID of the private subnet in Availability Zone 3 in your existing VPC (e.g., subnet-abd39039)
+  KubernetesVersion:
+    Type: String
+    AllowedValues: [ "1.15", "1.14", "1.13" ]
+    Default: "1.15"
+    Description: The Kubernetes control plane version.
+  KubeSphereLicenseKey:
+    Type: String
+    NoEcho: true
+    Description: The KubeSphere license key to use.
+Resources:
+  EKSStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: !Sub 'https://${QSS3BucketName}.s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-amazon-eks/templates/amazon-eks.template.yaml'
+      Parameters:
+        PublicSubnet1ID: !Ref PublicSubnet1ID
+        PublicSubnet2ID: !Ref PublicSubnet2ID
+        PublicSubnet3ID: !Ref PublicSubnet3ID
+        KeyPairName: !Ref KeyPairName
+        QSS3BucketName: !Ref QSS3BucketName
+        QSS3KeyPrefix: !Sub "${QSS3KeyPrefix}submodules/quickstart-amazon-eks/"
+        PrivateSubnet1ID: !Ref PrivateSubnet1ID
+        PrivateSubnet2ID: !Ref PrivateSubnet2ID
+        PrivateSubnet3ID: !Ref PrivateSubnet3ID
+        NumberOfNodes: !Ref NumberOfNodes
+        NodeGroupName: !Ref NodeGroupName
+        NodeVolumeSize: !Ref NodeVolumeSize
+        LambdaZipsBucketName: !Ref LambdaZipsBucketName
+        NodeInstanceType: !Ref NodeInstanceType
+        RemoteAccessCIDR: !Ref RemoteAccessCIDR
+        AdditionalEKSAdminArns: !Join [ ",", !Ref AdditionalEKSAdminArns ]
+        VPCID: !Ref VPCID
+        KubernetesVersion: !Ref KubernetesVersion
+  KubeSphereStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: !Sub 'https://${QSS3BucketName}.s3.amazonaws.com/${QSS3KeyPrefix}templates/KubeSphere.template.yaml'
+      Parameters:
+        KubeManifestLambdaArn: !GetAtt EKSStack.Outputs.KubeManifestLambdaArn
+        KubeConfigPath: !GetAtt EKSStack.Outputs.KubeConfigPath
+        KubeConfigKmsContext: "EKSQuickStart"
+        KubeClusterName: !GetAtt EKSStack.Outputs.EKSClusterName
+        KubeSphereLicenseKey: !Ref KubeSphereLicenseKey
+Outputs:
+  KubeConfigPath:
+    Value: !GetAtt EKSStack.Outputs.KubeConfigPath
+  BastionIP:
+    Value: !GetAtt EKSStack.Outputs.BastionIP
