@@ -1,5 +1,5 @@
 # Helm package development tutorial
-
+We prefer using Helm 3 to package our components. The following tutorial is based on Helm 3
 ## The Chart File Structure
 ```
 wordpress/
