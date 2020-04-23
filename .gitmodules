@@ -4,3 +4,6 @@
 [submodule "sig-cloud-providers/aws/quickstart-eks-KubeSphere/submodules/quickstart-aws-vpc"]
 	path = sig-cloud-providers/aws/quickstart-eks-KubeSphere/submodules/quickstart-aws-vpc
 	url = https://github.com/aws-quickstart/quickstart-aws-vpc
+[submodule "sig-cloud-providers/aws/quickstart-eks-KubeSphere/submodules/quickstart-amazon-eks"]
+	path = sig-cloud-providers/aws/quickstart-eks-KubeSphere/submodules/quickstart-amazon-eks
+	url = https://github.com/aws-quickstart/quickstart-amazon-eks
