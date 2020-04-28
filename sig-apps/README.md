@@ -5,6 +5,8 @@ The Apps SIG is to develop most common applications to use in [App Store](../sig
 ## Members
 
 - Hongliang Wang ([@hlwanghl](https://github.com/hlwanghl)), Lead
+- Lizhu You ([@MrYourM](https://github.com/MrYourM)), Member
+- Shengpeng Wang ([@spwangxp](https://github.com/spwangxp)), Member
 
 ## Meetings
 
