@@ -97,7 +97,7 @@ git add <file>
 git commit -s -m "add your description"
 ```
 
-## Step 6. Push to your folk
+## Step 6. Push to your fork
 
 When ready to review (or just to establish an offsite backup of your work), push your branch to your fork on GitHub:
 
