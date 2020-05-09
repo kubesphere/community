@@ -4,8 +4,6 @@
 
 Today, it's very common for organizations to run a handful of Kubernetes Clusters. Each kubernetes cluster is a relatively self-contained unit. And there are several teams working on tying all clusters, such as kubefed. More and more KubeSphere users and customers have expressed their keen interests in managing all clusters through KubeSphere.
 
-## Summary
-
 For KubeSphere users and customers, the two highest priority ones are operating clusters in one place and providing high availability at the same time.
 
 ## What is KubeSphere multiple cluster
