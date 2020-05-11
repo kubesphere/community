@@ -6,7 +6,7 @@ KubeSphere S2I (Source-to-Image) / B2I (Binary-to-Image) provides easy-to-use CI
 
 ## Workflow Example
 
-![Workflow](https://pek3b.qingstor.com/kubesphere-docs/png/20191223103533.png)
+![Workflow](../images/s2i-workflow.png)
 
 ## Principle
 
@@ -27,7 +27,7 @@ Besides, the S2I stack includes the following CRD resources:
 
 Here is a graph that describes the relationship about all CRDs within S2I architecture:
 
-​![S2I Arch](images/s2i_arch.png)
+​![S2I Arch](../images/s2i-arch.png)
 
 Also you can install S2I component in any Kubernetes cluster without installing KubeSphere.
 
