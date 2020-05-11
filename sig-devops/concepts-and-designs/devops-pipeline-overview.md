@@ -31,7 +31,7 @@ In the future, KubeSphere DevOps will authenticate based on [OPA](https://www.op
 
 ### Integration with Jenkins
 
-KubeSphere integrates with standard Jenkins, customizing plugins and configurations.
+KubeSphere integrates with standard Jenkins with customized plugins and configurations.
 
 #### Distribution of plugins
 
