@@ -1,7 +1,10 @@
-# Helm package development tutorial
-We prefer using Helm 3 to package our components. The following tutorial is based on Helm 3
+# Helm Package Development Tutorial
+
+KubeSphere uses Helm as the package management tool. For example, the [apps](../../sig-apps) in [app store](../../sig-appstore) are Helm-based, and the system components of KubeSphere itself are Helm packages too. The following tutorial is based on Helm 3.
+
 ## The Chart File Structure
-```
+
+```yaml
 wordpress/
   Chart.yaml          # A YAML file containing information about the chart
   LICENSE             # OPTIONAL: A plain text file containing the license for the chart
@@ -17,8 +20,10 @@ wordpress/
 ```
 
 ## The Chart.yaml File
+
 The Chart.yaml file is required for a chart. It contains the following fields:
-```
+
+```yaml
 apiVersion: The chart API version (required)
 name: The name of the chart (required)
 version: A SemVer 2 version (required)
@@ -49,8 +54,11 @@ icon: A URL to an SVG or PNG image to be used as an icon (optional).
 appVersion: The version of the app that this contains (optional). This needn't be SemVer.
 deprecated: Whether this chart is deprecated (optional, boolean)
 ```
+
 ## The README.md File
-A README for a chart should be formatted in Markdown (README.md), and should generally contain:
+
+A README for a chart should be formatted in Markdown (README.md), and generally contain:
+
 * Introduction
 * Prerequisites
 * Installing the Chart
@@ -58,33 +66,41 @@ A README for a chart should be formatted in Markdown (README.md), and should gen
 * Configuration
 
 ## Chart Dependencies
+
 In Helm, one chart may depend on any number of other charts. These dependencies can be dynamically linked using the dependencies field in Chart.yaml or brought in to the charts/ directory and managed manually.
-```
+
+```yaml
 dependencies:
   - name: apache
     version: 1.2.3
     repository: http://example.com/charts
     alias: new-subchart-1
 ```
-* Name: The name field is the name of the chart you want.
-* Version: The version field is the version of the chart you want.
+
+* name: The name field is the name of the chart you want.
+* version: The version field is the version of the chart you want.
 * repository: The repository field is the full URL to the chart repository. Note that you must also use helm repo add to add that repo locally.
 * alias：One can use alias in cases where they need to access a chart with other name(s).
-#### Once you have defined dependencies, you can run helm dependency update and it will use your dependency file to download all the specified charts into your charts/ directory for you.
-#### You can define true/false in values.yaml to determine whether the dependency package is enabled, such as
-```
+
+Once you have defined dependencies, you can run helm dependency update and it will use your dependency file to download all the specified charts into your charts/ directory for you.
+You can define true/false in values.yaml to determine whether the dependency package is enabled, such as
+
+```yaml
 apache:
   enabled: true
 ```
-#### A dependency can be an unpacked chart directory. 
-#### Dependent execution order: refer to the k8s load self-starting principle, so we can not care about the execution.Actually cross-execute.
-#### Note: helm2 is described by requirements.yaml, helm3 is directly described in chart.yaml.
 
-## templates/k8s resource
+* A dependency can be an unpacked chart directory.
+* Dependent execution order: refer to the K8s load self-starting principle, The order is cross execution so we do not care about the execution here actually.
+* Note: Helm 2 is described by requirements.yaml, while Helm 3 is directly described in chart.yaml.
+
+## Templates/K8s Resource
+
 * There are multiple deployment objects under templates and you can name them differently.
-* Execution order: refer to the k8s load self-starting principle, so we can not care about the execution.
+* Execution order: refer to the K8s load self-starting principle.
 * The actual execution order is:
-```
+
+```yaml
 var InstallOrder KindSortOrder = []string{
     "Namespace",
     "NetworkPolicy",
@@ -121,10 +137,12 @@ var InstallOrder KindSortOrder = []string{
     "APIService",
 }
 ```
+
 * There are two ways to do this: one is to set pre-install, and the other is to set weights:
 
 pre-install hooks，such as：
-```
+
+```yaml
 apiVersion: v1
 kind: Service
 metadata:
@@ -132,37 +150,43 @@ metadata:
   annotations:
     "helm.sh/hook": "pre-install"
 ```
-set weights,such as:
-```
+
+set weights, such as:
+
+```yaml
 annotations:
     "helm.sh/hook-weight": "5"
 ```
 
 ## values.yaml
+
 * Release.Name: The name of the release (not the chart)
 * Release.Namespace: The namespace the chart was released to.
 * Release.Service: The service that conducted the release.
 * chart :The contents of the Chart.yaml. Thus, the chart version is obtainable as Chart.Version and the maintainers are in Chart.Maintainers.
 * There are multiple deployment objects under templates, you can name them with different names, and then you can define values under values.yaml with different names., as defined in the following format：
 
-```
+```yaml
 mysql:
-  name: 
+  name:
   image:
-    repository: 
-    tag: 
+    repository:
+    tag:
     pullPolicy:
 
 redis:
-  name: 
+  name:
   image:
-    repository: 
-    tag: 
+    repository:
+    tag:
     pullPolicy:
 ```
-## helm template
-The helm template syntax is nested between "{{" ""}}", three of which are common
-```
+
+## Helm Template
+
+The Helm template syntax is nested between "{{" ""}}", three of which are common
+
+```yaml
 .Values.*
 usually defined in a values.yaml file and --set （--set Priority maximum）。
 .Release.*
@@ -173,8 +197,9 @@ Read from the _helpers.tpl file and define a named template using the define fun
 Read from the chart.yaml file
 ```
 
-## Template functions and pipes
-```
+### Template Functions and Pipes
+
+```yaml
  A | pipe, similar to a Linux pipe, works the same in the following example.
 {{ quote .Values.favorite.drink }} and  {{ .Values.favorite.drink | quote }}
  Default sets the default value
@@ -198,9 +223,10 @@ metadata:
   {{- template "mychart.labels" }}
 data:
 ```
-## Use files in templates
 
-```
+### Use Files in Templates
+
+```yaml
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -208,16 +234,18 @@ metadata:
 data:
 {{ (.Files.Glob "foo/*").AsConfig | indent 2 }}
 ```
+
 * The contents of the foo directory under the chart root configured as configmap
 
-## Template flow control
+### Template Flow Control
+
 * In common use:
 if/else condition control
 with Scope of control
-range cycle control 
+range cycle control
 * For example, variables are defined in: values.yaml, and the ConfigMap.Values. Favorite loop controls parameters.
 
-```
+```yaml
 favorite:
   drink: coffee
   food: pizza
@@ -232,13 +260,13 @@ data:
   {{ $key }}: {{ $val | quote }}
   {{- end}}
 ```
+
 * Use the if/else syntax in the deployment.yaml, such as: -end end flag, with "-" in double brackets.
-```
+
+```yaml
 {{- if .Values.image.repository -}}
 image: {.Values.image.repository}
 {{- else -}}
 image: "***/{{ .Release.Name }}:{{ .Values.image.version }}"
 {{- end -}}
 ```
-
-
