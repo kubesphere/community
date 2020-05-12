@@ -6,7 +6,7 @@ The KubeSphere monitoring system is comprised of many components that work toget
 
 - Prometheus Operator: automates tasks for operating Prometheus instances.
 - Prometheus: scrapes metrics and provides monitoring service.
-- Kube-state-metrics: exposes metrics for kubernetes objects like deployment, pod, namespace, etc.
+- Kube-state-metrics: exposes metrics of kubernetes objects like deployment, pod, namespace, etc.
 - Node-exporter: exposes node metrics.
 
 Besides, the monitoring stack includes CRD resources:
@@ -33,4 +33,4 @@ The [contrib/kube-prometheus](https://github.com/kubesphere/prometheus-operator/
 
 The diagram below presents the overall monitoring architecture:
 
-![Monitoring Arch](../../images/kubesphere-monitoring-architecture.png)
+![Monitoring Arch](../images/kubesphere-monitoring-architecture.png)

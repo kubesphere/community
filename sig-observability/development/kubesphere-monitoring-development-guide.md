@@ -1,4 +1,4 @@
-# Monitoring
+# KubeSphere Monitoring
 
 This documentation contains backend development guide for interaction with Prometheus. The monitoring backend provides the capabilities of:
 
