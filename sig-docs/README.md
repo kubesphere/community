@@ -2,9 +2,14 @@
 
 The Docs SIG is to develop and maintain the documents related to KubeSphere including website, user guide, forum and so on.
 
+Check the [code repo](https://github.com/kubesphere/ks-website) for the [website](https://kubesphere.io). The [code repo](https://github.com/kubesphere/website) is upgraded one for the website, which is based on Hugo. If you would like to contribute [KubeSphere guide](https://kubesphere.io/docs), please go to the [code repo](http://github.com/kubesphere/docs.kubesphere.io).
+
 ## Members
 
 - Pengfei Zhou ([@FeynmanZhou](https://github.com/FeynmanZhou)), Lead
+- Lu Liu ([@leoendless](https://github.com/leoendless)), Lead
+- Ray Zhou ([@rayzhou2017](https://github.com/rayzhou2017)), Member
+- [@calvinyv](https://github.com/calvinyv), Member
 
 ## Meetings
 
