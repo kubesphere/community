@@ -2,9 +2,14 @@
 
 The Network SIG is to design and develop network-related capabilities for KubeSphere such as CNI, SDN, the bare metal load balancer [Porter](https://github.com/kubesphere/porter).
 
+## Documents
+
+- [KubeSphere Network Policy](./concepts-and-designs/kubesphere-network-policy.md)
+
 ## Members
 
 - Zhengyi Lai ([@zheng1](https://github.com/zheng1)), Lead
+- Jiong Duan ([@duanjiong](https://github.com/duanjiong)), Member
 
 ## Meetings
 
