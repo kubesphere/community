@@ -2,6 +2,11 @@
 
 The Storage SIG is to design and implement KubeSphere storage service such as CSI plugins.
 
+## Documents
+
+- [CSI Plugins](./concepts-and-designs/csi-plugin.md)
+- [Storage Capability Interface](./concepts-and-designs/storage-capability-interface.md)
+
 ## Members
 
 - Xin Wang ([@wnxn](https://github.com/wnxn)), Lead
