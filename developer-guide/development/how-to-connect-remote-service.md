@@ -30,4 +30,4 @@ go run cmd/ks-apiserver/apiserver.go
 
 ## 4. Further more
 
-You can use Telepresence to replace services in the cluster for debugging. For more information, please refer to the [official documentation](https://www.telepresence.io/discussion/overview).
+You can use [Telepresence](how-telepresence-works.md) to replace services in the cluster for debugging. For more information, please refer to the [official documentation](https://www.telepresence.io/discussion/overview).
