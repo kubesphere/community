@@ -1,4 +1,4 @@
-# Logging
+# KubeSphere Logging
 
 This documentation contains backend development guide for interaction with key components behind KubeSphere logging system. Logging backend provides the capabilities of:
 
