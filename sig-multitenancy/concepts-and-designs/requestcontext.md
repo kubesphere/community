@@ -1,16 +1,16 @@
+# Request Context
+
 ## User
 
-UserInfo describes a user that has been authenticated to the system.
+UserInfo describes a user that has been authenticated to the system. In filter chain, userInfo in context can be obtained by calling `request.UserFrom(ctx)`.
 
-In filter chain, userInfo in context can be obtained by calling `request.UserFrom(ctx)`.
+The following fields are provided currently:
 
-The following fields are currently provide:
-
-```
+```go
 type Info interface {
 	// GetName returns the name that uniquely identifies this user among all
 	// other active users.
-	GetName() string
+	ßGetName() string
 	// GetUID returns a unique value for a particular user that will change
 	// if the user is removed from the system and another user is added with
 	// the same name.
@@ -26,12 +26,9 @@ type Info interface {
 
 ## RequestInfo
 
-RequesInfo holds information parsed from the http request, will be used throughout the request chain.
+RequesInfo holds information parsed from the http request. It will be used throughout the request chain. In filter chain, requestInfo in context can be obtained by calling `request.RequestInfoFrom(ctx)`. RequestInfo extended from `k8s.io/apiserver/pkg/endpoints/request/requestinfo.go`.
 
-In filter chain, requestInfo in context can be obtained by calling `request.RequestInfoFrom(ctx)`.
-
-RequestInfo extended from `k8s.io/apiserver/pkg/endpoints/request/requestinfo.go`.
-The following fields are currently provide:
+The following fields are provided currently:
 
 ```go
 type RequestInfo struct {
@@ -68,4 +65,3 @@ type RequestInfo struct {
 	Cluster string
 }
 ```
-
