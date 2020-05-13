@@ -16,3 +16,7 @@ For QingCloud IaaS, we have developed [QingCloud CSI](https://github.com/yunify/
 ### QingStor Storage System
 
 We have developed [QingStor CSI](https://github.com/yunify/qingstor-csi) plugin to integrate Kubernetes with QingStor NeonSAN storage system. If users want to use Kubernetes on bare-metal, they may need to store data in QingStor storage system. The QingStor CSI plugin will also implement the latest CSI features.
+
+### Other Storage System
+
+Because KubeSphere is based on Kubernetes, KubeSphere can utilze various storage systems through their CSI plugin which supports [dynamic volume provisioning](https://kubernetes.io/docs/concepts/storage/dynamic-provisioning/). You can find CSI plugins in [Kubernetes CSI drivers list](https://kubernetes-csi.github.io/docs/drivers.html).
