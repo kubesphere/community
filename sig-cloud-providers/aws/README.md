@@ -1,4 +1,4 @@
-# AWS
+# KubeSphere on AWS Cloud
 
 The place is used to plan and design the collaboration between KubeSphere and AWS EKS.
 
@@ -10,3 +10,6 @@ The place is used to plan and design the collaboration between KubeSphere and AW
 
 First we are going to integrate KubeSphere into AWS EKS through [Quick Start](https://aws.amazon.com/quickstart/). Please check the [roadmap](./roadmap.md).
 
+## Architecture
+
+![KubeSphere on EKS](./images/architecture.png)
