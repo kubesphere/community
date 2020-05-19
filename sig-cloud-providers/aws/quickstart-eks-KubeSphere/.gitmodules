@@ -1,6 +1,0 @@
-[submodule "submodules/quickstart-aws-vpc"]
-	path = submodules/quickstart-aws-vpc
-	url = git@github.com:aws-quickstart/quickstart-aws-vpc.git
-[submodule "submodules/quickstart-amazon-eks"]
-	path = submodules/quickstart-amazon-eks
-	url = git@github.com:aws-quickstart/quickstart-amazon-eks.git
