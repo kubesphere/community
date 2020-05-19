@@ -10,7 +10,7 @@ The DevOps SIG is to design and implement the DevOps functionalities including p
 ## Documents
 
 - [DevOps Pipeline Overview](concepts-and-designs/devops-pipeline-overview.md)
-- [Jenkins Plugins in KubeSphere](concepts-and-designs/jenkins-plugins.md)
+- [Jenkins Plugins in KubeSphere](concepts-and-designs/jenkins-plugin.md)
 - [S2I and B2I Overview](concepts-and-designs/s2i-b2i-overview.md)
 
 ## Meetings
