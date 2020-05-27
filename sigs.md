@@ -51,3 +51,16 @@ The SIGs at present are:
 | [Release](./sig-release) | [Calvin Yu](https://github.com/calvinyv) | [#sig-release](https://kubesphere.slack.com/messages/sig-release) | [Notes](https://docs.google.com/document/d/1IzkvpZlkc_4hKTyvWWyTfLgPFTWGaowOEAfh0li9qZQ/) | release of each version |
 | [Storage](./sig-storage) | [Xin Wang](https://github.com/wnxn) | [#sig-storage](https://kubesphere.slack.com/messages/sig-storage) | [Notes](https://docs.google.com/document/d/171DjRH8CDkubc_fl8tO1tN-kpdPwek-G819FQt6EhV0/) | CSI plugins |
 | [Testing](./sig-testing) | [Yaping Liu](https://github.com/liuyp2018) | [#sig-testing](https://kubesphere.slack.com/messages/sig-testing) | [Notes](https://docs.google.com/document/d/191w4_ePxBSEklZjKTSiYw7XwDH9_gCIVOt6cKkTvqYc/) | test, release |
+
+## Slack Channels
+
+Other than the sig channels, we have several general channels.
+
+- users [#kubesphere-users](https://kubesphere.slack.com/messages/kubesphere-users)
+- contributors [#contributors](https://kubesphere.slack.com/messages/contributors)
+- general [#general](https://kubesphere.slack.com/messages/general)
+
+There are several non-English channels for local communities.
+
+- Chinese [#community-china](https://kubesphere.slack.com/messages/community-china)
+- Turkish [#turkiye-toplulugu-genel](https://kubesphere.slack.com/messages/turkiye-toplulugu-genel)
