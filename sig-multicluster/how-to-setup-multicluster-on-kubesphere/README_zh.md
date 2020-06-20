@@ -45,7 +45,7 @@
       enabled: false
     ```
 
-* 安装成功后，需要额外设置下集群的 `Token` 过期时间，以便 Host Cluster 可以纳管成员集群。
+* 安装成功后，需要额外设置下集群的 `Token` 过期时间，以便 Host Cluster 可以纳管成员集群。注意：如果是添加 Host Cluster 自己为 Member Cluster 则不需要修改此 Token 过期时间。
 
      ```bash
     kubectl -n kubesphere-system edit cm kubesphere-config
@@ -138,7 +138,8 @@
       enabled: false
     ```
 
-* 安装成功后，需要额外设置下集群的 `Token` 过期时间，以便 Host Cluster 可以纳管成员集群，使用 `kubectl -n kubesphere-system edit cm kubesphere-config` 修改集群配置
+* 安装成功后，需要额外设置下集群的 `Token` 过期时间，以便 Host Cluster 可以纳管成员集群，使用 `kubectl -n kubesphere-system edit cm kubesphere-config` 修改集群配置。注意：如果是添加 Host Cluster 自己为 Member Cluster 则不需要修改此 Token 过期时间。
+
 
     ```yaml
     apiVersion: v1
