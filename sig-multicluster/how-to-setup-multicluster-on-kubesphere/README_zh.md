@@ -103,7 +103,7 @@
         tower      LoadBalancer    10.233.63.191   139.198.110.23  8080:30721/TCP       16h
         ```
 
-  2. 如果一直没有对应的地址显示，则需要手动设置下代理地址。假设现在有可以对外的公网 IP 地址 139.198.120.120，已经通过端口转发的方式将此 IP 地址的 8080 端口转发到集群节点的 30721 端口。
+  2. 如果一直没有对应的地址显示，则需要手动设置下代理地址。假设现在有可以对外的公网 IP 地址 139.198.120.120，已经通过端口转发的方式将此 IP 地址的 8080 端口转发到集群节点的 30721 端口 (请根据您具体的端口号转发)。
 
         ```shell
         $ kubectl -n kubesphere-system get svc
@@ -120,13 +120,13 @@
             enable: true
             agentImage: kubespheredev/tower:latest
             proxyPublishService: tower.kubesphere-system.svc
-            proxyPublishAddress: http://139.198.120.120:8080 # 设置 tower 服务的访问地址
+            proxyPublishAddress: http://139.198.120.120:8080 # 新增这一行，设置 tower 服务的访问地址
         ```
 
   4. 保存设置，并且重启 ks-apiserver
 
         ```shell
-        $ kubectl -n kubesphere-system rollout restart deployment ks-apiserver
+        kubectl -n kubesphere-system rollout restart deployment ks-apiserver
         ```
 
 ### 3.2. <a name='MemberCluster-Agent'></a>安装 Member Cluster
