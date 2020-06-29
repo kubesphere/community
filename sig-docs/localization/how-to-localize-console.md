@@ -15,7 +15,7 @@ All the localization files are stored in \console\src\locales. You need to provi
 
 - In \console\src\locales, you can see different localizations. If you do not see your language, you need to create that language folder first.
 
-- Copy every file in the **zh** folder to your own language folder and translate the file based on the English in these **zh** files. Namely, replace the Chinese with your own language. For example, you may find the following phrases in app.js:
+- Copy every file in the **zh** folder to your own language folder and translate the file based on the English in these **zh** files (Please see **Important** below for the reason to copy the **zh** folder instead of the en folder). Namely, replace the Chinese with your own language. For example, you may find the following phrases in app.js:
 
   ```js
   'Select file': '选择文件',
@@ -41,6 +41,7 @@ All the localization files are stored in \console\src\locales. You need to provi
 
 ## Important
 
+- The reason why you copy the zh folder instead of the en folder is that the latter does not contain all the UI texts. Simple UI phrases such as “Select file” are not included in the en folder, which only contains the English UI texts for capitalized keys that are not readable. In other words, simple phrases are already readable English texts so they do not need to be put in the en folder. Admittedly, you can copy all js. files in the en folder to your own language folder and translate capitalized keys. Nevertheless, for individual phrases or words, you have to find them in the console UI and put them one by one in your own language folder, which is too complicated and time-consuming. On the contrary, the zh folder already has all the UI texts. You can use it as a template and work on the localization based on the English UI in it.
 - Before you submit your pull requests, you can preview your translation in the UI locally by following the [guide](https://github.com/kubesphere/console/blob/master/README.md).
 - Please submit your pull requests to the **dev** branch of the repository.
 - Global search and replace is useful for quickly changing words or phrases while it may also lead to unexpected changes, especially those in code that are not the target UI you need to adjust. Please use this feature carefully if you only mean to change the translation instead of the code.
