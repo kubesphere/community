@@ -30,44 +30,23 @@ if the kube-apiserver address of M Cluster is accessible on any node of the H Cl
 
 ### 2.1. <a name='HostCluster'></a>Install Host Cluster
 
-* There is no big difference between the installation of Host Cluster and the installation of KubeSphere. However, please note that in the config file of installer, the following item has to be enabled:
+* There is no big difference between the installation of Host Cluster and the installation of KubeSphere. However, please note that in the config ClusterConfiguration of installer, the following item has to be set like following:
 
     ```yaml
     multicluster:
-      enabled: true
+      clusterRole: host
     ```
 
 ### 2.2. <a name='MemberCluster'></a>Install Member Cluster
 
-* There is no difference between the installation of Member Cluster and the installation of common clusters that have their multi-cluster feature disabled. Please make sure "multicluster" is not enabled (false) as below: 
+* There is no difference between the installation of Member Cluster and the installation of common clusters that have their multi-cluster feature disabled. Please make sure "multicluster" is set as the following: 
 
     ```yaml
     multicluster:
-      enabled: false
+      clusterRole: member
     ```
 
-* After the installation, you need to set the `Token` expiration time for the cluster so that the Host Cluster can manage member clusters. Note: No change needs to be made to the Token expiration time if the Host Cluster itself is added as the Member Cluster.
-
-     ```bash
-    kubectl -n kubesphere-system edit cm kubesphere-config
-    ```
-
-    ```yaml
-    apiVersion: v1
-    data:
-    kubesphere.yaml: |
-        authentication:
-        authenticateRateLimiterMaxTries: 5
-        authenticationRateLimiterDuration: 30m0s
-        maxAuthenticateRetries: 6
-        multipleLogin: false
-        jwtSecret: "Kub3sp83r3!"
-        # Add the following oauth configuration
-        oauthOptions:
-            accessTokenMaxAge: 0
-    ```
-
-When you save it, please execute `kubectl -n kubesphere-system rollout restart deployment ks-apiserver` to restart `ks-apiserver`.
+* Wait for the installation to be completed.
 
 ### 2.3. <a name='AddCluster'></a>Import Cluster
 
@@ -75,7 +54,7 @@ When you save it, please execute `kubectl -n kubesphere-system rollout restart d
 
 * In Connection Method, select `Direct Connection to Kubernetes cluster`. Copy the KubeConfig of the Member Cluster and paste it into the box. Please make sure the `server` address in KubeConfig is accessible on any node of the H Cluster. For `KubeSphere API Server` address, you can fill in the KubeSphere APIServer address or leave it blank.
 
-![import](./import.png)
+![import](./direct_import_en.png)
 
 * Click Import and wait for cluster initialization to finish.
 
@@ -89,7 +68,7 @@ The component [Tower](https://github.com/kubesphere/tower) of KubeSphere is used
 
     ```yaml
     multicluster:
-      enabled: true
+      clusterRole: host
     ```
 
 * Set Proxy Service Address
@@ -112,16 +91,14 @@ The component [Tower](https://github.com/kubesphere/tower) of KubeSphere is used
         tower      LoadBalancer    10.233.63.191   <pending>  8080:30721/TCP       16h
         ```
 
-  3. Change the configuration and input the the address you set before.
+  3. Change the ClusterConfiguration of the ks-installer and input the the address you set before.
 
         ```shell
         $ kubectl -n kubesphere-system edit cm kubesphere-config
 
         multicluster:
-            enable: true
-            agentImage: kubespheredev/tower:latest
-            proxyPublishService: tower.kubesphere-system.svc
-            proxyPublishAddress: http://139.198.120.120:8080 # Set the address to access tower
+            clusterRole: host
+            proxyPublishAddress: http://139.198.120.120:8080 # Add this line to set the address to access tower
         ```
 
   4. Save the setting and restart ks-apiserver.
@@ -132,32 +109,14 @@ The component [Tower](https://github.com/kubesphere/tower) of KubeSphere is used
 
 ### 3.2. <a name='MemberCluster-Agent'></a>Install Member Cluster
 
-* There is no difference between the installation of Member Cluster and the installation of common clusters that have their multi-cluster feature disabled. Please make sure "multicluster" is not enabled (false) as below: 
+* There is no difference between the installation of Member Cluster and the installation of common clusters that have their multi-cluster feature disabled. Please make sure "multicluster" is set as below: 
 
     ```yaml
     multicluster:
-      enabled: false
+      clusterRole: member
     ```
 
-* After the installation, you need to set the `Token` expiration time for the cluster so that the Host Cluster can manage member clusters. Please use `kubectl -n kubesphere-system edit cm kubesphere-config` to change the cluster configuration. Note: No change needs to be made to the Token expiration time if the Host Cluster itself is added as the Member Cluster.
-
-
-    ```yaml
-    apiVersion: v1
-    data:
-    kubesphere.yaml: |
-        authentication:
-        authenticateRateLimiterMaxTries: 5
-        authenticationRateLimiterDuration: 30m0s
-        maxAuthenticateRetries: 6
-        multipleLogin: false
-        jwtSecret: "Kub3sp83r3!"
-        # Add the following oauth configuration
-        oauthOptions:
-            accessTokenMaxAge: 0
-    ```
-    
-    When you save it, please execute `kubectl -n kubesphere-system rollout restart deployment ks-apiserver` to restart `ks-apiserver`.
+* Wait for the installation to be completed.
 
 ### 3.3. <a name='AddCluster-Agent'></a>Import Cluster
 

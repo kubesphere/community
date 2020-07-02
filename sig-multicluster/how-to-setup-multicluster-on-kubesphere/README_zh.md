@@ -29,44 +29,21 @@
 
 ### 2.1. <a name='HostCluster'></a>安装 Host Cluster 集群
 
-* 安装 Host Cluster 与安装 KubeSphere 没有大的区别，唯一的区别在于安装时确保 installer 的配置文件中下列项是启用状态。
+* 安装 Host Cluster 与安装 KubeSphere 没有大的区别，唯一的区别在于安装时确保 installer 的配置文件 ClusterConfiguration 中 multicluster 项如下配置 。
 
     ```yaml
     multicluster:
-      enabled: true
+      clusterRole: host
     ```
 
 ### 2.2. <a name='MemberCluster'></a>安装 Member Cluster 集群
 
-* 安装 Member Cluster 和安装普通的未开启多集群功能的集群没有任何区别。确保安装时 installer 的 multicluster enabled 是 false 状态。
+* 安装 Member Cluster 和安装普通的未开启多集群功能的集群没有任何区别。确保安装时 installer 的 ClusterConfiguration 中 multicluster 项如下配置。
 
     ```yaml
     multicluster:
-      enabled: false
+      clusterRole: member
     ```
-
-* 安装成功后，需要额外设置下集群的 `Token` 过期时间，以便 Host Cluster 可以纳管成员集群。注意：如果是添加 Host Cluster 自己为 Member Cluster 则不需要修改此 Token 过期时间。
-
-     ```bash
-    kubectl -n kubesphere-system edit cm kubesphere-config
-    ```
-
-    ```yaml
-    apiVersion: v1
-    data:
-    kubesphere.yaml: |
-        authentication:
-        authenticateRateLimiterMaxTries: 5
-        authenticationRateLimiterDuration: 30m0s
-        maxAuthenticateRetries: 6
-        multipleLogin: false
-        jwtSecret: "Kub3sp83r3!"
-        # 增加下面 oauth 配置
-        oauthOptions:
-            accessTokenMaxAge: 0
-    ```
-
-保存后，需要执行 `kubectl -n kubesphere-system rollout restart deployment ks-apiserver` 重启 `ks-apiserver`
 
 ### 2.3. <a name='AddCluster'></a>导入集群
 
@@ -84,11 +61,11 @@
 
 ### 3.1. <a name='HostCluster-Agent'></a>安装 Host Cluster
 
-* 安装 Host Cluster 与安装 KubeSphere 没有大的区别，唯一的区别在于安装时确保 installer 的配置文件中下列项是启用状态
+* 安装 Host Cluster 与安装 KubeSphere 没有大的区别，唯一的区别在于安装时确保 installer 的配置文件 ClusterConfiguration 中 multicluster 项如下配置 。
 
     ```yaml
     multicluster:
-      enabled: true
+      clusterRole: host
     ```
 
 * 设置代理服务地址
@@ -114,13 +91,11 @@
   3. 修改配置文件，填入之前设置的地址
 
         ```shell
-        $ kubectl -n kubesphere-system edit cm kubesphere-config
+        $ kubectl -n kubesphere-system edit clusterconfiguration ks-installer
 
         multicluster:
-            enable: true
-            agentImage: kubespheredev/tower:latest
-            proxyPublishService: tower.kubesphere-system.svc
-            proxyPublishAddress: http://139.198.120.120:8080 # 新增这一行，设置 tower 服务的访问地址
+            enable: host
+            proxyPublishAddress: http://139.198.120.120:8080 # 增加这一行，设置 tower 服务的访问地址，填入上面设置的 IP 地址
         ```
 
   4. 保存设置，并且重启 ks-apiserver
@@ -131,32 +106,14 @@
 
 ### 3.2. <a name='MemberCluster-Agent'></a>安装 Member Cluster
 
-* 安装 Member Cluster 和安装普通的未开启多集群功能的集群没有任何区别。确保安装时 installer 的 multicluster enabled 是 false 状态
+* 安装 Member Cluster 和安装普通的未开启多集群功能的集群没有任何区别。确保安装时 installer 的配置文件 ClusterConfiguration 中 multicluster 项如下配置。
 
     ```yaml
     multicluster:
-      enabled: false
+      clusterRole: member
     ```
 
-* 安装成功后，需要额外设置下集群的 `Token` 过期时间，以便 Host Cluster 可以纳管成员集群，使用 `kubectl -n kubesphere-system edit cm kubesphere-config` 修改集群配置。注意：如果是添加 Host Cluster 自己为 Member Cluster 则不需要修改此 Token 过期时间。
-
-
-    ```yaml
-    apiVersion: v1
-    data:
-    kubesphere.yaml: |
-        authentication:
-        authenticateRateLimiterMaxTries: 5
-        authenticationRateLimiterDuration: 30m0s
-        maxAuthenticateRetries: 6
-        multipleLogin: false
-        jwtSecret: "Kub3sp83r3!"
-        # 增加下面 oauth 配置
-        oauthOptions:
-            accessTokenMaxAge: 0
-    ```
-
-    保存后，需要执行 `kubectl -n kubesphere-system rollout restart deployment ks-apiserver` 重启 `ks-apiserver`。
+* 等待安装成功。
 
 ### 3.3. <a name='AddCluster-Agent'></a>导入集群
 
