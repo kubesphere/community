@@ -104,7 +104,7 @@ The component [Tower](https://github.com/kubesphere/tower) of KubeSphere is used
   4. Save the setting and restart ks-apiserver.
 
         ```shell
-        $ kubectl -n kubesphere-system rollout restart deployment ks-apiserver
+        kubectl -n kubesphere-system rollout restart deployment ks-apiserver
         ```
 
 ### 3.2. <a name='MemberCluster-Agent'></a>Install Member Cluster
