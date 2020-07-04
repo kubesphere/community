@@ -94,7 +94,7 @@
         $ kubectl -n kubesphere-system edit clusterconfiguration ks-installer
 
         multicluster:
-            enable: host
+            clusterRole: host
             proxyPublishAddress: http://139.198.120.120:8080 # 增加这一行，设置 tower 服务的访问地址，填入上面设置的 IP 地址
         ```
 
