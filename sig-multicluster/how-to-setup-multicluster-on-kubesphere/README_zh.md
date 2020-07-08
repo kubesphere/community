@@ -29,11 +29,17 @@
 
 ### 2.1. <a name='HostCluster'></a>安装 Host Cluster 集群
 
-* 安装 Host Cluster 与安装 KubeSphere 没有大的区别，唯一的区别在于安装时确保 installer 的配置文件 ClusterConfiguration 中 multicluster 项如下配置 。
+* 安装 Host Cluster 与安装 KubeSphere 没有大的区别，唯一的区别在于安装时确保 installer 的配置文件 ClusterConfiguration 中 multicluster 项如下配置。
 
     ```yaml
     multicluster:
       clusterRole: host
+    ```
+
+  如果你已经有一个安装好的 KubeSphere 集群，也可以通过修改 cluster configuration 的方式改变集群的角色，然后等待配置生效。
+
+    ```shell
+    kubectl edit cc ks-installer -n kubesphere-system
     ```
 
 ### 2.2. <a name='MemberCluster'></a>安装 Member Cluster 集群
@@ -66,6 +72,12 @@
     ```yaml
     multicluster:
       clusterRole: host
+    ```
+
+  如果你已经有一个安装好的 KubeSphere 集群，也可以通过修改 cluster configuration 的方式改变集群的角色，然后等待配置生效。
+
+    ```shell
+    kubectl edit cc ks-installer -n kubesphere-system
     ```
 
 * 设置代理服务地址
@@ -106,14 +118,12 @@
 
 ### 3.2. <a name='MemberCluster-Agent'></a>安装 Member Cluster
 
-* 安装 Member Cluster 和安装普通的未开启多集群功能的集群没有任何区别。确保安装时 installer 的配置文件 ClusterConfiguration 中 multicluster 项如下配置。
+* 安装 Member Cluster 和安装普通的未开启多集群功能的集群没有任何区别。确保安装时 installer 的配置文件 ClusterConfiguration 中 multicluster 项如下配置，然后等待安装成功。
 
     ```yaml
     multicluster:
       clusterRole: member
     ```
-
-* 等待安装成功。
 
 ### 3.3. <a name='AddCluster-Agent'></a>导入集群
 
