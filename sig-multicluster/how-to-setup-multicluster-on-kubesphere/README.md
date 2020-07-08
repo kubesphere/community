@@ -37,16 +37,20 @@ if the kube-apiserver address of M Cluster is accessible on any node of the H Cl
       clusterRole: host
     ```
 
+  If you already have a standalone KubeSphere installed, you can change it to a host or member cluster by editing the cluster configuration and wait for a while.
+
+    ```shell
+    kubectl edit cc ks-installer -n kubesphere-system
+    ```
+
 ### 2.2. <a name='MemberCluster'></a>Install Member Cluster
 
-* There is no difference between the installation of Member Cluster and the installation of common clusters that have their multi-cluster feature disabled. Please make sure "multicluster" is set as the following: 
+* There is no difference between the installation of Member Cluster and the installation of common clusters that have their multi-cluster feature disabled. Please make sure "multicluster" is set as the following and wait for the installation to be completed.
 
     ```yaml
     multicluster:
       clusterRole: member
     ```
-
-* Wait for the installation to be completed.
 
 ### 2.3. <a name='AddCluster'></a>Import Cluster
 
@@ -69,6 +73,12 @@ The component [Tower](https://github.com/kubesphere/tower) of KubeSphere is used
     ```yaml
     multicluster:
       clusterRole: host
+    ```
+
+  If you already have a standalone KubeSphere installed, you can change it to a host or member cluster by editing the cluster configuration and wait for a while.
+
+    ```shell
+    kubectl edit cc ks-installer -n kubesphere-system
     ```
 
 * Set Proxy Service Address
