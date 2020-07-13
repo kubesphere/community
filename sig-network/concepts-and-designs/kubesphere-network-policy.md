@@ -26,8 +26,8 @@ spec:
         - namespaceSelector:
             matchLabels:
               "kubesphere.io/workspace": ${workspace-name}
-  Egress:
-    - To:
+  egress:
+    - to:
         - namespaceSelector:
             matchLabels:
               "kubesphere.io/workspace": ${workspace-name}
@@ -48,8 +48,8 @@ spec:
         - namespaceSelector:
             matchLabels:
               "kubesphere.io/namespace": ${namespace-name}
-  Egress:
-    - To:
+  egress:
+    - to:
         - namespaceSelector:
             matchLabels:
               "kubesphere.io/workspace": ${namespace-name}
