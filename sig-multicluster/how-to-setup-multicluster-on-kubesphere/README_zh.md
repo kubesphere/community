@@ -51,6 +51,18 @@
       clusterRole: member
     ```
 
+* 同时为了能够使 host 集群直接管理 member 集群，需要将 member 集群的 jwtSecret 设置与 host 相同。 在 host 集群上执行下列命令获取到 host 集群的 jwtSecret
+  ```
+  ~$ kubectl -n kubesphere-system get cm kubesphere-config -o yaml | grep -v "apiVersion" | grep jwtSecret
+      jwtSecret: "5qaMJf8i0YMBSETkcbmdhlAlpz8GF0n2tfzv0KbPi4kQjirzKjWdvEaAlcOiWnvPyilGIrR01XJW0oZUkQRfB9TXKCEQr6ORazz"
+  ```
+  在集群安装配置文件中，设置如下项，保持 jwtSecret 与 host 集群一致，
+  ```
+  authentication:
+    jwtSecret: "5qaMJf8i0YMBSETkcbmdhlAlpz8GF0n2tfzv0KbPi4kQjirzKjWdvEaAlcOiWnvPyilGIrR01XJW0oZUkQRfB9TXKCEQr6ORazz"
+  ```
+  配置完成后，执行安装。
+
 ### 2.3. <a name='AddCluster'></a>导入集群
 
 * 打开 H 集群 dashboard，点击添加集群，输入集群基本信息后点击下一步。
@@ -118,12 +130,25 @@
 
 ### 3.2. <a name='MemberCluster-Agent'></a>安装 Member Cluster
 
-* 安装 Member Cluster 和安装普通的未开启多集群功能的集群没有任何区别。确保安装时 installer 的配置文件 ClusterConfiguration 中 multicluster 项如下配置，然后等待安装成功。
+* 安装 Member Cluster 和安装普通的未开启多集群功能的集群没有任何区别。确保安装时 installer 的 ClusterConfiguration 中 multicluster 项如下配置。
 
     ```yaml
     multicluster:
       clusterRole: member
     ```
+
+* 同时为了能够使 host 集群直接管理 member 集群，需要将 member 集群的 jwtSecret 设置与 host 相同。 在 host 集群上执行下列命令获取到 host 集群的 jwtSecret
+  ```
+  ~$ kubectl -n kubesphere-system get cm kubesphere-config -o yaml | grep -v "apiVersion" | grep jwtSecret
+      jwtSecret: "5qaMJf8i0YMBSETkcbmdhlAlpz8GF0n2tfzv0KbPi4kQjirzKjWdvEaAlcOiWnvPyilGIrR01XJW0oZUkQRfB9TXKCEQr6ORazz"
+  ```
+  在集群安装配置文件中，设置如下项，填入上一步中获取到的 host 集群的 jwtSecret ，
+  ```
+  authentication:
+    jwtSecret: "5qaMJf8i0YMBSETkcbmdhlAlpz8GF0n2tfzv0KbPi4kQjirzKjWdvEaAlcOiWnvPyilGIrR01XJW0oZUkQRfB9TXKCEQr6ORazz"
+  ```
+  配置完成后，执行安装。
+
 
 ### 3.3. <a name='AddCluster-Agent'></a>导入集群
 
