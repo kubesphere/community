@@ -52,7 +52,7 @@ if the kube-apiserver address of M Cluster is accessible on any node of the H Cl
       jwtSecret: "gfIwilcc0WjNGKJ5DLeksf2JKfcLgTZU"
     ```
 
-* There is no difference between the installation of Member Cluster and the installation of common clusters that have their multi-cluster feature disabled. Please make sure "multicluster" is set as the following, input the jwtSecret we have from the step above and wait for the installation to be completed.
+* There is no difference between the installation of Member Cluster and the installation of common clusters that have their multi-cluster feature disabled. Please make sure "multicluster" is set as the following, input the corresponding jwtSecret shown above and wait for the installation to be completed.
 
     ```yaml
     authentication:
@@ -142,7 +142,7 @@ The component [Tower](https://github.com/kubesphere/tower) of KubeSphere is used
       jwtSecret: "gfIwilcc0WjNGKJ5DLeksf2JKfcLgTZU"
     ```
 
-* There is no difference between the installation of Member Cluster and the installation of common clusters that have their multi-cluster feature disabled. Please make sure "multicluster" is set as the following, input the jwtSecret we have from the step above and wait for the installation to be completed.
+* There is no difference between the installation of Member Cluster and the installation of common clusters that have their multi-cluster feature disabled. Please make sure "multicluster" is set as the following, input the corresponding jwtSecret shown above and wait for the installation to be completed.
 
     ```yaml
     authentication:
