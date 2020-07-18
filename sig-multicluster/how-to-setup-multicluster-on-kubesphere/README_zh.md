@@ -44,24 +44,28 @@
 
 ### 2.2. <a name='MemberCluster'></a>安装 Member Cluster 集群
 
-* 安装 Member Cluster 和安装普通的未开启多集群功能的集群没有任何区别。确保安装时 installer 的 ClusterConfiguration 中 multicluster 项如下配置。
+* 为了能够使 host 集群直接管理 member 集群，需要将 member 集群的 jwtSecret 设置与 host 相同。 首先在 host 集群上执行下列命令获取到 host 集群的 jwtSecret。
+
+    ```bash
+    $ kubectl -n kubesphere-system get cm kubesphere-config -o yaml | grep -v "apiVersion" | grep jwtSecret
+      jwtSecret: "gfIwilcc0WjNGKJ5DLeksf2JKfcLgTZU"
+    ```
+
+* 安装 Member Cluster 和安装普通的未开启多集群功能的集群没有任何区别。确保安装时 installer 的 ClusterConfiguration 中 multicluster 项设置角色，同时填入上面获取的 host 的 jwtSecret。
 
     ```yaml
+    authentication:
+      jwtSecret: gfIwilcc0WjNGKJ5DLeksf2JKfcLgTZU
+
     multicluster:
       clusterRole: member
     ```
 
-* 同时为了能够使 host 集群直接管理 member 集群，需要将 member 集群的 jwtSecret 设置与 host 相同。 在 host 集群上执行下列命令获取到 host 集群的 jwtSecret
-  ```
-  ~$ kubectl -n kubesphere-system get cm kubesphere-config -o yaml | grep -v "apiVersion" | grep jwtSecret
-      jwtSecret: "5qaMJf8i0YMBSETkcbmdhlAlpz8GF0n2tfzv0KbPi4kQjirzKjWdvEaAlcOiWnvPyilGIrR01XJW0oZUkQRfB9TXKCEQr6ORazz"
-  ```
-  在集群安装配置文件中，设置如下项，保持 jwtSecret 与 host 集群一致，
-  ```
-  authentication:
-    jwtSecret: "5qaMJf8i0YMBSETkcbmdhlAlpz8GF0n2tfzv0KbPi4kQjirzKjWdvEaAlcOiWnvPyilGIrR01XJW0oZUkQRfB9TXKCEQr6ORazz"
-  ```
-  配置完成后，执行安装。
+  配置完成后，执行安装。如果你已经有一个安装好的 KubeSphere 集群，也可以通过修改 cluster configuration 的方式改变集群的角色和 jwtSecret，然后等待配置生效。
+
+    ```shell
+    kubectl edit cc ks-installer -n kubesphere-system
+    ```
 
 ### 2.3. <a name='AddCluster'></a>导入集群
 
@@ -130,25 +134,28 @@
 
 ### 3.2. <a name='MemberCluster-Agent'></a>安装 Member Cluster
 
-* 安装 Member Cluster 和安装普通的未开启多集群功能的集群没有任何区别。确保安装时 installer 的 ClusterConfiguration 中 multicluster 项如下配置。
+* 为了能够使 host 集群直接管理 member 集群，需要将 member 集群的 jwtSecret 设置与 host 相同。 在 host 集群上执行下列命令获取到 host 集群的 jwtSecret。
+  
+    ```bash
+    $ kubectl -n kubesphere-system get cm kubesphere-config -o yaml | grep -v "apiVersion" | grep jwtSecret
+      jwtSecret: "gfIwilcc0WjNGKJ5DLeksf2JKfcLgTZU"
+    ```
+
+* 安装 Member Cluster 和安装普通的未开启多集群功能的集群没有任何区别。确保安装时 installer 的 ClusterConfiguration 中 multicluster 项如下配置，同时填入上面获取的 host 的 jwtSecret。
 
     ```yaml
+    authentication:
+      jwtSecret: gfIwilcc0WjNGKJ5DLeksf2JKfcLgTZU
+
     multicluster:
       clusterRole: member
     ```
 
-* 同时为了能够使 host 集群直接管理 member 集群，需要将 member 集群的 jwtSecret 设置与 host 相同。 在 host 集群上执行下列命令获取到 host 集群的 jwtSecret
-  ```
-  ~$ kubectl -n kubesphere-system get cm kubesphere-config -o yaml | grep -v "apiVersion" | grep jwtSecret
-      jwtSecret: "5qaMJf8i0YMBSETkcbmdhlAlpz8GF0n2tfzv0KbPi4kQjirzKjWdvEaAlcOiWnvPyilGIrR01XJW0oZUkQRfB9TXKCEQr6ORazz"
-  ```
-  在集群安装配置文件中，设置如下项，填入上一步中获取到的 host 集群的 jwtSecret ，
-  ```
-  authentication:
-    jwtSecret: "5qaMJf8i0YMBSETkcbmdhlAlpz8GF0n2tfzv0KbPi4kQjirzKjWdvEaAlcOiWnvPyilGIrR01XJW0oZUkQRfB9TXKCEQr6ORazz"
-  ```
-  配置完成后，执行安装。
+  配置完成后，执行安装。如果你已经有一个安装好的 KubeSphere 集群，也可以通过修改 cluster configuration 的方式改变集群的角色和 jwtSecret，然后等待配置生效。
 
+    ```shell
+    kubectl edit cc ks-installer -n kubesphere-system
+    ```
 
 ### 3.3. <a name='AddCluster-Agent'></a>导入集群
 

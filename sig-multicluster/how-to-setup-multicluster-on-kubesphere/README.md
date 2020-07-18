@@ -37,7 +37,7 @@ if the kube-apiserver address of M Cluster is accessible on any node of the H Cl
       clusterRole: host
     ```
 
-  If you already have a standalone KubeSphere installed, you can change it to a host or member cluster by editing the cluster configuration and wait for a while.
+  If you already have a standalone KubeSphere installed, you can change it to a host cluster by editing the cluster configuration and wait for a while.
 
     ```shell
     kubectl edit cc ks-installer -n kubesphere-system
@@ -45,11 +45,27 @@ if the kube-apiserver address of M Cluster is accessible on any node of the H Cl
 
 ### 2.2. <a name='MemberCluster'></a>Install Member Cluster
 
-* There is no difference between the installation of Member Cluster and the installation of common clusters that have their multi-cluster feature disabled. Please make sure "multicluster" is set as the following and wait for the installation to be completed.
+* In order for host cluster to manager member cluster, we need to make the jwtSecret same between them. So first get it from the host by the following command.
+
+    ```bash
+    $ kubectl -n kubesphere-system get cm kubesphere-config -o yaml | grep -v "apiVersion" | grep jwtSecret
+      jwtSecret: "gfIwilcc0WjNGKJ5DLeksf2JKfcLgTZU"
+    ```
+
+* There is no difference between the installation of Member Cluster and the installation of common clusters that have their multi-cluster feature disabled. Please make sure "multicluster" is set as follows, input the corresponding jwtSecret shown above and wait for the installation to be completed.
 
     ```yaml
+    authentication:
+      jwtSecret: gfIwilcc0WjNGKJ5DLeksf2JKfcLgTZU
+
     multicluster:
       clusterRole: member
+    ```
+
+  If you already have a standalone KubeSphere installed, you can update the information by editing the cluster configuration and wait for a while.
+
+    ```shell
+    kubectl edit cc ks-installer -n kubesphere-system
     ```
 
 ### 2.3. <a name='AddCluster'></a>Import Cluster
@@ -75,7 +91,7 @@ The component [Tower](https://github.com/kubesphere/tower) of KubeSphere is used
       clusterRole: host
     ```
 
-  If you already have a standalone KubeSphere installed, you can change it to a host or member cluster by editing the cluster configuration and wait for a while.
+  If you already have a standalone KubeSphere installed, you can change it to a host cluster by editing the cluster configuration and wait for a while.
 
     ```shell
     kubectl edit cc ks-installer -n kubesphere-system
@@ -119,14 +135,28 @@ The component [Tower](https://github.com/kubesphere/tower) of KubeSphere is used
 
 ### 3.2. <a name='MemberCluster-Agent'></a>Install Member Cluster
 
-* There is no difference between the installation of Member Cluster and the installation of common clusters that have their multi-cluster feature disabled. Please make sure "multicluster" is set as below: 
+* In order for host cluster to manager member cluster, we need to make the jwtSecret same between them. So first get it from the host by the following command.
+
+    ```bash
+    $ kubectl -n kubesphere-system get cm kubesphere-config -o yaml | grep -v "apiVersion" | grep jwtSecret
+      jwtSecret: "gfIwilcc0WjNGKJ5DLeksf2JKfcLgTZU"
+    ```
+
+* There is no difference between the installation of Member Cluster and the installation of common clusters that have their multi-cluster feature disabled. Please make sure "multicluster" is set as follows, input the corresponding jwtSecret shown above and wait for the installation to be completed.
 
     ```yaml
+    authentication:
+      jwtSecret: gfIwilcc0WjNGKJ5DLeksf2JKfcLgTZU
+
     multicluster:
       clusterRole: member
     ```
 
-* Wait for the installation to be completed.
+  If you already have a standalone KubeSphere installed, you can update the information by editing the cluster configuration and wait for a while.
+
+    ```shell
+    kubectl edit cc ks-installer -n kubesphere-system
+    ```
 
 ### 3.3. <a name='AddCluster-Agent'></a>Import Cluster
 
