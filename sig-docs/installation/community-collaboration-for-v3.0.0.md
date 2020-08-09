@@ -19,7 +19,7 @@ If you would like to contribute to community, raise a PR to add yourself as an a
 | # 9 | KubeSphere on UCloud UHost | [Panhaitao](https://github.com/panhaitao)  | TBD | TBD | TBD |
 | # 10 | KubeSphere on Bare Metal | TBD  | TBD | TBD | TBD |
 | # 11 | KubeSphere on OpenStack | TBD  | TBD | TBD | TBD |
-| # 12 | KubeSphere on VMware vSphere | TBD  | TBD | TBD | TBD |
+| # 12 | KubeSphere on VMware vSphere | [shenhonglei](https://github.com/shenhonglei)  | Aug, 16 | English & Chinese | TBD |
 | # 13 | KubeSphere on SUSE Linux Enterprise | Mr.Yang  | English | Aug, 9 | TBD |
 
 ## Installing KubeSphere on Kubernetes
