@@ -20,7 +20,7 @@ If you would like to contribute to community, raise a PR to add yourself as an a
 | # 10 | KubeSphere on Bare Metal | TBD  | TBD | TBD | TBD |
 | # 11 | KubeSphere on OpenStack | TBD  | TBD | TBD | TBD |
 | # 12 | KubeSphere on VMware vSphere | TBD  | TBD | TBD | TBD |
-| # 13 | KubeSphere on SUSE Linux Enterprise | Mr.Yang  | English | Aug, 9 | TBD |
+| # 13 | KubeSphere on SUSE Linux Enterprise | Mr.Yang  | Aug, 9 | English | TBD |
 
 ## Installing KubeSphere on Kubernetes
 
