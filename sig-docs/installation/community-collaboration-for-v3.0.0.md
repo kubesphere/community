@@ -26,7 +26,7 @@ If you would like to contribute to community, raise a PR to add yourself as an a
 
 | Task ID | Task | Assignee (GitHub ID) | Target Date | Preferred Language | PR link |
 | --- | --- | --- | --- | --- | --- |
-| # 14 | KubeSphere on AWS EKS | TBD  | TBD | TBD |
+| # 14 | KubeSphere on AWS EKS | [hantmac](https://github.com/hantmac)  | Aug, 17 | TBD |
 | # 15 | KubeSphere on Aliyun ACK | [Pixiake](https://github.com/pixiake) | Aug, 13 | English & Chinese | TBD |
 | # 16 | KubeSphere on Azure AKS | [Roland Ma](https://github.com/RolandMa1986) | Aug, 16 | English | TBD |
 | # 17 | KubeSphere on DigitalOcean Kubernetes | TBD  | TBD | TBD | TBD |
