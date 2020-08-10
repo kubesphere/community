@@ -10,7 +10,7 @@ If you would like to contribute to community, raise a PR to add yourself as an a
 | --- | --- | --- | --- | --- | --- |
 | # 1 | KubeSphere on Aliyun ECS | TBD  | TBD | TBD | TBD |
 | # 2 | KubeSphere on AWS EC2 | TBD  | TBD | TBD | TBD |
-| # 3 | KubeSphere on Azure VM | TBD | TBD | TBD | TBD |
+| # 3 | KubeSphere on Azure VM | [Roland Ma](https://github.com/RolandMa1986) | Aug, 20 | English | TBD |
 | # 4 | KubeSphere on GCP Instance | TBD  | TBD | TBD | TBD |
 | # 5 | KubeSphere on HuaweiCloud ECS | TBD  | TBD | TBD | TBD |
 | # 6 | KubeSphere on OracleCloud VM | TBD  | TBD | TBD | TBD |
@@ -28,7 +28,7 @@ If you would like to contribute to community, raise a PR to add yourself as an a
 | --- | --- | --- | --- | --- | --- |
 | # 14 | KubeSphere on AWS EKS | TBD  | TBD | TBD |
 | # 15 | KubeSphere on Aliyun ACK | [Pixiake](https://github.com/pixiake) | Aug, 13 | English & Chinese | TBD |
-| # 16 | KubeSphere on Azure AKS | TBD  | TBD | TBD | TBD |
+| # 16 | KubeSphere on Azure AKS | [Roland Ma](https://github.com/RolandMa1986) | Aug, 16 | English | TBD |
 | # 17 | KubeSphere on DigitalOcean Kubernetes | TBD  | TBD | TBD | TBD |
 | # 18 | KubeSphere on Google GKE | TBD  | TBD | TBD | TBD |
 | # 19 | KubeSphere on IBM Cloud Kubernetes | [Feynman Zhou](https://github.com/FeynmanZhou)  | Aug, 15 | English | TBD |
