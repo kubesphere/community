@@ -8,7 +8,7 @@ If you would like to contribute to community, raise a PR to add yourself as an a
 
 | Task ID | Task | Assignee (GitHub ID) | Target Date | Preferred Language | PR link |
 | --- | --- | --- | --- | --- | --- |
-| # 1 | KubeSphere on Aliyun ECS | TBD  | TBD | TBD | TBD |
+| # 1 | KubeSphere on Aliyun ECS | [Howie66](https://github.com/Howie66)  | Aug, 17 | English | TBD |
 | # 2 | KubeSphere on AWS EC2 | TBD  | TBD | TBD | TBD |
 | # 3 | KubeSphere on Azure VM | [Roland Ma](https://github.com/RolandMa1986) | Aug, 20 | English | TBD |
 | # 4 | KubeSphere on GCP Instance | TBD  | TBD | TBD | TBD |
@@ -20,7 +20,7 @@ If you would like to contribute to community, raise a PR to add yourself as an a
 | # 10 | KubeSphere on Bare Metal | TBD  | TBD | TBD | TBD |
 | # 11 | KubeSphere on OpenStack | TBD  | TBD | TBD | TBD |
 | # 12 | KubeSphere on VMware vSphere | [shenhonglei](https://github.com/shenhonglei)  | Aug, 16 | Chinese | TBD |
-| # 13 | KubeSphere on SUSE Linux Enterprise | Mr.Yang  | English | Aug, 9 | TBD |
+| # 13 | KubeSphere on SUSE Linux Enterprise | Mr.Yang  | Aug, 9 | English | TBD |
 
 ## Installing KubeSphere on Kubernetes
 
