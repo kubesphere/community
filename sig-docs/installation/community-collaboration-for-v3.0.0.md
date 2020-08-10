@@ -12,7 +12,7 @@ If you would like to contribute to community, raise a PR to add yourself as an a
 | # 2 | KubeSphere on AWS EC2 | TBD  | TBD | TBD | TBD |
 | # 3 | KubeSphere on Azure VM | TBD | TBD | TBD | TBD |
 | # 4 | KubeSphere on GCP Instance | TBD  | TBD | TBD | TBD |
-| # 5 | KubeSphere on HuaweiCloud ECS | TBD  | TBD | TBD | TBD |
+| # 5 | KubeSphere on HuaweiCloud ECS | [LiuG-lynx](https://github.com/LiuG-lynx)  | Aug, 16 | Chinese | TBD |
 | # 6 | KubeSphere on OracleCloud VM | TBD  | TBD | TBD | TBD |
 | # 7 | KubeSphere on QingCloud Instance |  [Sherlock Xu](https://github.com/Sherlock113) | Aug, 13 | English | TBD |
 | # 8 | KubeSphere on Tencent CVM | TBD  | TBD | TBD | TBD |
