@@ -35,6 +35,6 @@ If you would like to contribute to community, raise a PR to add yourself as an a
 | # 20 | KubeSphere on QingCloud QKE | [Sherlock Xu](https://github.com/Sherlock113) | Aug, 16 | English | TBD |
 | # 21 | KubeSphere on UCloud UK8s | [Panhaitao](https://github.com/panhaitao) | TBD | TBD | TBD |
 | # 22 | KubeSphere on Tencent TKE | TBD  | TBD | TBD | TBD |
-| # 23 | KubeSphere on Kubeadm | TBD  | TBD | TBD | TBD |
+| # 23 | KubeSphere on Kubeadm | tscswcn  | Aug,31 | english | TBD |
 | # 24 | KubeSphere on Kind Kubernetes | [Feynman Zhou](https://github.com/FeynmanZhou)  | Aug, 13 | English | TBD |
 | # 25 | KubeSphere on Rancher RKE | TBD  | TBD | TBD | TBD |
