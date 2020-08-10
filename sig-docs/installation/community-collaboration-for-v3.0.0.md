@@ -6,6 +6,8 @@ If you would like to contribute to community, raise a PR to add yourself as an a
 
 ## Installing KubeSphere on Linux
 
+After using [Kubekey](https://github.com/kubesphere/kubekey) to test the installation on these platforms, you can write an installation guide to elaborate on how to set up a highly available KubeSphere and Kubernetes cluster on them, including the best practice of persistent storage, load balancer, networking on these platforms. We will provide a standard doc template for reference.
+
 | Task ID | Task | Assignee (GitHub ID) | Target Date | Preferred Language | PR link |
 | --- | --- | --- | --- | --- | --- |
 | # 1 | KubeSphere on Aliyun ECS | [Howie66](https://github.com/Howie66)  | Aug, 17 | English | TBD |
@@ -20,9 +22,11 @@ If you would like to contribute to community, raise a PR to add yourself as an a
 | # 10 | KubeSphere on Bare Metal | TBD  | TBD | TBD | TBD |
 | # 11 | KubeSphere on OpenStack | TBD  | TBD | TBD | TBD |
 | # 12 | KubeSphere on VMware vSphere | [shenhonglei](https://github.com/shenhonglei)  | Aug, 16 | Chinese | TBD |
-| # 13 | KubeSphere on SUSE Linux Enterprise | Mr.Yang  | Aug, 9 | English | TBD |
+| # 13 | KubeSphere on SUSE Linux Enterprise | [ytyanghm](https://github.com/ytyanghm)  | Aug, 9 | English | TBD |
 
 ## Installing KubeSphere on Kubernetes
+
+After testing the [ks-installer](https://github.com/kubesphere/ks-installer) on these Kubernetes services, you can write an installation guide to elaborate on how to deploy a production-ready KubeSphere cluster on them, including the best practice of persistent storage, load balancer, networking on these platforms. We will provide a standard doc template for reference.
 
 | Task ID | Task | Assignee (GitHub ID) | Target Date | Preferred Language | PR link |
 | --- | --- | --- | --- | --- | --- |
