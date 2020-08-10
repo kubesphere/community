@@ -8,7 +8,7 @@ If you would like to contribute to community, raise a PR to add yourself as an a
 
 | Task ID | Task | Assignee (GitHub ID) | Target Date | Preferred Language | PR link |
 | --- | --- | --- | --- | --- | --- |
-| # 1 | KubeSphere on Aliyun ECS | [Howie66](https://github.com/Howie66/community) | Aug.17| English | TBD |
+| # 1 | KubeSphere on Aliyun ECS | [Howie66](https://github.com/Howie66/community)  | Aug.17| English | TBD |
 | # 2 | KubeSphere on AWS EC2 | TBD  | TBD | TBD | TBD |
 | # 3 | KubeSphere on Azure VM | TBD | TBD | TBD | TBD |
 | # 4 | KubeSphere on GCP Instance | TBD  | TBD | TBD | TBD |
