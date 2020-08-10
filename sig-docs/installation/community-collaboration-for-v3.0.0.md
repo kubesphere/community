@@ -6,7 +6,7 @@ If you would like to contribute to community, raise a PR to add yourself as an a
 
 ## Installing KubeSphere on Linux
 
-After testing the installation on these platforms, you can write an installation guide to elaborate on how to set a highly available KubeSphere and Kubernetes cluster on them, including the best practice of persistent storage, load balancer, networking on these platforms. We will provide a standard doc template for reference.
+After using [Kubekey](https://github.com/kubesphere/kubekey) to test the installation on these platforms, you can write an installation guide to elaborate on how to set up a highly available KubeSphere and Kubernetes cluster on them, including the best practice of persistent storage, load balancer, networking on these platforms. We will provide a standard doc template for reference.
 
 | Task ID | Task | Assignee (GitHub ID) | Target Date | Preferred Language | PR link |
 | --- | --- | --- | --- | --- | --- |
