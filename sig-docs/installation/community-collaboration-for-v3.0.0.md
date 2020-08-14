@@ -33,7 +33,7 @@ After testing the [ks-installer](https://github.com/kubesphere/ks-installer) on 
 | # 14 | KubeSphere on AWS EKS | [hantmac](https://github.com/hantmac)  | Aug, 17 | TBD |
 | # 15 | KubeSphere on Aliyun ACK | [Pixiake](https://github.com/pixiake) | Aug, 13 | English & Chinese | TBD |
 | # 16 | KubeSphere on Azure AKS | [Roland Ma](https://github.com/RolandMa1986) | Aug, 16 | English | TBD |
-| # 17 | KubeSphere on DigitalOcean Kubernetes | TBD  | TBD | TBD | TBD |
+| # 17 | KubeSphere on DigitalOcean Kubernetes | [GekoCloud](https://github.com/GekoCloud) | Aug, 21  | English | TBD |
 | # 18 | KubeSphere on Google GKE | TBD  | TBD | TBD | TBD |
 | # 19 | KubeSphere on IBM Cloud Kubernetes | [Feynman Zhou](https://github.com/FeynmanZhou)  | Aug, 15 | English | TBD |
 | # 20 | KubeSphere on QingCloud QKE | [Sherlock Xu](https://github.com/Sherlock113) | Aug, 16 | English | TBD |
