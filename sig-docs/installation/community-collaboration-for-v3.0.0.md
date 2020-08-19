@@ -21,7 +21,7 @@ After using [Kubekey](https://github.com/kubesphere/kubekey) to test the install
 | # 9 | KubeSphere on UCloud UHost | [Panhaitao](https://github.com/panhaitao)  | TBD | TBD | TBD |
 | # 10 | KubeSphere on Bare Metal | TBD  | TBD | TBD | TBD |
 | # 11 | KubeSphere on OpenStack | TBD  | TBD | TBD | TBD |
-| # 12 | KubeSphere on VMware vSphere | [shenhonglei](https://github.com/shenhonglei)  | Aug, 16 | Chinese | TBD |
+| # 12 | KubeSphere on VMware vSphere | [shenhonglei](https://github.com/shenhonglei)  | Aug, 16 | Chinese | [129](https://github.com/kubesphere/website/pull/129) |
 | # 13 | KubeSphere on SUSE Linux Enterprise | [ytyanghm](https://github.com/ytyanghm)  | Aug, 9 | English | TBD |
 
 ## Installing KubeSphere on Kubernetes
