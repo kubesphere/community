@@ -16,4 +16,90 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 
 ## Release Notes
 
-TBD 
+## What's New in 3.0.0
+
+## Installer
+
+### UPGRADE & ENHANCEMENT
+
+- TBD
+
+### BUG FIXES
+
+- TBD
+
+## Cluster Management
+
+### UPGRADE & ENHANCEMENT
+
+- TBD
+
+### BUG FIXES
+
+- TBD
+
+## Observability
+
+### UPGRADE & ENHANCEMENT
+
+- TBD
+
+### BUG FIXES
+
+- TBD
+
+## Security
+
+### UPGRADE & ENHANCEMENT
+
+- TBD
+
+### BUG FIXES
+
+- TBD
+
+## DevOps
+
+### BUG FIXES
+
+- TBD
+
+## App Store
+
+### UPGRADE & ENHANCEMENT
+
+- TBD
+
+### BUG FIXES
+
+- TBD
+
+## Storage
+
+### UPGRADE & ENHANCEMENT
+
+- TBD
+
+### BUG FIXES
+
+- TBD
+
+## Globalization
+
+### UPGRADE & ENHANCEMENT
+
+- TBD
+
+### BUG FIXES
+
+- TBD
+
+## User Experience
+
+### UPGRADE & ENHANCEMENT
+
+- TBD
+
+### BUG FIXES
+
+- TBD
