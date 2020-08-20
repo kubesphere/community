@@ -13,7 +13,7 @@ After using [Kubekey](https://github.com/kubesphere/kubekey) to test the install
 | # 1 | KubeSphere on Aliyun ECS | [Howie66](https://github.com/Howie66)  | Aug, 17 | English | TBD |
 | # 2 | KubeSphere on AWS EC2 | TBD  | TBD | TBD | TBD |
 | # 3 | KubeSphere on Azure VM | [Roland Ma](https://github.com/RolandMa1986) | Aug, 20 | English | TBD |
-| # 4 | KubeSphere on GCP Instance | TBD  | TBD | TBD | TBD |
+| # 4 | KubeSphere on GCP Instance | [long0419](https://github.com/long0419)  | TBD | English | TBD |
 | # 5 | KubeSphere on HuaweiCloud ECS | [LiuG-lynx](https://github.com/LiuG-lynx)  | Aug, 16 | Chinese | TBD |
 | # 6 | KubeSphere on OracleCloud VM | TBD  | TBD | TBD | TBD |
 | # 7 | KubeSphere on QingCloud Instance |  [Sherlock Xu](https://github.com/Sherlock113) | Aug, 13 | English | TBD |
