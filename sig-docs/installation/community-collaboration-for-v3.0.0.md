@@ -10,7 +10,7 @@ After using [Kubekey](https://github.com/kubesphere/kubekey) to test the install
 
 | Task ID | Task | Assignee (GitHub ID) | Target Date | Preferred Language | PR link |
 | --- | --- | --- | --- | --- | --- |
-| # 1 | KubeSphere on Aliyun ECS | [Howie66](https://github.com/Howie66)  | Aug, 17 | English | TBD |
+| # 1 | KubeSphere on Aliyun ECS | [zcho](https://github.com/zhuch-h)  | Aug, 23  | English | TBD |
 | # 2 | KubeSphere on AWS EC2 | TBD  | TBD | TBD | TBD |
 | # 3 | KubeSphere on Azure VM | [Roland Ma](https://github.com/RolandMa1986) | Aug, 20 | English | TBD |
 | # 4 | KubeSphere on GCP Instance | TBD  | TBD | TBD | TBD |
