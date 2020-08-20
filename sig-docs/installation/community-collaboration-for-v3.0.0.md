@@ -16,7 +16,7 @@ After using [Kubekey](https://github.com/kubesphere/kubekey) to test the install
 | # 4 | KubeSphere on GCP Instance | [long0419](https://github.com/long0419)  | Sep, 3 | English | TBD |
 | # 5 | KubeSphere on HuaweiCloud ECS | [LiuG-lynx](https://github.com/LiuG-lynx)  | Aug, 16 | Chinese | TBD |
 | # 6 | KubeSphere on OracleCloud VM | TBD  | TBD | TBD | TBD |
-| # 7 | KubeSphere on QingCloud Instance |  [Sherlock Xu](https://github.com/Sherlock113) | Aug, 13 | English | TBD |
+| # 7 | KubeSphere on QingCloud Instance |  [Sherlock Xu](https://github.com/Sherlock113) | Aug, 13 | English | [752](https://github.com/kubesphere/docs.kubesphere.io/pull/752) |
 | # 8 | KubeSphere on Tencent CVM | TBD  | TBD | TBD | TBD |
 | # 9 | KubeSphere on UCloud UHost | [Panhaitao](https://github.com/panhaitao)  | TBD | TBD | TBD |
 | # 10 | KubeSphere on Bare Metal | TBD  | TBD | TBD | TBD |
@@ -34,7 +34,7 @@ After testing the [ks-installer](https://github.com/kubesphere/ks-installer) on 
 | # 15 | KubeSphere on Aliyun ACK | [Pixiake](https://github.com/pixiake) | Aug, 13 | English & Chinese | TBD |
 | # 16 | KubeSphere on Azure AKS | [Roland Ma](https://github.com/RolandMa1986) | Aug, 16 | English | TBD |
 | # 17 | KubeSphere on DigitalOcean Kubernetes | [GekoCloud](https://github.com/GekoCloud) | Aug, 21  | English | TBD |
-| # 18 | KubeSphere on Google GKE | TBD  | TBD | TBD | TBD |
+| # 18 | KubeSphere on Google GKE | [Sherlock Xu](https://github.com/Sherlock113) | Aug, 23 | English | TBD |
 | # 19 | KubeSphere on IBM Cloud Kubernetes | [Feynman Zhou](https://github.com/FeynmanZhou)  | Aug, 15 | English | TBD |
 | # 20 | KubeSphere on QingCloud QKE | [Sherlock Xu](https://github.com/Sherlock113) | Aug, 16 | English | TBD |
 | # 21 | KubeSphere on UCloud UK8s | [Panhaitao](https://github.com/panhaitao) | TBD | TBD | TBD |
