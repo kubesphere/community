@@ -43,4 +43,4 @@ After testing the [ks-installer](https://github.com/kubesphere/ks-installer) on 
 | # 24 | KubeSphere on Kubeadm | [Howie66](https://github.com/Howie66)   | Aug, 28 | English | TBD |
 | # 25 | KubeSphere on Kind Kubernetes | [Feynman Zhou](https://github.com/FeynmanZhou)  | Aug, 13 | English | TBD |
 | # 26 | KubeSphere on Rancher RKE | [Xuelangos](https://github.com/xuelangos)  | TBD | Chinese & Englist | TBD |
-| # 27 | KubeSphere on Huawei CCE | [Haili Zhang](https://github.com/webup)  | Aug, 20 | Chinese | TBD |
+| # 27 | KubeSphere on Huawei CCE | [Haili Zhang](https://github.com/webup)  | Aug, 20 | Chinese | [137](https://github.com/kubesphere/website/pull/137) |
