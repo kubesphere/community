@@ -36,10 +36,11 @@ After testing the [ks-installer](https://github.com/kubesphere/ks-installer) on 
 | # 17 | KubeSphere on DigitalOcean Kubernetes | [GekoCloud](https://github.com/GekoCloud) | Aug, 21  | English | TBD |
 | # 18 | KubeSphere on Google GKE | [Sherlock Xu](https://github.com/Sherlock113) | Aug, 23 | English | TBD |
 | # 19 | KubeSphere on IBM Cloud Kubernetes | [Feynman Zhou](https://github.com/FeynmanZhou)  | Aug, 15 | English | TBD |
-| # 20 | KubeSphere on QingCloud QKE | [Sherlock Xu](https://github.com/Sherlock113) | Aug, 16 | English | TBD |
-| # 21 | KubeSphere on UCloud UK8s | [Panhaitao](https://github.com/panhaitao) | TBD | TBD | TBD |
-| # 22 | KubeSphere on Tencent TKE | TBD  | TBD | TBD | TBD |
-| # 23 | KubeSphere on Kubeadm | TBD  | TBD | TBD | TBD |
-| # 24 | KubeSphere on Kind Kubernetes | [Feynman Zhou](https://github.com/FeynmanZhou)  | Aug, 13 | English | TBD |
-| # 25 | KubeSphere on Rancher RKE | [Xuelangos](https://github.com/xuelangos)  | TBD | Chinese & Englist | TBD |
-| # 26 | KubeSphere on Huawei CCE | [Haili Zhang](https://github.com/webup)  | Aug, 20 | Chinese | TBD |
+| # 20 | KubeSphere on OracleCloud Kubernetes | [Sherlock Xu](https://github.com/Sherlock113) | Aug, 22 | English | TBD |
+| # 21 | KubeSphere on QingCloud QKE | [Sherlock Xu](https://github.com/Sherlock113) | Aug, 16 | English | TBD |
+| # 22 | KubeSphere on UCloud UK8s | [Panhaitao](https://github.com/panhaitao) | TBD | TBD | TBD |
+| # 23 | KubeSphere on Tencent TKE | TBD  | TBD | TBD | TBD |
+| # 24 | KubeSphere on Kubeadm | [Howie66](https://github.com/Howie66)   | Aug, 28 | English | TBD |
+| # 25 | KubeSphere on Kind Kubernetes | [Feynman Zhou](https://github.com/FeynmanZhou)  | Aug, 13 | English | TBD |
+| # 26 | KubeSphere on Rancher RKE | [Xuelangos](https://github.com/xuelangos)  | TBD | Chinese & Englist | TBD |
+| # 27 | KubeSphere on Huawei CCE | [Haili Zhang](https://github.com/webup)  | Aug, 20 | Chinese | TBD |
