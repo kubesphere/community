@@ -2,6 +2,29 @@
 
 This document records the news and updates from the past weeks.
 
+## KubeSphere Weekly #2: August 23, 2020
+
+### Website
+
+- The documentation site for v3.0.0 is now available, you can preview the new documentation site [here](https://v3-0.docs.kubesphere.io/docs/).
+
+### Community
+
+- We organized the community users and partners to join the installation testing on some popular infrastructures and contribute to installation guide. Currently, we have **18** contributors joined and picked some of the tasks, see this [doc](https://github.com/kubesphere/community/blob/master/sig-docs/installation/community-collaboration-for-v3.0.0.md) for details
+- We have tested the Porter v0.3.0 with Layer2 and BGP, and we also integrated Porter chart into KubeSphere, which makes it easy for users to install and try Porter. Porter v0.3.0 will be officially released in this week.
+- We are preparing for the KubeSphere installer which is tailored for openEuler OS.
+
+### Documentation
+
+We have completed the installer testing and installed KubeSphere on some popular infrastructures, the following documents are also contributed by contributors.
+
+- [KubeSphere on Azure AKS](https://v3-0.docs.kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-ks-on-aks/)
+- [KubeSphere on VMware vSphere](https://v3-0.docs.kubesphere.io/zh/docs/installing-on-linux/on-premise/install-kubesphere-on-vmware-vsphere/)
+- [KubeSphere on HuaweiCloud CCE](https://v3-0.docs.kubesphere.io/zh/docs/installing-on-kubernetes/hosted-kubernetes/install-ks-on-huawei-cce/)
+- [KubeSphere on Azure VM Instance](https://deploy-preview-138--kubesphere-v3.netlify.app/docs/installing-on-linux/public-cloud/install-ks-on-azure-vms/)
+- [KubeSphere on Google GKE](https://v3-0.docs.kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-on-gke/)
+- [KubeSphere HA on QingCloud](https://github.com/kubesphere/docs.kubesphere.io/blob/master/content/en/installation/kubesphere-on-qingcloud-instance.md)
+
 ## KubeSphere Weekly #1: August 16, 2020
 
 ### Website
