@@ -16,90 +16,150 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 
 ## Release Notes
 
-## What's New in 3.0.0
+## **Installer**
 
-## Installer
-
-### UPGRADE & ENHANCEMENT
-
-- TBD
-
-### BUG FIXES
-
-- TBD
-
-## Cluster Management
+### FEATURE
 
 ### UPGRADE & ENHANCEMENT
 
-- TBD
-
 ### BUG FIXES
 
-- TBD
+## **Cluster Management**
 
-## Observability
+### FEATURE
+
+- Support multiple Kubernetes clusters management
+- Support Federated Deployment across multiple clusters
+
+## **Observability**
+
+### FEATURE
+
+- Support custom monitoring
+- Add K8s & KubeSphere auditing support including audit archiving, searching and alerting.
+- Add K8s event management support including event archiving, searching and alerting by [kube-events](https://github.com/kubesphere/kube-events).
+- Add tenant control to audit/K8s events searching, a tenant user can only search his own audit/K8s events.
+- Support archiving audit/K8s events to Elasticsearch, Kafka or Fluentd
+- Add multi-tenant notification support by [Notification Manager](https://github.com/kubesphere/notification-manager)
+- Support Alertmanager v0.21.0
 
 ### UPGRADE & ENHANCEMENT
 
-- TBD
+- Upgrade Prometheus Operator to v0.38.3 ( KubeSphere customized version )
+- Upgrade Prometheus to v2.20.1
+- Upgrade Node Exporter to v0.18.1
+- Upgrade kube-state-metrics to v1.9.6
+- Upgrade metrics server to v0.3.7
+- metrics-server is enabled by default
+- Upgrade Fluent Bit Operator to v0.2.0
+- Upgrade Fluent Bit to v1.4.6
+- Significantly improve log searching performance
+- Allow platform admins to view pod logs from deleted namespaces
+- Adjust the display style of log searching results in Toolbox.
+- Optimize log sidecar injector's collection configuration for log files on pod's volume
 
 ### BUG FIXES
 
-- TBD
+- Fix time skew in metric graphs for newly created namespaces (#[2868](https://github.com/kubesphere/kubesphere/issues/2868))
+- Fix workload-level alerting is not working as expected (#[2834](https://github.com/kubesphere/kubesphere/issues/2834))
+- Fix no node metrics for NotReady nodes
 
-## Security
+## **DevOps**
+
+### BUG FIXES
+
+- Fix the issue that the Button in the Stage page doesn't work (#[449](https://github.com/kubesphere/console/issues/449))
+- Fix the issue that parameterized pipeline fail to send the parameter's value (#[2699](https://github.com/kubesphere/kubesphere/issues/2699))
+
+## **App Store**
+
+### FEATURE
+
+- Support Helm V3
+- Support to deploy application templates into multi-cluster
+- Support application template upgrade
+- Users can view events occurred during repository synchronization
 
 ### UPGRADE & ENHANCEMENT
 
-- TBD
+- Users can use the same application repository name
+- Support the application template which contains CRDs
+- Merge all OpenPitrix services into one service
+- Support HTTP basic authentication when adding the application repository 
 
 ### BUG FIXES
 
-- TBD
+- Fix the issue of insufficient length of attachment IDs
 
-## DevOps
+## **Network**
 
-### BUG FIXES
+### FEATURE
 
-- TBD
+- Support project network isolation by adding controllers to manage custom project network policies
+- Support workspace network isolation
+- Support to add, view, modify, and delete native K8s network policies
 
-## App Store
+## **Service Mesh**
+
+### FEATURE
+
+- Support to cllean Jaeger ES Indexer
 
 ### UPGRADE & ENHANCEMENT
 
-- TBD
+- Upgrade Istio to v1.4.8
 
-### BUG FIXES
+## **Storage**
 
-- TBD
+### FEATURE
 
-## Storage
+- Support volume snapshot manangement
+- Support storage capability
+- Support volume monitoring
 
-### UPGRADE & ENHANCEMENT
+## **Security**
 
-- TBD
+### FEATURE
 
-### BUG FIXES
-
-- TBD
-
-## Globalization
-
-### UPGRADE & ENHANCEMENT
-
-- TBD
-
-### BUG FIXES
-
-- TBD
-
-## User Experience
+- Support identity provider plug-in
+- Support custom workspace role
+- Support custom DevOps project role
+- Support  access control across multiple clusters
+- Support pod security context(#[1453](https://github.com/kubesphere/kubesphere/issues/1453))
 
 ### UPGRADE & ENHANCEMENT
 
-- TBD
+- Simplify the role definition
+- Optimize built-in roles
 
 ### BUG FIXES
 
-- TBD
+- Fix the issue of login failure due to node clock skew
+
+## **Globalization**
+
+### FEATURE
+
+- Add new languages support, including Turkish, Spanish, Traditional Chinese
+
+## **User Experience**
+
+### UPGRADE & ENHANCEMENT
+
+- Refactor global navigation
+- Refactor breadcrumbs in detail pages
+- Refactor data watching in the resources list
+- Simplify project creation
+- Refactor composing application creation, and support creating a composing application by YAML
+- Add workload revision compare by YAML
+- Optimize the display of log query results
+- Support the history record, user could re-visit the Clusters/Workspaces/Projects/DevOps Projects recently visited
+- Support OAuth login
+- Refactor app store deployment form
+- Support helm chart schema(#[schema-files](https://helm.sh/docs/topics/charts/#schema-files))
+
+### BUG FIXES
+
+- Fix the error when editting ingress annotations(#[1931](https://github.com/kubesphere/kubesphere/issues/1931))
+- Fix container probes when editing in workload edit template modal
+- Fix XSS security problems of the server side templates
