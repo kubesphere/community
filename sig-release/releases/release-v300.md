@@ -117,7 +117,7 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 
 ### FEATURE
 
-- Support to cllean Jaeger ES Indexer
+- Support to clean Jaeger ES Indexer
 
 ### UPGRADE & ENHANCEMENT
 
