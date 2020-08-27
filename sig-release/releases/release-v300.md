@@ -20,11 +20,12 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 
 ### FEATURE
 
-- A brand new installer: [KubeKey](https://github.com/kubesphere/kubekey), which are easier to use and reduce the dependency on the OS environment 
+- A brand new installer: [KubeKey](https://github.com/kubesphere/kubekey), which is turnkey solution to install Kubernetes with KubeSphere in different platform, are more easy to use and reduce the dependency on OS environment 
 
 ### UPGRADE & ENHANCEMENT
-- Be compatible with Kubernetes 1.15.x, 1.16.x, 1.17.x and 1.18.x, and officially support Kubernetes 1.15.?, 1.16.?, 1.17.? and 1.18.?
-- Add support of EulerOS, UOS, and KylinOS
+- Be compatible with Kubernetes 1.15.x, 1.16.x, 1.17.x and 1.18.x for [ks-installer](https://github.com/kubesphere/ks-installer)
+- [KubeKey](https://github.com/kubesphere/kubekey) offcially support Kubernetes 1.15.12, 1.16.13, 1.17.9 and 1.18.6(Notice, please avoid using Kubernetes 1.15~1.15.5 and 1.16~1.16.2, because Kubernetes has an [API validation issue](https://github.com/kubernetes/kubernetes/issues/83778))
+- Add support of EulerOS, UOS and KylinOS
 - Add support of Kunpeng and Phytium CPU
 - Use ClusterConfiguration to store ks-installer's configuration instead of ConfigMap
 
