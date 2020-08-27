@@ -20,9 +20,13 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 
 ### FEATURE
 
-### UPGRADE & ENHANCEMENT
+- A brand new installer: [KubeKey](https://github.com/kubesphere/kubekey), which are easier to use and reduce the dependency on the OS environment 
 
-### BUG FIXES
+### UPGRADE & ENHANCEMENT
+- Be compatible with Kubernetes 1.15.x, 1.16.x, 1.17.x and 1.18.x, and officially support Kubernetes 1.15.?, 1.16.?, 1.17.? and 1.18.?
+- Add support of EulerOS, UOS, and KylinOS
+- Add support of Kunpeng and Phytium CPU
+- Use ClusterConfiguration to store ks-installer's configuration instead of ConfigMap
 
 ## **Cluster Management**
 
@@ -33,43 +37,53 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 
 ## **Observability**
 
-### FEATURE
+  ### FEATURE
 
-- Support custom monitoring
-- Add K8s & KubeSphere auditing support including audit archiving, searching and alerting.
-- Add K8s event management support including event archiving, searching and alerting by [kube-events](https://github.com/kubesphere/kube-events).
-- Add tenant control to audit/K8s events searching, a tenant user can only search his own audit/K8s events.
-- Support archiving audit/K8s events to Elasticsearch, Kafka or Fluentd
-- Add multi-tenant notification support by [Notification Manager](https://github.com/kubesphere/notification-manager)
-- Support Alertmanager v0.21.0
+  - Support custom monitoring with 3rd-parties metrics through KubeSphere console 
+  - Add K8s & KubeSphere auditing support including audit event archiving, searching and alerting
+  - Add K8s event management support including K8s event archiving, searching and alerting by [kube-events](https://github.com/kubesphere/kube-events)
+  - Add tenant control to audit/K8s events searching, a tenant user can only search his own audit/K8s events
+  - Support archiving audit/K8s events to Elasticsearch, Kafka or Fluentd
+  - Add multi-tenant notification support by [Notification Manager](https://github.com/kubesphere/notification-manager)
+  - Support Alertmanager v0.21.0
 
-### UPGRADE & ENHANCEMENT
+  ### UPGRADE & ENHANCEMENT
 
-- Upgrade Prometheus Operator to v0.38.3 ( KubeSphere customized version )
-- Upgrade Prometheus to v2.20.1
-- Upgrade Node Exporter to v0.18.1
-- Upgrade kube-state-metrics to v1.9.6
-- Upgrade metrics server to v0.3.7
-- metrics-server is enabled by default
-- Upgrade Fluent Bit Operator to v0.2.0
-- Upgrade Fluent Bit to v1.4.6
-- Significantly improve log searching performance
-- Allow platform admins to view pod logs from deleted namespaces
-- Adjust the display style of log searching results in Toolbox.
-- Optimize log sidecar injector's collection configuration for log files on pod's volume
+  - Upgrade Prometheus Operator to v0.38.3 ( KubeSphere customized version )
+  - Upgrade Prometheus to v2.20.1
+  - Upgrade Node Exporter to v0.18.1
+  - Upgrade kube-state-metrics to v1.9.6
+  - Upgrade metrics server to v0.3.7
+  - metrics-server is enabled by default
+  - Upgrade Fluent Bit Operator to v0.2.0
+  - Upgrade Fluent Bit to v1.4.6
+  - Significantly improve log searching performance
+  - Allow platform admins to view pod logs from deleted namespaces
+  - Adjust the display style of log searching results in Toolbox
+  - Optimize log collection configuration for log files on pod's volume
 
-### BUG FIXES
+  ### BUG FIXES
 
-- Fix time skew in metric graphs for newly created namespaces (#[2868](https://github.com/kubesphere/kubesphere/issues/2868))
-- Fix workload-level alerting is not working as expected (#[2834](https://github.com/kubesphere/kubesphere/issues/2834))
-- Fix no node metrics for NotReady nodes
+  - Fix time skew in metric graphs for newly created namespaces (#[2868](https://github.com/kubesphere/kubesphere/issues/2868))
+  - Fix workload-level alerting is not working as expected (#[2834](https://github.com/kubesphere/kubesphere/issues/2834))
+  - Fix no metric data for NotReady nodes
 
 ## **DevOps**
 
+### FEATURE
+
+- Refactor DevOps framework, use CRDs to manage DevOps resources
+
+### UPGRADE & ENHANCEMENT
+
+- Remove Sonarqube from installer default packages, support for external Sonarqube
+
 ### BUG FIXES
 
+- Fix the issue that DevOps permissions data is missing in a very limited number of cases 
+
 - Fix the issue that the Button in the Stage page doesn't work (#[449](https://github.com/kubesphere/console/issues/449))
-- Fix the issue that parameterized pipeline fail to send the parameter's value (#[2699](https://github.com/kubesphere/kubesphere/issues/2699))
+- Fix the issue that the parameterized pipeline fail to send the parameter's value (#[2699](https://github.com/kubesphere/kubesphere/issues/2699))
 
 ## **App Store**
 
@@ -78,7 +92,7 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 - Support Helm V3
 - Support to deploy application templates into multi-cluster
 - Support application template upgrade
-- Users can view events occurred during repository synchronization
+- Users can view events that occurred during repository synchronization
 
 ### UPGRADE & ENHANCEMENT
 
@@ -97,7 +111,7 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 
 - Support project network isolation by adding controllers to manage custom project network policies
 - Support workspace network isolation
-- Support to add, view, modify, and delete native K8s network policies
+- Support to add, view, modify and delete native K8s network policies
 
 ## **Service Mesh**
 
@@ -113,7 +127,7 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 
 ### FEATURE
 
-- Support volume snapshot manangement
+- Support volume snapshot management
 - Support storage capability
 - Support volume monitoring
 
@@ -140,7 +154,7 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 
 ### FEATURE
 
-- Add new languages support, including Turkish, Spanish, Traditional Chinese
+- Add new languages support, including Spanish, Traditional Chinese
 
 ## **User Experience**
 
@@ -153,13 +167,13 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 - Refactor composing application creation, and support creating a composing application by YAML
 - Add workload revision compare by YAML
 - Optimize the display of log query results
-- Support the history record, user could re-visit the Clusters/Workspaces/Projects/DevOps Projects recently visited
+- Support the history record, the user could re-visit the Clusters/Workspaces/Projects/DevOps Projects recently visited
 - Support OAuth login
 - Refactor app store deployment form
 - Support helm chart schema(#[schema-files](https://helm.sh/docs/topics/charts/#schema-files))
 
 ### BUG FIXES
 
-- Fix the error when editting ingress annotations(#[1931](https://github.com/kubesphere/kubesphere/issues/1931))
+- Fix the error when editing ingress annotations(#[1931](https://github.com/kubesphere/kubesphere/issues/1931))
 - Fix container probes when editing in workload edit template modal
-- Fix XSS security problems of the server side templates
+- Fix XSS security problems of the server-side templates
