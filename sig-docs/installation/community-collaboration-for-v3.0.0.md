@@ -14,10 +14,10 @@ After using [Kubekey](https://github.com/kubesphere/kubekey) to test the install
 | # 2 | KubeSphere on AWS EC2 | TBD  | TBD | TBD | TBD |
 | # 3 | KubeSphere on Azure VM | [Roland Ma](https://github.com/RolandMa1986) | Aug, 20 | English | TBD |
 | # 4 | KubeSphere on GCP Instance | [long0419](https://github.com/long0419)  | Sep, 3 | English | TBD |
-| # 5 | KubeSphere on HuaweiCloud ECS | [LiuG-lynx](https://github.com/LiuG-lynx)  | Aug, 16 | Chinese | TBD |
+| # 5 | KubeSphere on HuaweiCloud ECS | [LiuG-lynx](https://github.com/LiuG-lynx)  | Aug, 27 | Chinese | TBD |
 | # 6 | KubeSphere on OracleCloud VM | TBD  | TBD | TBD | TBD |
 | # 7 | KubeSphere on QingCloud Instance |  [Sherlock Xu](https://github.com/Sherlock113) | Aug, 13 | English | [752](https://github.com/kubesphere/docs.kubesphere.io/pull/752) |
-| # 8 | KubeSphere on Tencent CVM | TBD  | TBD | TBD | TBD |
+| # 8 | KubeSphere on Tencent CVM | [LiuG-lynx](https://github.com/LiuG-lynx)  | Aug, 29 | Chinese | TBD |
 | # 9 | KubeSphere on UCloud UHost | [Panhaitao](https://github.com/panhaitao)  | TBD | TBD | TBD |
 | # 10 | KubeSphere on Bare Metal | TBD  | TBD | TBD | TBD |
 | # 11 | KubeSphere on OpenStack | TBD  | TBD | TBD | TBD |
