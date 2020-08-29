@@ -4,9 +4,18 @@ keywords: "kubernetes, docker, kubesphere, jenkins, istio, prometheus"
 description: "KubeSphere Release Notes For 3.0.0"
 ---
 
-## When will v3.0.0 be released
+## How to get v3.0.0
 
-KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is under high-frequency testing, if you would like to try v3.0.0 and help our community to report bugs, feel free to join the testing.
+- [Install KubeSphere v3.0.0 on Linux](https://github.com/kubesphere/kubekey)
+- [Install KubeSphere v3.0.0 on existing Kubernetes](https://github.com/kubesphere/ks-installer)
+
+## Release Notes
+
+---
+title: "Release Notes For 3.0.0"
+keywords: "kubernetes, docker, kubesphere, jenkins, istio, prometheus"
+description: "KubeSphere Release Notes For 3.0.0"
+---
 
 
 ## How to get v3.0.0
@@ -20,11 +29,11 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 
 ### FEATURE
 
-- A brand new installer: [KubeKey](https://github.com/kubesphere/kubekey), which is turnkey solution to install Kubernetes with KubeSphere in different platform, are more easy to use and reduce the dependency on OS environment 
+- A brand new installer: [KubeKey](https://github.com/kubesphere/kubekey), v1.0.0, which is turnkey solution to install Kubernetes with KubeSphere in different platform, are more easy to use and reduce the dependency on OS environment 
 
 ### UPGRADE & ENHANCEMENT
-- Be compatible with Kubernetes 1.15.x, 1.16.x, 1.17.x and 1.18.x for [ks-installer](https://github.com/kubesphere/ks-installer)
-- [KubeKey](https://github.com/kubesphere/kubekey) offcially support Kubernetes 1.15.12, 1.16.13, 1.17.9 and 1.18.6(Notice, please avoid using Kubernetes 1.15~1.15.5 and 1.16~1.16.2, because Kubernetes has an [API validation issue](https://github.com/kubernetes/kubernetes/issues/83778))
+- Be compatible with Kubernetes 1.15.x, 1.16.x, 1.17.x and 1.18.x for [ks-installer](https://github.com/kubesphere/ks-installer), v3.0.0
+- [KubeKey](https://github.com/kubesphere/kubekey) offcially support Kubernetes 1.15.12, 1.16.13, 1.17.9 and 1.18.6(Notice, please avoid using KubeKey to install Kubernetes 1.15~1.15.5 and 1.16~1.16.2, because Kubernetes has an [API validation issue](https://github.com/kubernetes/kubernetes/issues/83778))
 - Add support of EulerOS, UOS and KylinOS
 - Add support of Kunpeng and Phytium CPU
 - Use ClusterConfiguration to store ks-installer's configuration instead of ConfigMap
@@ -40,10 +49,10 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 
 ### FEATURE
 
-- Support custom monitoring
-- Add K8s & KubeSphere auditing support including audit event archiving, searching and alerting.
-- Add K8s event management support including K8s event archiving, searching and alerting by [kube-events](https://github.com/kubesphere/kube-events).
-- Add tenant control to audit/K8s events searching, a tenant user can only search his own audit/K8s events.
+- Support custom monitoring for 3rd-party application metrics in KubeSphere console
+- Add K8s & KubeSphere auditing support including audit event archiving, searching and alerting
+- Add K8s event management support including K8s event archiving, searching and alerting by [kube-events](https://github.com/kubesphere/kube-events)
+- Add tenant control to audit/K8s events searching, a tenant user can only search his own audit/K8s events
 - Support archiving audit/K8s events to Elasticsearch, Kafka or Fluentd
 - Add multi-tenant notification support by [Notification Manager](https://github.com/kubesphere/notification-manager)
 - Support Alertmanager v0.21.0
@@ -60,7 +69,7 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 - Upgrade Fluent Bit to v1.4.6
 - Significantly improve log searching performance
 - Allow platform admins to view pod logs from deleted namespaces
-- Adjust the display style of log searching results in Toolbox.
+- Adjust the display style of log searching results in Toolbox
 - Optimize log collection configuration for log files on pod's volume
 
 ### BUG FIXES
@@ -101,6 +110,25 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 - Support the application template which contains CRDs
 - Merge all OpenPitrix services into one service
 - Support HTTP basic authentication when adding the application repository 
+- Add and upgrade below apps in App Store:
+  AWS EBS CSI Driver 0.5.0 - Helm 0.3.0
+  AWS EFS CSI Driver 0.3.0 - Helm 0.1.0
+  AWS FSX CSI Driver 0.1.0 - Helm 0.1.0
+  Elasticsearch Exporter 1.1.0 - Helm 3.3.0
+  etcd 3.3.12 - Helm 0.1.1
+  Harbor 2.0.0 - Helm 1.4.0
+  Memcached 1.5.20 - Helm 3.2.3
+  Minio master - Helm 5.0.26
+  MongoDB 4.2.1 - Helm 0.3.0
+  MySQL 5.7.30 - Helm 1.6.6
+  MySQL Exporter 0.11.0 - Helm 0.5.3
+  Nginx 1.18.0 - Helm 1.3.2
+  Porter 0.3-alpha - Helm 0.1.3
+  PostgreSQL 12.0 - Helm 0.3.2
+  RabbitMQ 3.8.1 - Helm 0.3.0
+  Redis 5.0.5 - Helm 0.3.2
+  Redis Exporter 1.3.4 - Helm 3.4.1
+  Tomcat 8.5.41 - Helm 0.4.1+1
 
 ### BUG FIXES
 
@@ -136,7 +164,7 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 
 ### FEATURE
 
-- Support identity provider plug-in
+- Support LDAP and OAuth login
 - Support custom workspace role
 - Support custom DevOps project role
 - Support  access control across multiple clusters
@@ -159,6 +187,9 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 
 ## **User Experience**
 
+### FEATURE
+- Support the history record in Toolbox, the user could re-visit the Clusters/Workspaces/Projects/DevOps Projects recently visited, which could also be lanched by shortcut keys
+
 ### UPGRADE & ENHANCEMENT
 
 - Refactor global navigation
@@ -168,8 +199,6 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 - Refactor composing application creation, and support creating a composing application by YAML
 - Add workload revision compare by YAML
 - Optimize the display of log query results
-- Support the history record, the user could re-visit the Clusters/Workspaces/Projects/DevOps Projects recently visited
-- Support OAuth login
 - Refactor app store deployment form
 - Support helm chart schema(#[schema-files](https://helm.sh/docs/topics/charts/#schema-files))
 
