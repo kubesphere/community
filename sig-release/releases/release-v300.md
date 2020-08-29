@@ -19,7 +19,7 @@ description: "KubeSphere Release Notes For 3.0.0"
 
 ### UPGRADE & ENHANCEMENT
 - Be compatible with Kubernetes 1.15.x, 1.16.x, 1.17.x and 1.18.x for [ks-installer](https://github.com/kubesphere/ks-installer), v3.0.0
-- [KubeKey](https://github.com/kubesphere/kubekey) offcially support Kubernetes 1.15.12, 1.16.13, 1.17.9 and 1.18.6(Notice, please avoid using KubeKey to install Kubernetes 1.15~1.15.5 and 1.16~1.16.2, because Kubernetes has an [API validation issue](https://github.com/kubernetes/kubernetes/issues/83778))
+- [KubeKey](https://github.com/kubesphere/kubekey) offcially support Kubernetes 1.15.12, 1.16.13, 1.17.9 and 1.18.6(Notice, please avoid using KubeKey to install Kubernetes 1.15 to 1.15.5 and 1.16 to 1.16.2, because Kubernetes has an [API validation issue](https://github.com/kubernetes/kubernetes/issues/83778))
 - Add support of EulerOS, UOS and KylinOS
 - Add support of Kunpeng and Phytium CPU
 - Use ClusterConfiguration to store ks-installer's configuration instead of ConfigMap
@@ -97,24 +97,24 @@ description: "KubeSphere Release Notes For 3.0.0"
 - Merge all OpenPitrix services into one service
 - Support HTTP basic authentication when adding the application repository 
 - Add and upgrade below apps in App Store:
-  AWS EBS CSI Driver 0.5.0 - Helm 0.3.0
-  AWS EFS CSI Driver 0.3.0 - Helm 0.1.0
-  AWS FSX CSI Driver 0.1.0 - Helm 0.1.0
-  Elasticsearch Exporter 1.1.0 - Helm 3.3.0
-  etcd 3.3.12 - Helm 0.1.1
-  Harbor 2.0.0 - Helm 1.4.0
-  Memcached 1.5.20 - Helm 3.2.3
-  Minio master - Helm 5.0.26
-  MongoDB 4.2.1 - Helm 0.3.0
-  MySQL 5.7.30 - Helm 1.6.6
-  MySQL Exporter 0.11.0 - Helm 0.5.3
-  Nginx 1.18.0 - Helm 1.3.2
-  Porter 0.3-alpha - Helm 0.1.3
-  PostgreSQL 12.0 - Helm 0.3.2
-  RabbitMQ 3.8.1 - Helm 0.3.0
-  Redis 5.0.5 - Helm 0.3.2
-  Redis Exporter 1.3.4 - Helm 3.4.1
-  Tomcat 8.5.41 - Helm 0.4.1+1
+  AWS EBS CSI Driver 0.5.0 - Helm 0.3.0  
+  AWS EFS CSI Driver 0.3.0 - Helm 0.1.0  
+  AWS FSX CSI Driver 0.1.0 - Helm 0.1.0  
+  Elasticsearch Exporter 1.1.0 - Helm 3.3.0  
+  etcd 3.3.12 - Helm 0.1.1  
+  Harbor 2.0.0 - Helm 1.4.0  
+  Memcached 1.5.20 - Helm 3.2.3  
+  Minio master - Helm 5.0.26  
+  MongoDB 4.2.1 - Helm 0.3.0  
+  MySQL 5.7.30 - Helm 1.6.6  
+  MySQL Exporter 0.11.0 - Helm 0.5.3  
+  Nginx 1.18.0 - Helm 1.3.2  
+  Porter 0.3-alpha - Helm 0.1.3  
+  PostgreSQL 12.0 - Helm 0.3.2  
+  RabbitMQ 3.8.1 - Helm 0.3.0  
+  Redis 5.0.5 - Helm 0.3.2  
+  Redis Exporter 1.3.4 - Helm 3.4.1  
+  Tomcat 8.5.41 - Helm 0.4.1+1  
 
 ### BUG FIXES
 
