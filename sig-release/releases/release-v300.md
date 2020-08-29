@@ -38,36 +38,36 @@ KubeSphere v3.0.0 will be released in a couple of weeks. Currently, v3.0.0 is un
 
 ## **Observability**
 
-  ### FEATURE
+### FEATURE
 
-  - Support custom monitoring with 3rd-parties metrics through KubeSphere console 
-  - Add K8s & KubeSphere auditing support including audit event archiving, searching and alerting
-  - Add K8s event management support including K8s event archiving, searching and alerting by [kube-events](https://github.com/kubesphere/kube-events)
-  - Add tenant control to audit/K8s events searching, a tenant user can only search his own audit/K8s events
-  - Support archiving audit/K8s events to Elasticsearch, Kafka or Fluentd
-  - Add multi-tenant notification support by [Notification Manager](https://github.com/kubesphere/notification-manager)
-  - Support Alertmanager v0.21.0
+- Support custom monitoring
+- Add K8s & KubeSphere auditing support including audit event archiving, searching and alerting.
+- Add K8s event management support including K8s event archiving, searching and alerting by [kube-events](https://github.com/kubesphere/kube-events).
+- Add tenant control to audit/K8s events searching, a tenant user can only search his own audit/K8s events.
+- Support archiving audit/K8s events to Elasticsearch, Kafka or Fluentd
+- Add multi-tenant notification support by [Notification Manager](https://github.com/kubesphere/notification-manager)
+- Support Alertmanager v0.21.0
 
-  ### UPGRADE & ENHANCEMENT
+### UPGRADE & ENHANCEMENT
 
-  - Upgrade Prometheus Operator to v0.38.3 ( KubeSphere customized version )
-  - Upgrade Prometheus to v2.20.1
-  - Upgrade Node Exporter to v0.18.1
-  - Upgrade kube-state-metrics to v1.9.6
-  - Upgrade metrics server to v0.3.7
-  - metrics-server is enabled by default
-  - Upgrade Fluent Bit Operator to v0.2.0
-  - Upgrade Fluent Bit to v1.4.6
-  - Significantly improve log searching performance
-  - Allow platform admins to view pod logs from deleted namespaces
-  - Adjust the display style of log searching results in Toolbox
-  - Optimize log collection configuration for log files on pod's volume
+- Upgrade Prometheus Operator to v0.38.3 ( KubeSphere customized version )
+- Upgrade Prometheus to v2.20.1
+- Upgrade Node Exporter to v0.18.1
+- Upgrade kube-state-metrics to v1.9.6
+- Upgrade metrics server to v0.3.7
+- metrics-server is enabled by default
+- Upgrade Fluent Bit Operator to v0.2.0
+- Upgrade Fluent Bit to v1.4.6
+- Significantly improve log searching performance
+- Allow platform admins to view pod logs from deleted namespaces
+- Adjust the display style of log searching results in Toolbox.
+- Optimize log collection configuration for log files on pod's volume
 
-  ### BUG FIXES
+### BUG FIXES
 
-  - Fix time skew in metric graphs for newly created namespaces (#[2868](https://github.com/kubesphere/kubesphere/issues/2868))
-  - Fix workload-level alerting is not working as expected (#[2834](https://github.com/kubesphere/kubesphere/issues/2834))
-  - Fix no metric data for NotReady nodes
+- Fix time skew in metric graphs for newly created namespaces (#[2868](https://github.com/kubesphere/kubesphere/issues/2868))
+- Fix workload-level alerting is not working as expected (#[2834](https://github.com/kubesphere/kubesphere/issues/2834))
+- Fix no metric data for NotReady nodes
 
 ## **DevOps**
 
