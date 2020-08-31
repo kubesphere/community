@@ -50,7 +50,7 @@ description: "KubeSphere Release Notes For 3.0.0"
 - Upgrade Node Exporter to v0.18.1
 - Upgrade kube-state-metrics to v1.9.6
 - Upgrade metrics server to v0.3.7
-- metrics-server is enabled by default
+- metrics-server is enabled by default ( Disabled if installing KubeSphere on existing K8s )
 - Upgrade Fluent Bit Operator to v0.2.0
 - Upgrade Fluent Bit to v1.4.6
 - Significantly improve log searching performance
