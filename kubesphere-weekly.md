@@ -2,6 +2,15 @@
 
 This document records the news and updates from the past weeks.
 
+## KubeSphere Weekly #3: September 07, 2020
+
+### Community & Documentation
+
+- 3.0.0 GA announcement: KubeSphere 3.0.0 GA: Born for Hybrid Cloud Apps ( [En](https://kubesphere.io/news/kubesphere-3.0.0-ga-announcement/) / [Zh](https://mp.weixin.qq.com/s/CAqCFTT3Xtcfat-Z7eMhUA) )
+- Implement the installation testing of KubeSphere 3.0.0 on [Digital Ocean](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-do/), [AWS EKS](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-eks/), and Bare Metal (WIP) with contributors. We have completed the related installation guides for them.
+- Write the outline of user guide and administrator guide for KubeSphere 3.0.0, and we are looking for community users to get involved in the translation of documentation v3.0.0.
+- Test the installation and integration with openEuler OS, and we are struggling to contribute KubeSphere Installer into openEuler community, see this [PR](https://gitee.com/openeuler/kubekey/pulls/1/files) for details.
+
 ## KubeSphere Weekly #2: August 23, 2020
 
 ### Website
