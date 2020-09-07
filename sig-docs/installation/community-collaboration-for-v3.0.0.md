@@ -19,7 +19,7 @@ After using [Kubekey](https://github.com/kubesphere/kubekey) to test the install
 | # 7 | KubeSphere on QingCloud Instance |  [Sherlock Xu](https://github.com/Sherlock113) | Aug, 13 | English | [752](https://github.com/kubesphere/docs.kubesphere.io/pull/752) |
 | # 8 | KubeSphere on Tencent CVM | [LiuG-lynx](https://github.com/LiuG-lynx)  | Aug, 29 | Chinese | TBD |
 | # 9 | KubeSphere on UCloud UHost | [Panhaitao](https://github.com/panhaitao)  | TBD | TBD | TBD |
-| # 10 | KubeSphere on Bare Metal | [wangwei](https://github.com/53537)  | TBD | TBD | TBD |
+| # 10 | KubeSphere on Bare Metal | [wangwei](https://github.com/53537)  | Sep, 12 | English | TBD |
 | # 11 | KubeSphere on OpenStack | TBD  | TBD | TBD | TBD |
 | # 12 | KubeSphere on VMware vSphere | [shenhonglei](https://github.com/shenhonglei)  | Aug, 16 | Chinese | [131](https://github.com/kubesphere/website/pull/131) |
 | # 13 | KubeSphere on SUSE Linux Enterprise | [ytyanghm](https://github.com/ytyanghm)  | Aug, 9 | English | TBD |
