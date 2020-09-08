@@ -12,7 +12,7 @@ The KubeSphere monitoring system is comprised of many components that work toget
 Besides, the monitoring stack includes CRD resources:
 
 - ServiceMonitor: declaratively specifies how groups of services should be monitored.
-- Prometheus: defines a desired Prometheus deployment.
+- Prometheus: defines a desired Prometheus statefulset.
 - PrometheusRule: defines a desired Prometheus rule file.
 
 In KubeSphere, Prometheus will monitor the following services by default:
@@ -33,4 +33,4 @@ The [contrib/kube-prometheus](https://github.com/kubesphere/prometheus-operator/
 
 The diagram below presents the overall monitoring architecture:
 
-![Monitoring Arch](../images/kubesphere-monitoring-architecture.png)
+![Monitoring Arch](../images/kubesphere-monitoring-architecture-v2.1.1.png)
