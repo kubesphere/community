@@ -15,12 +15,12 @@ Concepts and Designs help you to learn and understand the KubeSphere and the lan
 
 ### KubeSphere Monitoring
 
-- [Overview](../../sig-observability/concepts-and-designs/kubesphere-monitoring.md#Overview): explains the architecture and key components behind the monitoring system.
-- [Setup](../../sig-observability/concepts-and-designs/kubesphere-monitoring.md#Setup): introduces manifests related to Prometheus setup.
+- [Overview](../../sig-observability/concepts-and-designs/kubesphere-monitoring-v3.0.0.md#Overview): explains the architecture and key components behind the monitoring system.
+- [Setup](../../sig-observability/concepts-and-designs/kubesphere-monitoring-v3.0.0.md#Setup): introduces manifests related to Prometheus setup.
 
 ### KubeSphere Logging
 
-- [Overview](../../sig-observability/concepts-and-designs/kubesphere-logging.md#Overview): explains the architecture and key components behind the logging system.
-- [Log Collection and Forward](../../sig-observability/concepts-and-designs/kubesphere-logging.md#Log-Collection-and-Forward): introduces logging agent and the sidecar-based solution for collecting application logs on disk.
-- [Log Store and Management](../../sig-observability/concepts-and-designs/kubesphere-logging.md#Log-Store-and-Management): introduces long-term log storage and management.
-- [Log Search, Export and Visualization](../../sig-observability/concepts-and-designs/kubesphere-logging.md#Log-Search,-Export-and-Visualization): introduces log query and reporting.
+- [Overview](../../sig-observability/concepts-and-designs/kubesphere-logging-v3.0.0.md#Overview): explains the architecture and key components behind the logging system.
+- [Log Collection and Forward](../../sig-observability/concepts-and-designs/kubesphere-logging-v3.0.0.md#Log-Collection-and-Forward): introduces logging agent and the sidecar-based solution for collecting application logs on disk.
+- [Log Store and Management](../../sig-observability/concepts-and-designs/kubesphere-logging-v3.0.0.md#Log-Store-and-Management): introduces long-term log storage and management.
+- [Log Search, Export and Visualization](../../sig-observability/concepts-and-designs/kubesphere-logging-v3.0.0.md#Log-Search,-Export-and-Visualization): introduces log query and reporting.

@@ -27,7 +27,7 @@ Fluent Bit serves as the logging agent. It can access host's container log direc
 
 As shown in the diagram below, Fluent-bit controller implements the reload interface and is responsible for the life cycle of fluent-bit process.
 
-![Fluentbit](../images/kubesphere-logging-fluentbit.png)
+![Fluentbit](../images/kubesphere-logging-fluentbit-v2.1.1.png)
 
 The approach to collect container logs on a pod's volume is using a log forwarder sidecar. The sidecar container forwards on-disk application logs to its own stdout. In this way, KubeSphere manages log collection in a unified manner. Besides, [Logsidecar Injector](https://github.com/kubesphere/logsidecar-injector) comes to automate sidecar injection. It takes advantages of `MutatingAdmissionWebhook` to control log forwarder sidecar injection during pod creation.
 
