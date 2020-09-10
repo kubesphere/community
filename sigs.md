@@ -51,6 +51,7 @@ The SIGs at present are:
 | [Release](./sig-release) | [Calvin Yu](https://github.com/calvinyv) | [#sig-release](https://kubesphere.slack.com/messages/sig-release) | [Notes](https://docs.google.com/document/d/1IzkvpZlkc_4hKTyvWWyTfLgPFTWGaowOEAfh0li9qZQ/) | release of each version |
 | [Storage](./sig-storage) | [Xin Wang](https://github.com/wnxn) | [#sig-storage](https://kubesphere.slack.com/messages/sig-storage) | [Notes](https://docs.google.com/document/d/171DjRH8CDkubc_fl8tO1tN-kpdPwek-G819FQt6EhV0/) | CSI plugins |
 | [Testing](./sig-testing) | [Yaping Liu](https://github.com/liuyp2018) | [#sig-testing](https://kubesphere.slack.com/messages/sig-testing) | [Notes](https://docs.google.com/document/d/191w4_ePxBSEklZjKTSiYw7XwDH9_gCIVOt6cKkTvqYc/) | test, release |
+| [Virtualization](./sig-virtualization) |  | [#sig-virtualization](https://kubesphere.slack.com/messages/sig-virtualization) | [Notes](https://docs.google.com/document/d/1EnkX93jqKl3IZyrlQAqy06IdMLQ217i4kAhx1Mf4gMI/edit?ts=5f598d59) | virtualization, vm provioning |
 
 ## Slack Channels
 
