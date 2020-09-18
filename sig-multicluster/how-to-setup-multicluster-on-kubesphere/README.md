@@ -120,7 +120,7 @@ The component [Tower](https://github.com/kubesphere/tower) of KubeSphere is used
   3. Change the ClusterConfiguration of the ks-installer and input the the address you set before.
 
         ```shell
-        $ kubectl -n kubesphere-system edit cm kubesphere-config
+        $ kubectl -n kubesphere-system edit clusterconfiguration ks-installer
 
         multicluster:
             clusterRole: host
