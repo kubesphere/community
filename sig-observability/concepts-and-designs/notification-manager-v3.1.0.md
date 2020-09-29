@@ -61,7 +61,7 @@
 
 ## Demand ##
 
-- User can define the channels for receiving notifications, including email,wechat,slack,webhook,dingtalk, by creating the corresponding receiver and config.
+- User can define the channels for receiving notifications, including email, wechat, slack, webhook, dingtalk, by creating the corresponding receiver and config.
 - A user only has one receiver or config in the same type.
 - A user can update, delete, get the receiver, and config created by oneself.
 - A user can get the default config.
