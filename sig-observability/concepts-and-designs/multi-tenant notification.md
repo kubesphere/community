@@ -1,4 +1,5 @@
-# multi-tenant notification #
+# Multi-Tenant Notification #
+
 # Notification Manager
  Notification Manager manages notifications in a multi-tenant K8s environment. It receives alerts or notifications from different senders and then sends notifications to various tenant receivers based on alerts/notifications' tenant labels like "namespace". 
 
@@ -59,7 +60,7 @@
 - A tenant EmailReceiver with `type = tenant` label can also be configured without an emailConfigSelector, in which case Notification Manager will try to find the default EmailConfig with `type = default` label for this tenant EmailReceiver.
 
 
-## Demand ##
+## Requirements ##
 
 - User can define the channels for receiving notifications, including email, wechat, slack, webhook and dingtalk, by creating the corresponding receiver and config.
 - A user only has one receiver or config in the same type.
@@ -75,15 +76,6 @@
 
 ## Parameters
 ### Parameters of Email Config
-
- <style>
- table th:nth-of-type(1) {  
-    width: 25%; 
- }
- table th:nth-of-type(2) {  
-    width: 70%; 
- }
- </style>
 
  parameter            | description | description
  ---                  | ---         | ---
