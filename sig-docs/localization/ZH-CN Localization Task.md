@@ -11,7 +11,7 @@ Please read the following rules before you claim a task:
 
 | Quickstarts                                                  | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
-| [All-in-one Installation on Linux](https://kubesphere.io/docs/quick-start/all-in-one-on-linux/) |            |         |
+| [All-in-one Installation on Linux](https://kubesphere.io/docs/quick-start/all-in-one-on-linux/) |  https://github.com/hantmac |         |
 | [Minimal KubeSphere on Kubernetes](https://kubesphere.io/docs/quick-start/minimal-kubesphere-on-k8s/) |            |         |
 | [Create Workspace, Project, Account and Role](https://kubesphere.io/docs/quick-start/create-workspace-and-project/) |            |         |
 | [Deploy Bookinfo and Manage Traffic](https://kubesphere.io/docs/quick-start/deploy-bookinfo-to-k8s/) |            |         |
@@ -21,7 +21,7 @@ Please read the following rules before you claim a task:
 
 | Installing on Linux                                          | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
-| [Index Page](https://kubesphere.io/docs/installing-on-linux/) |            |         |
+| [Index Page](https://kubesphere.io/docs/installing-on-linux/) |  https://github.com/hantmac |         |
 | [Overview](https://kubesphere.io/docs/installing-on-linux/introduction/intro/) |            |         |
 | [Multi-node Installation](https://kubesphere.io/docs/installing-on-linux/introduction/multioverview/) |            |         |
 | [Air-gapped Installation](https://kubesphere.io/docs/installing-on-linux/introduction/air-gapped-installation/) |            |         |
