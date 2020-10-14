@@ -1,3 +1,5 @@
+# Simplified Chinese Localization Task List of KubeSphere Documentation 3.0 
+
 The tables below contain all the guides in KubeSphere documentation that need to be translated into Simplified Chinese. Not all guides in the documentation are in it since some guides are not ready for translation yet. These tables will be updated regularly.
 
 Please claim the guide that you want to translate by submitting a pr to add your name under **Translator**. Your contribution is highly appreciated as it benefits all KubeSphere users of the language.
@@ -7,7 +9,7 @@ Please read the following rules before you claim a task:
 - Submit your translation to the **master branch** of [website repository](https://github.com/kubesphere/website).
 - Click the guide name in the following table which will direct you to the en website. They should be used as source files, which are stored in the path **website/content/en/docs**. You may see some en files are already in the path **website/content/zh/docs**, while some of them may not be the same as the en files in **website/content/en/docs**. In short, use files in the path **website/content/en/docs** as the source file for translation, and save the translated files in the same path in **website/content/zh/docs**.
 - When you submit your translation, only submit **one guide at a time in a pull request**, which can greatly improve the review efficiency.
-- For more information about the localization style guide, see [KubeSphere Localization Style Guide (for Simplified Chinese)](https://github.com/kubesphere/website/blob/master/localization_style_guides/KubeSphere%20Localization%20Style%20Guide%20(for%20Simplified%20Chinese).md).
+- For more information about the documentation and localization style guide, see [KubeSphere Documentation Style Guide](https://github.com/kubesphere/website/blob/master/KubeSphere%20Documentation%20Style%20Guide.md) and [KubeSphere Localization Style Guide (for Simplified Chinese)](https://github.com/kubesphere/website/blob/master/localization_style_guides/KubeSphere%20Localization%20Style%20Guide%20(for%20Simplified%20Chinese).md).
 
 | Quickstarts                                                  | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
