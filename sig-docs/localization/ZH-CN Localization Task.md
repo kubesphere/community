@@ -74,3 +74,9 @@ Please read the following rules before you claim a task:
 | [Upgrade with ks-installer](https://kubesphere.io/docs/upgrade/upgrade-with-ks-installer/) |            |         |
 | [Changes after Upgrade](https://kubesphere.io/docs/upgrade/what-changed/) |            |         |
 | [FAQ](https://kubesphere.io/docs/upgrade/upgrade-faq/)       |            |         |
+
+| Cluster Administration                                       | Translator | PR Link |
+| ------------------------------------------------------------ | ---------- | ------- |
+| [Cluster Status Monitoring](https://kubesphere.io/docs/cluster-administration/cluster-status-monitoring/) |            |         |
+| [Application Resources Monitoring](https://kubesphere.io/docs/cluster-administration/application-resources-monitoring/) |            |         |
+| [Mail Server](https://kubesphere.io/docs/cluster-administration/cluster-settings/mail-server/) |            |         |
