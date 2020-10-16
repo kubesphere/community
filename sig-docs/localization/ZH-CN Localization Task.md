@@ -17,9 +17,9 @@ Please read the following rules before you claim a task:
 | [Minimal KubeSphere on Kubernetes](https://kubesphere.io/docs/quick-start/minimal-kubesphere-on-k8s/) |            |         |
 | [Create Workspace, Project, Account and Role](https://kubesphere.io/docs/quick-start/create-workspace-and-project/) |            |         |
 | [Deploy Bookinfo and Manage Traffic](https://kubesphere.io/docs/quick-start/deploy-bookinfo-to-k8s/) |            |         |
-| [Compose and Deploy Wordpress](https://kubesphere.io/docs/quick-start/wordpress-deployment/) |            |         |
-| [Enable Pluggable Components](https://kubesphere.io/docs/quick-start/enable-pluggable-components/) |            |         |
-| [Index Page](https://kubesphere.io/docs/quick-start/)        |            |         |
+| [Compose and Deploy Wordpress](https://kubesphere.io/docs/quick-start/wordpress-deployment/) |  https://github.com/Jaycean |         |
+| [Enable Pluggable Components](https://kubesphere.io/docs/quick-start/enable-pluggable-components/) |  https://github.com/Jaycean |         |
+| [Index Page](https://kubesphere.io/docs/quick-start/)        |  https://github.com/Jaycean |         |
 
 | Installing on Linux                                          | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
