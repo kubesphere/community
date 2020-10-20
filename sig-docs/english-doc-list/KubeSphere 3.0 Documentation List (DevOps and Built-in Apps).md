@@ -1,4 +1,4 @@
-# KubeSphere 3.0 Documentation List
+# KubeSphere 3.0 Documentation List (DevOps and Built-in Apps)
 
 Below are lists of guides that need to be written as part of KubeSphere documentation 3.0. Please add your name under **Writer** to claim the task. When you submit your pr, put the PR link under **PR Link**.
 
