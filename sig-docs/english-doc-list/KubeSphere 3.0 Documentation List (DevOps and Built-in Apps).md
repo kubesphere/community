@@ -6,73 +6,75 @@ Below are lists of guides that need to be written as part of KubeSphere document
 
 ### Overview
 
-| Guide                                                        | Writer | PR Link |
-| ------------------------------------------------------------ | ------ | ------- |
-| Introduction                                                 |        |         |
-| Create a Pipeline - using Graphical Editing Panel            |        |         |
-| Create a Pipeline - using Jenkinsfile                        |        |         |
-| Pipeline Management (including webhook, Timing trigger, etc.） |        |         |
-| Credential Management                                        |        |         |
-| Role and Member Management                                   |        |         |
-| Artifactory Management                                       |        |         |
-| Add new types of pod for pipeline                            |        |         |
+| Guide                                                        | Writer | PR Link | Language (En/Zh) |
+| ------------------------------------------------------------ | ------ | ------- | ------ | 
+| Introduction                                                 |        |         |        |     
+| Create a Pipeline - using Graphical Editing Panel            |        |         |        | 
+| Create a Pipeline - using Jenkinsfile                        |        |         |        | 
+| Pipeline Management (including webhook, Timing trigger, etc.） |        |         |        | 
+| Credential Management                                        |        |         |        | 
+| Role and Member Management                                   |        |         |        | 
+| Artifactory Management                                       |        |         |        | 
+| Add new types of pod for pipeline                            |        |         |        | 
 
 ### How to Integrate
 
-| Guide                                    | Writer | PR Link |
-| ---------------------------------------- | ------ | ------- |
-| Integrating SonarQube in Pipeline        |        |         |
-| Integrating Harbor in Pipeline           |        |         |
-| Integrating Nexus in Pipeline            |        |         |
-| Integrating Jrog Artifactory in Pipeline |        |         |
+| Guide                                    | Writer | PR Link | Language (En/Zh) |
+| ---------------------------------------- | ------ | ------- | ------ | 
+| Integrating SonarQube in Pipeline        |        |         |        |   
+| Integrating Harbor in Pipeline           |        |         |        |   
+| Integrating Nexus in Pipeline            |        |         |        |   
+| Integrating Jrog Artifactory in Pipeline |        |         |        |   
 
-### Example
+### Pipeline Example
 
-| Guide                                                  | Writer | PR Link |
-| ------------------------------------------------------ | ------ | ------- |
-| How to compile and deploy a maven project              |        |         |
-| How to compile and deploy a spring cloud project       |        |         |
-| How to compile and deploy a nodejs project             |        |         |
-| How to compile and deploy a go project                 |        |         |
-| How to compile and deploy a python project             |        |         |
-| How to run automated testing                           |        |         |
-| How to deploy applications cross multiple clusters     |        |         |
-| How to deploy a Micro service application based on K8s |        |         |
+| Guide                                                  | Writer | PR Link | Language (En/Zh) |
+| ------------------------------------------------------ | ------ | ------- | ------ | 
+| How to compile and deploy a Maven project              |        |         |        |   
+| How to compile and deploy a Spring Cloud project       |        |         |        |   
+| How to compile and deploy a nodejs project             |        |         |        |   
+| How to compile and deploy a Go project                 |        |         |        |   
+| How to compile and deploy a Python project             |        |         |        |   
+| How to run automated testing                           |        |         |        |   
+| How to deploy applications cross multiple clusters     |        |         |        |   
+| How to deploy a microservice application based on K8s |        |         |        |   
 
 ## App Store
 
+As for the apps documentation, in addition to basic deployment on KubeSphere, Some apps need to be provided with simple demos and instruct the users on how to expose the app's service to other services or expose its dashboard. 
+
 ### Built-in App Deployment
 
-| Guide                                       | Writer | PR Link |
-| ------------------------------------------- | ------ | ------- |
-| Deploy Tomcat in KubeSphere                 |        |         |
-| Deploy Redis in KubeSphere                  |        |         |
-| Deploy MySQL in KubeSphere                  |        |         |
-| Deploy Redis Exporter in KubeSphere         |        |         |
-| Deploy MySQL Exporter in KubeSphere         |        |         |
-| Deploy RabbitMQ in KubeSphere               |        |         |
-| Deploy Memcached in KubeSphere              |        |         |
-| Deploy PostgreSQL in KubeSphere             |        |         |
-| Deploy NGINX in KubeSphere                  |        |         |
-| Deploy MongoDB in KubeSphere                |        |         |
-| Deploy Harbor in KubeSphere                 |        |         |
-| Deploy MinIO in KubeSphere                  |        |         |
-| Deploy Porter in KubeSphere                 |        |         |
-| Deploy etcd in KubeSphere                   |        |         |
-| Deploy Elasticsearch Exporter in KubeSphere |        |         |
+| Guide                                       | Writer | PR Link | Language (En/Zh) |
+| ------------------------------------------- | ------ | ------- | ------ | 
+| Deploy Tomcat in KubeSphere                 |        |         |       |  
+| Deploy Redis in KubeSphere                  |        |         |       |  
+| Deploy MySQL in KubeSphere                  |        |         |       |  
+| Deploy Redis Exporter in KubeSphere         |        |         |       |  
+| Deploy MySQL Exporter in KubeSphere         |  Guangzhe Huang      |    https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-mysql/     |
+| Deploy RabbitMQ in KubeSphere               |        |         |       |  
+| Deploy Memcached in KubeSphere              |        |         |       |  
+| Deploy PostgreSQL in KubeSphere             |        |         |       |  
+| Deploy NGINX in KubeSphere                  |        |         |       |  
+| Deploy MongoDB in KubeSphere                |        |         |       |  
+| Deploy Harbor in KubeSphere                 |        |         |       |  
+| Deploy MinIO in KubeSphere                  |        |         |       |  
+| Deploy Porter in KubeSphere                 |        |         |       |  
+| Deploy etcd in KubeSphere                   |        |         |       |  
+| Deploy Elasticsearch Exporter in KubeSphere |        |         |       |  
 
 ### From helm-charts Repo (excluding those shown above)
 
-| Guide               | Writer | PR Link |
-| ------------------- | ------ | ------- |
-| APISIX              |        |         |
-| aws-ebs-csi-driver  |        |         |
-| aws-efs-csi-driver  |        |         |
-| aws-fsx-csi-driver  |        |         |
-| Snapshot Controller |        |         |
-| RBD Provisioner     |        |         |
-| Skywalking          |        |         |
-| Biz-engine          |        |         |
-| Csi-neonsan         |        |         |
-| Csi-qingcloud       |        |         |
-| ks-installer        |        |         |
+| Guide               | Writer | PR Link | Language (En/Zh) |
+| ------------------- | ------ | ------- |  ------ | 
+| APISIX              |        |         |        |  
+| aws-ebs-csi-driver  |        |         |       |  
+| aws-efs-csi-driver  |        |         |       |  
+| aws-fsx-csi-driver  |        |         |       |  
+| Snapshot Controller |        |         |       |  
+| RBD Provisioner     |        |         |       |  
+| Skywalking          |        |         |       |  
+| Biz-engine          |        |         |       |  
+| Csi-neonsan         |        |         |       |  
+| Csi-qingcloud       |        |         |       |  
+| ks-installer        |        |         |       |  
