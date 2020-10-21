@@ -47,16 +47,16 @@ As for the apps documentation, in addition to basic deployment on KubeSphere, So
 
 | Guide                                       | Writer | PR Link | Language (En/Zh) |
 | ------------------------------------------- | ------ | ------- | ------ | 
-| Deploy Tomcat in KubeSphere                 |        |         |       |  
-| Deploy Redis in KubeSphere                  |        |         |       |  
-| Deploy MySQL in KubeSphere                  |        |         |       |  
+| Deploy Tomcat in KubeSphere                 | wenxin       |         |       |  
+| Deploy Redis in KubeSphere                  | yaping liu       |         |       |  
+| Deploy MySQL in KubeSphere                  | wenxin       |         |       |  
 | Deploy Redis Exporter in KubeSphere         |        |         |       |  
 | Deploy MySQL Exporter in KubeSphere         |  Guangzhe Huang      |    https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-mysql/     |
-| Deploy RabbitMQ in KubeSphere               |        |         |       |  
+| Deploy RabbitMQ in KubeSphere               | wenxin       |         |       |  
 | Deploy Memcached in KubeSphere              |        |         |       |  
 | Deploy PostgreSQL in KubeSphere             |        |         |       |  
-| Deploy NGINX in KubeSphere                  |        |         |       |  
-| Deploy MongoDB in KubeSphere                |        |         |       |  
+| Deploy NGINX in KubeSphere                  | yaping liu       |         |       |  
+| Deploy MongoDB in KubeSphere                | yaping liu       |         |       |  
 | Deploy Harbor in KubeSphere                 |        |         |       |  
 | Deploy MinIO in KubeSphere                  |        |         |       |  
 | Deploy Porter in KubeSphere                 |        |         |       |  
