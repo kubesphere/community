@@ -57,7 +57,7 @@ As for the apps documentation, in addition to basic deployment on KubeSphere, So
 | Deploy PostgreSQL in KubeSphere             |        |         |       |  
 | Deploy NGINX in KubeSphere                  | yaping liu       |         |       |  
 | Deploy MongoDB in KubeSphere                | yaping liu       |         |       |  
-| Deploy Harbor in KubeSphere                 |        |         |       |  
+| Deploy Harbor in KubeSphere                 | shengpeng Wang       |         |       |  
 | Deploy MinIO in KubeSphere                  |        |         |       |  
 | Deploy Porter in KubeSphere                 |        |         |       |  
 | Deploy etcd in KubeSphere                   |        |         |       |  
