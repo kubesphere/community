@@ -53,12 +53,12 @@ As for the apps documentation, in addition to basic deployment on KubeSphere, So
 | Deploy Redis Exporter in KubeSphere         |        |         |       |  
 | Deploy MySQL Exporter in KubeSphere         |  Guangzhe Huang      |    https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-mysql/     |
 | Deploy RabbitMQ in KubeSphere               | wenxin       |         |       |  
-| Deploy Memcached in KubeSphere              |        |         |       |  
-| Deploy PostgreSQL in KubeSphere             |        |         |       |  
+| Deploy Memcached in KubeSphere              |  Yunkun Rao      |         |   En   |
+| Deploy PostgreSQL in KubeSphere             |  Yunkun Rao      |         |     En  |
 | Deploy NGINX in KubeSphere                  | yaping liu       |         |       |  
 | Deploy MongoDB in KubeSphere                | yaping liu       |         |       |  
 | Deploy Harbor in KubeSphere                 |        |         |       |  
-| Deploy MinIO in KubeSphere                  |        |         |       |  
+| Deploy MinIO in KubeSphere                  |  Yunkun Rao   |         |   En   |
 | Deploy Porter in KubeSphere                 |        |         |       |  
 | Deploy etcd in KubeSphere                   |        |         |       |  
 | Deploy Elasticsearch Exporter in KubeSphere |        |         |       |  
