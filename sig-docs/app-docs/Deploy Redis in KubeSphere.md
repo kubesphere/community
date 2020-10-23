@@ -16,7 +16,7 @@ typora-root-url: ..\images
 
 1. 使用 `project-regular`账号进入已创建的项目 `demo-project `后，选择**应用负载**，点击**应用**，点击 **部署新应用**，然后在弹窗中选择 **来自应用商店**。
 
-   ![](../images/image-20201021143257502.png)
+   ![](..\images/image-20201021143257502.png)
 
    ![](../images/image-20201021143257502.png)
 
