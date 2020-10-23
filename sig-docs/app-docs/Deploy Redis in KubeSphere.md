@@ -18,8 +18,6 @@ typora-root-url: ..\images
 
    ![](..\images\image-20201021143257502.png)
 
-   ![](../images/image-20201021143257502.png)
-
 2. 进入应用商店页面。
 
    ![image-20201021143546762](../images/image-20201021143546762.png)
