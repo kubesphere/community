@@ -6,7 +6,7 @@ Are you ready to obtain the prizes?
 
 ## Technical Content We Prefer
 
-Whether you are a user, a developer, or a contributor, you can find your interesting directions to get started with the content writing from the following prompts.
+Whether you are a user, a developer, or a contributor, you can find the direction that interests you from the following prompts. 
 
 - A complete step-by-step tutorial using KubeSphere, leveraging several open source CNCF projects into the demonstration
 - Deep dive into a single component or a feature of KubeSphere, including its in-depth interpretation regarding the principle or architecture
@@ -46,7 +46,7 @@ If your content is great, we will submit and contribute it to [CNCF Blog](https:
 The SIGs, blogs, and contributors at present are listed in the table below. Both English and Chinese content are acceptable, but English is preferred since it is easier to publish to the global community. Please mark the language after the blog title.
 
 | Group |  Slack Channel | Blog (En/Zh) | Contributor (GitHub ID) |
-|-------|-------------|-------|--------------|--------------------|
+|-------|-------------|--------------|--------------------|
 | [Apps](./sig-apps/) | [#sig-apps](https://kubesphere.slack.com/messages/sig-apps) |  |  |
 | [App Store](./sig-appstore) |  [#sig-appstore](https://kubesphere.slack.com/messages/sig-appstore) |   |  |
 | [Architecture](./sig-architecture) | [#sig-architecture](https://kubesphere.slack.com/messages/sig-architecture) |   |  |
