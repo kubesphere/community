@@ -1,6 +1,6 @@
 # Open Source Technical Writing Award Program
 
-Open Source Technical Writing Award Program is designed to reward people who write and contribute to our to community with high quality technical blogs. This program is open to anyone, We welcome anyone to contribute and join this plan to compete for the award. This program is organized by each SIG and will be reviewed in each season, and we will reward outstanding individuals and SIGs from the contribution ranking. 
+Open Source Technical Writing Award Program is designed to reward people who write and contribute high quality technical blogs to our community. This program is open to everyone and you are welcome to contribute and join this plan to win the award. This program is organized by each SIG and will be reviewed in each season, and we will reward outstanding individuals and SIGs from the contribution ranking. 
 
 Are you ready to obtain the prizes?
 
