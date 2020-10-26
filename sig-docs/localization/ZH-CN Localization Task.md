@@ -11,39 +11,39 @@ Please read the following rules before you claim a task:
 - When you submit your translation, only submit **one guide at a time in a pull request**, which can greatly improve the review efficiency.
 - For more information about the documentation and localization style guide, see [KubeSphere Documentation Style Guide](https://github.com/kubesphere/website/blob/master/KubeSphere%20Documentation%20Style%20Guide.md) and [KubeSphere Localization Style Guide (for Simplified Chinese)](https://github.com/kubesphere/website/blob/master/localization_style_guides/KubeSphere%20Localization%20Style%20Guide%20(for%20Simplified%20Chinese).md).
 
-| Quickstarts                                                  | Translator | PR Link |
-| ------------------------------------------------------------ | ---------- | ------- |
-| [All-in-one Installation on Linux](https://kubesphere.io/docs/quick-start/all-in-one-on-linux/) |  https://github.com/hantmac |         |
-| [Minimal KubeSphere on Kubernetes](https://kubesphere.io/docs/quick-start/minimal-kubesphere-on-k8s/) |            |         |
-| [Create Workspace, Project, Account and Role](https://kubesphere.io/docs/quick-start/create-workspace-and-project/) |            |         |
-| [Deploy Bookinfo and Manage Traffic](https://kubesphere.io/docs/quick-start/deploy-bookinfo-to-k8s/) |            |         |
-| [Compose and Deploy Wordpress](https://kubesphere.io/docs/quick-start/wordpress-deployment/) |  https://github.com/Jaycean |         |
-| [Enable Pluggable Components](https://kubesphere.io/docs/quick-start/enable-pluggable-components/) |  https://github.com/Jaycean |         |
-| [Index Page](https://kubesphere.io/docs/quick-start/)        |  https://github.com/Jaycean |         |
+| Quickstarts                                                  | Translator                 | PR Link |
+| ------------------------------------------------------------ | -------------------------- | ------- |
+| [All-in-one Installation on Linux](https://kubesphere.io/docs/quick-start/all-in-one-on-linux/) | https://github.com/hantmac |         |
+| [Minimal KubeSphere on Kubernetes](https://kubesphere.io/docs/quick-start/minimal-kubesphere-on-k8s/) |                            |         |
+| [Create Workspace, Project, Account and Role](https://kubesphere.io/docs/quick-start/create-workspace-and-project/) |                            |         |
+| [Deploy Bookinfo and Manage Traffic](https://kubesphere.io/docs/quick-start/deploy-bookinfo-to-k8s/) |                            |         |
+| [Compose and Deploy Wordpress](https://kubesphere.io/docs/quick-start/wordpress-deployment/) | https://github.com/Jaycean |         |
+| [Enable Pluggable Components](https://kubesphere.io/docs/quick-start/enable-pluggable-components/) | https://github.com/Jaycean |         |
+| [Index Page](https://kubesphere.io/docs/quick-start/)        | https://github.com/Jaycean |         |
 
-| Installing on Linux                                          | Translator | PR Link |
-| ------------------------------------------------------------ | ---------- | ------- |
-| [Index Page](https://kubesphere.io/docs/installing-on-linux/) |  https://github.com/hantmac |         |
-| [Overview](https://kubesphere.io/docs/installing-on-linux/introduction/intro/) |            |         |
-| [Multi-node Installation](https://kubesphere.io/docs/installing-on-linux/introduction/multioverview/) |            |         |
-| [Air-gapped Installation](https://kubesphere.io/docs/installing-on-linux/introduction/air-gapped-installation/) |            |         |
-| [Port Requirements](https://kubesphere.io/docs/installing-on-linux/introduction/port-firewall/) |            |         |
-| [Kubernetes Cluster Configuration](https://kubesphere.io/docs/installing-on-linux/introduction/vars/) |            |         |
-| [Persistent Storage Configuration](https://kubesphere.io/docs/installing-on-linux/introduction/storage-configuration/) |            |         |
-| [Add New Nodes](https://kubesphere.io/docs/installing-on-linux/cluster-operation/add-new-nodes/) |            |         |
-| [Remove Nodes](https://kubesphere.io/docs/installing-on-linux/cluster-operation/remove-nodes/) |            |         |
-| [Uninstalling KubeSphere and Kubernetes](https://kubesphere.io/docs/installing-on-linux/uninstalling/uninstalling-kubesphere-and-kubernetes/) |            |         |
-| [Configure Booster for Installation](https://kubesphere.io/docs/installing-on-linux/faq/configure-booster/) |            |         |
+| Installing on Linux                                          | Translator                  | PR Link |
+| ------------------------------------------------------------ | --------------------------- | ------- |
+| [Index Page](https://kubesphere.io/docs/installing-on-linux/) | https://github.com/hantmac  |         |
+| [Overview](https://kubesphere.io/docs/installing-on-linux/introduction/intro/) |                             |         |
+| [Multi-node Installation](https://kubesphere.io/docs/installing-on-linux/introduction/multioverview/) |                             |         |
+| [Air-gapped Installation](https://kubesphere.io/docs/installing-on-linux/introduction/air-gapped-installation/) |                             |         |
+| [Port Requirements](https://kubesphere.io/docs/installing-on-linux/introduction/port-firewall/) | https://github.com/caojiele |         |
+| [Kubernetes Cluster Configuration](https://kubesphere.io/docs/installing-on-linux/introduction/vars/) | https://github.com/caojiele |         |
+| [Persistent Storage Configuration](https://kubesphere.io/docs/installing-on-linux/introduction/storage-configuration/) |                             |         |
+| [Add New Nodes](https://kubesphere.io/docs/installing-on-linux/cluster-operation/add-new-nodes/) |                             |         |
+| [Remove Nodes](https://kubesphere.io/docs/installing-on-linux/cluster-operation/remove-nodes/) | https://github.com/caojiele |         |
+| [Uninstalling KubeSphere and Kubernetes](https://kubesphere.io/docs/installing-on-linux/uninstalling/uninstalling-kubesphere-and-kubernetes/) | https://github.com/caojiele |         |
+| [Configure Booster for Installation](https://kubesphere.io/docs/installing-on-linux/faq/configure-booster/) |                             |         |
 
-| Installing on Kubernetes                                     | Translator | PR Link |
-| ------------------------------------------------------------ | ---------- | ------- |
-| [Index Page](https://kubesphere.io/docs/installing-on-kubernetes/) |            |         |
-| [Overview](https://kubesphere.io/docs/installing-on-kubernetes/introduction/overview/) |            |         |
-| [Prerequisites](https://kubesphere.io/docs/installing-on-kubernetes/introduction/prerequisites/) |            |         |
-| [Deploy KubeSphere on DigitalOcean](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-do/) |            |         |
-| [Deploy KubeSphere on GKE](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-gke/) |            |         |
-| [Deploy KubeSphere on AKS](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-aks/) |            |         |
-| [Uninstalling KubeSphere from Kubernetes](https://kubesphere.io/docs/installing-on-kubernetes/uninstalling/uninstalling-kubesphere-from-k8s/) |            |         |
+| Installing on Kubernetes                                     | Translator                  | PR Link |
+| ------------------------------------------------------------ | --------------------------- | ------- |
+| [Index Page](https://kubesphere.io/docs/installing-on-kubernetes/) |                             |         |
+| [Overview](https://kubesphere.io/docs/installing-on-kubernetes/introduction/overview/) |                             |         |
+| [Prerequisites](https://kubesphere.io/docs/installing-on-kubernetes/introduction/prerequisites/) |                             |         |
+| [Deploy KubeSphere on DigitalOcean](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-do/) |                             |         |
+| [Deploy KubeSphere on GKE](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-gke/) |                             |         |
+| [Deploy KubeSphere on AKS](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-aks/) |                             |         |
+| [Uninstalling KubeSphere from Kubernetes](https://kubesphere.io/docs/installing-on-kubernetes/uninstalling/uninstalling-kubesphere-from-k8s/) | https://github.com/caojiele |         |
 
 | Multi-cluster Management                                     | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
@@ -66,14 +66,14 @@ Please read the following rules before you claim a task:
 | [KubeSphere Alerting and Notification](https://kubesphere.io/docs/pluggable-components/alerting-notification/) |            |         |
 | [Network Policy](https://kubesphere.io/docs/pluggable-components/network-policy/) |            |         |
 
-| Upgrade                                                      | Translator | PR Link |
-| ------------------------------------------------------------ | ---------- | ------- |
-| [Index Page](https://kubesphere.io/docs/upgrade/)            | https://github.com/reneeteng           |         |
-| [Overview](https://kubesphere.io/docs/upgrade/upgrade-overview/) | https://github.com/reneeteng         |         |
-| [Upgrade with KubeKey](https://kubesphere.io/docs/upgrade/upgrade-with-kubekey/) |            |         |
-| [Upgrade with ks-installer](https://kubesphere.io/docs/upgrade/upgrade-with-ks-installer/) |            |         |
-| [Changes after Upgrade](https://kubesphere.io/docs/upgrade/what-changed/) |            |         |
-| [FAQ](https://kubesphere.io/docs/upgrade/upgrade-faq/)       |            |         |
+| Upgrade                                                      | Translator                   | PR Link |
+| ------------------------------------------------------------ | ---------------------------- | ------- |
+| [Index Page](https://kubesphere.io/docs/upgrade/)            | https://github.com/reneeteng |         |
+| [Overview](https://kubesphere.io/docs/upgrade/upgrade-overview/) | https://github.com/reneeteng |         |
+| [Upgrade with KubeKey](https://kubesphere.io/docs/upgrade/upgrade-with-kubekey/) |                              |         |
+| [Upgrade with ks-installer](https://kubesphere.io/docs/upgrade/upgrade-with-ks-installer/) |                              |         |
+| [Changes after Upgrade](https://kubesphere.io/docs/upgrade/what-changed/) | https://github.com/caojiele  |         |
+| [FAQ](https://kubesphere.io/docs/upgrade/upgrade-faq/)       | https://github.com/caojiele  |         |
 
 | Cluster Administration                                       | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
