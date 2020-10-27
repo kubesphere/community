@@ -56,15 +56,15 @@ Please read the following rules before you claim a task:
 
 | Enable Pluggable Components                                  | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
-| [Index Page](https://kubesphere.io/docs/pluggable-components/) |            |         |
-| [KubeSphere App Store](https://kubesphere.io/docs/pluggable-components/app-store/) |            |         |
-| [KubeSphere DevOps System](https://kubesphere.io/docs/pluggable-components/devops/) |            |         |
-| [KubeSphere Auditing Logs](https://kubesphere.io/docs/pluggable-components/auditing-logs/) |            |         |
-| [KubeSphere Events](https://kubesphere.io/docs/pluggable-components/events/) |            |         |
-| [KubeSphere Logging System](https://kubesphere.io/docs/pluggable-components/logging/) |            |         |
-| [KubeSphere Service Mesh](https://kubesphere.io/docs/pluggable-components/service-mesh/) |            |         |
-| [KubeSphere Alerting and Notification](https://kubesphere.io/docs/pluggable-components/alerting-notification/) |            |         |
-| [Network Policy](https://kubesphere.io/docs/pluggable-components/network-policy/) |            |         |
+| [Index Page](https://kubesphere.io/docs/pluggable-components/) | [Haili Zhang](https://github.com/webup)           |         |
+| [KubeSphere App Store](https://kubesphere.io/docs/pluggable-components/app-store/) | [Haili Zhang](https://github.com/webup)           |         |
+| [KubeSphere DevOps System](https://kubesphere.io/docs/pluggable-components/devops/) | [Haili Zhang](https://github.com/webup)           |         |
+| [KubeSphere Auditing Logs](https://kubesphere.io/docs/pluggable-components/auditing-logs/) | [Haili Zhang](https://github.com/webup)           |         |
+| [KubeSphere Events](https://kubesphere.io/docs/pluggable-components/events/) | [Haili Zhang](https://github.com/webup)           |         |
+| [KubeSphere Logging System](https://kubesphere.io/docs/pluggable-components/logging/) | [Haili Zhang](https://github.com/webup)           |         |
+| [KubeSphere Service Mesh](https://kubesphere.io/docs/pluggable-components/service-mesh/) | [Haili Zhang](https://github.com/webup)           |         |
+| [KubeSphere Alerting and Notification](https://kubesphere.io/docs/pluggable-components/alerting-notification/) | [Haili Zhang](https://github.com/webup)           |         |
+| [Network Policy](https://kubesphere.io/docs/pluggable-components/network-policy/) | [Haili Zhang](https://github.com/webup)           |         |
 
 | Upgrade                                                      | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
