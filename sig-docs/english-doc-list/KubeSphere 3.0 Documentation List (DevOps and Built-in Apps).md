@@ -77,4 +77,5 @@ As for the apps documentation, in addition to basic deployment on KubeSphere, So
 | Biz-engine          |        |         |       |  
 | Csi-neonsan         |        |         |       |  
 | Csi-qingcloud       |        |         |       |  
+| GitLab              | [Hongliang Wang](https://github.com/hlwanghl) |         | En   |  
 | ks-installer        |        |         |       |  
