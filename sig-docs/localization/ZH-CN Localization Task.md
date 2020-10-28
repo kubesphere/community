@@ -14,7 +14,7 @@ Please read the following rules before you claim a task:
 | Quickstarts                                                  | Translator                 | PR Link |
 | ------------------------------------------------------------ | -------------------------- | ------- |
 | [All-in-one Installation on Linux](https://kubesphere.io/docs/quick-start/all-in-one-on-linux/) | https://github.com/hantmac |         |
-| [Minimal KubeSphere on Kubernetes](https://kubesphere.io/docs/quick-start/minimal-kubesphere-on-k8s/) |                            |         |
+| [Minimal KubeSphere on Kubernetes](https://kubesphere.io/docs/quick-start/minimal-kubesphere-on-k8s/) | https://github.com/shenhonglei |         |
 | [Create Workspace, Project, Account and Role](https://kubesphere.io/docs/quick-start/create-workspace-and-project/) |   https://github.com/ckyx                         |         |
 | [Deploy Bookinfo and Manage Traffic](https://kubesphere.io/docs/quick-start/deploy-bookinfo-to-k8s/) |    https://github.com/ckyx                        |         |
 | [Compose and Deploy Wordpress](https://kubesphere.io/docs/quick-start/wordpress-deployment/) | https://github.com/Jaycean |         |
@@ -37,7 +37,7 @@ Please read the following rules before you claim a task:
 
 | Installing on Kubernetes                                     | Translator                  | PR Link |
 | ------------------------------------------------------------ | --------------------------- | ------- |
-| [Index Page](https://kubesphere.io/docs/installing-on-kubernetes/) |                             |         |
+| [Index Page](https://kubesphere.io/docs/installing-on-kubernetes/) | https://github.com/shenhonglei |         |
 | [Overview](https://kubesphere.io/docs/installing-on-kubernetes/introduction/overview/) |                             |         |
 | [Prerequisites](https://kubesphere.io/docs/installing-on-kubernetes/introduction/prerequisites/) |                             |         |
 | [Deploy KubeSphere on DigitalOcean](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-do/) |                             |         |
@@ -79,4 +79,4 @@ Please read the following rules before you claim a task:
 | ------------------------------------------------------------ | ---------- | ------- |
 | [Cluster Status Monitoring](https://kubesphere.io/docs/cluster-administration/cluster-status-monitoring/) |            |         |
 | [Application Resources Monitoring](https://kubesphere.io/docs/cluster-administration/application-resources-monitoring/) |            |         |
-| [Mail Server](https://kubesphere.io/docs/cluster-administration/cluster-settings/mail-server/) |            |         |
+| [Mail Server](https://kubesphere.io/docs/cluster-administration/cluster-settings/mail-server/) | https://github.com/shenhonglei |         |
