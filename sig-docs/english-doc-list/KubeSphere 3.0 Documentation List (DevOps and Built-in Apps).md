@@ -67,7 +67,7 @@ As for the apps documentation, in addition to basic deployment on KubeSphere, So
 
 | Guide               | Writer | PR Link | Language (En/Zh) |
 | ------------------- | ------ | ------- |  ------ | 
-| APISIX              | [Hongliang Wang](https://github.com/hlwanghl) |         | En   |
+| APISIX              |        |         |       |
 | aws-ebs-csi-driver  |        |         |       |  
 | aws-efs-csi-driver  |        |         |       |  
 | aws-fsx-csi-driver  |        |         |       |  
