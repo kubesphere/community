@@ -60,14 +60,14 @@ As for the apps documentation, in addition to basic deployment on KubeSphere, So
 | Deploy Harbor in KubeSphere                 |        |         |       |  
 | Deploy MinIO in KubeSphere                  |  Yunkun Rao   |         |   En   |
 | Deploy Porter in KubeSphere                 |        |         |       |  
-| Deploy etcd in KubeSphere                   |        |         |       |  
+| Deploy etcd in KubeSphere                   | [Hongliang Wang](https://github.com/hlwanghl) |         | En   |
 | Deploy Elasticsearch Exporter in KubeSphere |        |         |       |  
 
 ### From helm-charts Repo (excluding those shown above)
 
 | Guide               | Writer | PR Link | Language (En/Zh) |
 | ------------------- | ------ | ------- |  ------ | 
-| APISIX              |        |         |        |  
+| APISIX              |        |         |       |
 | aws-ebs-csi-driver  |        |         |       |  
 | aws-efs-csi-driver  |        |         |       |  
 | aws-fsx-csi-driver  |        |         |       |  
@@ -77,4 +77,5 @@ As for the apps documentation, in addition to basic deployment on KubeSphere, So
 | Biz-engine          |        |         |       |  
 | Csi-neonsan         |        |         |       |  
 | Csi-qingcloud       |        |         |       |  
+| GitLab              | [Hongliang Wang](https://github.com/hlwanghl) |         | En   |
 | ks-installer        |        |         |       |  
