@@ -47,12 +47,12 @@ As for the apps documentation, in addition to basic deployment on KubeSphere, So
 
 | Guide                                       | Writer | PR Link | Language (En/Zh) |
 | ------------------------------------------- | ------ | ------- | ------ | 
-| Deploy Tomcat in KubeSphere                 | wenxin       |         |       |  
+| Deploy Tomcat in KubeSphere                 | wenxin       |  https://kubesphere.io/docs/application-store/built-in-apps/tomcat-app/       |       |  
 | Deploy Redis in KubeSphere                  | yaping liu       |         |       |  
 | Deploy MySQL in KubeSphere                  | wenxin       |         |       |  
 | Deploy Redis Exporter in KubeSphere         |        |         |       |  
 | Deploy MySQL Exporter in KubeSphere         |  Guangzhe Huang      |    https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-mysql/     |
-| Deploy RabbitMQ in KubeSphere               | wenxin       |         |       |  
+| Deploy RabbitMQ in KubeSphere               | wenxin       |   https://kubesphere.io/docs/application-store/built-in-apps/rabbitmq-app/      |       |  
 | Deploy Memcached in KubeSphere              |  Yunkun Rao      |         |   En   |
 | Deploy PostgreSQL in KubeSphere             |  Yunkun Rao      |         |     En  |
 | Deploy NGINX in KubeSphere                  | yaping liu       |         |       |  
