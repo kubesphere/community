@@ -22,9 +22,9 @@ Below are lists of guides that need to be written as part of KubeSphere document
 | Guide                                    | Writer | PR Link | Language (En/Zh) |
 | ---------------------------------------- | ------ | ------- | ------ | 
 | Integrating SonarQube in Pipeline        |        |         |        |   
-| Integrating Harbor in Pipeline           |        |         |        |   
-| Integrating Nexus in Pipeline            |        |         |        |   
-| Integrating Jrog Artifactory in Pipeline |        |         |        |   
+| Integrating Harbor in Pipeline           |yuswift |         | En     |   
+| Integrating Nexus in Pipeline            |jeff    |         | En     |   
+| Integrating Jrog Artifactory in Pipeline |zack    |         | En     |   
 
 ### Pipeline Example
 
@@ -32,12 +32,12 @@ Below are lists of guides that need to be written as part of KubeSphere document
 | ------------------------------------------------------ | ------ | ------- | ------ | 
 | How to compile and deploy a Maven project              |        |         |        |   
 | How to compile and deploy a Spring Cloud project       |        |         |        |   
-| How to compile and deploy a nodejs project             |        |         |        |   
-| How to compile and deploy a Go project                 |        |         |        |   
-| How to compile and deploy a Python project             |        |         |        |   
+| How to compile and deploy a nodejs project             |jeff    |         | En     |   
+| How to compile and deploy a Go project                 |yuswift |         | En     |   
+| How to compile and deploy a Python project             |        |         | En     |   
 | How to run automated testing                           |        |         |        |   
-| How to deploy applications cross multiple clusters     |        |         |        |   
-| How to deploy a microservice application based on K8s |        |         |        |   
+| How to deploy applications cross multiple clusters     |yuswift |         | En     |   
+| How to deploy a microservice application based on K8s  |        |         |        |   
 
 ## App Store
 
