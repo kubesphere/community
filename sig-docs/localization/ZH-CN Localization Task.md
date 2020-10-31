@@ -37,7 +37,7 @@ Please read the following rules before you claim a task:
 
 | Installing on Kubernetes                                     | Translator                  | PR Link |
 | ------------------------------------------------------------ | --------------------------- | ------- |
-| [Index Page](https://kubesphere.io/docs/installing-on-kubernetes/) | https://github.com/shenhonglei |         |
+| [Index Page](https://kubesphere.io/docs/installing-on-kubernetes/) | https://github.com/shenhonglei | [427](https://github.com/kubesphere/website/pull/427) |
 | [Overview](https://kubesphere.io/docs/installing-on-kubernetes/introduction/overview/) |                             |         |
 | [Prerequisites](https://kubesphere.io/docs/installing-on-kubernetes/introduction/prerequisites/) |                             |         |
 | [Deploy KubeSphere on DigitalOcean](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-do/) |                             |         |
