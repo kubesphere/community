@@ -1,4 +1,4 @@
-# Simplified Chinese Localization Task List of KubeSphere Documentation 3.0 
+# Simplified Chinese Localization Task List of KubeSphere Documentation 3.0
 
 The tables below contain all the guides in KubeSphere documentation that need to be translated into Simplified Chinese. Not all guides in the documentation are in it since some guides are not ready for translation yet. These tables will be updated regularly.
 
@@ -23,7 +23,7 @@ Please read the following rules before you claim a task:
 
 | Installing on Linux                                          | Translator                  | PR Link |
 | ------------------------------------------------------------ | --------------------------- | ------- |
-| [Index Page](https://kubesphere.io/docs/installing-on-linux/) | https://github.com/hantmac  |         |
+| [Index Page](https://kubesphere.io/docs/installing-on-linux/) | https://github.com/hantmac  |  https://github.com/kubesphere/website/pull/434   |
 | [Overview](https://kubesphere.io/docs/installing-on-linux/introduction/intro/) |                             |         |
 | [Multi-node Installation](https://kubesphere.io/docs/installing-on-linux/introduction/multioverview/) |                             |         |
 | [Air-gapped Installation](https://kubesphere.io/docs/installing-on-linux/introduction/air-gapped-installation/) |                             |         |
