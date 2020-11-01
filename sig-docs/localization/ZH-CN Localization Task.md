@@ -47,12 +47,12 @@ Please read the following rules before you claim a task:
 
 | Multi-cluster Management                                     | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
-| [Index Page](https://kubesphere.io/docs/multicluster-management/) |            |         |
-| [Overview](https://kubesphere.io/docs/multicluster-management/introduction/overview/) |            |         |
-| [Kubernetes Federation in KubeSphere](https://kubesphere.io/docs/multicluster-management/introduction/kubefed-in-kubesphere/) |            |         |
-| [Direct Connection](https://kubesphere.io/docs/multicluster-management/enable-multicluster/direct-connection/) |            |         |
-| [Agent Connection](https://kubesphere.io/docs/multicluster-management/enable-multicluster/agent-connection/) |            |         |
-| [Retrieve KubeConfig](https://kubesphere.io/docs/multicluster-management/enable-multicluster/retrieve-kubeconfig/) |            |         |
+| [Index Page](https://kubesphere.io/docs/multicluster-management/) | [Bingo Liao](https://github.com/forearrow/) |         |
+| [Overview](https://kubesphere.io/docs/multicluster-management/introduction/overview/) | [Bingo Liao](https://github.com/forearrow/) |         |
+| [Kubernetes Federation in KubeSphere](https://kubesphere.io/docs/multicluster-management/introduction/kubefed-in-kubesphere/) | [Bingo Liao](https://github.com/forearrow/) |         |
+| [Direct Connection](https://kubesphere.io/docs/multicluster-management/enable-multicluster/direct-connection/) | [Bingo Liao](https://github.com/forearrow/) |         |
+| [Agent Connection](https://kubesphere.io/docs/multicluster-management/enable-multicluster/agent-connection/) | [Bingo Liao](https://github.com/forearrow/) |         |
+| [Retrieve KubeConfig](https://kubesphere.io/docs/multicluster-management/enable-multicluster/retrieve-kubeconfig/) | [Bingo Liao](https://github.com/forearrow/) |         |
 
 | Enable Pluggable Components                                  | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
