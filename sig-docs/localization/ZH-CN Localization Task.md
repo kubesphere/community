@@ -14,9 +14,9 @@ Please read the following rules before you claim a task:
 | Quickstarts                                                  | Translator                 | PR Link |
 | ------------------------------------------------------------ | -------------------------- | ------- |
 | [All-in-one Installation on Linux](https://kubesphere.io/docs/quick-start/all-in-one-on-linux/) | https://github.com/hantmac |         |
-| [Minimal KubeSphere on Kubernetes](https://kubesphere.io/docs/quick-start/minimal-kubesphere-on-k8s/) |                            |         |
-| [Create Workspace, Project, Account and Role](https://kubesphere.io/docs/quick-start/create-workspace-and-project/) |                            |         |
-| [Deploy Bookinfo and Manage Traffic](https://kubesphere.io/docs/quick-start/deploy-bookinfo-to-k8s/) |                            |         |
+| [Minimal KubeSphere on Kubernetes](https://kubesphere.io/docs/quick-start/minimal-kubesphere-on-k8s/) | https://github.com/shenhonglei | [424](https://github.com/kubesphere/website/pull/424) |
+| [Create Workspace, Project, Account and Role](https://kubesphere.io/docs/quick-start/create-workspace-and-project/) |   https://github.com/ckyx                         |         |
+| [Deploy Bookinfo and Manage Traffic](https://kubesphere.io/docs/quick-start/deploy-bookinfo-to-k8s/) |    https://github.com/ckyx                        |         |
 | [Compose and Deploy Wordpress](https://kubesphere.io/docs/quick-start/wordpress-deployment/) | https://github.com/Jaycean |         |
 | [Enable Pluggable Components](https://kubesphere.io/docs/quick-start/enable-pluggable-components/) | https://github.com/Jaycean |         |
 | [Index Page](https://kubesphere.io/docs/quick-start/)        | https://github.com/Jaycean |         |
@@ -37,7 +37,7 @@ Please read the following rules before you claim a task:
 
 | Installing on Kubernetes                                     | Translator                  | PR Link |
 | ------------------------------------------------------------ | --------------------------- | ------- |
-| [Index Page](https://kubesphere.io/docs/installing-on-kubernetes/) |                             |         |
+| [Index Page](https://kubesphere.io/docs/installing-on-kubernetes/) | https://github.com/shenhonglei | [427](https://github.com/kubesphere/website/pull/427) |
 | [Overview](https://kubesphere.io/docs/installing-on-kubernetes/introduction/overview/) |                             |         |
 | [Prerequisites](https://kubesphere.io/docs/installing-on-kubernetes/introduction/prerequisites/) |                             |         |
 | [Deploy KubeSphere on DigitalOcean](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-do/) |                             |         |
@@ -47,12 +47,12 @@ Please read the following rules before you claim a task:
 
 | Multi-cluster Management                                     | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
-| [Index Page](https://kubesphere.io/docs/multicluster-management/) |            |         |
-| [Overview](https://kubesphere.io/docs/multicluster-management/introduction/overview/) |            |         |
-| [Kubernetes Federation in KubeSphere](https://kubesphere.io/docs/multicluster-management/introduction/kubefed-in-kubesphere/) |            |         |
-| [Direct Connection](https://kubesphere.io/docs/multicluster-management/enable-multicluster/direct-connection/) |            |         |
-| [Agent Connection](https://kubesphere.io/docs/multicluster-management/enable-multicluster/agent-connection/) |            |         |
-| [Retrieve KubeConfig](https://kubesphere.io/docs/multicluster-management/enable-multicluster/retrieve-kubeconfig/) |            |         |
+| [Index Page](https://kubesphere.io/docs/multicluster-management/) | [Bingo Liao](https://github.com/forearrow/) |         |
+| [Overview](https://kubesphere.io/docs/multicluster-management/introduction/overview/) | [Bingo Liao](https://github.com/forearrow/) |         |
+| [Kubernetes Federation in KubeSphere](https://kubesphere.io/docs/multicluster-management/introduction/kubefed-in-kubesphere/) | [Bingo Liao](https://github.com/forearrow/) |         |
+| [Direct Connection](https://kubesphere.io/docs/multicluster-management/enable-multicluster/direct-connection/) | [Bingo Liao](https://github.com/forearrow/) |         |
+| [Agent Connection](https://kubesphere.io/docs/multicluster-management/enable-multicluster/agent-connection/) | [Bingo Liao](https://github.com/forearrow/) |         |
+| [Retrieve KubeConfig](https://kubesphere.io/docs/multicluster-management/enable-multicluster/retrieve-kubeconfig/) | [Bingo Liao](https://github.com/forearrow/) |         |
 
 | Enable Pluggable Components                                  | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
@@ -79,4 +79,28 @@ Please read the following rules before you claim a task:
 | ------------------------------------------------------------ | ---------- | ------- |
 | [Cluster Status Monitoring](https://kubesphere.io/docs/cluster-administration/cluster-status-monitoring/) |            |         |
 | [Application Resources Monitoring](https://kubesphere.io/docs/cluster-administration/application-resources-monitoring/) |            |         |
-| [Mail Server](https://kubesphere.io/docs/cluster-administration/cluster-settings/mail-server/) |            |         |
+| [Mail Server](https://kubesphere.io/docs/cluster-administration/cluster-settings/mail-server/) | https://github.com/shenhonglei |         |
+| [Node Management](https://kubesphere.io/docs/cluster-administration/nodes/) |  | |
+| [Cluster Shutdown and Restart](https://kubesphere.io/docs/cluster-administration/shuting-down-and-restart-cluster-cracefully/) |  | |
+| [Alerting Policy (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-policy/) |  | |
+| [Alerting Message (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-message/) |  | |
+| [Index Page](https://kubesphere.io/docs/cluster-administration/) |  | |
+
+| Project User Guide                                           | Translator | PR Link |
+| ------------------------------------------------------------ | ---------- | ------- |
+| [Index Page](https://kubesphere.io/docs/project-user-guide/) |            |         |
+| [Deployments](https://kubesphere.io/docs/project-user-guide/application-workloads/deployments/) |            |         |
+| [StatefulSets](https://kubesphere.io/docs/project-user-guide/application-workloads/statefulsets/) |            |         |
+| [DaemonSets](https://kubesphere.io/docs/project-user-guide/application-workloads/daemonsets/) |            |         |
+| [Jobs](https://kubesphere.io/docs/project-user-guide/application-workloads/jobs/) |            |         |
+| [CronJobs](https://kubesphere.io/docs/project-user-guide/application-workloads/cronjob/) |            |         |
+| [Services](https://kubesphere.io/docs/project-user-guide/application-workloads/services/) |            |         |
+| [Container Image Settings](https://kubesphere.io/docs/project-user-guide/application-workloads/container-image-settings/) |            |         |
+| [Introduction](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/introduction/) |            |         |
+| [Monitor MySQL](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-mysql/) |            |         |
+| [Monitor Sample Web](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-sample-web/) |            |         |
+| [Overview](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/overview/) |            |         |
+| [Panels](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/panel/) |            |         |
+| [Querying](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/querying/) |            |         |
+| [Alerting Policy (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-policy/) |            |         |
+| [Alerting Message (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-message/) |            |         |
