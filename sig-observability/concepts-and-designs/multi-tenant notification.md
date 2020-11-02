@@ -62,11 +62,11 @@
 
 ## Requirements ##
 
-- Every user can customize the channels for receiving notifications, including email, wechat, slack, webhook and dingtalk, by customize his own receiver and config. A user only has one receiver or config in the same type.
+- Every user can customize the channels for receiving notifications, including email, wechat, slack, webhook and dingtalk, by customizing his own receiver and config. A user can only have one receiver or config of the same type.
 
 ![](../images/tenant-receiver-config.png)
 
-- The platform administrator can customize the global channel for receiving all notifications by customize the global receivers and the default configs. Each type of global receiver and default config can be only one.
+- The platform administrator can customize the global channel for receiving all notifications by customizing the global receivers and the default configs. Only one global receiver or default config is allowed for each type.
 
 ![](../images/global-receiver-config.png)
 
