@@ -50,7 +50,7 @@ Please read the following rules before you claim a task:
 | [Index Page](https://kubesphere.io/docs/multicluster-management/) |            |         |
 | [Overview](https://kubesphere.io/docs/multicluster-management/introduction/overview/) |            |         |
 | [Kubernetes Federation in KubeSphere](https://kubesphere.io/docs/multicluster-management/introduction/kubefed-in-kubesphere/) |            |         |
-| [Direct Connection](https://kubesphere.io/docs/multicluster-management/enable-multicluster/direct-connection/) |            |         |
+| [Direct Connection](https://kubesphere.io/docs/multicluster-management/enable-multicluster/direct-connection/) | https://github.com/mvpzhangkai |         |
 | [Agent Connection](https://kubesphere.io/docs/multicluster-management/enable-multicluster/agent-connection/) |            |         |
 | [Retrieve KubeConfig](https://kubesphere.io/docs/multicluster-management/enable-multicluster/retrieve-kubeconfig/) |            |         |
 
