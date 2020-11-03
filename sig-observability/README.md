@@ -20,8 +20,8 @@ The Observability SIG is to design and implement the observability features for 
 
 - [Concept of KubeSphere Logging](concepts-and-designs/kubesphere-logging-v3.0.0.md)
 - [Concept of KubeSphere Monitoring](./concepts-and-designs/kubesphere-monitoring-v3.0.0.md)
-- [Development Guide of KubeSphere Logging](./development/kubesphere-logging-development-guide.md)
-- [Development Guide of KubeSphere Monitoring](./development/kubesphere-monitoring-development-guide.md)
+- [Development Guide of KubeSphere Logging](./development/kubesphere-logging-development-guide-v3.0.0.md)
+- [Development Guide of KubeSphere Monitoring](./development/kubesphere-monitoring-development-guide-v3.0.0.md)
 
 ## Members
 
