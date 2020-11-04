@@ -79,7 +79,7 @@ Please read the following rules before you claim a task:
 | ------------------------------------------------------------ | ---------- | ------- |
 | [Cluster Status Monitoring](https://kubesphere.io/docs/cluster-administration/cluster-status-monitoring/) | [Kai Zhang](https://github.com/mvpzhangkai)         |         |
 | [Application Resources Monitoring](https://kubesphere.io/docs/cluster-administration/application-resources-monitoring/) |            |         |
-| [Mail Server](https://kubesphere.io/docs/cluster-administration/cluster-settings/mail-server/) | https://github.com/shenhonglei |         |
+| [Mail Server](https://kubesphere.io/docs/cluster-administration/cluster-settings/mail-server/) | https://github.com/shenhonglei | [458](https://github.com/kubesphere/website/pull/458) |
 | [Node Management](https://kubesphere.io/docs/cluster-administration/nodes/) |  | |
 | [Cluster Shutdown and Restart](https://kubesphere.io/docs/cluster-administration/shuting-down-and-restart-cluster-cracefully/) |  | |
 | [Alerting Policy (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-policy/) |  | |
