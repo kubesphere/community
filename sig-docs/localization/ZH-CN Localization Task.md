@@ -104,3 +104,11 @@ Please read the following rules before you claim a task:
 | [Querying](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/querying/) |            |         |
 | [Alerting Policy (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-policy/) |            |         |
 | [Alerting Message (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-message/) |            |         |
+
+| DevOps User Guide                                            | Translator | PR Link |
+| ------------------------------------------------------------ | ---------- | ------- |
+| [Index Page](https://kubesphere.io/docs/devops-user-guide/)  |            |         |
+| [Credential Management](https://kubesphere.io/docs/devops-user-guide/how-to-use/credential-management/) |            |         |
+| [Set CI Node for Dependency Cache](https://kubesphere.io/docs/devops-user-guide/how-to-use/set-ci-node/) |            |         |
+| [Set Email Server for KubeSphere Pipelines](https://kubesphere.io/docs/devops-user-guide/how-to-use/jenkins-email/) |            |         |
+| [Integrate SonarQube into Pipeline](https://kubesphere.io/docs/devops-user-guide/how-to-integrate/sonarqube/) |            |         |
