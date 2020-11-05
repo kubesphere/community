@@ -3,7 +3,7 @@
 [Telepresence](https://www.telepresence.io/) is an open source tool that lets you run a single service locally, while connecting the service to a remote Kubernetes cluster.
 
 We can use Telepresence to help us running KubeSphere apiserver locally.
-
+Make sure you have installed `socat` on all of your nodes or you will get some error while starting telepresence.
 ## 1. Install Telepresence
 
 You can read the [official installation documentation](https://www.telepresence.io/reference/install.html) to install Telepresence.
@@ -15,8 +15,7 @@ Open your command line and run the command `telepresence`. Telepresence will hel
 Test Telepresence with KubeSphere apigateway:
 
 ```bash
-$ curl http://ks-apigateway.kubesphere-system
-
+$ curl http://ks-apiserver.kubesphere-system
 401 Unauthorized
 ```
 
