@@ -88,7 +88,7 @@ Please read the following rules before you claim a task:
 
 | Project User Guide                                           | Translator                                    | PR Link |
 | ------------------------------------------------------------ | --------------------------------------------- | ------- |
-| [Index Page](https://kubesphere.io/docs/project-user-guide/) | [shenhonglei](https://github.com/shenhonglei) |         |
+| [Index Page](https://kubesphere.io/docs/project-user-guide/) | [shenhonglei](https://github.com/shenhonglei) | [464](https://github.com/kubesphere/website/pull/464)        |
 | [Deployments](https://kubesphere.io/docs/project-user-guide/application-workloads/deployments/) |                                               |         |
 | [StatefulSets](https://kubesphere.io/docs/project-user-guide/application-workloads/statefulsets/) |                                               |         |
 | [DaemonSets](https://kubesphere.io/docs/project-user-guide/application-workloads/daemonsets/) |                                               |         |
