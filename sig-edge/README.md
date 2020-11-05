@@ -10,7 +10,7 @@ The mission of Edge Computing SIG is to enable edge computing with modern contai
 
 ## Meetings
 
-[Meeting notes](https://docs.google.com/document/d/1JHL5rlNRJE9FieiTrE6n_PXyLAQ4b-BnAmi-MtOT3Xc)
+[Meeting notes](https://docs.google.com/document/d/1VF4G7Gsi0PFplDYkX0rRsMeXpkf9WGPumQi3BkaNRXk)
 
 ## Contact
 
