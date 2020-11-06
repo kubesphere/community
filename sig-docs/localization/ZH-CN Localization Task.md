@@ -1,4 +1,4 @@
-# Simplified Chinese Localization Task List of KubeSphere Documentation 3.0 
+# Simplified Chinese Localization Task List of KubeSphere Documentation 3.0
 
 The tables below contain all the guides in KubeSphere documentation that need to be translated into Simplified Chinese. Not all guides in the documentation are in it since some guides are not ready for translation yet. These tables will be updated regularly.
 
@@ -23,7 +23,7 @@ Please read the following rules before you claim a task:
 
 | Installing on Linux                                          | Translator                  | PR Link |
 | ------------------------------------------------------------ | --------------------------- | ------- |
-| [Index Page](https://kubesphere.io/docs/installing-on-linux/) | https://github.com/hantmac  |         |
+| [Index Page](https://kubesphere.io/docs/installing-on-linux/) | https://github.com/hantmac  |  https://github.com/kubesphere/website/pull/434   |
 | [Overview](https://kubesphere.io/docs/installing-on-linux/introduction/intro/) |                             |         |
 | [Multi-node Installation](https://kubesphere.io/docs/installing-on-linux/introduction/multioverview/) |                             |         |
 | [Air-gapped Installation](https://kubesphere.io/docs/installing-on-linux/introduction/air-gapped-installation/) |                             |         |
@@ -77,30 +77,38 @@ Please read the following rules before you claim a task:
 
 | Cluster Administration                                       | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
-| [Cluster Status Monitoring](https://kubesphere.io/docs/cluster-administration/cluster-status-monitoring/) |            |         |
+| [Cluster Status Monitoring](https://kubesphere.io/docs/cluster-administration/cluster-status-monitoring/) | [Kai Zhang](https://github.com/mvpzhangkai)         |         |
 | [Application Resources Monitoring](https://kubesphere.io/docs/cluster-administration/application-resources-monitoring/) |            |         |
-| [Mail Server](https://kubesphere.io/docs/cluster-administration/cluster-settings/mail-server/) | https://github.com/shenhonglei |         |
+| [Mail Server](https://kubesphere.io/docs/cluster-administration/cluster-settings/mail-server/) | https://github.com/shenhonglei | [458](https://github.com/kubesphere/website/pull/458) |
 | [Node Management](https://kubesphere.io/docs/cluster-administration/nodes/) |  | |
 | [Cluster Shutdown and Restart](https://kubesphere.io/docs/cluster-administration/shuting-down-and-restart-cluster-cracefully/) |  | |
 | [Alerting Policy (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-policy/) |  | |
 | [Alerting Message (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-message/) |  | |
 | [Index Page](https://kubesphere.io/docs/cluster-administration/) |  | |
 
-| Project User Guide                                           | Translator | PR Link |
+| Project User Guide                                           | Translator                                    | PR Link |
+| ------------------------------------------------------------ | --------------------------------------------- | ------- |
+| [Index Page](https://kubesphere.io/docs/project-user-guide/) | [shenhonglei](https://github.com/shenhonglei) | [464](https://github.com/kubesphere/website/pull/464)        |
+| [Deployments](https://kubesphere.io/docs/project-user-guide/application-workloads/deployments/) |                                               |         |
+| [StatefulSets](https://kubesphere.io/docs/project-user-guide/application-workloads/statefulsets/) |                                               |         |
+| [DaemonSets](https://kubesphere.io/docs/project-user-guide/application-workloads/daemonsets/) |                                               |         |
+| [Jobs](https://kubesphere.io/docs/project-user-guide/application-workloads/jobs/) |                                               |         |
+| [CronJobs](https://kubesphere.io/docs/project-user-guide/application-workloads/cronjob/) |                                               |         |
+| [Services](https://kubesphere.io/docs/project-user-guide/application-workloads/services/) |                                               |         |
+| [Container Image Settings](https://kubesphere.io/docs/project-user-guide/application-workloads/container-image-settings/) |                                               |         |
+| [Introduction](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/introduction/) |                                               |         |
+| [Monitor MySQL](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-mysql/) |                                               |         |
+| [Monitor Sample Web](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-sample-web/) |                                               |         |
+| [Overview](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/overview/) |                                               |         |
+| [Panels](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/panel/) |                                               |         |
+| [Querying](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/querying/) |                                               |         |
+| [Alerting Policy (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-policy/) |                                               |         |
+| [Alerting Message (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-message/) |                                               |         |
+
+| DevOps User Guide                                            | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
-| [Index Page](https://kubesphere.io/docs/project-user-guide/) |            |         |
-| [Deployments](https://kubesphere.io/docs/project-user-guide/application-workloads/deployments/) |            |         |
-| [StatefulSets](https://kubesphere.io/docs/project-user-guide/application-workloads/statefulsets/) |            |         |
-| [DaemonSets](https://kubesphere.io/docs/project-user-guide/application-workloads/daemonsets/) |            |         |
-| [Jobs](https://kubesphere.io/docs/project-user-guide/application-workloads/jobs/) |            |         |
-| [CronJobs](https://kubesphere.io/docs/project-user-guide/application-workloads/cronjob/) |            |         |
-| [Services](https://kubesphere.io/docs/project-user-guide/application-workloads/services/) |            |         |
-| [Container Image Settings](https://kubesphere.io/docs/project-user-guide/application-workloads/container-image-settings/) |            |         |
-| [Introduction](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/introduction/) |            |         |
-| [Monitor MySQL](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-mysql/) |            |         |
-| [Monitor Sample Web](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-sample-web/) |            |         |
-| [Overview](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/overview/) |            |         |
-| [Panels](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/panel/) |            |         |
-| [Querying](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/querying/) |            |         |
-| [Alerting Policy (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-policy/) |            |         |
-| [Alerting Message (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-message/) |            |         |
+| [Index Page](https://kubesphere.io/docs/devops-user-guide/)  |            |         |
+| [Credential Management](https://kubesphere.io/docs/devops-user-guide/how-to-use/credential-management/) |            |         |
+| [Set CI Node for Dependency Cache](https://kubesphere.io/docs/devops-user-guide/how-to-use/set-ci-node/) |            |         |
+| [Set Email Server for KubeSphere Pipelines](https://kubesphere.io/docs/devops-user-guide/how-to-use/jenkins-email/) |            |         |
+| [Integrate SonarQube into Pipeline](https://kubesphere.io/docs/devops-user-guide/how-to-integrate/sonarqube/) |            |         |

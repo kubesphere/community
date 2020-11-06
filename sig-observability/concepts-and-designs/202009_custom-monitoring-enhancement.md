@@ -208,8 +208,8 @@ For users familiar with Grafana, query variable is a helpful feature when it com
 
 |Function|Description|
 |---|---|
-|label_values(<label>)|List all label values from every metric|
-|label_value(<metric>, <label>)|List all label values from the specific metic|
+|label_values(\<label\>)|List all label values from every metric|
+|label_value(\<metric\>, \<label\>)|List all label values from the specific metic|
 
 To use variables in dashboards, you put `$<variable_name>` in place in your PromQL expressions.
 
