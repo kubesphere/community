@@ -62,16 +62,16 @@
 
 ## Requirements ##
 
-- User can define the channels for receiving notifications, including email, wechat, slack, webhook and dingtalk, by creating the corresponding receiver and config.
-- A user only has one receiver or config in the same type.
-- A user can update, delete, get the receiver, and config created by oneself.
-- A user can get the default config.
-- The receiver created by the user can use the config create by the user and the default config.
+- Every user can customize the channels for receiving notifications, including email, wechat, slack, webhook and dingtalk, by customizing his own receiver and config. A user can only have one receiver or config of the same type.
+
+![](../images/tenant-receiver-config.png)
+
+- The platform administrator can customize the global channel for receiving all notifications by customizing the global receivers and the default configs. Only one global receiver or default config is allowed for each type.
+
+![](../images/global-receiver-config.png)
+
+- The receiver of user will use the default config if his own config is not set.
 - All receivers and configs are in the namespace `kubesphere-monitoring-system`.
-- The platform administrator can create a global channel for receiving all notifications by creating global receivers.
-- The platform administrator can create a global default configuration by creating a default config.
-- Each type of global receiver and default config can be only one. 
-- The global receiver can only use the default config.
 - Before deleting the user, it should get all the receivers and configs of the user, and delete them.
 
 ## Parameters
