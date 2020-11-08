@@ -89,12 +89,12 @@ Please read the following rules before you claim a task:
 | Project User Guide                                           | Translator                                    | PR Link |
 | ------------------------------------------------------------ | --------------------------------------------- | ------- |
 | [Index Page](https://kubesphere.io/docs/project-user-guide/) | [shenhonglei](https://github.com/shenhonglei) | [464](https://github.com/kubesphere/website/pull/464)        |
-| [Deployments](https://kubesphere.io/docs/project-user-guide/application-workloads/deployments/) |                                               |         |
+| [Deployments](https://kubesphere.io/docs/project-user-guide/application-workloads/deployments/) |                  https://github.com/hantmac                             |         |
 | [StatefulSets](https://kubesphere.io/docs/project-user-guide/application-workloads/statefulsets/) |                                               |         |
 | [DaemonSets](https://kubesphere.io/docs/project-user-guide/application-workloads/daemonsets/) |                                               |         |
 | [Jobs](https://kubesphere.io/docs/project-user-guide/application-workloads/jobs/) |                                               |         |
 | [CronJobs](https://kubesphere.io/docs/project-user-guide/application-workloads/cronjob/) |                                               |         |
-| [Services](https://kubesphere.io/docs/project-user-guide/application-workloads/services/) |                                               |         |
+| [Services](https://kubesphere.io/docs/project-user-guide/application-workloads/services/) |                https://github.com/hantmac                               |         |
 | [Container Image Settings](https://kubesphere.io/docs/project-user-guide/application-workloads/container-image-settings/) |                                               |         |
 | [Introduction](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/introduction/) |                                               |         |
 | [Monitor MySQL](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-mysql/) |                                               |         |
