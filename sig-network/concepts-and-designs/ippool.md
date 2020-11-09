@@ -2,8 +2,8 @@
 
 In Kubernetes, the following three types of networks are involved.
 
-- Intra-cluster network，used by Cluster Service
-- Cluster external network， used by LoadBalancer Service
+- Intra-cluster network, used by Cluster Service
+- Cluster external network, used by LoadBalancer Service
 - Pod network
 
 The intra-cluster network, i.e. Service CIDR, is specified when the cluster is installed. When the Service is created, the `kube-apiserver` assigns an address from it and writes `spec.ClusterIP`. 
