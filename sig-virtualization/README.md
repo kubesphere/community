@@ -1,10 +1,11 @@
-# Virtualization Interest Group
+# Virtualization Interest Group
 
 The virtualization SIG is to make plan for developing features of virtualization.
 
 ## Members
 
-- 
+- Jin Tong ([@cumirror](https://github.com/cumirror)), Lead
+- Renyu Zhang ([@zryfish](https://github.com/zryfish)), Lead
 
 ## Meetings
 
