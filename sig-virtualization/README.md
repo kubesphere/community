@@ -1,4 +1,4 @@
-# Virtualization Interest Group
+# Virtualization Interest Group
 
 Covers virtualization in KubeSphere. We focus on the developer and running virtualization instances in KubeSphere. We discuss how to define and run virtual machine in KubeSphere, demo relevant tools and projects.
 
@@ -12,7 +12,6 @@ Covers virtualization in KubeSphere. We focus on the developer and running virtu
 The chairs of the SIG run operations and processes governing the SIG.
 - Jeff ([@zryfish](https://github.com/zryfish)), QingCloud
 - Tong Jin ([@cumirror](https://github.com/cumirror)), QingCloud
-
 
 ## Contact
 
