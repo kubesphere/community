@@ -38,7 +38,7 @@ Please read the following rules before you claim a task:
 | Installing on Kubernetes                                     | Translator                  | PR Link |
 | ------------------------------------------------------------ | --------------------------- | ------- |
 | [Index Page](https://kubesphere.io/docs/installing-on-kubernetes/) | https://github.com/shenhonglei | [427](https://github.com/kubesphere/website/pull/427) |
-| [Overview](https://kubesphere.io/docs/installing-on-kubernetes/introduction/overview/) |                             |         |
+| [Overview](https://kubesphere.io/docs/installing-on-kubernetes/introduction/overview/) | https://github.com/willzhang |         |
 | [Prerequisites](https://kubesphere.io/docs/installing-on-kubernetes/introduction/prerequisites/) |                             |         |
 | [Deploy KubeSphere on DigitalOcean](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-do/) |                             |         |
 | [Deploy KubeSphere on GKE](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-gke/) |                             |         |
@@ -78,7 +78,7 @@ Please read the following rules before you claim a task:
 | Cluster Administration                                       | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
 | [Cluster Status Monitoring](https://kubesphere.io/docs/cluster-administration/cluster-status-monitoring/) | [Kai Zhang](https://github.com/mvpzhangkai)         |         |
-| [Application Resources Monitoring](https://kubesphere.io/docs/cluster-administration/application-resources-monitoring/) |            |         |
+| [Application Resources Monitoring](https://kubesphere.io/docs/cluster-administration/application-resources-monitoring/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
 | [Mail Server](https://kubesphere.io/docs/cluster-administration/cluster-settings/mail-server/) | https://github.com/shenhonglei | [458](https://github.com/kubesphere/website/pull/458) |
 | [Node Management](https://kubesphere.io/docs/cluster-administration/nodes/) |  | |
 | [Cluster Shutdown and Restart](https://kubesphere.io/docs/cluster-administration/shuting-down-and-restart-cluster-cracefully/) |  | |
