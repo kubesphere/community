@@ -1,14 +1,17 @@
-# Virtualization Interest Group
+# Virtualization Interest Group
 
-The virtualization SIG is to make plan for developing features of virtualization.
-
-## Members
-
-- 
+Covers virtualization in KubeSphere. We focus on the developer and running virtualization instances in KubeSphere. We discuss how to define and run virtual machine in KubeSphere, demo relevant tools and projects.
 
 ## Meetings
+- Regluar SIG Meeting: Wednesdays at 15:30 PM (Beijing Time)(biweekly/triweekly).  
+  - [Meeting notes](https://tinyurl.com/kubesphere-sig-virtualization)
 
-[Meeting notes](https://docs.google.com/document/d/1EnkX93jqKl3IZyrlQAqy06IdMLQ217i4kAhx1Mf4gMI/edit?ts=5f598d59)
+## Leadership
+
+### Chairs
+The chairs of the SIG run operations and processes governing the SIG.
+- Jeff ([@zryfish](https://github.com/zryfish)), QingCloud
+- Tong Jin ([@cumirror](https://github.com/cumirror)), QingCloud
 
 ## Contact
 

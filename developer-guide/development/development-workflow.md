@@ -52,7 +52,7 @@ Create a branch from master:
 git checkout -b myfeature
 ```
 
-Then edit code on the `myfeature` branch.
+Then edit code on the `myfeature` branch. You can refer to [effective_go](https://golang.org/doc/effective_go.html) while writing code.
 
 ### Test and build
 

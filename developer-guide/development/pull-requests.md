@@ -14,7 +14,7 @@ This document explains the process and best practices for submitting a PR to the
 
 ## Before You Submit a PR
 
-This guide is for contributors who already have a PR to submit. If you're looking for information on setting up your developer environment and writing code to contribute to KubeSphere, see the [development guide](/developer-guide/development/development-workflow.md).
+This guide is for contributors who already have a PR to submit. If you're looking for information on setting up your developer environment and writing code to contribute to KubeSphere, see the [development guide](development-workflow.md).
 
 **Make sure your PR adheres to our best practices. These include following project conventions, making small PRs, and commenting thoroughly. Please read the more detailed section on [Best Practices for Faster Reviews](#best-practices-for-faster-reviews) at the end of this document.**
 
