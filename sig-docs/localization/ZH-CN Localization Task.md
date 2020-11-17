@@ -86,24 +86,24 @@ Please read the following rules before you claim a task:
 | [Alerting Message (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-message/) |  | |
 | [Index Page](https://kubesphere.io/docs/cluster-administration/) |  | |
 
-| Project User Guide                                           | Translator                                    | PR Link |
-| ------------------------------------------------------------ | --------------------------------------------- | ------- |
-| [Index Page](https://kubesphere.io/docs/project-user-guide/) | [shenhonglei](https://github.com/shenhonglei) | [464](https://github.com/kubesphere/website/pull/464)        |
-| [Deployments](https://kubesphere.io/docs/project-user-guide/application-workloads/deployments/) |                  https://github.com/hantmac                             |         |
-| [StatefulSets](https://kubesphere.io/docs/project-user-guide/application-workloads/statefulsets/) |                                               |         |
-| [DaemonSets](https://kubesphere.io/docs/project-user-guide/application-workloads/daemonsets/) |                                               |         |
-| [Jobs](https://kubesphere.io/docs/project-user-guide/application-workloads/jobs/) |                                               |         |
-| [CronJobs](https://kubesphere.io/docs/project-user-guide/application-workloads/cronjob/) |                                               |         |
-| [Services](https://kubesphere.io/docs/project-user-guide/application-workloads/services/) |                https://github.com/hantmac                               |         |
-| [Container Image Settings](https://kubesphere.io/docs/project-user-guide/application-workloads/container-image-settings/) |                                               |         |
-| [Introduction](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/introduction/) |                                               |         |
-| [Monitor MySQL](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-mysql/) |                                               |         |
-| [Monitor Sample Web](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-sample-web/) |                                               |         |
-| [Overview](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/overview/) |                                               |         |
-| [Panels](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/panel/) |                                               |         |
-| [Querying](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/querying/) |                                               |         |
-| [Alerting Policy (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-policy/) |                                               |         |
-| [Alerting Message (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-message/) |                                               |         |
+| Project User Guide                                           | Translator                                    | PR Link                                               |
+| ------------------------------------------------------------ | --------------------------------------------- | ----------------------------------------------------- |
+| [Index Page](https://kubesphere.io/docs/project-user-guide/) | [shenhonglei](https://github.com/shenhonglei) | [464](https://github.com/kubesphere/website/pull/464) |
+| [Deployments](https://kubesphere.io/docs/project-user-guide/application-workloads/deployments/) | https://github.com/hantmac                    |                                                       |
+| [StatefulSets](https://kubesphere.io/docs/project-user-guide/application-workloads/statefulsets/) |                                               |                                                       |
+| [DaemonSets](https://kubesphere.io/docs/project-user-guide/application-workloads/daemonsets/) |                                               |                                                       |
+| [Jobs](https://kubesphere.io/docs/project-user-guide/application-workloads/jobs/) | [shenhonglei](https://github.com/shenhonglei) |                                                       |
+| [CronJobs](https://kubesphere.io/docs/project-user-guide/application-workloads/cronjob/) |                                               |                                                       |
+| [Services](https://kubesphere.io/docs/project-user-guide/application-workloads/services/) | https://github.com/hantmac                    |                                                       |
+| [Container Image Settings](https://kubesphere.io/docs/project-user-guide/application-workloads/container-image-settings/) |                                               |                                                       |
+| [Introduction](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/introduction/) |                                               |                                                       |
+| [Monitor MySQL](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-mysql/) |                                               |                                                       |
+| [Monitor Sample Web](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-sample-web/) |                                               |                                                       |
+| [Overview](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/overview/) |                                               |                                                       |
+| [Panels](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/panel/) |                                               |                                                       |
+| [Querying](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/querying/) |                                               |                                                       |
+| [Alerting Policy (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-policy/) |                                               |                                                       |
+| [Alerting Message (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-message/) |                                               |                                                       |
 
 | DevOps User Guide                                            | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
