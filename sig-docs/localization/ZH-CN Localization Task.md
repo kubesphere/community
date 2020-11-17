@@ -78,13 +78,13 @@ Please read the following rules before you claim a task:
 | Cluster Administration                                       | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
 | [Cluster Status Monitoring](https://kubesphere.io/docs/cluster-administration/cluster-status-monitoring/) | [Kai Zhang](https://github.com/mvpzhangkai)         |  [478](https://github.com/kubesphere/website/pull/478)       |
-| [Application Resources Monitoring](https://kubesphere.io/docs/cluster-administration/application-resources-monitoring/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
+| [Application Resources Monitoring](https://kubesphere.io/docs/cluster-administration/application-resources-monitoring/) | [Kai Zhang](https://github.com/mvpzhangkai) | [544](https://github.com/kubesphere/website/pull/544)        |
 | [Mail Server](https://kubesphere.io/docs/cluster-administration/cluster-settings/mail-server/) | https://github.com/shenhonglei | [458](https://github.com/kubesphere/website/pull/458) |
-| [Node Management](https://kubesphere.io/docs/cluster-administration/nodes/) |  | |
-| [Cluster Shutdown and Restart](https://kubesphere.io/docs/cluster-administration/shuting-down-and-restart-cluster-cracefully/) |  | |
-| [Alerting Policy (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-policy/) |  | |
-| [Alerting Message (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-message/) |  | |
-| [Index Page](https://kubesphere.io/docs/cluster-administration/) |  | |
+| [Node Management](https://kubesphere.io/docs/cluster-administration/nodes/) | [Kai Zhang](https://github.com/mvpzhangkai) | |
+| [Cluster Shutdown and Restart](https://kubesphere.io/docs/cluster-administration/shuting-down-and-restart-cluster-cracefully/) |[Kai Zhang](https://github.com/mvpzhangkai)  | |
+| [Alerting Policy (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-policy/) | [Kai Zhang](https://github.com/mvpzhangkai) | |
+| [Alerting Message (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-message/) | [Kai Zhang](https://github.com/mvpzhangkai) | |
+| [Index Page](https://kubesphere.io/docs/cluster-administration/) | [Kai Zhang](https://github.com/mvpzhangkai) | |
 
 | Project User Guide                                           | Translator                                    | PR Link |
 | ------------------------------------------------------------ | --------------------------------------------- | ------- |
