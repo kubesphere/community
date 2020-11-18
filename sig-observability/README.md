@@ -32,8 +32,11 @@ The Observability SIG is to design and implement the observability features for 
 - Wanjun Lei ([@wanjunlei](https://github.com/wanjunlei)), Member
 
 ## Meetings
-Meeting Info: [xylink](https://www.xylink.com/download) , number: 9012073041
-Meeting Time: Wednesday at 15:30~16:30 Beijing Time (biweekly, starting from Oct. 14 2020)
+
+Meeting Info: [Zoom](https://us02web.zoom.us/j/89623105370?pwd=a1A5L2JxbC8rSUJLbjZ4UkhwZWVSZz09) 
+
+Meeting Time: Thursday at 15:30~16:30 Beijing Time (biweekly, starting from Nov. 5th 2020) [Meeting Calendar](https://kubesphere.io/contribution/)
+
 [Meeting notes](https://docs.google.com/document/d/18SOB2NRQWS-Qad4oebzIjtQzUG831PFvQtvN5tBwNrM/)
 
 ## Contact
