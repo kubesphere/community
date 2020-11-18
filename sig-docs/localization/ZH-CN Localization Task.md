@@ -112,3 +112,26 @@ Please read the following rules before you claim a task:
 | [Set CI Node for Dependency Cache](https://kubesphere.io/docs/devops-user-guide/how-to-use/set-ci-node/) |            |         |
 | [Set Email Server for KubeSphere Pipelines](https://kubesphere.io/docs/devops-user-guide/how-to-use/jenkins-email/) |            |         |
 | [Integrate SonarQube into Pipeline](https://kubesphere.io/docs/devops-user-guide/how-to-integrate/sonarqube/) |            |         |
+| [Choose Jenkins Agent](https://kubesphere.io/docs/devops-user-guide/how-to-use/choose-jenkins-agent/) |            |         |
+
+| App Store                                                    | Translator | PR Link |
+| ------------------------------------------------------------ | ---------- | ------- |
+| [Index Page](https://kubesphere.io/docs/application-store/)  |            |         |
+| [Deploy RabbitMQ on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/rabbitmq-app/) |            |         |
+| [Deploy MongoDB on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/mongodb-app/) |            |         |
+| [Deploy NGINX on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/nginx-app/) |            |         |
+| [Deploy Redis on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/redis-app/) |            |         |
+| [Deploy Tomcat on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/tomcat-app/) |            |         |
+| [Deploy MySQL on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/mysql-app/) |            |         |
+| [Deploy etcd on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/etcd-app/) |            |         |
+| [Deploy Memcached on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/memcached-app/) |            |         |
+| [Deploy MinIO on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/minio-app/) |            |         |
+| [Deploy PostgreSQL on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/postgresql-app/) |            |         |
+| [Application Lifecycle Management](https://kubesphere.io/docs/application-store/app-lifecycle-management/) |            |         |
+
+| Workspace Administration and User Guide                      | Translator | PR Link |
+| ------------------------------------------------------------ | ---------- | ------- |
+| [Workspace Overview](https://kubesphere.io/docs/workspace-administration/workspace-overview/) |            |         |
+| [Upload Helm-based Applications](https://kubesphere.io/docs/workspace-administration/upload-helm-based-application/) |            |         |
+| [Role and Member Management](https://kubesphere.io/docs/workspace-administration/role-and-member-management/) |            |         |
+| [Import Helm Repository](https://kubesphere.io/docs/workspace-administration/app-repository/import-helm-repository/) |            |         |
