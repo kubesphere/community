@@ -107,8 +107,8 @@ Please read the following rules before you claim a task:
 
 | DevOps User Guide                                            | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
-| [Index Page](https://kubesphere.io/docs/devops-user-guide/)  |            |         |
-| [Credential Management](https://kubesphere.io/docs/devops-user-guide/how-to-use/credential-management/) |            |         |
-| [Set CI Node for Dependency Cache](https://kubesphere.io/docs/devops-user-guide/how-to-use/set-ci-node/) |            |         |
-| [Set Email Server for KubeSphere Pipelines](https://kubesphere.io/docs/devops-user-guide/how-to-use/jenkins-email/) |            |         |
-| [Integrate SonarQube into Pipeline](https://kubesphere.io/docs/devops-user-guide/how-to-integrate/sonarqube/) |            |         |
+| [Index Page](https://kubesphere.io/docs/devops-user-guide/)  | [Kai Zhang](https://github.com/mvpzhangkai) |         |
+| [Credential Management](https://kubesphere.io/docs/devops-user-guide/how-to-use/credential-management/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
+| [Set CI Node for Dependency Cache](https://kubesphere.io/docs/devops-user-guide/how-to-use/set-ci-node/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
+| [Set Email Server for KubeSphere Pipelines](https://kubesphere.io/docs/devops-user-guide/how-to-use/jenkins-email/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
+| [Integrate SonarQube into Pipeline](https://kubesphere.io/docs/devops-user-guide/how-to-integrate/sonarqube/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
