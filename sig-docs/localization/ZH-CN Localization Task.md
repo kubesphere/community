@@ -84,7 +84,7 @@ Please read the following rules before you claim a task:
 | [Cluster Shutdown and Restart](https://kubesphere.io/docs/cluster-administration/shuting-down-and-restart-cluster-cracefully/) |[Kai Zhang](https://github.com/mvpzhangkai)  | |
 | [Alerting Policy (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-policy/) | [Kai Zhang](https://github.com/mvpzhangkai) | |
 | [Alerting Message (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-message/) | [Kai Zhang](https://github.com/mvpzhangkai) | |
-| [Index Page](https://kubesphere.io/docs/cluster-administration/) | [Kai Zhang](https://github.com/mvpzhangkai) | |
+| [Index Page](https://kubesphere.io/docs/cluster-administration/) | [Kai Zhang](https://github.com/mvpzhangkai) | [559](https://github.com/kubesphere/website/pull/559) |
 
 | Project User Guide                                           | Translator                                    | PR Link |
 | ------------------------------------------------------------ | --------------------------------------------- | ------- |
