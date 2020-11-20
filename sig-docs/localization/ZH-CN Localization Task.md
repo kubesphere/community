@@ -82,7 +82,7 @@ Please read the following rules before you claim a task:
 | [Mail Server](https://kubesphere.io/docs/cluster-administration/cluster-settings/mail-server/) | https://github.com/shenhonglei | [458](https://github.com/kubesphere/website/pull/458) |
 | [Node Management](https://kubesphere.io/docs/cluster-administration/nodes/) | [Kai Zhang](https://github.com/mvpzhangkai) | [557](https://github.com/kubesphere/website/pull/557)|
 | [Cluster Shutdown and Restart](https://kubesphere.io/docs/cluster-administration/shut-down-and-restart-cluster-gracefully/) |[Kai Zhang](https://github.com/mvpzhangkai)  | |
-| [Alerting Policy (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-policy/) | [Kai Zhang](https://github.com/mvpzhangkai) | |
+| [Alerting Policy (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-policy/) | [Kai Zhang](https://github.com/mvpzhangkai) | [577](https://github.com/kubesphere/website/pull/577) |
 | [Alerting Message (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-message/) | [Kai Zhang](https://github.com/mvpzhangkai) | [568](https://github.com/kubesphere/website/pull/568)|
 | [Index Page](https://kubesphere.io/docs/cluster-administration/) | [Kai Zhang](https://github.com/mvpzhangkai) | [559](https://github.com/kubesphere/website/pull/559) |
 
