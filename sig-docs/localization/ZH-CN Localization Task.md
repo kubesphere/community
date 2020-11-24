@@ -81,8 +81,8 @@ Please read the following rules before you claim a task:
 | [Application Resources Monitoring](https://kubesphere.io/docs/cluster-administration/application-resources-monitoring/) | [Kai Zhang](https://github.com/mvpzhangkai) | [544](https://github.com/kubesphere/website/pull/544)        |
 | [Mail Server](https://kubesphere.io/docs/cluster-administration/cluster-settings/mail-server/) | https://github.com/shenhonglei | [458](https://github.com/kubesphere/website/pull/458) |
 | [Node Management](https://kubesphere.io/docs/cluster-administration/nodes/) | [Kai Zhang](https://github.com/mvpzhangkai) | [557](https://github.com/kubesphere/website/pull/557)|
-| [Cluster Shutdown and Restart](https://kubesphere.io/docs/cluster-administration/shut-down-and-restart-cluster-gracefully/) |[Kai Zhang](https://github.com/mvpzhangkai)  | |
-| [Alerting Policy (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-policy/) | [Kai Zhang](https://github.com/mvpzhangkai) | |
+| [Cluster Shutdown and Restart](https://kubesphere.io/docs/cluster-administration/shut-down-and-restart-cluster-gracefully/) |[Kai Zhang](https://github.com/mvpzhangkai)  |[583](https://github.com/kubesphere/website/pull/583) |
+| [Alerting Policy (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-policy/) | [Kai Zhang](https://github.com/mvpzhangkai) | [577](https://github.com/kubesphere/website/pull/577) |
 | [Alerting Message (Node Level)](https://kubesphere.io/docs/cluster-administration/cluster-wide-alerting-and-notification/alerting-message/) | [Kai Zhang](https://github.com/mvpzhangkai) | [568](https://github.com/kubesphere/website/pull/568)|
 | [Index Page](https://kubesphere.io/docs/cluster-administration/) | [Kai Zhang](https://github.com/mvpzhangkai) | [559](https://github.com/kubesphere/website/pull/559) |
 
@@ -107,9 +107,9 @@ Please read the following rules before you claim a task:
 
 | DevOps User Guide                                            | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
-| [Index Page](https://kubesphere.io/docs/devops-user-guide/)  | [Kai Zhang](https://github.com/mvpzhangkai) |         |
-| [Credential Management](https://kubesphere.io/docs/devops-user-guide/how-to-use/credential-management/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
-| [Set CI Node for Dependency Cache](https://kubesphere.io/docs/devops-user-guide/how-to-use/set-ci-node/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
+| [Index Page](https://kubesphere.io/docs/devops-user-guide/)  | [Kai Zhang](https://github.com/mvpzhangkai) | [585](https://github.com/kubesphere/website/pull/585) |
+| [Credential Management](https://kubesphere.io/docs/devops-user-guide/how-to-use/credential-management/) | [Kai Zhang](https://github.com/mvpzhangkai) | [594](https://github.com/kubesphere/website/pull/594) |
+| [Set CI Node for Dependency Cache](https://kubesphere.io/docs/devops-user-guide/how-to-use/set-ci-node/) | [Kai Zhang](https://github.com/mvpzhangkai) | [618](https://github.com/kubesphere/website/pull/618) |
 | [Set Email Server for KubeSphere Pipelines](https://kubesphere.io/docs/devops-user-guide/how-to-use/jenkins-email/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
 | [Integrate SonarQube into Pipeline](https://kubesphere.io/docs/devops-user-guide/how-to-integrate/sonarqube/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
 | [Choose Jenkins Agent](https://kubesphere.io/docs/devops-user-guide/how-to-use/choose-jenkins-agent/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
