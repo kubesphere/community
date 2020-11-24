@@ -24,7 +24,7 @@ Please read the following rules before you claim a task:
 | Installing on Linux                                          | Translator                  | PR Link |
 | ------------------------------------------------------------ | --------------------------- | ------- |
 | [Index Page](https://kubesphere.io/docs/installing-on-linux/) | https://github.com/hantmac  |  https://github.com/kubesphere/website/pull/434   |
-| [Overview](https://kubesphere.io/docs/installing-on-linux/introduction/intro/) |                             |         |
+| [Overview](https://kubesphere.io/docs/installing-on-linux/introduction/intro/) | https://github.com/willzhang  |         |
 | [Multi-node Installation](https://kubesphere.io/docs/installing-on-linux/introduction/multioverview/) |                             |         |
 | [Air-gapped Installation](https://kubesphere.io/docs/installing-on-linux/introduction/air-gapped-installation/) |                             |         |
 | [Port Requirements](https://kubesphere.io/docs/installing-on-linux/introduction/port-firewall/) | https://github.com/caojiele |         |
@@ -39,10 +39,10 @@ Please read the following rules before you claim a task:
 | ------------------------------------------------------------ | --------------------------- | ------- |
 | [Index Page](https://kubesphere.io/docs/installing-on-kubernetes/) | https://github.com/shenhonglei | [427](https://github.com/kubesphere/website/pull/427) |
 | [Overview](https://kubesphere.io/docs/installing-on-kubernetes/introduction/overview/) | https://github.com/willzhang | [540](https://github.com/kubesphere/website/pull/540)        |
-| [Prerequisites](https://kubesphere.io/docs/installing-on-kubernetes/introduction/prerequisites/) | https://github.com/willzhang |         |
-| [Deploy KubeSphere on DigitalOcean](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-do/) | https://github.com/willzhang |         |
-| [Deploy KubeSphere on GKE](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-gke/) | https://github.com/willzhang |         |
-| [Deploy KubeSphere on AKS](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-aks/) | https://github.com/willzhang |         |
+| [Prerequisites](https://kubesphere.io/docs/installing-on-kubernetes/introduction/prerequisites/) | https://github.com/willzhang |[600](https://github.com/kubesphere/website/pull/600)         |
+| [Deploy KubeSphere on DigitalOcean](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-do/) | https://github.com/willzhang |[595](https://github.com/kubesphere/website/pull/595)         |
+| [Deploy KubeSphere on GKE](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-gke/) | https://github.com/willzhang | [600](https://github.com/kubesphere/website/pull/600) |
+| [Deploy KubeSphere on AKS](https://kubesphere.io/docs/installing-on-kubernetes/hosted-kubernetes/install-kubesphere-on-aks/) | https://github.com/willzhang | [578](https://github.com/kubesphere/website/pull/578)        |
 | [Uninstalling KubeSphere from Kubernetes](https://kubesphere.io/docs/installing-on-kubernetes/uninstalling/uninstalling-kubesphere-from-k8s/) | https://github.com/caojiele |         |
 
 | Multi-cluster Management                                     | Translator | PR Link |
