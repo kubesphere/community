@@ -110,7 +110,7 @@ Please read the following rules before you claim a task:
 | [Index Page](https://kubesphere.io/docs/devops-user-guide/)  | [Kai Zhang](https://github.com/mvpzhangkai) | [585](https://github.com/kubesphere/website/pull/585) |
 | [Credential Management](https://kubesphere.io/docs/devops-user-guide/how-to-use/credential-management/) | [Kai Zhang](https://github.com/mvpzhangkai) | [594](https://github.com/kubesphere/website/pull/594) |
 | [Set CI Node for Dependency Cache](https://kubesphere.io/docs/devops-user-guide/how-to-use/set-ci-node/) | [Kai Zhang](https://github.com/mvpzhangkai) | [618](https://github.com/kubesphere/website/pull/618) |
-| [Set Email Server for KubeSphere Pipelines](https://kubesphere.io/docs/devops-user-guide/how-to-use/jenkins-email/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
+| [Set Email Server for KubeSphere Pipelines](https://kubesphere.io/docs/devops-user-guide/how-to-use/jenkins-email/) | [Kai Zhang](https://github.com/mvpzhangkai) | [620](https://github.com/kubesphere/website/pull/620) |
 | [Integrate SonarQube into Pipeline](https://kubesphere.io/docs/devops-user-guide/how-to-integrate/sonarqube/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
 | [Choose Jenkins Agent](https://kubesphere.io/docs/devops-user-guide/how-to-use/choose-jenkins-agent/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
 
