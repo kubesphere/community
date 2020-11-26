@@ -1,6 +1,6 @@
 # Controller Manager Quickstart
 
-KubeSphere follows the [sample-controller](https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/sample-controller) pattern to implement a controller for an active reconciliation process. It watches CustomResourceDefinition(CRD) desired state and actual state. Then, it sends instructions to try and make the current state be more like the desired state. 
+KubeSphere follows the [sample-controller](https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/sample-controller) pattern to implement controllers for the reconciliation process. It watches CustomResourceDefinition(CRD) desired state and actual state through informers and listers. Then, it sends instructions through clients to try and make the current state be more like the desired state.
 
 > We won't discuss the pros and cons of the sample-controller comparing with Kubebuilder here. Just show you how to implement a controller.
 
@@ -10,7 +10,7 @@ KubeSphere follows the [sample-controller](https://github.com/kubernetes/kuberne
 
 To implement a controller, you should define your API Groups, Versions, and Kinds firstly. Please read more about the [Kubernetes API Conventions](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#websockets-and-spdy) if you want to understand those concepts deeper.
 
-For example, the `Group` Kind that was defined under `iam.kubershpere.io` API Group as below:
+For an example, the `Group` Kind that was defined under `iam.kubershpere.io` API Group as below:
 
 ```golang
 // +genclient:nonNamespaced
@@ -42,7 +42,7 @@ In the comment, both `+k8s` and `+kubebuilder` markers are used in KubeSphere.
 
 ## Generate manifests and packages
 
-There are directives defined in the Makefile, Which can help you generate codes automatically base on the markers we defined.
+There are directives defined in the Makefile, which can help you generate codes automatically base on the markers we defined.
 
 1. Generate manifests e.g. CRD, RBAC, etc.
 
@@ -52,7 +52,7 @@ make manifests
 2. Generate typed client, informers, listers, and deep-copy packages
 
 ```bash
-make clientset
+make deepcopy clientset
 ```
 
 ## Implements a controller
