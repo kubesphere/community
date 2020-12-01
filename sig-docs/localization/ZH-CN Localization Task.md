@@ -115,8 +115,6 @@ Please read the following rules before you claim a task:
 | [Canary Release](https://kubesphere.io/docs/project-user-guide/grayscale-release/canary-release/) |                                               |                                                       |
 | [Traffic Mirroring](https://kubesphere.io/docs/project-user-guide/grayscale-release/traffic-mirroring/) |                                               |                                                       |
 | [Volume Snapshots](https://kubesphere.io/docs/project-user-guide/storage/volume-snapshots/) |                                               |                                                       |
-|                                                              |                                               |                                                       |
-|                                                              |                                               |                                                       |
 
 | DevOps User Guide                                            | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
