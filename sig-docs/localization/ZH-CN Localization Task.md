@@ -111,10 +111,10 @@ Please read the following rules before you claim a task:
 | [Credential Management](https://kubesphere.io/docs/devops-user-guide/how-to-use/credential-management/) | [Kai Zhang](https://github.com/mvpzhangkai) | [594](https://github.com/kubesphere/website/pull/594) |
 | [Set CI Node for Dependency Cache](https://kubesphere.io/docs/devops-user-guide/how-to-use/set-ci-node/) | [Kai Zhang](https://github.com/mvpzhangkai) | [618](https://github.com/kubesphere/website/pull/618) |
 | [Set Email Server for KubeSphere Pipelines](https://kubesphere.io/docs/devops-user-guide/how-to-use/jenkins-email/) | [Kai Zhang](https://github.com/mvpzhangkai) | [620](https://github.com/kubesphere/website/pull/620) |
-| [Integrate SonarQube into Pipeline](https://kubesphere.io/docs/devops-user-guide/how-to-integrate/sonarqube/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
-| [Choose Jenkins Agent](https://kubesphere.io/docs/devops-user-guide/how-to-use/choose-jenkins-agent/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
+| [Integrate SonarQube into Pipeline](https://kubesphere.io/docs/devops-user-guide/how-to-integrate/sonarqube/) | [Kai Zhang](https://github.com/mvpzhangkai) | [642](https://github.com/kubesphere/website/pull/642) |
+| [Choose Jenkins Agent](https://kubesphere.io/docs/devops-user-guide/how-to-use/choose-jenkins-agent/) | [Kai Zhang](https://github.com/mvpzhangkai) | [668](https://github.com/kubesphere/website/pull/668) |
 | [Create a Pipeline Using a Jenkinsfile](https://kubesphere.io/docs/devops-user-guide/how-to-use/create-a-pipeline-using-jenkinsfile/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
-| [DevOps Project Management](https://kubesphere.io/docs/devops-user-guide/how-to-use/devops-project-management/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
+| [DevOps Project Management](https://kubesphere.io/docs/devops-user-guide/how-to-use/devops-project-management/) | [Kai Zhang](https://github.com/mvpzhangkai) | [665](https://github.com/kubesphere/website/pull/665) |
 
 | App Store                                                    | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
