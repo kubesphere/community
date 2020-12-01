@@ -104,6 +104,19 @@ Please read the following rules before you claim a task:
 | [Querying](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/querying/) |                                               |                                                       |
 | [Alerting Policy (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-policy/) |                                               |                                                       |
 | [Alerting Message (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-message/) |                                               |                                                       |
+| [App Templates](https://kubesphere.io/docs/project-user-guide/application/app-template/) |                                               |                                                       |
+| [Deploy Apps from App Templates](https://kubesphere.io/docs/project-user-guide/application/deploy-app-from-template/) |                                               |                                                       |
+| [Deploy Apps from App Store](https://kubesphere.io/docs/project-user-guide/application/deploy-app-from-appstore/) |                                               |                                                       |
+| [ConfigMaps](https://kubesphere.io/docs/project-user-guide/configuration/configmaps/) |                                               |                                                       |
+| [Secrets](https://kubesphere.io/docs/project-user-guide/configuration/secrets/) |                                               |                                                       |
+| [Image Registries](https://kubesphere.io/docs/project-user-guide/configuration/image-registry/) |                                               |                                                       |
+| [Grayscale Release Overview](https://kubesphere.io/docs/project-user-guide/grayscale-release/overview/) |                                               |                                                       |
+| [Blue-green Deployment](https://kubesphere.io/docs/project-user-guide/grayscale-release/blue-green-deployment/) |                                               |                                                       |
+| [Canary Release](https://kubesphere.io/docs/project-user-guide/grayscale-release/canary-release/) |                                               |                                                       |
+| [Traffic Mirroring](https://kubesphere.io/docs/project-user-guide/grayscale-release/traffic-mirroring/) |                                               |                                                       |
+| [Volume Snapshots](https://kubesphere.io/docs/project-user-guide/storage/volume-snapshots/) |                                               |                                                       |
+|                                                              |                                               |                                                       |
+|                                                              |                                               |                                                       |
 
 | DevOps User Guide                                            | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
