@@ -40,4 +40,4 @@
   * 记录 GitHub ID 到当前页面
 * 完成 issues 修复的给予的奖励
   * Kubesphere 衣帽衫
-  * 邀请成为 Kubesphere 在 GitHub 的成员
+  * 有机会被邀请成为 Kubesphere 在 GitHub 的成员
