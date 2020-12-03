@@ -115,6 +115,9 @@ Please read the following rules before you claim a task:
 | [Choose Jenkins Agent](https://kubesphere.io/docs/devops-user-guide/how-to-use/choose-jenkins-agent/) | [Kai Zhang](https://github.com/mvpzhangkai) | [668](https://github.com/kubesphere/website/pull/668) |
 | [Create a Pipeline Using a Jenkinsfile](https://kubesphere.io/docs/devops-user-guide/how-to-use/create-a-pipeline-using-jenkinsfile/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
 | [DevOps Project Management](https://kubesphere.io/docs/devops-user-guide/how-to-use/devops-project-management/) | [Kai Zhang](https://github.com/mvpzhangkai) | [665](https://github.com/kubesphere/website/pull/665) |
+| [Role and Member Management in devops-user-guide](https://kubesphere.io/docs/devops-user-guide/how-to-use/role-and-member-management/) | [Kai Zhang](https://github.com/mvpzhangkai) |  |
+| [Jenkins System Settings](https://kubesphere.io/docs/devops-user-guide/how-to-use/jenkins-setting/) | [Kai Zhang](https://github.com/mvpzhangkai) |   |
+| [How to integrate Harbor in Pipeline](https://kubesphere.io/docs/devops-user-guide/how-to-integrate/harbor/) | [Kai Zhang](https://github.com/mvpzhangkai) |  |
 
 | App Store                                                    | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
