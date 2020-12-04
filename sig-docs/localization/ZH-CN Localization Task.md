@@ -116,20 +116,20 @@ Please read the following rules before you claim a task:
 | [Create a Pipeline Using a Jenkinsfile](https://kubesphere.io/docs/devops-user-guide/how-to-use/create-a-pipeline-using-jenkinsfile/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
 | [DevOps Project Management](https://kubesphere.io/docs/devops-user-guide/how-to-use/devops-project-management/) | [Kai Zhang](https://github.com/mvpzhangkai) | [665](https://github.com/kubesphere/website/pull/665) |
 
-| App Store                                                    | Translator | PR Link |
-| ------------------------------------------------------------ | ---------- | ------- |
-| [Index Page](https://kubesphere.io/docs/application-store/)  |            |         |
-| [Deploy RabbitMQ on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/rabbitmq-app/) |            |         |
-| [Deploy MongoDB on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/mongodb-app/) |            |         |
-| [Deploy NGINX on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/nginx-app/) |            |         |
-| [Deploy Redis on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/redis-app/) |            |         |
-| [Deploy Tomcat on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/tomcat-app/) |            |         |
-| [Deploy MySQL on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/mysql-app/) |            |         |
-| [Deploy etcd on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/etcd-app/) |            |         |
-| [Deploy Memcached on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/memcached-app/) |            |         |
-| [Deploy MinIO on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/minio-app/) |            |         |
-| [Deploy PostgreSQL on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/postgresql-app/) |            |         |
-| [Application Lifecycle Management](https://kubesphere.io/docs/application-store/app-lifecycle-management/) |            |         |
+| App Store                                                    | Translator                              | PR Link |
+| ------------------------------------------------------------ | --------------------------------------- | ------- |
+| [Index Page](https://kubesphere.io/docs/application-store/)  | [Felixnoo](https://github.com/Felixnoo) |         |
+| [Deploy RabbitMQ on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/rabbitmq-app/) |                                         |         |
+| [Deploy MongoDB on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/mongodb-app/) |                                         |         |
+| [Deploy NGINX on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/nginx-app/) |                                         |         |
+| [Deploy Redis on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/redis-app/) |                                         |         |
+| [Deploy Tomcat on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/tomcat-app/) |                                         |         |
+| [Deploy MySQL on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/mysql-app/) |                                         |         |
+| [Deploy etcd on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/etcd-app/) |                                         |         |
+| [Deploy Memcached on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/memcached-app/) |                                         |         |
+| [Deploy MinIO on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/minio-app/) |                                         |         |
+| [Deploy PostgreSQL on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/postgresql-app/) |                                         |         |
+| [Application Lifecycle Management](https://kubesphere.io/docs/application-store/app-lifecycle-management/) |                                         |         |
 
 | Workspace Administration and User Guide                      | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
