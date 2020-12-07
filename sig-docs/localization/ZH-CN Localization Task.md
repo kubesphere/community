@@ -142,9 +142,9 @@ Please read the following rules before you claim a task:
 | [Deploy PostgreSQL on KubeSphere](https://kubesphere.io/docs/application-store/built-in-apps/postgresql-app/) |                                         |                                                       |
 | [Application Lifecycle Management](https://kubesphere.io/docs/application-store/app-lifecycle-management/) |                                         |                                                       |
 
-| Workspace Administration and User Guide                      | Translator                              | PR Link |
-| ------------------------------------------------------------ | --------------------------------------- | ------- |
-| [Workspace Overview](https://kubesphere.io/docs/workspace-administration/workspace-overview/) | [Felixnoo](https://github.com/Felixnoo) |         |
-| [Upload Helm-based Applications](https://kubesphere.io/docs/workspace-administration/upload-helm-based-application/) |                                         |         |
-| [Role and Member Management](https://kubesphere.io/docs/workspace-administration/role-and-member-management/) |                                         |         |
-| [Import Helm Repository](https://kubesphere.io/docs/workspace-administration/app-repository/import-helm-repository/) |                                         |         |
+| Workspace Administration and User Guide                      | Translator                              | PR Link                                               |
+| ------------------------------------------------------------ | --------------------------------------- | ----------------------------------------------------- |
+| [Workspace Overview](https://kubesphere.io/docs/workspace-administration/workspace-overview/) | [Felixnoo](https://github.com/Felixnoo) | [707](https://github.com/kubesphere/website/pull/707) |
+| [Upload Helm-based Applications](https://kubesphere.io/docs/workspace-administration/upload-helm-based-application/) |                                         |                                                       |
+| [Role and Member Management](https://kubesphere.io/docs/workspace-administration/role-and-member-management/) |                                         |                                                       |
+| [Import Helm Repository](https://kubesphere.io/docs/workspace-administration/app-repository/import-helm-repository/) |                                         |                                                       |
