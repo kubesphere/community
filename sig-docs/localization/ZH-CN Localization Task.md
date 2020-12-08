@@ -124,8 +124,11 @@ Please read the following rules before you claim a task:
 | [Set Email Server for KubeSphere Pipelines](https://kubesphere.io/docs/devops-user-guide/how-to-use/jenkins-email/) | [Kai Zhang](https://github.com/mvpzhangkai) | [620](https://github.com/kubesphere/website/pull/620) |
 | [Integrate SonarQube into Pipeline](https://kubesphere.io/docs/devops-user-guide/how-to-integrate/sonarqube/) | [Kai Zhang](https://github.com/mvpzhangkai) | [642](https://github.com/kubesphere/website/pull/642) |
 | [Choose Jenkins Agent](https://kubesphere.io/docs/devops-user-guide/how-to-use/choose-jenkins-agent/) | [Kai Zhang](https://github.com/mvpzhangkai) | [668](https://github.com/kubesphere/website/pull/668) |
-| [Create a Pipeline Using a Jenkinsfile](https://kubesphere.io/docs/devops-user-guide/how-to-use/create-a-pipeline-using-jenkinsfile/) | [Kai Zhang](https://github.com/mvpzhangkai) |         |
+| [Create a Pipeline Using a Jenkinsfile](https://kubesphere.io/docs/devops-user-guide/how-to-use/create-a-pipeline-using-jenkinsfile/) | [Kai Zhang](https://github.com/mvpzhangkai) | [693](https://github.com/kubesphere/website/pull/693) |
 | [DevOps Project Management](https://kubesphere.io/docs/devops-user-guide/how-to-use/devops-project-management/) | [Kai Zhang](https://github.com/mvpzhangkai) | [665](https://github.com/kubesphere/website/pull/665) |
+| [Role and Member Management in devops-user-guide](https://kubesphere.io/docs/devops-user-guide/how-to-use/role-and-member-management/) | [Kai Zhang](https://github.com/mvpzhangkai) |  |
+| [Jenkins System Settings](https://kubesphere.io/docs/devops-user-guide/how-to-use/jenkins-setting/) | [Kai Zhang](https://github.com/mvpzhangkai) |   |
+| [How to integrate Harbor in Pipeline](https://kubesphere.io/docs/devops-user-guide/how-to-integrate/harbor/) | [Kai Zhang](https://github.com/mvpzhangkai) |  |
 
 | App Store                                                    | Translator                              | PR Link                                               |
 | ------------------------------------------------------------ | --------------------------------------- | ----------------------------------------------------- |
