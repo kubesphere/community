@@ -146,7 +146,8 @@ resource "null_resource" "install_kubesphere" {
 * 具体执行命令
 
 ```
-curl -O -k https://kubernetes.pek3b.qingstor.com/tools/kubekey/kk
+export KKZONE=cn
+curl -sfL https://get-kk.kubesphere.io | VERSION=v1.0.1 sh -
 chmod +x kk
 yum install -y vim openssl socat conntrack ipset
 echo -e 'yes\n' | /root/kk create cluster --with-kubesphere
