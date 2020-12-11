@@ -150,7 +150,7 @@ export KKZONE=cn
 curl -sfL https://get-kk.kubesphere.io | VERSION=v1.0.1 sh -
 chmod +x kk
 yum install -y vim openssl socat conntrack ipset
-echo -e 'yes\n' | /root/kk create cluster --with-kubesphere
+./kk create cluster --with-kubesphere -y
 ```
 
 ### 5、执行及删除
