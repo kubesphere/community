@@ -1,18 +1,18 @@
-# 使用Terraform一键自动安装K8s和Ks
+# 使用 Terraform 一键自动安装 Kubernetes 和 KubeSphere
 
-* 使用Terraform作用是不需要用户在iaas平台上单独创建机器，配置好参数之后由Terraform自动创建，实现一键自动化部署。
-* 单节点的安装主要分为三部分，var.tf、kubesphere.tf和install.sh，以下文件内容只需要修改API密钥值就可以部署Ks集群。
+* 使用 Terraform 作用是不需要用户在 iaas 平台上单独创建机器，配置好参数之后由Terraform自动创建，实现一键自动化部署。
+* 单节点的安装主要分为三部分，var.tf、kubesphere.tf 和 install.sh，以下文件内容只需要修改API密钥值就可以部署 KubeSphere 集群。
 
 ### 执行步骤说明
-* 安装terraform工具
-* 创建一个目录，把var.tf、kubesphere.tf和install.sh三个文件放到该目录下。
-* 修改iaas的API密码
-* 进入目录下执行`terraform init`指令，显示成功。
-* init成功之后，然后执行`terraform apply`即可就开始创建机器，安装Ks。
-* 删除机器指令操作为`terraform destroy`
+* 安装 terraform 工具
+* 创建一个目录，把 var.tf、kubesphere.tf 和 install.sh 三个文件放到该目录下。
+* 修改 iaas 的 API 密码
+* 进入目录下执行 `terraform init` 指令，显示成功。
+* init 成功之后，然后执行 `terraform apply` 即可就开始创建机器，安装 KubeSphere。
+* 删除机器指令操作为 `terraform destroy`
 
-### 1、terraform安装（单独一台机器）
-* 以centos操作系统为例来安装，需要执行以下指令即可。
+### 1、terraform 安装（单独一台机器）
+* 以 centos 操作系统为例来安装，需要执行以下指令即可。
 * 其余操作系统，参考[terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started)
 
 ```
@@ -25,7 +25,7 @@ sudo yum -y install terraform
 `terraform version`
 
 ### 2、var.tf文件说明
-* access_key和secret_key为必填项。点击iaas用户--》API密钥--》创建即可，然后把两个参数填入到下面的配置文件中。zone可以根据自己需求来修改，默认pek3a。
+* access_key 和 secret_key 为必填项。点击 iaas 用户--》 API 密钥--》创建即可，然后把两个参数填入到下面的配置文件中。zone 可以根据自己需求来修改，默认 pek3a。
 
 ```
 terraform {
@@ -57,12 +57,12 @@ provider "qingcloud" {
 ```
 
 ### 3、kubesphere.tf文件说明
-* resource qingcloud_eip为创建外网ip，也可以用已存在外网IP，如果用已存在外网ip，就不需要qingcloud_eip resource模块。
-* qingcloud_security_group为创建防火墙，也可以使用已存在防火墙，同理。
-* qingcloud_security_group_rule为创建防火墙开放的端口。
-* qingcloud_keypair为密钥创建，此处注释掉，用密码形式。
-* qingcloud_instance创建机器，包含名字，操作系统，内存，cpu，磁盘，密码，绑定外网IP，防火墙，子网和类型等。
-* null_resource 和install_kubesphere包含文件拷贝及执行命令。
+* resource qingcloud_eip 为创建外网ip，也可以用已存在外网 IP，如果用已存在外网 ip，就不需要 qingcloud_eip resource 模块。
+* qingcloud_security_group 为创建防火墙，也可以使用已存在防火墙，同理。
+* qingcloud_security_group_rule 为创建防火墙开放的端口。
+* qingcloud_keypair 为密钥创建，此处注释掉，用密码形式。
+* qingcloud_instance 创建机器，包含名字，操作系统，内存，cpu，磁盘，密码，绑定外网 IP，防火墙，子网和类型等。
+* null_resource 和 install_kubesphere 包含文件拷贝及执行命令。
 
 ```
 resource "qingcloud_eip" "init"{
@@ -142,7 +142,7 @@ resource "null_resource" "install_kubesphere" {
 }
 ```
 
-### 4、install.sh文件说明
+### 4、install.sh 文件说明
 * 具体执行命令
 
 ```
