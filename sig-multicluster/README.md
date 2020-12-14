@@ -9,6 +9,7 @@ The [document](./concepts-and-designs/architecture.md) explains the design of Ku
 ## Members
 
 - Jeff Zhang ([@zryfish](https://github.com/zryfish)), Lead
+- Yu Li ([@yuswift](https://github.com/yuswift)), Memeber
 
 ## Meetings
 

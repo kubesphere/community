@@ -2,12 +2,15 @@ approvers:
     - zryfish
     - rayzhou2017
     - shaowenchen
-
+    - LinuxSuRen
 reviewers:
     - zryfish
     - rayzhou2017
     - shaowenchen
+    - LinuxSuRen
     - calvinyv
     - FeynmanZhou
+emeritus_approvers:
     - runzexia
     - soulseen
+

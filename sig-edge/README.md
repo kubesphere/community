@@ -4,9 +4,9 @@ The mission of Edge Computing SIG is to enable edge computing with modern contai
 
 ## Members
 
-- Ray Zhou ([@rayzhou2017](https://github.com/rayzhou2017)), Lead
 - Benjamin Huo ([@benjaminhuo](https://github.com/benjaminhuo)), Lead
-- Dan Ma ([@Ma-Dan](https://github.com/Ma-Dan)), Member
+- Dan Ma ([@Ma-Dan](https://github.com/Ma-Dan)), Lead
+- Ray Zhou ([@rayzhou2017](https://github.com/rayzhou2017)), Member
 
 ## Meetings
 
