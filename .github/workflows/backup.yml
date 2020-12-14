@@ -1,0 +1,22 @@
+name: Backup Git repository
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - master
+
+jobs:
+  BackupGit:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.3.4
+    - name: Sync to gitee
+      uses: Yikun/hub-mirror-action@master
+      with:
+        src: github/kubesphere
+        dst: gitee/kubesphere
+        white_list: 'community'
+        dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+        dst_token: ${{ secrets.GITEE_TOKEN}}
+        account_type: org
