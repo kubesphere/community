@@ -11,6 +11,7 @@ Check the [code repo](https://github.com/kubesphere/ks-website) for the [website
 - Ray Zhou ([@rayzhou2017](https://github.com/rayzhou2017)), Member
 - Calvin Yu ([@calvinyv](https://github.com/calvinyv)), Member
 - Sherlock Xu ([@Sherlock113](https://github.com/Sherlock113)), Member
+- Felix Liu ([@Felixnoo](https://github.com/Sherlock113)), Member
 
 ## Meetings
 

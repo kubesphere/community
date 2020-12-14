@@ -5,6 +5,7 @@ The Microservice SIG is to design and develop microservice management capabiliti
 ## Members
 
 - Jeff Zhang ([@zryfish](https://github.com/zryfish)), Lead
+- Zack Zhang ([@zackzhangkai](https://github.com/zackzhangkai)), Member
 
 ## Meetings
 
