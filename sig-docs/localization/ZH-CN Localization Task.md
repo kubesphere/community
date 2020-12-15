@@ -148,6 +148,6 @@ Please read the following rules before you claim a task:
 | Workspace Administration and User Guide                      | Translator                              | PR Link                                               |
 | ------------------------------------------------------------ | --------------------------------------- | ----------------------------------------------------- |
 | [Workspace Overview](https://kubesphere.io/docs/workspace-administration/workspace-overview/) | [Felixnoo](https://github.com/Felixnoo) | [707](https://github.com/kubesphere/website/pull/707) |
-| [Upload Helm-based Applications](https://kubesphere.io/docs/workspace-administration/upload-helm-based-application/) |                                         |                                                       |
-| [Role and Member Management](https://kubesphere.io/docs/workspace-administration/role-and-member-management/) |                                         |                                                       |
-| [Import Helm Repository](https://kubesphere.io/docs/workspace-administration/app-repository/import-helm-repository/) |                                         |                                                       |
+| [Upload Helm-based Applications](https://kubesphere.io/docs/workspace-administration/upload-helm-based-application/) | [Felixnoo](https://github.com/Felixnoo) | [718](https://github.com/kubesphere/website/pull/718) |
+| [Role and Member Management](https://kubesphere.io/docs/workspace-administration/role-and-member-management/) | [Felixnoo](https://github.com/Felixnoo) | [716](https://github.com/kubesphere/website/pull/716) |
+| [Import Helm Repository](https://kubesphere.io/docs/workspace-administration/app-repository/import-helm-repository/) | [Felixnoo](https://github.com/Felixnoo) | [728](https://github.com/kubesphere/website/pull/728) |
