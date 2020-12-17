@@ -128,7 +128,7 @@ Please read the following rules before you claim a task:
 | [DevOps Project Management](https://kubesphere.io/docs/devops-user-guide/how-to-use/devops-project-management/) | [Kai Zhang](https://github.com/mvpzhangkai) | [665](https://github.com/kubesphere/website/pull/665) |
 | [Role and Member Management in devops-user-guide](https://kubesphere.io/docs/devops-user-guide/how-to-use/role-and-member-management/) | [Kai Zhang](https://github.com/mvpzhangkai) | [719](https://github.com/kubesphere/website/pull/719) |
 | [Jenkins System Settings](https://kubesphere.io/docs/devops-user-guide/how-to-use/jenkins-setting/) | [Kai Zhang](https://github.com/mvpzhangkai) |  [739](https://github.com/kubesphere/website/pull/739) |
-| [How to integrate Harbor in Pipeline](https://kubesphere.io/docs/devops-user-guide/how-to-integrate/harbor/) | [Kai Zhang](https://github.com/mvpzhangkai) |  |
+| [How to integrate Harbor in Pipeline](https://kubesphere.io/docs/devops-user-guide/how-to-integrate/harbor/) | [Kai Zhang](https://github.com/mvpzhangkai) | [750](https://github.com/kubesphere/website/pull/750) |
 
 | App Store                                                    | Translator                              | PR Link                                               |
 | ------------------------------------------------------------ | --------------------------------------- | ----------------------------------------------------- |
