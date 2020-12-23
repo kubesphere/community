@@ -90,31 +90,31 @@ Please read the following rules before you claim a task:
 | ------------------------------------------------------------ | --------------------------------------------- | ----------------------------------------------------- |
 | [Index Page](https://kubesphere.io/docs/project-user-guide/) | [shenhonglei](https://github.com/shenhonglei) | [464](https://github.com/kubesphere/website/pull/464) |
 | [Deployments](https://kubesphere.io/docs/project-user-guide/application-workloads/deployments/) | https://github.com/hantmac                    |                                                       |
-| [StatefulSets](https://kubesphere.io/docs/project-user-guide/application-workloads/statefulsets/) |                                               |                                                       |
-| [DaemonSets](https://kubesphere.io/docs/project-user-guide/application-workloads/daemonsets/) |                                               |                                                       |
+| [StatefulSets](https://kubesphere.io/docs/project-user-guide/application-workloads/statefulsets/) | [Kai Zhang](https://github.com/mvpzhangkai)  |                                                       |
+| [DaemonSets](https://kubesphere.io/docs/project-user-guide/application-workloads/daemonsets/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
 | [Jobs](https://kubesphere.io/docs/project-user-guide/application-workloads/jobs/) | [shenhonglei](https://github.com/shenhonglei) | [623](https://github.com/kubesphere/website/pull/623) |
-| [CronJobs](https://kubesphere.io/docs/project-user-guide/application-workloads/cronjob/) |                                               |                                                       |
+| [CronJobs](https://kubesphere.io/docs/project-user-guide/application-workloads/cronjob/) | [Kai Zhang](https://github.com/mvpzhangkai) |                                                       |
 | [Services](https://kubesphere.io/docs/project-user-guide/application-workloads/services/) | https://github.com/hantmac                    |                                                       |
-| [Container Image Settings](https://kubesphere.io/docs/project-user-guide/application-workloads/container-image-settings/) |                                               |                                                       |
-| [Introduction](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/introduction/) |                                               |                                                       |
-| [Monitor MySQL](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-mysql/) |                                               |                                                       |
-| [Monitor Sample Web](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-sample-web/) |                                               |                                                       |
-| [Overview](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/overview/) |                                               |                                                       |
-| [Panels](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/panel/) |                                               |                                                       |
-| [Querying](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/querying/) |                                               |                                                       |
-| [Alerting Policy (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-policy/) |                                               |                                                       |
-| [Alerting Message (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-message/) |                                               |                                                       |
-| [App Templates](https://kubesphere.io/docs/project-user-guide/application/app-template/) |                                               |                                                       |
-| [Deploy Apps from App Templates](https://kubesphere.io/docs/project-user-guide/application/deploy-app-from-template/) |                                               |                                                       |
-| [Deploy Apps from App Store](https://kubesphere.io/docs/project-user-guide/application/deploy-app-from-appstore/) |                                               |                                                       |
-| [ConfigMaps](https://kubesphere.io/docs/project-user-guide/configuration/configmaps/) |                                               |                                                       |
-| [Secrets](https://kubesphere.io/docs/project-user-guide/configuration/secrets/) |                                               |                                                       |
-| [Image Registries](https://kubesphere.io/docs/project-user-guide/configuration/image-registry/) |                                               |                                                       |
-| [Grayscale Release Overview](https://kubesphere.io/docs/project-user-guide/grayscale-release/overview/) |                                               |                                                       |
-| [Blue-green Deployment](https://kubesphere.io/docs/project-user-guide/grayscale-release/blue-green-deployment/) |                                               |                                                       |
-| [Canary Release](https://kubesphere.io/docs/project-user-guide/grayscale-release/canary-release/) |                                               |                                                       |
-| [Traffic Mirroring](https://kubesphere.io/docs/project-user-guide/grayscale-release/traffic-mirroring/) |                                               |                                                       |
-| [Volume Snapshots](https://kubesphere.io/docs/project-user-guide/storage/volume-snapshots/) |                                               |                                                       |
+| [Container Image Settings](https://kubesphere.io/docs/project-user-guide/application-workloads/container-image-settings/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [Introduction](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/introduction/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [Monitor MySQL](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-mysql/) | [Kai Zhang](https://github.com/mvpzhangkai) |                                                       |
+| [Monitor Sample Web](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-sample-web/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [Overview](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/overview/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [Panels](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/panel/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [Querying](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/visualization/querying/) | [Kai Zhang](https://github.com/mvpzhangkai)   |                                                       |
+| [Alerting Policy (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-policy/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [Alerting Message (Workload Level)](https://kubesphere.io/docs/project-user-guide/alerting/alerting-message/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [App Templates](https://kubesphere.io/docs/project-user-guide/application/app-template/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [Deploy Apps from App Templates](https://kubesphere.io/docs/project-user-guide/application/deploy-app-from-template/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [Deploy Apps from App Store](https://kubesphere.io/docs/project-user-guide/application/deploy-app-from-appstore/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [ConfigMaps](https://kubesphere.io/docs/project-user-guide/configuration/configmaps/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [Secrets](https://kubesphere.io/docs/project-user-guide/configuration/secrets/) | [Kai Zhang](https://github.com/mvpzhangkai) |                                                       |
+| [Image Registries](https://kubesphere.io/docs/project-user-guide/configuration/image-registry/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [Grayscale Release Overview](https://kubesphere.io/docs/project-user-guide/grayscale-release/overview/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [Blue-green Deployment](https://kubesphere.io/docs/project-user-guide/grayscale-release/blue-green-deployment/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [Canary Release](https://kubesphere.io/docs/project-user-guide/grayscale-release/canary-release/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [Traffic Mirroring](https://kubesphere.io/docs/project-user-guide/grayscale-release/traffic-mirroring/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [Volume Snapshots](https://kubesphere.io/docs/project-user-guide/storage/volume-snapshots/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
 
 | DevOps User Guide                                            | Translator | PR Link |
 | ------------------------------------------------------------ | ---------- | ------- |
