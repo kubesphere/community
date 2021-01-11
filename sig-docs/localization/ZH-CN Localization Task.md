@@ -90,12 +90,11 @@ Please read the following rules before you claim a task:
 | ------------------------------------------------------------ | --------------------------------------------- | ----------------------------------------------------- |
 | [Index Page](https://kubesphere.io/docs/project-user-guide/) | [shenhonglei](https://github.com/shenhonglei) | [464](https://github.com/kubesphere/website/pull/464) |
 | [Deployments](https://kubesphere.io/docs/project-user-guide/application-workloads/deployments/) | https://github.com/hantmac                    |                                                       |
-| [StatefulSets](https://kubesphere.io/docs/project-user-guide/application-workloads/statefulsets/) | [Kai Zhang](https://github.com/mvpzhangkai)  |                                                       |
-| [DaemonSets](https://kubesphere.io/docs/project-user-guide/application-workloads/daemonsets/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
+| [StatefulSets](https://kubesphere.io/docs/project-user-guide/application-workloads/statefulsets/) | [Kai Zhang](https://github.com/mvpzhangkai)  | [823](https://github.com/kubesphere/website/pull/823) |
+| [DaemonSets](https://kubesphere.io/docs/project-user-guide/application-workloads/daemonsets/) | [Kai Zhang](https://github.com/mvpzhangkai)|[830](https://github.com/kubesphere/website/pull/830) |
 | [Jobs](https://kubesphere.io/docs/project-user-guide/application-workloads/jobs/) | [shenhonglei](https://github.com/shenhonglei) | [623](https://github.com/kubesphere/website/pull/623) |
-| [CronJobs](https://kubesphere.io/docs/project-user-guide/application-workloads/cronjob/) | [Kai Zhang](https://github.com/mvpzhangkai) |                                                       |
+| [CronJobs](https://kubesphere.io/docs/project-user-guide/application-workloads/cronjob/) | [Kai Zhang](https://github.com/mvpzhangkai) | [886](https://github.com/kubesphere/website/pull/886) |
 | [Services](https://kubesphere.io/docs/project-user-guide/application-workloads/services/) | https://github.com/hantmac                    |                                                       |
-| [Container Image Settings](https://kubesphere.io/docs/project-user-guide/application-workloads/container-image-settings/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
 | [Introduction](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/introduction/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
 | [Monitor MySQL](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-mysql/) | [Kai Zhang](https://github.com/mvpzhangkai) |                                                       |
 | [Monitor Sample Web](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-sample-web/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
