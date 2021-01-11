@@ -95,7 +95,6 @@ Please read the following rules before you claim a task:
 | [Jobs](https://kubesphere.io/docs/project-user-guide/application-workloads/jobs/) | [shenhonglei](https://github.com/shenhonglei) | [623](https://github.com/kubesphere/website/pull/623) |
 | [CronJobs](https://kubesphere.io/docs/project-user-guide/application-workloads/cronjob/) | [Kai Zhang](https://github.com/mvpzhangkai) | [886](https://github.com/kubesphere/website/pull/886) |
 | [Services](https://kubesphere.io/docs/project-user-guide/application-workloads/services/) | https://github.com/hantmac                    |                                                       |
-| [Container Image Settings](https://kubesphere.io/docs/project-user-guide/application-workloads/container-image-settings/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
 | [Introduction](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/introduction/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
 | [Monitor MySQL](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-mysql/) | [Kai Zhang](https://github.com/mvpzhangkai) |                                                       |
 | [Monitor Sample Web](https://kubesphere.io/docs/project-user-guide/custom-application-monitoring/get-started/monitor-sample-web/) | [Kai Zhang](https://github.com/mvpzhangkai)|                                                       |
