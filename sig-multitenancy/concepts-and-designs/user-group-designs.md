@@ -25,13 +25,13 @@ At the workspace level, admins can grant permission to a group by binding roles 
 5. Add members to the group in Workspace and Platform, grant permissions to a group in Workspace
 6. Create hierarchical groups
 
-![Group Design](user-group-designs.png "Group Design")
+![Group Design](../images/user-group-designs.png "Group Design")
 
 ## Authorization process
 
 The Authorization process is shown below.
 
-![Group authorization](user-group-authorization.png "Group authorization")
+![Group authorization](../images/user-group-authorization.png "Group authorization")
 
 ## Scenario
 
