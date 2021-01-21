@@ -23,17 +23,17 @@ export user={your github profile name}
 Create your clone locally:
 
 ```bash
-$ mkdir -p $working_dir
-$ cd $working_dir
-$ git clone https://github.com/$user/kubesphere.git
-$ cd $working_dir/kubesphere
-$ git remote add upstream https://github.com/kubesphere/kubesphere.git
+mkdir -p $working_dir
+cd $working_dir
+git clone https://github.com/$user/kubesphere.git
+cd $working_dir/kubesphere
+git remote add upstream https://github.com/kubesphere/kubesphere.git
 
 # Never push to upstream master
-$ git remote set-url --push upstream no_push
+git remote set-url --push upstream no_push
 
 # Confirm your remotes make sense:
-$ git remote -v
+git remote -v
 ```
 
 ## Step 3. Keep your branch in sync
@@ -67,9 +67,9 @@ Currently, the make rules only contain simple checks such as vet, unit test, wil
 ### Run and test
 
 ```bash
-$ make all
+make all
 # Run every unit test
-$ make test
+make test
 ```
 
 Run `make help` for additional information on these make targets.
@@ -82,8 +82,8 @@ After the test is completed, it is a good practice to keep your local in sync wi
 
 ```bash
 # Rebase your master branch of your local repo.
-$ git checkout master
-$ git rebase upstream/master
+git checkout master
+git rebase upstream/master
 
 # Then make your development branch in sync with master branch
 git checkout new_feature
