@@ -1,10 +1,11 @@
 # Multi-tenancy Special Interest Group
 
-The Multi-tenancy SIG is to design and develop the resource and identity management of KubeSphere in terms of tenancy.
+The Multi-tenancy SIG covers the development and design of multi-tenancy, authentication, authentication and security policies.
 
 ## Members
 
-- Hongming Wan ([@wansir]((https://github.com/wansir))), Lead
+- Hongming Wan ([@wansir](https://github.com/wansir)), Lead
+- Yan Ma ([@RolandMa1986](https://github.com/RolandMa1986)), Member
 
 ## Meetings
 
