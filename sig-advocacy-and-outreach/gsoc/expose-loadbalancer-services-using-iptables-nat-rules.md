@@ -12,7 +12,7 @@ Provide a simple mode of [PorterLB](https://porterlb.io/), which allows users to
 
 ### Background
 
-Currently, PorterLB supports the Layer 2 mode and BGP mode for exposing LoadBalancer services in a Kubernetes cluster. Both the Layer 2 mode and BGP mode require addition configurations (Eip, BgpConf, and BgpPeer), and the BGP mode requires that the router support BGP.
+Currently, PorterLB supports the Layer 2 mode and BGP mode for exposing LoadBalancer services in a Kubernetes cluster. Both the Layer 2 mode and BGP mode require additional configurations (Eip, BgpConf, and BgpPeer), and the BGP mode requires that the router support BGP.
 
 We hope to provide a simple mode of PorterLB so that users can expose LoadBalancer services more easily.
 
