@@ -1,4 +1,4 @@
-## Project  Goal
+## Project Goal
 
 Provide a simple mode of [PorterLB](https://porterlb.io/), which allows users to use the IP address of a Kubernetes cluster node and a service port to expose a LoadBalancer service.
 
