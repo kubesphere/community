@@ -32,8 +32,9 @@ In general, SIGs operate in a highly cooperative environment. The members of a S
 
 The SIGs at present are:
 
-| Group | Lead |  Slack Channel | Meeting Notes | Description |
+| Group | Lead | Slack Channel | Meeting Notes | Description |
 |-------|-------------|-------|--------------|--------------------|
+| [Advocacy and Outreach](./sig-advocacy-and-outreach/) | [Pengfei Zhou](https://github.com/FeynmanZhou), [Rick](https://github.com/linuxSuRen/) | [#sig-advocacy-and-outreach](https://kubesphere.slack.com/messages/sig-advocacy-and-outreach) | [Notes](https://docs.google.com/document/d/1rvkfFYIFOW-oJYz0V2cSmQXmUA1dKdcIAFmgc_hW54Y/edit?usp=sharing) | We discuss advocacy, outreach, events, social media promotion, and attract new people to join KubeSphere community |
 | [Apps](./sig-apps/) | [Hongliang Wang](https://github.com/hlwanghl) | [#sig-apps](https://kubesphere.slack.com/messages/sig-apps) | [Notes](https://docs.google.com/document/d/1nRAK2U9flkz-8z7bT2-T_0VneW3w1fx1fJtB5Bu3JyU/) | App charts for the built-in App Store |
 | [App Store](./sig-appstore) | [Zhengyi Lai](https://github.com/zheng1) | [#sig-appstore](https://kubesphere.slack.com/messages/sig-appstore) | [Notes](https://docs.google.com/document/d/1FYxeQOiwN3jL6EPeIA71iB3gXZfNf-PhSufVaywFbxI/) | App Store, App template management |
 | [Architecture](./sig-architecture) | [Lu Liu](https://github.com/leoendless), [Benjamin Huo](https://github.com/benjaminhuo) | [#sig-architecture](https://kubesphere.slack.com/messages/sig-architecture) | [Notes](https://docs.google.com/document/d/1lqL0c6SpxLxRbwVk870-9HDeGIwVodSRJV-Uh4hPemQ/) | system architecture |
