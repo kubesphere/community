@@ -36,3 +36,4 @@ The regular meeting is TBD.
 ## Contact
 
 - Slack [#sig-advocacy-and-outreach](https://kubesphere.slack.com/messages/sig-advocacy-and-outreach)
+- Mailing list [archive](https://groups.google.com/group/kubesphere-sig-advocacy-and-outreach/topics) | [subscribe](mailto:kubesphere-sig-advocacy-and-outreach+subscribe@googlegroups.com) | [unsubscribe](mailto:kubesphere-sig-advocacy-and-outreach+unsubscribe@googlegroups.com)

@@ -26,3 +26,4 @@ The DevOps SIG is to design and implement the DevOps functionalities including p
 ## Contact
 
 - Slack [#sig-devops](https://kubesphere.slack.com/messages/sig-devops)
+- Mailing list [archive](https://groups.google.com/group/kubesphere-sig-devops/topics) | [subscribe](mailto:kubesphere-sig-devops+subscribe@googlegroups.com) | [unsubscribe](mailto:kubesphere-sig-devops+unsubscribe@googlegroups.com)
