@@ -16,7 +16,7 @@ and attract new people to join KubeSphere community.
 ## Topics
 
 * Attracting new individual and company contributors
-* Coordinating community outreach events: meetups, Hacktoberfest, GSoC, etc.
+* Coordinating community outreach events: meetups, Hacktoberfest, [GSoC](./gsoc), etc.
 * Community Evangelism (KubeSphere Ambassadors, etc.)
 * Help [porposals](https://github.com/search?q=user%3Akubesphere+label%3A%22kind%2Fproposal%22+state%3Aopen&type=Issues&ref=advsearch&l=&l=) landing
 
