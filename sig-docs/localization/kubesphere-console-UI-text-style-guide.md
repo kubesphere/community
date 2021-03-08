@@ -59,7 +59,7 @@ You only need to capitalize the first word for sentence-style capitalization. Us
 
 > The above rules do not apply to words or fields that are written conventionally with a specific capitalization way, such as macOS, PersistentVolumeClaim, and restartPolicy and allowVolumeExpansion. These words should be written in the way as they are known to general users.
 
-### Punctuations
+## Punctuations
 
 Use a **period** or a **conjunction** between two **complete** sentences.
 
@@ -69,7 +69,7 @@ Use a **period** or a **conjunction** between two **complete** sentences.
 | Check the status of the component. You can see it is running normally. | Check the status of the component, you can see it is running normally. |
 | Check the status of the component, and you can see it is running normally. | Check the status of the component, you can see it is running normally. |
 
-### Alert guidelines
+## Alert guidelines
 
 Keep alerts simple and short.
 
