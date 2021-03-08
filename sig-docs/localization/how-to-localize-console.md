@@ -1,6 +1,6 @@
-# KubeSphere Console Localization Guide
+# KubeSphere Console Localization Contributor Guide
 
-KubeSphere Console is the web-based UI for [KubeSphere](https://github.com/kubesphere/kubesphere) clusters. It is available in different languages for users around the world with English as the main one. Your contribution to the localization of the Console is highly appreciated and please follow the step below as you start the localization.
+The KubeSphere console provides the web-based UI for [KubeSphere](https://github.com/kubesphere/kubesphere) clusters. It is available in different languages for users around the world with English as the main one. Your contribution to the localization of the Console is highly appreciated and please follow the step below as you start the localization.
 
 ## Getting Started
 
