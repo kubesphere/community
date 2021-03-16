@@ -9,6 +9,7 @@ The system components of KubeSphere are packed into Helm charts. Please refer to
 ## Members
 
 - Feng Guo ([@pixiake](https://github.com/pixiake)), Lead
+- Daniel Hu ([@daniel-hutao](https://github.com/daniel-hutao)), Member
 - Lin Li ([@Forest-L](https://github.com/Forest-L)), Member
 
 ## Meetings
