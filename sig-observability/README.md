@@ -27,6 +27,7 @@ The Observability SIG is to design and implement the observability features for 
 
 - Benjamin Huo ([@benjaminhuo](https://github.com/benjaminhuo)), Lead
 - Dan Ma ([@Ma-Dan](https://github.com/Ma-Dan)), Member
+- Daniel Hu ([@daniel-hutao](https://github.com/daniel-hutao)), Member
 - Guangzhe Huang ([@huanggze](https://github.com/huanggze)), Member
 - Junot Xiang ([@junotx](https://github.com/junotx)), Member
 - Wanjun Lei ([@wanjunlei](https://github.com/wanjunlei)), Member
