@@ -12,6 +12,7 @@ and attract new people to join KubeSphere community.
 - Honglei ([@shenhonglei](https://github.com/shenhonglei/)), Member
 - webup ([@webup](https://github.com/webup/)), Member
 - faweizhao26 ([@faweizhao26](https://github.com/faweizhao26/)), Member
+- Daniel Hu ([@daniel-hutao](https://github.com/daniel-hutao)), Member
 
 ## Topics
 
