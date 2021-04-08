@@ -12,7 +12,7 @@ KubeSphere in [Summer 2021 of Open Source Promotion Plan](https://github.com/sum
 ## Students
 
 * [Students application process](students-application-process.md)
-* [Open Source Promotion Plan Portal](https://summer.iscas.ac.cn/))
+* [Open Source Promotion Plan Portal](https://summer.iscas.ac.cn/)
 
 ## Mentors
 
