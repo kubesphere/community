@@ -1,6 +1,6 @@
 # Installation Special Interest Group
 
-The Installation SIG is to develop KubeSphere installer for a variety of environment and options such as all-in-one, multi-node, install on existing K8s cluster. The code repository is hosted at [ks-installer](https://github.com/kubesphere/ks-installer). Meanwhile, the all-in-one and multi-node installer is changed to [KubeKey](https://github/com/kubesphere/kubekey).
+The Installation SIG is to develop KubeSphere installer for a variety of environment and options such as all-in-one, multi-node, install on existing K8s cluster. The code repository is hosted at [ks-installer](https://github.com/kubesphere/ks-installer). Meanwhile, the all-in-one and multi-node installer is changed to [KubeKey](https://github.com/kubesphere/kubekey).
 
 ## Package Management
 
