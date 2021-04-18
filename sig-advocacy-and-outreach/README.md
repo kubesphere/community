@@ -17,8 +17,8 @@ and attract new people to join KubeSphere community.
 ## Topics
 
 * Attracting new individual and company contributors
-* Coordinating community outreach events: meetups, Hacktoberfest, [GSoC](./gsoc), etc.
-* Community Evangelism (KubeSphere Ambassadors, etc.)
+* Coordinating community outreach events: meetups, Hacktoberfest, [GSoC](./gsoc), [Summer of Open Source Promotion Plan](./summer-ospp), etc.
+* Community Evangelism ([KubeSphere Ambassadors](https://kubesphere.com.cn/en/contribution/request/), etc.)
 * Help [porposals](https://github.com/search?q=user%3Akubesphere+label%3A%22kind%2Fproposal%22+state%3Aopen&type=Issues&ref=advsearch&l=&l=) landing
 
 ## Social media
@@ -30,9 +30,9 @@ content about KubeSphere on these platforms, please contact us and we will try t
 
 ## Meetings
 
-The regular meeting is TBD.
-
-[Meeting notes](https://docs.google.com/document/d/1amXxLZFkR_4yQU89EZlO_P0fgUVyhXoLmNqvlA55QEg/edit)
+* One meeting every 2 weeks, usually on Tuesday. See the [Event Calendar](https://kubesphere.com.cn/contribution/) for the schedule.
+* [Meeting notes](https://docs.google.com/document/d/1amXxLZFkR_4yQU89EZlO_P0fgUVyhXoLmNqvlA55QEg/edit)
+* [Meeting video records](https://space.bilibili.com/438908638/video?keyword=Outreach)
 
 ## Contact
 

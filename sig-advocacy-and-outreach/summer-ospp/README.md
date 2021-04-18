@@ -22,6 +22,8 @@ KubeSphere in [Summer 2021 of Open Source Promotion Plan](https://summer.iscas.a
 
 ## Students
 
+Please check out the following pages if you're a student who is interested in this program.
+
 * [Students application process](students-application-process.md)
 * [Open Source Promotion Plan Portal](https://summer.iscas.ac.cn/)
 
@@ -30,3 +32,10 @@ KubeSphere in [Summer 2021 of Open Source Promotion Plan](https://summer.iscas.a
 - Slack [#sig-advocacy-and-outreach](https://kubesphere.slack.com/messages/sig-advocacy-and-outreach)
 - Mailing list [archive](https://groups.google.com/group/kubesphere-sig-advocacy-and-outreach/topics) | [subscribe](mailto:kubesphere-sig-advocacy-and-outreach+subscribe@googlegroups.com) | [unsubscribe](mailto:kubesphere-sig-advocacy-and-outreach+unsubscribe@googlegroups.com)
 
+## Administrators
+
+The following people are the administrators of this program in 2021. Please contact them if you have any questions.
+
+* [shenhonglei](https://github.com/shenhonglei)
+* [adler](https://github.com/adlerliu)
+* [Rick](https://github.com/LinuxSuRen/)
