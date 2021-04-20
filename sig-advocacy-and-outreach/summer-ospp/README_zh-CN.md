@@ -1,5 +1,4 @@
 
-https://hackmd.io/@kA_hXb92SEWvsiZemHcP5Q/SkiSzyz8O/edit
 >  [English](README.md)  | 中文
 
 # 开源软件供应链点亮计划
@@ -16,7 +15,7 @@ KubeSphere 参与[开源软件供应链点亮计划 - 暑期 2021](https://summe
 
 | 项目 | 领域 | 技能 |
 | --- | --- | --- |
-| [KubeSphere Jenkins Client Refactor](kubeSphere-jenkins-client-refactor_zh-CN.md) <br/>Split the Jenkins client from KubeSphere. Or use an existing Jenkins client. </br>Potential Mentor(s): [Rick](https://github.com/LinuxSuRen/), [Shaowen Chen](https://github.com/shaowenchen/) | DevOps | Golang, REST API/OpenAPI, Jenkins, Kubernetes |
+| [kubeSphere Jenkins 客户端重构](kubeSphere-jenkins-client-refactor_zh-CN.md) <br/>从 [KubeSphere](https://github.com/kubesphere/kubesphere/) 核心代码中的 DevOps 部分将 Jenkins 客户端代码分离开，或者，使用已有的 Jenkins 客户端。<br/>导师： [Rick](https://github.com/LinuxSuRen/), [Shaowen Chen](https://github.com/shaowenchen/) | DevOps | Golang, REST API/OpenAPI, Jenkins, Kubernetes |
 | [KubeSphere Tekton Integration](kubeSphere-tekton-integration_zh-CN.md) <br/>Integrate Tekton as an alternative CI/CD engine of KubeSphere DevOps. <br/>Potential Mentor(s): [Rick](https://github.com/LinuxSuRen/), [Shaowen Chen](https://github.com/shaowenchen/) | DevOps | Golang, Tekton, Jenkins, Kubernetes |
 | [Customize Notification Receivers Using a Webhook](customize-notification-receivers-using-a-webhook_zh-CN.md) <br/>Enable [Notification Manager](https://github.com/kubesphere/notification-manager) to obtain a notification receiver list from a webhook so that users can customize the notification receivers. <br/>Potential Mentor(s): [Benjamin Huo](https://github.com/benjaminhuo), [Wanjun Lei](https://github.com/wanjunlei) | Notification Manager | Golang, REST API, Kubernetes |
 | [Expose LoadBalancer Services Using iptables NAT Rules](expose-loadbalancer-services-using-iptables-nat-rules_zh-CN.md) <br/>Provide a simple mode of [PorterLB](https://porterlb.io/), which allows users to use the IP address of a Kubernetes cluster node and a service port to expose a LoadBalancer service. <br/>Potential Mentor(s): [Zhengyi Lai](https://github.com/zheng1), [Jiong Duan](https://github.com/duanjiong) | Network | Golang, Kubernetes, Linux network (iptables and IPVS) |

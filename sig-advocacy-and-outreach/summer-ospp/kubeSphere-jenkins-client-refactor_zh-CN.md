@@ -1,3 +1,7 @@
+# 项目
+
+KubeSphere Jenkins 客户端重构
+
 ## 项目目标
 
 从 [KubeSphere](https://github.com/kubesphere/kubesphere/) 核心代码中的 DevOps 部分将 Jenkins 客户端代码分离开，或者，使用已有的 Jenkins 客户端。

@@ -1,4 +1,6 @@
-https://hackmd.io/@kA_hXb92SEWvsiZemHcP5Q/SylFmJfLd/edit
+# Project
+
+KubeSphere Jenkins Client Refactor
 
 ## Project Goal
 

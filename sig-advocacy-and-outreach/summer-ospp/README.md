@@ -1,5 +1,6 @@
-https://hackmd.io/@kA_hXb92SEWvsiZemHcP5Q/rk4xG1MU_/edit
 > English| [中文](README_zh-CN.md)
+
+ [项目信息需要完善-请各位导师抽时间帮忙补充，非常感谢！！！](TODO-LIST.md) 
 
 # Summer OSPP
 
