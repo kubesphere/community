@@ -25,6 +25,7 @@ KubeSphere 参与[开源软件供应链点亮计划 - 暑期 2021](https://summe
 ## 学生
 
 * [学生指南](https://summer.iscas.ac.cn/help/student/)
+* [开源软件供应链点亮计划 - 暑期 2021](https://summer.iscas.ac.cn/)
 
 ## 联系
 
