@@ -17,6 +17,7 @@ KubeSphere in [Summer 2021 of Open Source Promotion Plan](https://summer.iscas.a
 | [KubeSphere Tekton Integration](kubeSphere-tekton-integration.md) <br/>Integrate Tekton as an alternative CI/CD engine of KubeSphere DevOps. <br/>Potential Mentor(s): [Rick](https://github.com/LinuxSuRen/), [Shaowen Chen](https://github.com/shaowenchen/)| DevOps | Golang, Tekton, Jenkins, Kubernetes |
 | [Customize Notification Receivers Using a Webhook](customize-notification-receivers-using-a-webhook.md) <br/>Enable [Notification Manager](https://github.com/kubesphere/notification-manager) to obtain a notification receiver list from a webhook so that users can customize the notification receivers. <br/>Potential Mentor(s): [Benjamin Huo](https://github.com/benjaminhuo), [Wanjun Lei](https://github.com/wanjunlei) | Notification Manager | Golang, REST API, Kubernetes |
 | [Expose LoadBalancer Services Using iptables NAT Rules](expose-loadbalancer-services-using-iptables-nat-rules.md) <br/>Provide a simple mode of [PorterLB](https://porterlb.io/), which allows users to use the IP address of a Kubernetes cluster node and a service port to expose a LoadBalancer service. <br/>Potential Mentor(s): [Zhengyi Lai](https://github.com/zheng1), [Jiong Duan](https://github.com/duanjiong) | Network | Golang, Kubernetes, Linux network (iptables and IPVS) |
+| [Support send notifications to pushover](support-send-notifications-to-pushover.md)<br/>Make the notification manager support send notifications to pushover.<br/>Potential Mentor(s):[benjaminhuo](https://github.com/benjaminhuo),[lei](https://github.com/wanjunlei) | Notification Manager | Golang, REST API, Kubernetes |
 
 ## Students
 
@@ -27,3 +28,4 @@ KubeSphere in [Summer 2021 of Open Source Promotion Plan](https://summer.iscas.a
 
 - Slack [#sig-advocacy-and-outreach](https://kubesphere.slack.com/messages/sig-advocacy-and-outreach)
 - Mailing list [archive](https://groups.google.com/group/kubesphere-sig-advocacy-and-outreach/topics) | [subscribe](mailto:kubesphere-sig-advocacy-and-outreach+subscribe@googlegroups.com) | [unsubscribe](mailto:kubesphere-sig-advocacy-and-outreach+unsubscribe@googlegroups.com)
+

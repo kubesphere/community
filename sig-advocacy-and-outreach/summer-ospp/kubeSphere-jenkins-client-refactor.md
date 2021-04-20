@@ -21,10 +21,6 @@ Currently, KubeSphere communicates to Jenkins with the XML API instead of the RE
 [Jenkins](https://github.com/jenkinsci/jenkins) is the leading open-source automation server. Built with Java, it provides over 1,700 plugins to support automating virtually anything. Jenkins is the engine of KubeSphere DevOps component. The [Pipeline controller](https://github.com/kubesphere/kubesphere/blob/master/pkg/controller/pipeline/pipeline_controller.go) is responsible for converting the CRD of pipelines to Jenkins jobs.
 You can find the code base of Jenkins client from [pkg/simple/client/devops](https://github.com/kubesphere/kubesphere/tree/master/pkg/simple/client/devops).
 
-## Scope
-
-TODO
-
 ## Outcomes
 
 TODO

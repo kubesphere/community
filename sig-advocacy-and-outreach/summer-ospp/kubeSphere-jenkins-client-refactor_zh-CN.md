@@ -1,8 +1,6 @@
-https://hackmd.io/@kA_hXb92SEWvsiZemHcP5Q/ryoPXyzUd/edit
-
 ## 项目目标
 
-Split the Jenkins client from [KubeSphere](https://github.com/kubesphere/kubesphere/). Or use an existing Jenkins client.
+从 [KubeSphere](https://github.com/kubesphere/kubesphere/) 核心代码中的 DevOps 部分将 Jenkins 客户端代码分离开，或者，使用已有的 Jenkins 客户端。
 
 ## 技术要求
 
@@ -14,20 +12,18 @@ Split the Jenkins client from [KubeSphere](https://github.com/kubesphere/kubesph
 
 ## 项目背景
 
-Currently, KubeSphere communicates to Jenkins with the XML API instead of the REST API. The drawback of using the XML API is that it needs to deal with the details related to Jenkins or Jenkins plugins implementation. It means that any changes from Jenkins or Jenkins plugins might cause instability in the API. Moreover, version number changes might also cause instability in the API. By comparison, the REST API is a stabler way to communicate to Jenkins. 
+在 KubeSphere 中，目前是通过调用 XML 格式的 API 与 Jenkins 进行通讯，而不是更加流行的 RESTful 风格的 API.由于 XML API 的原理是，通过 Java 语言对类对象的反射机制获取、操作数据，因此，非常明显的缺点就是这种 API 的请求数据和 Jenkins 功能的具体实现细节耦合严重。这就意味着 Jenkins 及其插件的更新非常容易导致出现兼容性的问题，甚至只是新安装一个插件都有可能导致无法使用。相比较而言，REST API 则会更加稳定、不容易出问题。
 
 ## 项目详情
 
-[Jenkins](https://github.com/jenkinsci/jenkins) is the leading open-source automation server. Built with Java, it provides over 1,700 plugins to support automating virtually anything. Jenkins is the engine of KubeSphere DevOps component. The [Pipeline controller](https://github.com/kubesphere/kubesphere/blob/master/pkg/controller/pipeline/pipeline_controller.go) is responsible for converting the CRD of pipelines to Jenkins jobs.
-You can find the code base of Jenkins client from [pkg/simple/client/devops](https://github.com/kubesphere/kubesphere/tree/master/pkg/simple/client/devops).
+[Jenkins](https://github.com/jenkinsci/jenkins) 是一个具有丰富的插件生态的开源自动化服务。基于 Java 实现，并提供了超过 1,700 插件，几乎可以实现各种方面的自动化。Jenkins 是 KubeSphere DevOps 组件的核心引擎。[Pipeline controller](https://github.com/kubesphere/kubesphere/blob/master/pkg/controller/pipeline/pipeline_controller.go) 负责把流水线的 CRD 资源转换并同步为 Jenkins 的任务。
 
-## 项目范围
-
-TODO
+你可以从这里 [pkg/simple/client/devops](https://github.com/kubesphere/kubesphere/tree/master/pkg/simple/client/devops) 找到 Jenkins 客户端部分的代码。
 
 ## 项目产出
 
-TODO
+* 完成 Jenkins 客户端的重构、替换
+* 完成兼容性测试
 
 ## 链接
 
@@ -39,7 +35,7 @@ TODO
 
 ## 快速入门
 
-You can start with [a minimal KubeSphere](https://kubesphere.io/docs/quick-start/minimal-kubesphere-on-k8s/). [Enable the DevOps](https://kubesphere.io/docs/pluggable-components/devops/) component once KubeSphere is ready.
+首先，你可以从安装一个[最小化的 KubeSphere](https://kubesphere.io/docs/quick-start/minimal-kubesphere-on-k8s/)。然后，当 KubeSphere 启动成功后可以[启用 DevOps](https://kubesphere.io/docs/pluggable-components/devops/) 组件，体验 DevOps 的流水线功能。
 
 ## 入门 Issues
 
