@@ -25,7 +25,8 @@ You can find the code base of Jenkins client from [pkg/simple/client/devops](htt
 
 ## Outcomes
 
-TODO
+- Complete the refactoring and replacement of the Jenkins client
+- Completion test
 
 ## Links
 
