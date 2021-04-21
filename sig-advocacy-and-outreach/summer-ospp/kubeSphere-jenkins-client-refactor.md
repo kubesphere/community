@@ -1,3 +1,7 @@
+# Project
+
+KubeSphere Jenkins Client Refactor
+
 ## Project Goal
 
 Split the Jenkins client from [KubeSphere](https://github.com/kubesphere/kubesphere/). Or use an existing Jenkins client.
@@ -10,16 +14,19 @@ Split the Jenkins client from [KubeSphere](https://github.com/kubesphere/kubesph
 * Jenkins
 * Kubernetes
 
-## Details
-
-### Background
+## Background
 
 Currently, KubeSphere communicates to Jenkins with the XML API instead of the REST API. The drawback of using the XML API is that it needs to deal with the details related to Jenkins or Jenkins plugins implementation. It means that any changes from Jenkins or Jenkins plugins might cause instability in the API. Moreover, version number changes might also cause instability in the API. By comparison, the REST API is a stabler way to communicate to Jenkins. 
 
-### Project details
+## Project details
 
 [Jenkins](https://github.com/jenkinsci/jenkins) is the leading open-source automation server. Built with Java, it provides over 1,700 plugins to support automating virtually anything. Jenkins is the engine of KubeSphere DevOps component. The [Pipeline controller](https://github.com/kubesphere/kubesphere/blob/master/pkg/controller/pipeline/pipeline_controller.go) is responsible for converting the CRD of pipelines to Jenkins jobs.
 You can find the code base of Jenkins client from [pkg/simple/client/devops](https://github.com/kubesphere/kubesphere/tree/master/pkg/simple/client/devops).
+
+## Outcomes
+
+- Complete the refactoring and replacement of the Jenkins client
+- Completion test
 
 ## Links
 
