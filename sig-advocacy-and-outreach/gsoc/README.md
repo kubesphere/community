@@ -4,7 +4,7 @@ KubeSphere in [Google Summber of Code (aka GSoC)](https://summerofcode.withgoogl
 
 ### Archived ideas
 
-Below ideas are not accepted by Google Summber of code. Please contact us if you're interested in them. For example, you can explore them through [Summer of Open Source Promotion Plan](../summer-ospp).
+The ideas below are not accepted by Google Summber of code. Please contact us if you're interested in them. For example, you can explore them through [Summer of Open Source Promotion Plan](../summer-ospp).
 
 | Project | Area | Skills to study/improve |
 | --- | --- | --- |
