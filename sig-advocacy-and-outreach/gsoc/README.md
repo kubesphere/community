@@ -2,6 +2,10 @@ KubeSphere in [Google Summber of Code (aka GSoC)](https://summerofcode.withgoogl
 
 ## Proposals
 
+### Archived ideas
+
+The ideas below are not accepted by Google Summber of code. Please contact us if you're interested in them. For example, you can explore them through [Summer of Open Source Promotion Plan](../summer-ospp).
+
 | Project | Area | Skills to study/improve |
 | --- | --- | --- |
 | [KubeSphere Jenkins Client Refactor](kubeSphere-jenkins-client-refactor.md) <br/>Split the Jenkins client from KubeSphere. Or use an existing Jenkins client. </br>Potential Mentor(s): [Rick](https://github.com/LinuxSuRen/), [Shaowen Chen](https://github.com/shaowenchen/)| DevOps | Golang, REST API/OpenAPI, Jenkins, Kubernetes |
