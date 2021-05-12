@@ -41,7 +41,7 @@ Pushover 使用简单的 REST API 版本来接收消息并将其广播到运行 
 
 ## 快速入门
 
-You can start with [a minimal KubeSphere](https://kubesphere.io/docs/quick-start/minimal-kubesphere-on-k8s/).
+你可以从[一个最小化的 KubeSphere](https://kubesphere.io/zh/docs/quick-start/minimal-kubesphere-on-k8s/)开始。
 
 ## 导师/联系方式
 

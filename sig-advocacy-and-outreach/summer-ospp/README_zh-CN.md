@@ -16,14 +16,13 @@ KubeSphere 参与[开源软件供应链点亮计划 - 暑期 2021](https://summe
 | 项目 | 领域 | 技能 |
 | --- | --- | --- |
 | [kubeSphere Jenkins 客户端重构](kubeSphere-jenkins-client-refactor_zh-CN.md) <br/>从 [KubeSphere](https://github.com/kubesphere/kubesphere/) 核心代码中的 DevOps 部分将 Jenkins 客户端代码分离开，或者，使用已有的 Jenkins 客户端。<br/>导师： [Rick](https://github.com/LinuxSuRen/), [Shaowen Chen](https://github.com/shaowenchen/) | DevOps | Golang, REST API/OpenAPI, Jenkins, Kubernetes |
-| [KubeSphere Tekton Integration](kubeSphere-tekton-integration_zh-CN.md) <br/>Integrate Tekton as an alternative CI/CD engine of KubeSphere DevOps. <br/>Potential Mentor(s): [Rick](https://github.com/LinuxSuRen/), [Shaowen Chen](https://github.com/shaowenchen/) | DevOps | Golang, Tekton, Jenkins, Kubernetes |
-| [Customize Notification Receivers Using a Webhook](customize-notification-receivers-using-a-webhook_zh-CN.md) <br/>Enable [Notification Manager](https://github.com/kubesphere/notification-manager) to obtain a notification receiver list from a webhook so that users can customize the notification receivers. <br/>Potential Mentor(s): [Benjamin Huo](https://github.com/benjaminhuo), [Wanjun Lei](https://github.com/wanjunlei) | Notification Manager | Golang, REST API, Kubernetes |
-| [Expose LoadBalancer Services Using iptables NAT Rules](expose-loadbalancer-services-using-iptables-nat-rules_zh-CN.md) <br/>Provide a simple mode of [PorterLB](https://porterlb.io/), which allows users to use the IP address of a Kubernetes cluster node and a service port to expose a LoadBalancer service. <br/>Potential Mentor(s): [Zhengyi Lai](https://github.com/zheng1), [Jiong Duan](https://github.com/duanjiong) | Network | Golang, Kubernetes, Linux network (iptables and IPVS) |
-| [Support send notifications to pushover](support-send-notifications-to-pushover.md)<br/>Make the notification manager support send notifications to pushover.<br/>Potential Mentor(s):[benjaminhuo](https://github.com/benjaminhuo),[lei](https://github.com/wanjunlei) | Notification Manager | Golang, REST API, Kubernetes |
+| [KubeSphere 集成 Tekton](kubeSphere-tekton-integration_zh-CN.md) <br/>集成 [Tekton](https://github.com/tektoncd/pipeline) 作为 [KubeSphere](https://github.com/kubesphere/kubesphere/) DevOps 可选的 CI/CD 引擎。 <br/>导师： [Shaowen Chen](https://github.com/shaowenchen/)，[Rick](https://github.com/LinuxSuRen/) | DevOps | Golang, Tekton, Jenkins, Kubernetes |
+| [Expose LoadBalancer Services Using iptables NAT Rules](expose-loadbalancer-services-using-iptables-nat-rules_zh-CN.md) <br/>Provide a simple mode of [PorterLB](https://porterlb.io/), which allows users to use the IP address of a Kubernetes cluster node and a service port to expose a LoadBalancer service. <br/>导师： [Zhengyi Lai](https://github.com/zheng1), [Jiong Duan](https://github.com/duanjiong) | Network              | Golang, Kubernetes, Linux network (iptables and IPVS) |
+| [Notification Manager 发送通知到 pushover](support-send-notifications-to-pushover_zh-CN.md)<br/>使 Notification Manager 可以发送通知消息到 pushover。<br/>导师：[benjaminhuo](https://github.com/benjaminhuo),[lei](https://github.com/wanjunlei) | Notification Manager | Golang, REST API, Kubernetes                          |
 
 ## 学生
 
-* [学生指南](https://summer.iscas.ac.cn/help/student/)
+* 5 月 24 日- 6 月 13 日是学生提交项目申请阶段，详情请查看 [学生指南](https://summer.iscas.ac.cn/help/student/)
 * [开源软件供应链点亮计划 - 暑期 2021](https://summer.iscas.ac.cn/)
 
 ## 联系
