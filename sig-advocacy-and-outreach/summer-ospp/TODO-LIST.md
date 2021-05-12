@@ -3,7 +3,7 @@
 > 1. 可以直接在 GitHub 上提交完善信息
 > 2. 可以直接在 HackMD 上补充完善信息，由管理员统一提交至 GitHub.
 
-- [x] KubeSphere Jenkins Client Refactor @Rick 
+- [x] KubeSphere Jenkins Client Refactor  @ [Rick](https://github.com/LinuxSuRen/)
   
   - HackMD
   
@@ -14,7 +14,7 @@
   
     https://github.com/kubesphere/community/tree/master/sig-advocacy-and-outreach/summer-ospp
   
-- [x] KubeSphere Tekton Integration @shaowen
+- [x] KubeSphere Tekton Integration @ [Shaowen Chen](https://github.com/shaowenchen/)
   
   - HackMD
   
@@ -25,7 +25,7 @@
   
     https://github.com/kubesphere/community/tree/master/sig-advocacy-and-outreach/summer-ospp
   
-- [x] ~~Customize Notification Receivers Using a Webhook @火冰界~~ 
+- [x] Customize Notification Receivers Using a Webhook 
   
   - HackMD
   
@@ -36,7 +36,7 @@
   
     https://github.com/kubesphere/community/tree/master/sig-advocacy-and-outreach/summer-ospp
   
-- [ ] Expose LoadBalancer Services Using iptables NAT Rules @正一 
+- [ ] Expose LoadBalancer Services Using iptables NAT Rules @ [Zhengyi Lai](https://github.com/zheng1), [Jiong Duan](https://github.com/duanjiong)
   
   - HackMD
   
@@ -47,7 +47,7 @@
   
     https://github.com/kubesphere/community/tree/master/sig-advocacy-and-outreach/summer-ospp
   
-- [x] Support send notifications to pushover @雷 
+- [x] Support send notifications to pushover @ [benjaminhuo](https://github.com/benjaminhuo),[lei](https://github.com/wanjunlei)
 
   - Shimo
 
