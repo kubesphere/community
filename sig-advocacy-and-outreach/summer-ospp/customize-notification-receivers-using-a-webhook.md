@@ -1,6 +1,6 @@
 # Project
 
-Customize Notification Receivers Using A Webhook
+Customize Notification Receivers Using A Webhook -【 Deprecated 】
 
 ## Project Goal
 

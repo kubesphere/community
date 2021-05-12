@@ -3,7 +3,7 @@
 > 1. 可以直接在 GitHub 上提交完善信息
 > 2. 可以直接在 HackMD 上补充完善信息，由管理员统一提交至 GitHub.
 
-- [ ] KubeSphere Jenkins Client Refactor @Rick 
+- [x] KubeSphere Jenkins Client Refactor @Rick 
   
   - HackMD
   
@@ -14,7 +14,7 @@
   
     https://github.com/kubesphere/community/tree/master/sig-advocacy-and-outreach/summer-ospp
   
-- [ ] KubeSphere Tekton Integration @shaowen
+- [x] KubeSphere Tekton Integration @shaowen
   
   - HackMD
   
@@ -25,7 +25,7 @@
   
     https://github.com/kubesphere/community/tree/master/sig-advocacy-and-outreach/summer-ospp
   
-- [ ] Customize Notification Receivers Using a Webhook @火冰界 
+- [x] ~~Customize Notification Receivers Using a Webhook @火冰界~~ 
   
   - HackMD
   
@@ -47,7 +47,7 @@
   
     https://github.com/kubesphere/community/tree/master/sig-advocacy-and-outreach/summer-ospp
   
-- [ ] Support send notifications to pushover @雷 
+- [x] Support send notifications to pushover @雷 
 
   - Shimo
 
