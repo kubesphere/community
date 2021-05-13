@@ -53,4 +53,3 @@ PorterLB 是一款为 Kubernetes 集群暴露 K8s LoadBalancer Service 的插件
 ## 导师/联系方式
 
 * [Zhengyi Lai](https://github.com/zheng1)
-* [Jiong Duan](https://github.com/duanjiong)
