@@ -20,6 +20,7 @@ KubeSphere 参与[开源软件供应链点亮计划 - 暑期 2021](https://summe
 | [使用 iptables 的 NAT 规则暴露 K8s Loadbalancer 服务](expose-loadbalancer-services-using-iptables-nat-rules_zh-CN.md) <br/>为 [PorterLB](https://porterlb.io/) 提供一个更简单的模式：允许用户使用 Kubernetes 集群节点的 IP 地址和服务端口来暴露 LoadBalancer 服务。 <br/>导师： [Zhengyi Lai](https://github.com/zheng1) | Network              | Golang, Kubernetes, Linux network (iptables/IPVS) |
 | [Notification Manager 发送通知到 pushover](support-send-notifications-to-pushover_zh-CN.md)<br/>使 Notification Manager 可以发送通知消息到 pushover。<br/>导师：[benjaminhuo](https://github.com/benjaminhuo),[lei](https://github.com/wanjunlei) | Notification Manager | Golang, REST API, Kubernetes                          |
 | [集成 Gatekeeper](kubesphere-gatekeeper-integration.md) <br/>将 Gatekeeper 作为准入策略引擎集成到 KubeSphere。<br/>导师：[Hongming](https://github.com/wansir/), [Roland](https://github.com/rolandma1986/)| Security | Golang, React, OPA, Gatekeeper, Kubernetes |
+| [集成 SAML 认证](KubeSphere-SAML-integrations_zh-CN.md) <br/>集成 SAML 2.0 认证协议到 KubeSphere<br/>导师：[Hongming](https://github.com/wansir/), [Roland](https://github.com/rolandma1986/)| Security | Golang, REST API/OpenAPI, SAML |
 
 ## 学生
 
