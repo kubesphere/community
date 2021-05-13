@@ -28,11 +28,13 @@ The new mode needs to support the following features:
 
 ## Scope
 
-TODO
+You can try to configure iptables rules manually first, and then try to integrate the relevant code in PorterLB.
 
 ## Outcomes
 
-TODO
+- Extend PorterLB's modes to make its use easier
+- Test and output test reports
+- Write related documentation
 
 ## Links
 
