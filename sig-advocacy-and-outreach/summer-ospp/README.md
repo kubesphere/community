@@ -17,6 +17,7 @@ KubeSphere in [Summer 2021 of Open Source Promotion Plan](https://summer.iscas.a
 | [Expose LoadBalancer Services Using iptables NAT Rules](expose-loadbalancer-services-using-iptables-nat-rules.md) <br/>Provide a simple mode of [PorterLB](https://porterlb.io/), which allows users to use the IP address of a Kubernetes cluster node and a service port to expose a LoadBalancer service. <br/>Potential Mentor(s): [Zhengyi Lai](https://github.com/zheng1), [Jiong Duan](https://github.com/duanjiong) | Network              | Golang, Kubernetes, Linux network (iptables and IPVS) |
 | [Support send notifications to pushover](support-send-notifications-to-pushover.md)<br/>Make the notification manager support send notifications to pushover.<br/>Potential Mentor(s):[benjaminhuo](https://github.com/benjaminhuo),[lei](https://github.com/wanjunlei) | Notification Manager | Golang, REST API, Kubernetes                          |
 | [KubeSphere Gatekeeper Integration](kubesphere-gatekeeper-integration.md) <br/>Integrate Gatekeeper as an admission policy engine to KubeSphere. <br/>Potential Mentor(s): [Hongming](https://github.com/wansir/), [Roland](https://github.com/rolandma1986/)| Security | Golang, React, OPA, Gatekeeper, Kubernetes |
+| [KubeSphere SAML Integration](KubeSphere-SAML-integrations.md) <br/>Integrate SAML authentication as an identity provider to KubeSphere. <br/>Potential Mentor(s): [Hongming](https://github.com/wansir/), [Roland](https://github.com/rolandma1986/)| Security | Golang, REST API/OpenAPI, SAML |
 
 ## Students
 
