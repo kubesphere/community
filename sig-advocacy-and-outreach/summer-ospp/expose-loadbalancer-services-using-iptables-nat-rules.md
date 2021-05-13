@@ -53,4 +53,3 @@ You can start with [a minimal KubeSphere system](https://kubesphere.io/docs/quic
 ## Potential Mentors
 
 * [Zhengyi Lai](https://github.com/zheng1)
-* [Jiong Duan](https://github.com/duanjiong)
