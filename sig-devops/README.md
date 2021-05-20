@@ -8,6 +8,7 @@ The DevOps SIG is to design and implement the DevOps functionalities including p
 - Shaowen Chen ([@shaowenchen](https://github.com/shaowenchen)), Member
 - Rick ([@linuxsuren](https://github.com/linuxSuRen/)), Member
 - Harrison Liu ([@harrisonliu5](https://github.com/harrisonliu5)), Member
+- JohnNiang ([@johnniang](https://github.com/JohnNiang)), Member
 
 ## Documents
 
