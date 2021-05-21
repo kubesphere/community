@@ -22,7 +22,8 @@ The DevOps SIG is to design and implement the DevOps functionalities including p
 
 ## Meetings
 
-[Meeting notes](https://docs.google.com/document/d/1ZORl7ZhRlZxKXFle2LGPRJqXzlr6EDhu2A7qzjybfro/)
+* [Meeting notes](https://docs.google.com/document/d/1ZORl7ZhRlZxKXFle2LGPRJqXzlr6EDhu2A7qzjybfro/)
+* [Meeting video records](https://space.bilibili.com/438908638/channel/detail?cid=179482)
 
 ## Contact
 
