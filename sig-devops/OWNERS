@@ -15,3 +15,5 @@ reviewers:
 emeritus_approvers:
     - runzexia
     - soulseen
+labels:
+    - area/devops
