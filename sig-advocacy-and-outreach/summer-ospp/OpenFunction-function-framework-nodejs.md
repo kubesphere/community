@@ -6,8 +6,6 @@ OpenFunction's nodejs function framework development
 
 Develop a functional framework for working with nodejs code, providing users with a suite of tools for their code in a cloud-native environment.
 
-开发用于处理 nodejs 代码的函数框架，为用户的业务代码提供适用于云原生环境的多种工具套件。
-
 ## Skills to Learn/Improve
 
 * Nodejs
