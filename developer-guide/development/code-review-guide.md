@@ -5,7 +5,7 @@
 
 The primary purpose of code review is to make sure that the overall health of KubeSphere's code base is improving over time.
 
-**In general, reviewers should favor approving a CL once it is in a state where it definitely improves the overall code health of the system being worked on, even if the CL isn’t perfect.**
+**In general, reviewers should favor approving a PR once it is in a state where it definitely improves the overall code health of the system being worked on, even if the PR isn’t perfect.**
 
 ### Mentoring
 
@@ -44,7 +44,7 @@ Now that you know [what to look for](), what’s the most efficient way to manag
 
 * Does the change make sense? Does it have a good description?
 * Look at the most important part of the change first. Is it well-designed overall?
-* Look at the rest of the CL in an appropriate sequence.
+* Look at the rest of the PR in an appropriate sequence.
 
 
 ## How to write code review comments
