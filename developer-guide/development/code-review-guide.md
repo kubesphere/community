@@ -33,7 +33,7 @@ In doing a code review, you should make sure that:
 * Tests are well-designed.
 * The developer used clear names for everything.
 * Comments are clear and useful, and mostly explain **why** instead of **what**.
-* Code is appropriately documented (generally in g3doc).
+* Code is appropriately documented.
 * The code conforms to our style guides.
 
 Make sure to review **every line** of code you’ve been asked to review, look at the **context**, make sure you’re **improving code health**, and compliment developers on **good things** that they do.
