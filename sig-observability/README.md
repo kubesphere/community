@@ -20,20 +20,24 @@ The Observability SIG is to design and implement the observability features for 
 
 - [Concept of KubeSphere Logging](concepts-and-designs/kubesphere-logging-v3.0.0.md)
 - [Concept of KubeSphere Monitoring](./concepts-and-designs/kubesphere-monitoring-v3.0.0.md)
-- [Development Guide of KubeSphere Logging](./development/kubesphere-logging-development-guide.md)
-- [Development Guide of KubeSphere Monitoring](./development/kubesphere-monitoring-development-guide.md)
+- [Development Guide of KubeSphere Logging](./development/kubesphere-logging-development-guide-v3.0.0.md)
+- [Development Guide of KubeSphere Monitoring](./development/kubesphere-monitoring-development-guide-v3.0.0.md)
 
 ## Members
 
 - Benjamin Huo ([@benjaminhuo](https://github.com/benjaminhuo)), Lead
 - Dan Ma ([@Ma-Dan](https://github.com/Ma-Dan)), Member
+- Daniel Hu ([@daniel-hutao](https://github.com/daniel-hutao)), Member
 - Guangzhe Huang ([@huanggze](https://github.com/huanggze)), Member
 - Junot Xiang ([@junotx](https://github.com/junotx)), Member
 - Wanjun Lei ([@wanjunlei](https://github.com/wanjunlei)), Member
 
 ## Meetings
-Meeting Info: [xylink](https://www.xylink.com/download) , number: 9012073041
-Meeting Time: Wednesday at 15:30~16:30 Beijing Time (biweekly, starting from Oct. 14 2020)
+
+Meeting Info: [Zoom](https://us02web.zoom.us/j/89623105370?pwd=a1A5L2JxbC8rSUJLbjZ4UkhwZWVSZz09) 
+
+Meeting Time: Thursday at 15:30~16:30 Beijing Time (biweekly, starting from Nov. 5th 2020) [Meeting Calendar](https://kubesphere.io/contribution/)
+
 [Meeting notes](https://docs.google.com/document/d/18SOB2NRQWS-Qad4oebzIjtQzUG831PFvQtvN5tBwNrM/)
 
 ## Contact

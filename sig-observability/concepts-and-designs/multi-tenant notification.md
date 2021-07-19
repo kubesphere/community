@@ -62,16 +62,16 @@
 
 ## Requirements ##
 
-- User can define the channels for receiving notifications, including email, wechat, slack, webhook and dingtalk, by creating the corresponding receiver and config.
-- A user only has one receiver or config in the same type.
-- A user can update, delete, get the receiver, and config created by oneself.
-- A user can get the default config.
-- The receiver created by the user can use the config create by the user and the default config.
+- Every user can customize the channels for receiving notifications, including email, wechat, slack, webhook and dingtalk, by customizing his own receivers and configs.
+
+![](../images/tenant-receiver-config.png)
+
+- The platform administrator can customize the global channels for receiving all notifications by customizing the global receivers and the default config. Only one default config is allowed for each type.
+
+![](../images/global-receiver-config.png)
+
+- The receiver of user will use the default config if his own config is not set.
 - All receivers and configs are in the namespace `kubesphere-monitoring-system`.
-- The platform administrator can create a global channel for receiving all notifications by creating global receivers.
-- The platform administrator can create a global default configuration by creating a default config.
-- Each type of global receiver and default config can be only one. 
-- The global receiver can only use the default config.
 - Before deleting the user, it should get all the receivers and configs of the user, and delete them.
 
 ## Parameters
@@ -195,7 +195,7 @@
 ### Secret API
 #### Create Secret
 
- > POST /kapis/monitoring.kubesphere.io/v1alpha3/secrets
+ > POST /kapis/notification.kubesphere.io/v2alpha1/secrets
 
  Request body
 ```
@@ -234,24 +234,24 @@ type: Opaque
 
 #### Update Secret
 
- > PUT /kapis/monitoring.kubesphere.io/v1alpha3/secrets/{secret}
+ > PUT /kapis/notification.kubesphere.io/v2alpha1/secrets/{secret}
 
 #### Delete Secret
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/secrets/{secret}
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/secrets/{secret}
 
 #### Get Secret
 
- > GET /kapis/monitoring.kubesphere.io/v1alpha3/secrets/{secret}
+ > GET /kapis/notification.kubesphere.io/v2alpha1/secrets/{secret}
 
 #### List Secret
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/secrets
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/secrets
 
 ### Email API
 #### Create Email Config
 
- > POST /kapis/monitoring.kubesphere.io/v1alpha3/emailconfigs
+ > POST /kapis/notification.kubesphere.io/v2alpha1/emailconfigs
 
  Request body
 
@@ -310,200 +310,200 @@ spec:
 
 #### Update Email Config
 
- > PUT /kapis/monitoring.kubesphere.io/v1alpha3/emailconfigs/{emailconfig}
+ > PUT /kapis/notification.kubesphere.io/v2alpha1/emailconfigs/{emailconfig}
 
 #### Delete Email Config
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/emailconfigs/{emailconfig}
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/emailconfigs/{emailconfig}
 
 #### Get Email Config
 
- > GET /kapis/monitoring.kubesphere.io/v1alpha3/emailconfigs/{emailconfig}
+ > GET /kapis/notification.kubesphere.io/v2alpha1/emailconfigs/{emailconfig}
 
 #### List Email Config
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/emailconfigs
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/emailconfigs
 
 #### Create Email Receiver
 
- > POST /kapis/monitoring.kubesphere.io/v1alpha3/emailreceivers
+ > POST /kapis/notification.kubesphere.io/v2alpha1/emailreceivers
 
 #### Update Email Receiver
 
- > PUT /kapis/monitoring.kubesphere.io/v1alpha3/emailreceivers/{emailreceiver}
+ > PUT /kapis/notification.kubesphere.io/v2alpha1/emailreceivers/{emailreceiver}
 
 #### Delete Email Receiver
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/emailreceivers/{emailreceiver}
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/emailreceivers/{emailreceiver}
 
 #### Get Email Receiver
 
- > GET /kapis/monitoring.kubesphere.io/v1alpha3/emailreceivers/{emailreceiver}
+ > GET /kapis/notification.kubesphere.io/v2alpha1/emailreceivers/{emailreceiver}
 
 #### List Email Receiver
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/emailreceivers
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/emailreceivers
 
 ### Wechat API
 #### Create Wechat Config
 
- > POST /kapis/monitoring.kubesphere.io/v1alpha3/wechatconfigs
+ > POST /kapis/notification.kubesphere.io/v2alpha1/wechatconfigs
 
 #### Update Wechat Config
 
- > PUT /kapis/monitoring.kubesphere.io/v1alpha3/wechatconfigs/{wechatconfig}
+ > PUT /kapis/notification.kubesphere.io/v2alpha1/wechatconfigs/{wechatconfig}
 
 #### Delete Wechat Config
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/wechatconfigs/{wechatconfig}
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/wechatconfigs/{wechatconfig}
 
 #### Get Wechat Config
 
- > GET /kapis/monitoring.kubesphere.io/v1alpha3/wechatconfigs/{wechatconfig}
+ > GET /kapis/notification.kubesphere.io/v2alpha1/wechatconfigs/{wechatconfig}
 
 #### List Wechat Config
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/wechatconfigs
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/wechatconfigs
 
 #### Create Wechat Receiver
 
- > POST /kapis/monitoring.kubesphere.io/v1alpha3/wechatreceivers
+ > POST /kapis/notification.kubesphere.io/v2alpha1/wechatreceivers
 
 #### Update Wechat Receiver
 
- > PUT /kapis/monitoring.kubesphere.io/v1alpha3/wechatreceivers/{wechatreceiver}
+ > PUT /kapis/notification.kubesphere.io/v2alpha1/wechatreceivers/{wechatreceiver}
 
 #### Delete Wechat Receiver
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/wechatreceivers/{wechatreceiver}
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/wechatreceivers/{wechatreceiver}
 
 #### Get Wechat Receiver
 
- > GET /kapis/monitoring.kubesphere.io/v1alpha3/wechatreceivers/{wechatreceiver}
+ > GET /kapis/notification.kubesphere.io/v2alpha1/wechatreceivers/{wechatreceiver}
 
 #### List Wechat Receiver
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/wechatreceivers
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/wechatreceivers
 
 ### Slack API
 #### Create Slack Config
 
- > POST /kapis/monitoring.kubesphere.io/v1alpha3/slackconfigs
+ > POST /kapis/notification.kubesphere.io/v2alpha1/slackconfigs
 
 #### Update Slack Config
 
- > PUT /kapis/monitoring.kubesphere.io/v1alpha3/slackconfigs/{slackconfig}
+ > PUT /kapis/notification.kubesphere.io/v2alpha1/slackconfigs/{slackconfig}
 
 #### Delete Slack Config
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/slackconfigs/{slackconfig}
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/slackconfigs/{slackconfig}
 
 #### Get Slack Config
 
- > GET /kapis/monitoring.kubesphere.io/v1alpha3/slackconfigs/{slackconfig}
+ > GET /kapis/notification.kubesphere.io/v2alpha1/slackconfigs/{slackconfig}
 
 #### List Slack Config
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/slackconfigs
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/slackconfigs
 
 #### Create Slack Receiver
 
- > POST /kapis/monitoring.kubesphere.io/v1alpha3/slackreceivers
+ > POST /kapis/notification.kubesphere.io/v2alpha1/slackreceivers
 
 #### Update Slack Receiver
 
- > PUT /kapis/monitoring.kubesphere.io/v1alpha3/slackreceivers/{slackreceiver}
+ > PUT /kapis/notification.kubesphere.io/v2alpha1/slackreceivers/{slackreceiver}
 
 #### Delete Slack Receiver
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/slackreceivers/{slackreceiver}
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/slackreceivers/{slackreceiver}
 
 #### Get Slack Receiver
 
- > GET /kapis/monitoring.kubesphere.io/v1alpha3/slackreceivers/{slackreceiver}
+ > GET /kapis/notification.kubesphere.io/v2alpha1/slackreceivers/{slackreceiver}
 
 #### List Slack Receiver
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/slackreceivers
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/slackreceivers
 
 ### Webhook API
 #### Create Webhook Config
 
- > POST /kapis/monitoring.kubesphere.io/v1alpha3/webhookconfigs
+ > POST /kapis/notification.kubesphere.io/v2alpha1/webhookconfigs
 
 #### Update Webhook Config
 
- > PUT /kapis/monitoring.kubesphere.io/v1alpha3/webhookconfigs/{webhookconfig}
+ > PUT /kapis/notification.kubesphere.io/v2alpha1/webhookconfigs/{webhookconfig}
 
 #### Delete Webhook Config
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/webhookconfigs/{webhookconfig}
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/webhookconfigs/{webhookconfig}
 
 #### Get Webhook Config
 
- > GET /kapis/monitoring.kubesphere.io/v1alpha3/webhookconfigs/{webhookconfig}
+ > GET /kapis/notification.kubesphere.io/v2alpha1/webhookconfigs/{webhookconfig}
 
 #### List Webhook Config
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/webhookconfigs
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/webhookconfigs
 
 #### Create Webhook Receiver
 
- > POST /kapis/monitoring.kubesphere.io/v1alpha3/webhookreceivers
+ > POST /kapis/notification.kubesphere.io/v2alpha1/webhookreceivers
 
 #### Update Webhook Receiver
 
- > PUT /kapis/monitoring.kubesphere.io/v1alpha3/webhookreceivers/{webhookreceiver}
+ > PUT /kapis/notification.kubesphere.io/v2alpha1/webhookreceivers/{webhookreceiver}
 
 #### Delete Webhook Receiver
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/webhookreceivers/{webhookreceiver}
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/webhookreceivers/{webhookreceiver}
 
 #### Get Webhook Receiver
 
- > GET /kapis/monitoring.kubesphere.io/v1alpha3/webhookreceivers/{webhookreceiver}
+ > GET /kapis/notification.kubesphere.io/v2alpha1/webhookreceivers/{webhookreceiver}
 
 #### List Webhook Receiver
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/webhookreceivers
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/webhookreceivers
 
 ### DingTalk API
 #### Create DingTalk Config
 
- > POST /kapis/monitoring.kubesphere.io/v1alpha3/dingtalkconfigs
+ > POST /kapis/notification.kubesphere.io/v2alpha1/dingtalkconfigs
 
 #### Update DingTalk Config
 
- > PUT /kapis/monitoring.kubesphere.io/v1alpha3/dingtalkconfigs/{dingtalkconfig}
+ > PUT /kapis/notification.kubesphere.io/v2alpha1/dingtalkconfigs/{dingtalkconfig}
 
 #### Delete DingTalk Config
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/dingtalkconfigs/{dingtalkconfig}
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/dingtalkconfigs/{dingtalkconfig}
 
 #### Get DingTalk Config
 
- > GET /kapis/monitoring.kubesphere.io/v1alpha3/dingtalkconfigs/{dingtalkconfig}
+ > GET /kapis/notification.kubesphere.io/v2alpha1/dingtalkconfigs/{dingtalkconfig}
 
 #### List DingTalk Config
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/dingtalkconfigs
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/dingtalkconfigs
 
 #### Create DingTalk Receiver
 
- > POST /kapis/monitoring.kubesphere.io/v1alpha3/dingtalkreceivers
+ > POST /kapis/notification.kubesphere.io/v2alpha1/dingtalkreceivers
 
 #### Update DingTalk Receiver
 
- > PUT /kapis/monitoring.kubesphere.io/v1alpha3/dingtalkreceivers/{dingtalkreceiver}
+ > PUT /kapis/notification.kubesphere.io/v2alpha1/dingtalkreceivers/{dingtalkreceiver}
 
 #### Delete DingTalk Receiver
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/dingtalkreceivers/{dingtalkreceiver}
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/dingtalkreceivers/{dingtalkreceiver}
 
 #### Get DingTalk Receiver
 
- > GET /kapis/monitoring.kubesphere.io/v1alpha3/dingtalkreceivers/{dingtalkreceiver}
+ > GET /kapis/notification.kubesphere.io/v2alpha1/dingtalkreceivers/{dingtalkreceiver}
 
 #### List DingTalk Receiver
 
- > DELETE /kapis/monitoring.kubesphere.io/v1alpha3/dingtalkreceivers
+ > DELETE /kapis/notification.kubesphere.io/v2alpha1/dingtalkreceivers

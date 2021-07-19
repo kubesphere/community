@@ -1,6 +1,10 @@
 approvers:
     - zheng1
+    - duanjiong
     - rayzhou2017
 reviewers:
     - zheng1
+    - duanjiong
     - rayzhou2017
+emeritus_approvers:
+    - magicsong

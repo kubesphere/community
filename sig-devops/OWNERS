@@ -2,12 +2,18 @@ approvers:
     - zryfish
     - rayzhou2017
     - shaowenchen
-
+    - LinuxSuRen
+    - JohnNiang
 reviewers:
     - zryfish
     - rayzhou2017
     - shaowenchen
+    - LinuxSuRen
+    - JohnNiang
     - calvinyv
     - FeynmanZhou
+emeritus_approvers:
     - runzexia
     - soulseen
+labels:
+    - area/devops

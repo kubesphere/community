@@ -9,8 +9,8 @@ The Storage SIG is to design and implement KubeSphere storage service such as CS
 
 ## Members
 
-- Xin Wang ([@wnxn](https://github.com/wnxn)), Lead
-- Min Zhang ([@min-zh](https://github.com/min-zh)), Member
+- Yonghong Shi ([@stoneshi-yunify](https://github.com/stoneshi-yunify)), Lead
+- Min Zhang ([@min-zh](https://github.com/min-zh)), Lead
 
 ## Meetings
 

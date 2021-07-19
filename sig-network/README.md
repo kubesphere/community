@@ -5,6 +5,7 @@ The Network SIG is to design and develop network-related capabilities for KubeSp
 ## Documents
 
 - [KubeSphere Network Policy](./concepts-and-designs/kubesphere-network-policy.md)
+- [KubeSphere IP Pool](./concepts-and-designs/ippool.md)
 
 ## Members
 

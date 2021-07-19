@@ -19,13 +19,26 @@ Users can toggle enable/disable and modify parameters of KubeEdge CloudClore on 
 | CloudCore Service Type | Service expose method | String | NodePort (NodePort/LoadBalancer) |
 | CloudHub advertiseAddress | Exposed IP address for EdgeCore to connect | String | Public IP address of KS cluster in NodePort mode / Service attached LB IP |
 | CloudHub nodeLimit | node limit for edge nodes | Int | 100 |
-| CloudHub port | Port number of CloudHub service | Int | 31000(NodePort) / 10000(LB) |
-| CloudHub https port | Port number of CloudHub https service | Int | 31002(NodePort) / 10002(LB) |
+| Enable CloudHub websocket | Enable CloudHub websocket, basic service | Bool | True |
+| Enable CloudHub https | Enable CloudHub https, basic service | Bool | True |
+| Enable CloudHub Quic | Enable CloudHub Quic | Bool | False |
 | Enable CloudStream | Enable CloudStream component, required by logs and metrics | Bool | True |
+| CloudHub websocket port | Port number of CloudHub websocket service | Int | 31000(NodePort) / 10000(LB) |
+| CloudHub Quic port | Port number of CloudHub Quic service | Int | 31001(NodePort) / 10001(LB) |
+| CloudHub https port | Port number of CloudHub https service | Int | 31002(NodePort) / 10002(LB) |
 | CloudStream port  | Port number of CloudStream service | Int | 31003(NodePort) / 10003(LB) |
 | CloudTunnel port  | Port number of CloudTunnel service | Int | 31004(NodePort) / 10004(LB) |
 
-- KubeEdge component can be installed by one helm chart.
+## Edge-Watcher config
+
+| Parameter | Description | Type | Default |
+| --------- | ----------- | ---- | ------- |
+| Destination node address | Destination address of log/metrics request | String | Master/Worker node address of cluster |
+| Destination node port | Destination port of log/metrics request | String | 31003 |
+| Log port | Port of log request | String | 10350 |
+| Metrics port | Port of metrics request | String | 10250 |
+
+- KubeEdge and edge-watcher are installed by one helm chart.
 - After KubeEdge enabled, UI should prompt users to enable firewall and port mapping for KubeEdge service ports.
 
 # E2. Edge nodes logging and metrics
@@ -40,9 +53,9 @@ Each edge node required 2 iptables entries to enable logging and metrics fetchin
 TCP 192.168.100.1:10250 -> cloudcore-ip:10003(Can be 192.168.1.10:31003 in NodePort mode)
 TCP 192.168.100.1:10350 -> cloudcore-ip:10003(Can be 192.168.1.10:31003 in NodePort mode)
 
-Edge-router controller component is developed to maintain iptables entries according to edge nodes status, and installs together with kubeedge when enables it.
+Edge-watcher and iptables-operator components are developed to maintain iptables entries according to edge nodes status, and installs together with kubeedge when enables it.
 
-![Edge-router](../images/edge-router.png)
+![Edge-watcher](../images/edge-watcher.png)
 
 ## Edge node logging
 
@@ -150,10 +163,12 @@ Pod level metrics (real-time data)
 
 # E3. Convenient edge node joining and exiting
 
-Edge nodes needs CloudHub IP address and token to join in cluster. This token is fetch using following commands.
+![edge_join_1](../images/edge_join_1.png)
 
-```Shell
-kubectl get secret tokensecret -n kubeedge -ojson | jq -r ".data.tokendata" | base64 -d
-```
+Set edge node parameter on UI.
 
-KubeEdge compoments should display token on UI or generate a config file, then use keadmin or customized installer with config file to join cluster.
+![edge_join_2](../images/edge_join_2.png)
+
+Download installer and config file, copy to edge node and join.
+
+
