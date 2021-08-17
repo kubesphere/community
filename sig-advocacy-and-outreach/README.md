@@ -13,6 +13,7 @@ and attract new people to join KubeSphere community.
 - webup ([@webup](https://github.com/webup/)), Member
 - faweizhao26 ([@faweizhao26](https://github.com/faweizhao26/)), Member
 - Daniel Hu ([@daniel-hutao](https://github.com/daniel-hutao)), Member
+- Lan ([@liangyuanpeng](https://github.com/liangyuanpeng)), Member
 
 ## Topics
 
