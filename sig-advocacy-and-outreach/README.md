@@ -11,8 +11,11 @@ and attract new people to join KubeSphere community.
 - Shaowen Chen ([@shaowenchen](https://github.com/shaowenchen)), Member
 - Honglei ([@shenhonglei](https://github.com/shenhonglei/)), Member
 - webup ([@webup](https://github.com/webup/)), Member
-- faweizhao26 ([@faweizhao26](https://github.com/faweizhao26/)), Member
+- Fawei Zhao ([@faweizhao26](https://github.com/faweizhao26/)), Member
 - Daniel Hu ([@daniel-hutao](https://github.com/daniel-hutao)), Member
+- Min Yin ([@yinmin2020](https://github.com/yinmin2020)), Member
+- Zhengjun Zhou ([@cnicy](https://github.com/cnicy)), Member
+- Lan ([@liangyuanpeng](https://github.com/liangyuanpeng)), Member
 
 ## Topics
 
