@@ -48,4 +48,4 @@ You can start with [a minimal KubeSphere](https://kubesphere.io/docs/quick-start
 ## Potential Mentors
 
 * [Rick](https://github.com/LinuxSuRen/)
-* [Shaowen Chen](https://github.com/shaowenchen/)
+* [JohnNiang](https://github.com/johnniang/)

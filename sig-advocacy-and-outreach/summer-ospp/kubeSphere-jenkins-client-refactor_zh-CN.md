@@ -49,5 +49,5 @@ KubeSphere Jenkins 客户端重构
 ## 导师/联系方式
 
 * [Rick](https://github.com/LinuxSuRen/)
-* [Shaowen Chen](https://github.com/shaowenchen/)
+* [JohnNiang](https://github.com/johnniang/)
 

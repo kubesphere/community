@@ -57,5 +57,6 @@ Tekton 是一个云原生的 CI/CD 项目。相较于 Jenkins，Tekton 可以充
 
 ## 导师/联系方式
 
-* [Shaowen Chen](https://github.com/shaowenchen/)
 * [Rick](https://github.com/LinuxSuRen/)
+* [JohnNiang](https://github.com/johnniang/)
+
