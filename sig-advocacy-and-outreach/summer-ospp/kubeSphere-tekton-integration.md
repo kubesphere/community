@@ -55,5 +55,6 @@ You can start with [a minimal KubeSphere](https://kubesphere.io/docs/quick-start
 
 ## Potential Mentors
 
-* [Shaowen Chen](https://github.com/shaowenchen/)
 * [Rick](https://github.com/LinuxSuRen/)
+* [JohnNiang](https://github.com/johnniang/)
+

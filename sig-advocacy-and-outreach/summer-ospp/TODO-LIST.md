@@ -14,7 +14,7 @@
   
     https://github.com/kubesphere/community/tree/master/sig-advocacy-and-outreach/summer-ospp
   
-- [x] KubeSphere Tekton Integration @ [Shaowen Chen](https://github.com/shaowenchen/)
+- [x] KubeSphere Tekton Integration @ [JohnNiang](https://github.com/johnniang/)
   
   - HackMD
   
