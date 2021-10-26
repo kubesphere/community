@@ -1,0 +1,51 @@
+name: Organization Membership Request
+description: Request membership in a KubeSphere Org
+labels: [ "area/github-membership" ]
+title: "REQUEST: New membership for <your-GH-handle>"
+body:
+- id: github
+  type: input
+  attributes:
+    label: GitHub Username
+    placeholder: e.g. @example_user
+  validations:
+    required: true
+- id: requirements
+  type: checkboxes
+  attributes:
+    label: Requirements
+    options:
+    - label:  Active contribution to the project. Contributed at least one notable PR to a specific SIG codebase within half a year
+      required: true
+    - label:  Finish one or more features
+      required: true
+    - label: Sponsored by two members of the SIG and approved by the lead of the SIG
+      required: true
+    - label: Help review PR from other contributors
+      required: true
+- id: sponsor_1
+  type: input
+  attributes:
+    label: "Sponsor 1"
+    description: GitHub handle of your sponsor
+    placeholder: e.g. @sponsor-1
+  validations:
+    required: true
+- id: sponsor_2
+  type: input
+  attributes:
+    label: "Sponsor 2"
+    description: GitHub handle of your sponsor
+    placeholder: e.g. @sponsor-2
+  validations:
+    required: true
+- id: contributions
+  type: textarea
+  attributes:
+    label: List of contributions to the Kubernetes project
+    placeholder: |
+      - PRs reviewed / authored
+      - Issues responded to
+      - SIG projects I am involved with
+  validations:
+    required: true
