@@ -10,6 +10,7 @@ The DevOps SIG is to design and implement the DevOps functionalities including p
 - Harrison Liu ([@harrisonliu5](https://github.com/harrisonliu5)), Member
 - John Niang ([@johnniang](https://github.com/JohnNiang)), Member
 - mango ([@mangoGoForward](https://github.com/mangoGoForward)), Member
+- Abdelouahab Mbarki ([@AbdelouahabMbarki](https://github.com/AbdelouahabMbarki)), Member
 
 ## Documents
 
