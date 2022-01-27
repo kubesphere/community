@@ -7,7 +7,7 @@ and attract new people to join KubeSphere community.
 ## Members
 
 - Pengfei Zhou ([@FeynmanZhou](https://github.com/FeynmanZhou)), Lead
-- Rick ([@linuxsuren](https://github.com/linuxSuRen/)), Lead
+- Rick ([@linuxsuren](https://github.com/linuxSuRen/)), Member
 - Shaowen Chen ([@shaowenchen](https://github.com/shaowenchen)), Member
 - Honglei ([@shenhonglei](https://github.com/shenhonglei/)), Member
 - webup ([@webup](https://github.com/webup/)), Member
