@@ -1,0 +1,55 @@
+name: User Group Leader Request
+description: Request Leader in a User Group for a new city
+labels: [ "area/user-group" ]
+title: "REQUEST: New leader for a User Group in new city"
+body:
+- id: github
+  type: input
+  attributes:
+    label: GitHub ID
+    placeholder: e.g. @example_user
+  validations:
+    required: true
+- id: city
+  type: input
+  attributes:
+    label: City Name
+    placeholder: e.g. Guangzhou
+  validations:
+    required: true
+- id: prerequisites
+  type: checkboxes
+  attributes:
+    label: Prerequisites for new city
+    options:
+    - label:  The city must be initiated by at least one member of the KubeSphere community who has been active in the last six months as a leader.
+      required: true
+- id: contact
+  type: input
+  attributes:
+    label: Contact information
+    placeholder: |-
+               e.g. wechat: cloud-native-yang
+  validations:
+    required: true
+- id: reason
+  type: textarea
+  attributes:
+    label: Reason to create a User Group for a new city
+  validations:
+    required: true
+- id: requirements
+  type: checkboxes
+  attributes:
+    label: Requirements
+    options:
+    - label:  The leader is required to ensure that at least one offline activity is organized each year in his city (with the exception of special circumstances such as epidemics)
+      required: true
+    - label:  If a leader is temporarily or permanently unable to organize an offline event in their city for any reason, they need to submit a request to the community to recommend a new leader, or ask the community to recommend a new leader. If no one is eventually able to organize an event, the city is set to inactive until a new active member appears.
+      required: true
+- id: plan
+  type: textarea
+  attributes:
+    label: Planning for the future of new city
+  validations:
+    required: true
