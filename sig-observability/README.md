@@ -34,11 +34,13 @@ The Observability SIG is to design and implement the observability features for 
 
 ## Meetings
 
-Meeting Info: [Zoom](https://us02web.zoom.us/j/89623105370?pwd=a1A5L2JxbC8rSUJLbjZ4UkhwZWVSZz09) 
+Meeting Time: 15:00-16:00, Thursday every two weeks starting from 2022/03/10
 
-Meeting Time: Thursday at 15:30~16:30 Beijing Time (biweekly, starting from Nov. 5th 2020) [Meeting Calendar](https://kubesphere.io/contribution/)
+Meeting Room: [Tencent Meeting](https://meeting.tencent.com/dm/mZPB9QKdtX0F)
 
-[Meeting notes](https://docs.google.com/document/d/18SOB2NRQWS-Qad4oebzIjtQzUG831PFvQtvN5tBwNrM/)
+Tencent Meeting Number: 393-2306-3441
+
+[Meeting agenda](https://docs.google.com/document/d/18SOB2NRQWS-Qad4oebzIjtQzUG831PFvQtvN5tBwNrM/)
 
 ## Contact
 
