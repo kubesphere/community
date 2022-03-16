@@ -23,7 +23,7 @@
 
 前端采用微内核+插件的架构重构整个前端。架构图如下：
 
-![frontend framework](../images/frontend-framework.png)
+![frontend framework](../images/frontend-framework.svg)
 
 内核仅提供插件注册、运行时上下文、事件总线、路由管理、国际化管理、基础页面(如登录、布局页面)、BFF等核心功能，所有业务代码以插件形式接入。如：Clusters、DevOps、DMP。
 插件区分本地插件和远程插件，他们的开发模式基本相同但存在以下不同：
