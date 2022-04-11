@@ -4,9 +4,10 @@ The architecture SIG is to evolve the architecture of KubeSphere. For example, t
 
 ## Members
 
-- Lu Liu ([@leoendless](https://github.com/leoendless)), Lead
+- Hongming Wan ([@wansir](https://github.com/wansir)), Lead
 - Zhengyi Lai ([@zheng1](https://github.com/zheng1)), Lead
-- Benjamin Huo ([@benjaminhuo](https://github.com/benjaminhuo)), Member 
+- Zhen Chen ([@chenz24](https://github.com/chenz24)), Lead
+- Benjamin Huo ([@benjaminhuo](https://github.com/benjaminhuo)), Member
 - Ray Zhou ([@rayzhou2017](https://github.com/rayzhou2017)), Member
 
 ## Meetings
