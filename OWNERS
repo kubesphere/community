@@ -3,6 +3,8 @@ approvers:
     - rayzhou2017
     - linuxsuren
     - FeynmanZhou
+    - faweizhao26
+    - yangchuansheng
 
 reviewers:
     - rayzhou2017
@@ -21,3 +23,5 @@ reviewers:
     - soulseen
     - shaowenchen
     - Forest-L
+    - faweizhao26
+    - yangchuansheng
