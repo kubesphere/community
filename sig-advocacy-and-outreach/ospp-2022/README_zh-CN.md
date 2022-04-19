@@ -12,7 +12,9 @@ KubeSphere 参与了[开源之夏 2022](https://summer-ospp.ac.cn/#/org/projectl
 
 ## 项目提案
 
-待更新
+| 项目 | 领域 | 技能 | 难 度 | 学生 |
+| --- | --- | --- | --- | --- |
+| [KubeSphere Sharing Secret 插件开发](kubesphere-sharing-secret-plugin_zh-CN.md) <br/>在 KubeSphere 可插拔框架的基础之上开发 Sharing Secret 插件。<br/>导师： [Hongming](https://github.com/wansir/) | Pluggable | React，Helm，Kubernetes | 基础 |  |
 
 ## 学生
 
