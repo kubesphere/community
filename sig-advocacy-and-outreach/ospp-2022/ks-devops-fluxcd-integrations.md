@@ -24,10 +24,19 @@ FluxCD是一个云原生CD工具
 
 ks-devops已经在3.3版本中完成了与ArgoCD的对接，在CD选择上，对接FluxCD可以给用户更多的选择、适应不同的应用场景。
 
+
 我们希望:
 
-1. 在ks-devops中对接FluxCD
-2. 在KubeSphere控制台中增加对FluxCD相关操作的UI
+* 在ks-devops中对接FluxCD各个组件
+  * Source Controller
+  * Kustomize Controller
+  * Helm Controller
+  * Notification Controller
+  * Image Automation Controllers
+
+* 在ks-devops控制台中增加对FluxCD相关操作的UI
+* 在ks-devops控制台实现FluxCD多集群部署的便捷配置
+* 在ks-devops控制台中对部署状态做详细展示
 
 ## 项目产出
 
@@ -40,3 +49,7 @@ ks-devops已经在3.3版本中完成了与ArgoCD的对接，在CD选择上，对
 
 * [ks-devops](https://github.com/kubesphere/ks-devops)
 * [helm](https://helm.sh/)
+
+## 导师
+
+[LXM](https://github.com/lxm)
