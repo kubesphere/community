@@ -1,7 +1,12 @@
+approvers:
+    - faweizhao26
+    - yangchuansheng
+
 reviewers:
-  - shenhonglei
-  - webup
-  - faweizhao26
-  - FeynmanZhou
-  - shaowenchen
-  - linuxsuren
+    - shenhonglei
+    - webup
+    - faweizhao26
+    - FeynmanZhou
+    - shaowenchen
+    - linuxsuren
+    - yangchuansheng
