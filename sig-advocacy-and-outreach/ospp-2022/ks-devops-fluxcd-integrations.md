@@ -16,36 +16,75 @@ KubeSphere-DevOps 对接 FluxCD
 
 ## 项目背景
 
-`KubeSphere-DevOps`是一个云原生devops工具
+`KubeSphere-DevOps`是一个云原生devops工具, 当前已经集成了流水线(基于Jenkins), 持续部署(基于ArgoCD)。
 
-`FluxCD`是一个云原生CD工具
+`FluxCD`是一个CNCF孵化云原生CD工具, 是可以用于支持实现GitOps的工具集，用于使`Kubernetes` 集群与配置源(Git仓库、Helm、Kustomize等等)保持同步，并且可以在配置源更新后自动同步配置，面向`Kubernetes` 的渐进式交付解决方案。
+
+2022年8月, Fulx 官方发布了 [GitOps is about to get better with Flux v2](https://www.weave.works/blog/gitops-with-flux-v2) 宣告了从flux到flux v2的交替。
+
+`KubeSphere` 当前拥有强大的多集群管理与应用负载管理能力，基于 `KubeSphere` 上述的能力，通过对接 `FluxCD` 增强 `KubeSphere` 多集群应用发布与管理能力。 
 
 ## 项目详情
 
 `KubeSphere-DevOps` 已经在3.3版本中完成了与`ArgoCD`的对接，在CD选择上，对接`FluxCD`可以给用户更多的选择、适应不同的应用场景。
 
-我们希望:
-* 在`KubeSphere-DevOps`中对接`FluxCD`各个组件
-  * Source Controller
-  * Kustomize Controller
-  * Helm Controller
-  * Notification Controller
-  * Image Automation Controllers
+项目主要目标为完成对接`FluxCD`各个组件:
 
-* 在`KubeSphere-DevOps`控制台中增加对`FluxCD`相关操作的UI
+* `Source Controller` :  主要作用是为其他工具提供通用的接口用于获取配置源
+* `Kustomize Controller` :  使用声明式的方式管理 `Kustomize`
+* `Helm Controller` : 使用声明式的方式管理 `Helm Release`
+* `Notification Controller`:  通知服务，可以通过HTTP的方式接收时间并根据事件等级及设计资源将事件分发到外部系统(Slack、Webhook等)
+* `Image Automation Controllers`:  用于根据镜像变更自动更新配置源
+
+
+我们希望:
+
+* 在`KubeSphere-DevOps`增加对`FluxCD`相关资源配置、变更操作的API
 * 在`KubeSphere-DevOps`控制台实现`FluxCD`多集群部署的便捷配置
-* 在`KubeSphere-DevOps`控制台中对部署状态做详细展示
+* 在`KubeSphere-DevOps`增加对部署状态管理的的API
 
 ## 项目产出
 
-* 完成`KubeSphere-DevOps`与`FluxCD`的对接
-* 掌握devops `FluxCD`相关知识与理解
+### 掌握`DevOps` `FluxCD`相关知识与理解
+
+* 掌握`DevOps`相关的知识，包括但不限于:  什么是 `DevOps`, 为什么需要 `DevOps`，* `DevOps` 实践
+
+* 掌握 `FluxCD` 相关知识:  各个`Controller`所对应的资源含义与使用
+
+### 完成`KubeSphere-DevOps`与`FluxCD`的对接
+#### Source Controller 
+
+完成基于 `Source Controller` 所支持的配置源管理与对接，包括: 
+
+* Git Repository
+* Helm Charts
+* Helm Repositories
+* Object Storage Buckets
+
+完成上述资源在控制平面的管理、多集群的应用与更新
+
+#### Kustomize Controller
+
+完成Kustomize管理API、多集群应用差异化配置设计与实现
+
+#### Helm Controller
+
+完成Helm管理API、*多集群应用差异化配置* 设计与实现
+
+#### Notification Controller
+
+基于`Notifcation Controller`  完成应用发布状态的管理与展示
+
+#### Image Automation Controllers
+
+基于 `Image Automation Controllers` 相关组件完成应用自动化更新的配置与管理及状态更新
 
 ## 链接
 
 * [FluxCD](https://fluxcd.io/)
 * [ks-devops](https://github.com/kubesphere/ks-devops)
 * [helm](https://helm.sh/)
+* [kustomize](https://kustomize.io/)
 
 ## 导师
 
