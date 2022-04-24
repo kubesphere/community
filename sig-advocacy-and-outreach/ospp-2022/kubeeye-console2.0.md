@@ -5,7 +5,6 @@ KubeEye Console2.0 前端页面开发
 ## 项目目标
 
 * 开发 KubeEye Console2.0 插件管理功能的前端页面。
-* 完成 KubeEye Console2.0 以插件化形式接入 KubeSphere。
 
 ## 技术要求
 
@@ -20,12 +19,10 @@ KubeEye 旨在发现 Kubernetes 上的各种问题，比如应用配置错误（
 ## 项目详情
 
 KubeEye2.0 支持了以插件化的形式扩展监控规则。本项目即是 KubeEye 插件管理前端界面的开发。主要内容包括插件列表页、详情页开发，插件的安装、卸载、启动、停止等功能。
-另外 KubeSphere4.0 采用了[可插拔架构](https://github.com/kubesphere/community/blob/master/sig-architecture/concepts-and-designs/pluggable-architecture-zh.md)，本项目需要完成 KubeSphere4.0 插件化的适配。
 
 ## 项目产出
 
 * 插件管理界面开发
-* KubeEye Console2.0 对接 KubeSphere4.0 可插拔架构
 
 ## 链接
 
