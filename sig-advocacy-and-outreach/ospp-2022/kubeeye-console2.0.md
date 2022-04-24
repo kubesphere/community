@@ -20,14 +20,21 @@ KubeEye 旨在发现 Kubernetes 上的各种问题，比如应用配置错误（
 
 KubeEye2.0 支持了以插件化的形式扩展监控规则。本项目即是 KubeEye 插件管理前端界面的开发。主要内容包括插件列表页、详情页开发，插件的安装、卸载、启动、停止等功能。
 
+我们希望：
+
+* 以 `ts` `react` 技术栈并基于 KubeDesign 组件库完美还原插件列表页和详情页。
+* 使用 Ajax 调用接口实现插件的安装、卸载、启动、停止，并通过 websocket 实时监控插件状态。
+
 ## 项目产出
 
-* 插件管理界面开发
+* 对 `docker`、`k8s` 等容器化技术有一定的了解
+* 掌握使用 `typescript` `react` 等前端流行技术开发 ui 页面
+* 完成插件管理界面开发
 
 ## 链接
 
-* https://github.com/kubesphere/kubeeye
-* https://github.com/kubesphere/kubeeye-console
+[kubeeye 后端](https://github.com/kubesphere/kubeeye)
+[kubeeye 前端](https://github.com/kubesphere/kubeeye-console)
 
 ## 快速入门
 
