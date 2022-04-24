@@ -2,6 +2,8 @@
 
 ## 项目目标
 
+为 OpenFunction 添加弹性应用运行时，支持直接运行 Dapr 应用， 支持使用 Keda 进行动态伸缩。
+
 ## 技术要求
 
 - [Kubernetes](https://github.com/kubernetes/kubernetes)
