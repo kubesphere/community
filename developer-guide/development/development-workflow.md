@@ -60,7 +60,7 @@ Currently, the make rules only contain simple checks such as vet, unit test, wil
 
 ### Using KubeBuilder
 
-- For Linux OS, you can download and execute this [KubeBuilder script](https://raw.githubusercontent.com/kubesphere/kubesphere/master/hack/install_kubebuilder.sh).
+- For Linux OS, you can download and execute this [KubeBuilder script](https://raw.githubusercontent.com/kubesphere/kubesphere/master/hack/setup-kubebuilder-env.sh).
 
 - For MacOS, you can install KubeBuilder by following this [guide](https://book.kubebuilder.io/quick-start.html).
 
