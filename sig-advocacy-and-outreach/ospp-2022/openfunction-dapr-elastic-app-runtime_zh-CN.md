@@ -1,4 +1,6 @@
-# 开源之夏 2022 - OpenFunction 弹性应用运行时
+# 项目
+
+OpenFunction 弹性应用运行时
 
 ## 项目目标
 
