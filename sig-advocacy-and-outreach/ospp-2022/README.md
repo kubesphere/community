@@ -6,7 +6,7 @@
 
 ## KubeSphere
 
-KubeSphere 参与了[开源之夏 2022](https://summer-ospp.ac.cn/#/org/projectlist) 。您可以在本页找到我们的项目提案。或者您也可以向 KubeSphere 社区提交您的建议。
+KubeSphere 参与了[开源之夏 2022](https://summer-ospp.ac.cn/#/org/orgdetail/669ff0b7-2366-4bf3-8ffb-10f79089a45a/) 。您可以在本页找到我们的项目提案。或者您也可以向 KubeSphere 社区提交您的建议。
 
 ## 项目提案
 
@@ -17,13 +17,13 @@ KubeSphere 参与了[开源之夏 2022](https://summer-ospp.ac.cn/#/org/projectl
 | [KubeSphere-DevOps 对接 FluxCD](ks-devops-fluxcd-integrations_zh-CN.md) <br/>通过对接 FluxCD 增强 KubeSphere 多集群应用发布与管理能力。<br/>导师： [LXM](https://github.com/lxm) | DevOps   | Golang，Kubernetes，FluxCD，React     | 基础 |待申请  |
 | [OpenFunction 的 Node.js 函数框架升级](openfunction-nodejs-function-framework-upgrade_zh-CN.md) <br/>升级现有的 OpenFunction Node.js Function Framework（函数框架），使之对齐 OpenFunction 0.6.0 两大主体功能 —— 函数插件和可观测能力。<br/>导师： [Haili Zhang](https://github.com/webup) | Functions-as-a-Service   | Node.js，Kubernetes，CloudEvent，OpenFunction，Cloud Native Buildpacks，Dapr、Knative（可选）    | 基础 |待申请  |
 | [OpenFunction 弹性应用运行时](openfunction-dapr-elastic-app-runtime_zh-CN.md) <br/>为 OpenFunction 添加弹性应用运行时，支持直接运行 Dapr 应用， 支持使用 Keda 进行动态伸缩。<br/>导师： [雷万钧](https://github.com/wanjunlei) | Functions-as-a-Service   | Kubernetes，OpenFunction，Dapr，Golang，Keda | 基础 |待申请  |
-| [KubeEye Console2.0 前端页面开发](kubeeye-console2.0_zh-CN.md) <br/>开发 KubeEye Console2.0 插件管理功能的前端页面。<br/>导师： [chenzhen](https://github.com/chenz24) |  Observability  | JavaScript，TypeScript，HTML，CSS，React，Docker，Kubernetes| 基础 |待申请  |
+| [KubeEye Console 2.0 前端页面开发](kubeeye-console-v2.0_zh-CN.md) <br/>开发 KubeEye Console2.0 插件管理功能的前端页面。<br/>导师： [chenzhen](https://github.com/chenz24) |  Observability  | JavaScript，TypeScript，HTML，CSS，React，Docker，Kubernetes| 基础 |待申请  |
 
 ## 学生
 
 * 4 月 21 日 - 5 月 20 日是学生与社区项目沟通期
-* 5 月 21 日 - 6 月 04 日是学生提交项目申请阶段，
-* 详情请查看 [学生指南](https://summer-ospp.ac.cn/help/student/)
+* 5 月 21 日 - 6 月 04 日是学生提交项目申请阶段
+* 详情请查看[学生指南](https://summer-ospp.ac.cn/help/student/)
 
 ## 联系
 
