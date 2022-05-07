@@ -29,4 +29,4 @@ KubeSphere 参与了[开源之夏 2022](https://summer-ospp.ac.cn/#/org/orgdetai
 
 - Slack [#sig-advocacy-and-outreach](https://kubesphere.slack.com/messages/sig-advocacy-and-outreach)
 - 邮箱列表 [archive](https://groups.google.com/group/kubesphere-sig-advocacy-and-outreach/topics) | [subscribe](mailto:kubesphere-sig-advocacy-and-outreach+subscribe@googlegroups.com) | [unsubscribe](mailto:kubesphere-sig-advocacy-and-outreach+unsubscribe@googlegroups.com)
-
+- administrator：赵法威，faweizhao@kubesphere.io
