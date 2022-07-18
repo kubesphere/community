@@ -11,12 +11,12 @@ The following graph shows the workflow how to develop KubeSphere backend. For th
 
 ## Step 2. Clone fork to local storage
 
-Per Go's [workspace instructions](https://golang.org/doc/code.html#Workspaces), place KubeSphere code on your `GOPATH` using the following cloning procedure.
+Per Go's [Code organization](https://go.dev/doc/code#Organization), place KubeSphere code on your machine where you want.
 
-Define a local working directory:
+Define a local code directory:
 
 ```bash
-export working_dir=$GOPATH/src/kubesphere.io
+export working_dir={the directory you want place KubeSphere code}
 export user={your github profile name}
 ```
 
