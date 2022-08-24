@@ -34,7 +34,7 @@ content about KubeSphere on these platforms, please contact us and we will try t
 ## Meetings
 
 * One meeting every 2 weeks, usually on Tuesday. See the [Event Calendar](https://kubesphere.com.cn/contribution/) for the schedule.
-* [Meeting notes](https://docs.google.com/document/d/1amXxLZFkR_4yQU89EZlO_P0fgUVyhXoLmNqvlA55QEg/edit)
+* [Meeting notes](https://docs.qq.com/doc/DQ0drcVNOQnNWYkt5)
 * [Meeting video records](https://space.bilibili.com/438908638/video?keyword=Outreach)
 
 ## Contact
