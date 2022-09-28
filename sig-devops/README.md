@@ -4,7 +4,7 @@ The DevOps SIG is to design and implement the DevOps functionalities including p
 
 ## Members
 
-- Rick ([@linuxsuren](https://github.com/linuxSuRen/)), Lead
+- Rick ([@linuxsuren](https://github.com/linuxSuRen/)), Member
 - Harrison Liu ([@harrisonliu5](https://github.com/harrisonliu5)), Member
 - John Niang ([@johnniang](https://github.com/JohnNiang)), Member
 - mango ([@mangoGoForward](https://github.com/mangoGoForward)), Member
