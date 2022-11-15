@@ -9,6 +9,9 @@ The DevOps SIG is to design and implement the DevOps functionalities including p
 - John Niang ([@johnniang](https://github.com/JohnNiang)), Member
 - mango ([@mangoGoForward](https://github.com/mangoGoForward)), Member
 - Abdelouahab Mbarki ([@AbdelouahabMbarki](https://github.com/AbdelouahabMbarki)), Member
+- Stark ([@chilianyi](https://github.com/chilianyi)), Member
+- Jack Yu ([@yudong2015](https://github.com/yudong2015)), Member
+- Heng ([@zhbinary](https://github.com/zhbinary)), Member
 
 ## Alumni
 
@@ -27,8 +30,8 @@ The DevOps SIG is to design and implement the DevOps functionalities including p
 
 ## Meetings
 
-* [Meeting notes](https://docs.google.com/document/d/1ZORl7ZhRlZxKXFle2LGPRJqXzlr6EDhu2A7qzjybfro/)
-* [Meeting video records](https://space.bilibili.com/438908638/channel/detail?cid=179482)
+* [Meeting notes](https://doc.weixin.qq.com/doc/w3_AdMAXgZtACQ8PWk1DLTTuSRnmnaE2?scode=AM4AzgcZACcMKXWkeJAdMAXgZtACQ)
+* [Meeting video records](https://space.bilibili.com/438908638/channel/seriesdetail?sid=253780)
 
 ## Contact
 
