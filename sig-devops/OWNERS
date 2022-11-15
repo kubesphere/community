@@ -1,9 +1,8 @@
 approvers:
     - zryfish
     - rayzhou2017
-    - shaowenchen
     - LinuxSuRen
-    - JohnNiang
+    - chilianyi
 reviewers:
     - zryfish
     - rayzhou2017
@@ -12,6 +11,8 @@ reviewers:
     - JohnNiang
     - calvinyv
     - FeynmanZhou
+    - faweizhao26
+    - yangchuansheng
 emeritus_approvers:
     - runzexia
     - soulseen
