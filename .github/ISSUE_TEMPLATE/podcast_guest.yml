@@ -1,0 +1,32 @@
+name: Podcast Guest Request
+description: Request to be a guest on KubeSphere Talk
+labels: [ "area/user-group" ]
+title: "REQUEST: New guest on KubeSphere Talk"
+body:
+- id: github
+  type: input
+  attributes:
+    label: GitHub ID
+    placeholder: e.g. @example_user
+  validations:
+    required: true
+- id: contact
+  type: input
+  attributes:
+    label: Contact information
+    placeholder: |-
+               e.g. wechat: cloud-native-yang
+  validations:
+    required: true
+- id: reason
+  type: textarea
+  attributes:
+    label: Reason to participate in the podcast
+  validations:
+    required: true
+- id: topic
+  type: textarea
+  attributes:
+    label: Topic for the podcast
+  validations:
+    required: true
