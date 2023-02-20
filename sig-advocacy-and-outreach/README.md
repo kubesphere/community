@@ -16,6 +16,7 @@ and attract new people to join KubeSphere community.
 - Min Yin ([@yinmin2020](https://github.com/yinmin2020)), Member
 - Zhengjun Zhou ([@cnicy](https://github.com/cnicy)), Member
 - Lan ([@liangyuanpeng](https://github.com/liangyuanpeng)), Member
+- Zhenfei Pei（[@ppsite](https://github.com/ppsite)), Member
 
 ## Topics
 
