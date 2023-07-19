@@ -59,5 +59,5 @@ To obtain the Ambassador, you must have at least two of the features listed abov
 ## Contact
 
 - Slack [#ksap-ambassadorship-program](https://kubesphere.slack.com/messages/ksap-ambassadorship-program)
-- Mail [Halil İbrahim BUGOL](halil.bugol@kubesphere.io) 
+- Mail [Halil İbrahim BUGOL](mailto:halil.bugol@kubesphere.io) 
 
