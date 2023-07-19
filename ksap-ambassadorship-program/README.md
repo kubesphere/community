@@ -45,14 +45,14 @@ To obtain the Ambassador, you must have at least two of the features listed abov
 
 ## Members
 
-- Calvin Yu ([@calvinyv](https://github.com/calvinyv/)),
-- Fawei Zhao ([@faweizhao26](https://github.com/faweizhao26/)),
-- Halil İbrahim BUGÖL ([@halil-bugol](https://github.com/halil-bugol/)),
+- Calvin Yu ([@calvinyv](https://github.com/calvinyv/))
+- Fawei Zhao ([@faweizhao26](https://github.com/faweizhao26/))
+- Halil İbrahim BUGÖL ([@halil-bugol](https://github.com/halil-bugol/))
 
 ## Social media
 
 [Twitter](https://twitter.com/KubeSphere), 
-[YouTube](https://www.youtube.com/channel/UCyTdUQUYjf7XLjxECx63Hpw) 
+[YouTube](https://www.youtube.com/channel/UCyTdUQUYjf7XLjxECx63Hpw),
 [LinkedIn](https://www.linkedin.com/company/kubesphere/), 
 [Bilibili](https://space.bilibili.com/438908638/)
 
