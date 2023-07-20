@@ -49,6 +49,29 @@ To obtain the Ambassador, you must have at least two of the features listed abov
 - Fawei Zhao ([@faweizhao26](https://github.com/faweizhao26/))
 - Halil İbrahim BUGÖL ([@halil-bugol](https://github.com/halil-bugol/))
 
+## Active KubeSphere Ambassadors and Certificates
+
+- Guoyou Li	([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/certificates/ambassador-liguoyou.png))
+- Pahud ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/certificates/ambassador-pahud.png))
+- Hengjun Wei ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/certificates/ambassador-weihengjun.png))
+- Lei Xue ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/certificates/ambassador-xuelei.png))
+- Yang Yang ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/certificates/ambassador-yangyang.png))
+- Xingmin Lu ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/certificates/ambassador-luxingmin.png))
+- Haitao Pan ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/certificates/ambassador-panhaitao.png))
+- Will Zhang ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/certificates/ambassador-willzhang.png))
+- Xinglin Xue ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/certificates/ambassador-xuexinglin.png))
+- Haili Zhang ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/certificates/ambassador-zhanghaili.png))
+- Lijie Jiang ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/ambassador-jianglijie.png))
+- Min Yin ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/ambassador-yinmin.png))
+- Zhengjun Zhou ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/ambassador-zhouzhengjun.png))
+- Shuai Li ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/ambassador-lishuai.png))
+- Yanying Zhang ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/ambassador-zhangyanying.png))
+- scwang18 ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/ambassador-scwang18.png))
+- Zongwei Tan([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/ambassador-tanzongwei.png))
+- Zhenfei Pei ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/ambassador-peizhenfei.png))
+- Kunal Kushwaha ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/ambassador-kunal-kushwaha.png))
+- Zepeng An ([Ambassador Certificate](https://kubesphere-community.pek3b.qingstor.com/images/ambassador-anzepeng.png))
+
 ## Social media
 
 [Twitter](https://twitter.com/KubeSphere), 
