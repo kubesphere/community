@@ -1,11 +1,8 @@
----
 name: Ambassadorship Application
-about: 'KubeSphere Ambassadorship Program (KSAP) is a program where we bring together
-  our members who carry out community activities for KubeSphere. '
-title: 'Application: 2023 Ambassadorship Program Application'
-labels: ''
+description: KubeSphere Ambassadorship Program (KSAP) is a program where we bring together our members who carry out community activities for KubeSphere. 
+labels: [ "area/ambassadorship-application" ]
+title: "Application: 2023 Ambassadorship Program Application <your-GH-handle>"
 assignees: halil-bugol
----
 body:
 - id: github
   type: input
