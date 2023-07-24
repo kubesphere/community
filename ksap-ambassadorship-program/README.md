@@ -26,8 +26,9 @@ We support your community activities and develop KubeSphere together. We would l
   - To have technological or other knowledge that will contribute to the future of KubeSphere.
   - Be an active community supporter or Ambassador in a minimum of two CNCF Member or Projects.
 
-
 To obtain the Ambassador, you must have at least two of the features listed above. For example, contributing a KubeSphere user case and two technical blogs. Also, if you have ideas that you can really contribute to the future of KubeSphere, please apply even if you don't meet the requirements.
+
+You can make applications with the ([Issue Template](https://github.com/kubesphere/community/issues/new/choose)).
 
 ## Calendar
 
