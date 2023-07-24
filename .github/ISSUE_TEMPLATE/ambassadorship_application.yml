@@ -23,10 +23,29 @@ body:
     label: Surname
   validations:
     required: true
+- id: email
+  type: input
+  attributes:
+    label: Email
+  validations:
+    required: true
+- id: socialmedia-and-links
+  type: textarea
+  attributes:
+    label: Social Media and Other Links About You
+    description: Please share with us social media and links where we can learn about you.
+    placeholder: |
+      - Twitter
+      - Linkedin
+      - Youtube
+      - ++Others
+  validations:
+    required: true
 - id: basic-requirements
   type: checkboxes
   attributes:
     label: Basic Requirements
+    description: You must meet all the basic requirements.
     options:
     - label:  Must be 18 years of age or older.
       required: true
@@ -37,7 +56,8 @@ body:
 - id: requirements
   type: checkboxes
   attributes:
-    label: Basic Requirements
+    label: Requirements
+    description: To obtain the Ambassador, you must have at least two of the features listed below.
     options:
     - label:  To have published a minimum of four pieces of content in the last year (e.g., blogs, social media posts, videos etc.)
       required: false
@@ -47,32 +67,49 @@ body:
       required: false
     - label:  Be an active community supporter or Ambassador in a minimum of two CNCF Member or Projects.
       required: false
-- id: sponsor_1
-  type: input
-  attributes:
-    label: "Sponsor 1"
-    description: GitHub handle of your sponsor
-    placeholder: e.g. @sponsor-1
-  validations:
-    required: true
-- id: sponsor_2
-  type: input
-  attributes:
-    label: "Sponsor 2"
-    description: GitHub handle of your sponsor
-    placeholder: e.g. @sponsor-2
-  validations:
-    required: true
-- id: contributions
+- id: requirements-x
   type: textarea
   attributes:
-    label: List of contributions to the Kubernetes project
+    label: How do you plan to contribute to the future of KubeSphere if you don't have enough requirements?
     placeholder: |
-      - PRs reviewed / authored
-      - Issues responded to
-      - SIG projects I am involved with
+      - I have these plans.
+      - I'm thinking of organizing an event.
+      - I can offer a collaboration regarding community and commercial cooperation as follows.
+  validations:
+    required: false
+- id: requirements-general
+  type: textarea
+  attributes:
+    label: Links and other resources to share with us about the requirements.
+    placeholder: |
+      - Blog Post: https://kubesphere.medium.com/kubesphere-inspector-now-available-one-click-automated-inspection-for-kubernetes-clusters-on-any-7c902e795f31
+      - Video: https://youtu.be/sH20AX4xZ5A
+      - Anything related to blog posts, contributions, videos, events
   validations:
     required: true
-
+- id: cloudnative-journey
+  type: textarea
+  attributes:
+    label: What do you think about Cloud Native? What type of experiences have you had before?
+  validations:
+    required: true
+- id: kubesphere-journey
+  type: textarea
+  attributes:
+    label: What does KubeSphere mean to you?
+  validations:
+    required: true
+- id: after-ambassadorship
+  type: textarea
+  attributes:
+    label: What are your plans after becoming an Ambassador?
+  validations:
+    required: true
+- id: after-ambassadorship
+  type: textarea
+  attributes:
+    label: Anything you want to talk about?
+  validations:
+    required: false
 
 
