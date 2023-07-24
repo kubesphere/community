@@ -11,19 +11,42 @@ body:
     placeholder: e.g. @example_user
   validations:
     required: true
+- id: name
+  type: input
+  attributes:
+    label: Name
+  validations:
+    required: true
+- id: surname
+  type: input
+  attributes:
+    label: Surname
+  validations:
+    required: true
+- id: basic-requirements
+  type: checkboxes
+  attributes:
+    label: Basic Requirements
+    options:
+    - label:  Must be 18 years of age or older.
+      required: true
+    - label:  You need to have active knowledge of Cloud Native architectures.
+      required: true
+    - label:  To have technological or other knowledge that will contribute to the future of KubeSphere.
+      required: true     
 - id: requirements
   type: checkboxes
   attributes:
-    label: Requirements
+    label: Basic Requirements
     options:
-    - label:  Active contribution to the project. Contributed at least one notable PR to a specific SIG codebase within half a year
-      required: true
-    - label:  Finish one or more features
-      required: true
-    - label: Sponsored by two members of the SIG and approved by the lead of the SIG
-      required: true
-    - label: Help review PR from other contributors
-      required: true
+    - label:  To have published a minimum of four pieces of content in the last year (e.g., blogs, social media posts, videos etc.)
+      required: false
+    - label:  Contribute to any of the KubeSphere repos a minimum of twenty times in the past year
+      required: false
+    - label:  Organized an event on behalf of KubeSphere or made a presentation on behalf of KubeSphere at an organized event at least once in the last year.
+      required: false
+    - label:  Be an active community supporter or Ambassador in a minimum of two CNCF Member or Projects.
+      required: false
 - id: sponsor_1
   type: input
   attributes:
