@@ -29,7 +29,7 @@ body:
     label: Email
   validations:
     required: true
-- id: socialmedia-and-links
+- id: socialmediaandlinks
   type: textarea
   attributes:
     label: Social Media and Other Links About You
@@ -41,7 +41,7 @@ body:
       - ++Others
   validations:
     required: true
-- id: basic-requirements
+- id: basicrequirements
   type: checkboxes
   attributes:
     label: Basic Requirements
@@ -67,7 +67,7 @@ body:
       required: false
     - label:  Be an active community supporter or Ambassador in a minimum of two CNCF Member or Projects.
       required: false
-- id: requirements-x
+- id: requirementsx
   type: textarea
   attributes:
     label: How do you plan to contribute to the future of KubeSphere if you don't have enough requirements?
@@ -77,7 +77,7 @@ body:
       - I can offer a collaboration regarding community and commercial cooperation as follows.
   validations:
     required: false
-- id: requirements-general
+- id: requirementsgeneral
   type: textarea
   attributes:
     label: Links and other resources to share with us about the requirements.
@@ -87,19 +87,19 @@ body:
       - Anything related to blog posts, contributions, videos, events
   validations:
     required: true
-- id: cloudnative-journey
+- id: cloudnativejourney
   type: textarea
   attributes:
     label: What do you think about Cloud Native? What type of experiences have you had before?
   validations:
     required: true
-- id: kubesphere-journey
+- id: kubespherejourney
   type: textarea
   attributes:
     label: What does KubeSphere mean to you?
   validations:
     required: true
-- id: after-ambassadorship
+- id: afterambassadorship
   type: textarea
   attributes:
     label: What are your plans after becoming an Ambassador?
