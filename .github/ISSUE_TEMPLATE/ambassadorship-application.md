@@ -5,6 +5,7 @@ about: 'KubeSphere Ambassadorship Program (KSAP) is a program where we bring tog
 title: 'Application: 2023 Ambassadorship Program Application'
 labels: ''
 assignees: halil-bugol
+---
 body:
 - id: github
   type: input
