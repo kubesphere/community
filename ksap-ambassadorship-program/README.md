@@ -80,6 +80,15 @@ You can make applications with the ([Issue Template](https://github.com/kubesphe
 [LinkedIn](https://www.linkedin.com/company/kubesphere/), 
 [Bilibili](https://space.bilibili.com/438908638/)
 
+## FAQs
+
+- Q. Could I use KubeSphere Ambassador as my 'Work Experience'?
+  - Being an Ambassador should be considered as 'Volunteer Experience' but not as 'Employment' or 'Work Experience'.
+- Q. Can I be removed as a KubeSphere Ambassador?
+  - KubeSphere Ambassadorship Program will do yearly validation,  so KubeSphere community will power you with all necessary support but if you are not active in the community, you will be removed as an Ambassador.
+- Q. Can I use the logo of KubeSphere to represent myself as an Ambassador?
+  - You cannot use the logo as your profile picture or your company logo but you can use it and the Ambassador badge if you mention yourself as a KubeSphere Ambassador.
+
 ## Contact
 
 - Slack [#ksap-ambassadorship-program](https://kubesphere.slack.com/messages/ksap-ambassadorship-program)
