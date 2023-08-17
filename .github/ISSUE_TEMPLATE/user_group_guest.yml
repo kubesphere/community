@@ -1,0 +1,55 @@
+name: User Group Request
+description: Apply to join the User Group
+labels: [ "area/user-group" ]
+title: "REQUEST: Apply to join the User Group in [city name] "
+body:
+- id: github
+  type: input
+  attributes:
+    label: GitHub ID
+    placeholder: e.g. @example_user
+  validations:
+    required: true
+- id: city
+  type: input
+  attributes:
+    label: City Name
+    placeholder: e.g. Guangzhou
+  validations:
+    required: true
+- id: prerequisites
+  type: checkboxes
+  attributes:
+    label: Prerequisites for User Group
+    options:
+    - label:  Currently there are only five cities (Shanghai, Hangzhou, Chengdu, Guangzhou, Shenzhen) with user groups, so you can only apply for these five cities.
+      required: true
+- id: contact
+  type: input
+  attributes:
+    label: Contact information
+    placeholder: |-
+               e.g. wechat: faweizhao26
+  validations:
+    required: true
+- id: reason
+  type: textarea
+  attributes:
+    label: Reason to join a User Group
+  validations:
+    required: true
+- id: requirements
+  type: checkboxes
+  attributes:
+    label: Requirements
+    options:
+    - label:  Recently active in the KubeSphere community, with a relatively high interest and plenty of energy in community development and organizing events.
+      required: true
+    - label:  Have some communication and organizational skills.
+      required: true
+- id: plan
+  type: textarea
+  attributes:
+    label: Plans after joining a user group
+  validations:
+    required: true
