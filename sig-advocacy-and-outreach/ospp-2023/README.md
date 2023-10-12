@@ -1,4 +1,4 @@
-> English| [中文](README_zh-CN.md)
+> English| [中文](https://github.com/kubesphere/community/blob/master/sig-advocacy-and-outreach/ospp-2023/README_zh-CN.md)
 
 # [OSPP 2023](https://summer-ospp.ac.cn/)
 
