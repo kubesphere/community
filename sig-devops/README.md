@@ -4,19 +4,18 @@ The DevOps SIG is to design and implement the DevOps functionalities including p
 
 ## Members
 
-- Rick ([@linuxsuren](https://github.com/linuxSuRen/)), Member
-- Harrison Liu ([@harrisonliu5](https://github.com/harrisonliu5)), Member
-- John Niang ([@johnniang](https://github.com/JohnNiang)), Member
-- mango ([@mangoGoForward](https://github.com/mangoGoForward)), Member
-- Abdelouahab Mbarki ([@AbdelouahabMbarki](https://github.com/AbdelouahabMbarki)), Member
 - Stark ([@chilianyi](https://github.com/chilianyi)), Member
 - Jack Yu ([@yudong2015](https://github.com/yudong2015)), Member
-- Heng ([@zhbinary](https://github.com/zhbinary)), Member
 
 ## Alumni
 
 - Jeff Zhang ([@zryfish](https://github.com/zryfish))
 - Shaowen Chen ([@shaowenchen](https://github.com/shaowenchen))
+- Rick ([@linuxsuren](https://github.com/linuxSuRen/))
+- Harrison Liu ([@harrisonliu5](https://github.com/harrisonliu5))
+- John Niang ([@johnniang](https://github.com/JohnNiang))
+- mango ([@mangoGoForward](https://github.com/mangoGoForward))
+- Abdelouahab Mbarki ([@AbdelouahabMbarki](https://github.com/AbdelouahabMbarki))
 
 ## Documents
 
