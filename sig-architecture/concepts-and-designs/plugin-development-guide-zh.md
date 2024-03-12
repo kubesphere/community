@@ -27,7 +27,7 @@ TBD
 插件开发完成之后，需要与依赖组件一起打包为 Helm Chart。
 
 1. 一个插件打包为一个 Helm Chart
-2. 一组插件打包为 Docker Iamge 之后可以进行发布
+2. 一组插件打包为 Docker Image 之后可以进行发布
 
 ### Helm Chart 的目录结构
 
@@ -95,7 +95,7 @@ annotations:
   extensions.kubesphere.io/foo: bar # 额外的注释信息
 ```
 
-### 打包为 Docker Iamge 对插件进行分发
+### 打包为 Docker Image 对插件进行分发
 
 ```dockerfile
 FROM baseimage # Framwork 提供的 baseimage

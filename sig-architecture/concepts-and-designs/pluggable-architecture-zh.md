@@ -27,7 +27,7 @@ TBD
 
 后端的插件化主要包含 API 的注册、静态资源的代理两个部分，可以把 ks-apiserver 看作一个可拓展的 API 网关，由 ks-apiserver 提供统一的 API 认证鉴权能力，支持动态的 API 拓展。
 
-![backend](../images/backend.svg)
+![backend](../images/pluggable-backend.svg)
 
 ### Plugin Model
 
@@ -83,7 +83,7 @@ status:
 
 #### ReverseProxy
 
-提供非资源型 API 的方向代理，可以用来代理一些静态的资源文件，支持路径的 Rewrite，支持请求头的注入。
+提供非资源型 API 的反向代理，可以用来代理一些静态的资源文件，支持路径的 Rewrite，支持请求头的注入等网关功能。
 
 API 的路径会在解析插件的时候就进行检查，避免冲突。
 
