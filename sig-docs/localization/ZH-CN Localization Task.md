@@ -68,8 +68,8 @@ Please read the following rules before you claim a task:
 
 | Upgrade                                                      | Translator                   | PR Link |
 | ------------------------------------------------------------ | ---------------------------- | ------- |
-| [Index Page](https://kubesphere.io/docs/upgrade/)            | https://github.com/reneeteng |         |
-| [Overview](https://kubesphere.io/docs/upgrade/upgrade-overview/) | https://github.com/reneeteng |         |
+| [Index Page](https://kubesphere.io/docs/upgrade/)            | https://github.com/reneeteng | https://github.com/kubesphere/website/pull/425 |
+| [Overview](https://kubesphere.io/docs/upgrade/upgrade-overview/) | https://github.com/reneeteng | https://github.com/kubesphere/website/pull/426 |
 | [Upgrade with KubeKey](https://kubesphere.io/docs/upgrade/upgrade-with-kubekey/) | [Wei Zhang](https://github.com/arugal)     |         |
 | [Upgrade with ks-installer](https://kubesphere.io/docs/upgrade/upgrade-with-ks-installer/) | [Wei Zhang](https://github.com/arugal)   |         |
 | [Changes after Upgrade](https://kubesphere.io/docs/upgrade/what-changed/) | https://github.com/caojiele  |         |
