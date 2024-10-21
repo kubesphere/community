@@ -26,7 +26,7 @@ data:
            clientID: '********'
            clientSecret: '********'
            issuer: https://accounts.google.com
-           redirectURL:  'http://ks-console/oauth/redirect'
+           redirectURL:  'http://ks-console/oauth/redirect/google'
 kind: ConfigMap
 name: kubesphere-config
 namespace: kubesphere-system
