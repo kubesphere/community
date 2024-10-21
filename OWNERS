@@ -1,23 +1,13 @@
 approvers:
-    - zryfish
+    - calvinyv
     - rayzhou2017
-    - linuxsuren
-    - FeynmanZhou
+    - zheng1
 
 reviewers:
     - rayzhou2017
-    - zryfish
     - benjaminhuo
     - calvinyv
-    - FeynmanZhou
-    - huanggze
-    - huojiao2006
-    - Ma-Dan
     - pixiake
-    - runzexia
     - wansir
-    - wnxn
     - zheng1
-    - soulseen
-    - shaowenchen
-    - Forest-L
+    - shipala
